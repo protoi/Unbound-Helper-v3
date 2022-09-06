@@ -1,0 +1,12 @@
+perms 274878295104
+
+client id 1016706854149177405
+
+link  https://discord.com/api/oauth2/authorize?client_id=1016706854149177405&permissions=274878295104&scope=bot
+
+
+app id 1016706854149177405
+
+public key 829ec9ebcf7762b7f7150a8fdbbda94e90c6bb31673c650d85994fba0db3ff0f
+
+TOKEN MTAxNjcwNjg1NDE0OTE3NzQwNQ.G6uxI8.HDl7D32s69Qw26OTKOfqXxoMESHG6Z8SPuXmns

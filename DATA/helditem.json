@@ -1,0 +1,458 @@
+[
+  {
+    "itemname": "Absorb Bulb",
+    "location": "5% (or 20%): Oddish, Gloom, Vileplume, Bellossom, Cottonee, Whimsicott, Petilil, Lilligant"
+  },
+  {
+    "itemname": "Air Balloon",
+    "location": "5% (or 20%): Drifblim"
+  },
+  {
+    "itemname": "Aspear Berry",
+    "location": "55% (or 80%): Jynx, Smoochum\n50% (or 60%): Seel, Dewgong, Swinub, Piloswine, Cubchoo, Beartic\n5% (or 20%): Crabrawler"
+  },
+  {
+    "itemname": "Babiri Berry",
+    "location": "5% (or 20%): Froslass"
+  },
+  {
+    "itemname": "Berry Juice",
+    "location": "55% (or 80%): Shuckle"
+  },
+  {
+    "itemname": "Big Mushroom",
+    "location": "50% (or 60%): Shiinotic\n5% (or 20%): Paras, Parasect, Foongus, Amoonguss, Morelull"
+  },
+  {
+    "itemname": "Big Pearl",
+    "location": "5% (or 20%): Cloyster, Shellder, Clamperl"
+  },
+  {
+    "itemname": "Big Root",
+    "location": "5% (or 20%): Lileep, Cradily"
+  },
+  {
+    "itemname": "Black Belt",
+    "location": "5% (or 20%): Makuhita"
+  },
+  {
+    "itemname": "Black Glasses",
+    "location": "50% (or 60%): Krookodile\n5% (or 20%): Sandile, Krokorok"
+  },
+  {
+    "itemname": "Black Sludge",
+    "location": "50% (or 60%): Muk, Garbodor\n5% (or 20%): Grimer, Croagunk, Toxicroak, Trubbish"
+  },
+  {
+    "itemname": "Bright Powder",
+    "location": "5% (or 20%): Wurmple, Volbeat, Illumise"
+  },
+  {
+    "itemname": "Casteliacone",
+    "location": "50% (or 60%): Vanillish\n5% (or 20%): Vanilluxe"
+  },
+  {
+    "itemname": "Cell Battery",
+    "location": "5% (or 20%): Plusle, Minun, Charjabug"
+  },
+  {
+    "itemname": "Charcoal",
+    "location": "5% (or 20%): Vulpix, Ninetales, Torkoal, Turtonator"
+  },
+  {
+    "itemname": "Charti Berry",
+    "location": "5% (or 20%): Taillow, Swellow"
+  },
+  {
+    "itemname": "Cheri Berry",
+    "location": "55% (or 80%): Emolga\n50% (or 60%): Blitzle, Zebstrika\n5% (or 20%): Glameow, Purugly, Crabominable"
+  },
+  {
+    "itemname": "Chesto Berry",
+    "location": "50% (or 60%): Minccino, Cinccino\n5% (or 20%): Spinda, Whismur, Loudred, Exploud, Mimikyu"
+  },
+  {
+    "itemname": "Chilan Berry",
+    "location": "5% (or 20%): Rattata, Raticate"
+  },
+  {
+    "itemname": "Chople Berry",
+    "location": "5% (or 20%): Buneary, Lopunny"
+  },
+  {
+    "itemname": "Cleanse Tag",
+    "location": "5% (or 20%): Chimecho, Chingling"
+  },
+  {
+    "itemname": "Coba Berry",
+    "location": "5% (or 20%): Sunkern"
+  },
+  {
+    "itemname": "Deep Sea Scale",
+    "location": "5% (or 20%): Chinchou, Lanturn, Gorebyss, Relicanth, Basculin Blue"
+  },
+  {
+    "itemname": "Deep Sea Tooth",
+    "location": "5% (or 20%): Carvanha, Sharpedo, Huntail, Basculin Red"
+  },
+  {
+    "itemname": "Dragon Fang",
+    "location": "5% (or 20%): Bagon, Shelgon, Salamence, Druddigon"
+  },
+  {
+    "itemname": "Dragon Scale",
+    "location": "5% (or 20%): Horsea, Seadra, Dratini, Dragonair, Dragonite, Kingdra"
+  },
+  {
+    "itemname": "Electirizer",
+    "location": "5% (or 20%): Electabuzz, Elekid, Electivire"
+  },
+  {
+    "itemname": "Electric Seed",
+    "location": "5% (or 20%): Togedemaru"
+  },
+  {
+    "itemname": "Everstone",
+    "location": "50% (or 60%): Roggenrola, Boldore, Gigalith\n5% (or 20%): Geodude, Graveler, Golem"
+  },
+  {
+    "itemname": "Expert Belt",
+    "location": "5% (or 20%): Throh, Sawk"
+  },
+  {
+    "itemname": "Fire Stone",
+    "location": "5% (or 20%): Pansear, Simisear"
+  },
+  {
+    "itemname": "Flame Orb",
+    "location": "5% (or 20%): Heatmor"
+  },
+  {
+    "itemname": "Focus Band",
+    "location": "5% (or 20%): Machop, Machoke, Machamp"
+  },
+  {
+    "itemname": "Grassy Seed",
+    "location": "50% (or 60%): Tsareena\n5% (or 20%): Bounsweet, Steenee"
+  },
+  {
+    "itemname": "Grip Claw",
+    "location": "50% (or 60%): Sneasel, Weavile\n5% (or 20%): Sandshrew, Sandslash"
+  },
+  {
+    "itemname": "Haban Berry",
+    "location": "5% (or 20%): Gible, Gabite, Garchomp"
+  },
+  {
+    "itemname": "Hard Stone",
+    "location": "5% (or 20%): Onix, Aron, Lairon, Aggron, Roggenrola, Boldore, Gigalith, Dwebble, Crustle"
+  },
+  {
+    "itemname": "Heart Scale",
+    "location": "50% (or 60%): Luvdisc"
+  },
+  {
+    "itemname": "Honey",
+    "location": "55% (or 80%): Combee\n5% (or 20%): Surskit, Oricorio, Cutiefly, Ribombee, Oricorio Y, Oricorio P, Oricorio S"
+  },
+  {
+    "itemname": "Kebia Berry",
+    "location": "5% (or 20%): Breloom, Shroomish"
+  },
+  {
+    "itemname": "Kings Rock",
+    "location": "5% (or 20%): Poliwhirl, Poliwrath, Slowbro, Politoed, Slowking, Hariyama, Hawlucha"
+  },
+  {
+    "itemname": "Lagging Tail",
+    "location": "5% (or 20%): Slowpoke, Lickitung, Lickilicky, Cufant, Copperajah"
+  },
+  {
+    "itemname": "Leaf Stone",
+    "location": "5% (or 20%): Pansage, Simisage"
+  },
+  {
+    "itemname": "Leek",
+    "location": "5% (or 20%): Farfetchd, Sirfetchd"
+  },
+  {
+    "itemname": "Leftovers",
+    "location": "55% (or 80%): Snorlax, Munchlax"
+  },
+  {
+    "itemname": "Leppa Berry",
+    "location": "50% (or 60%): Clefairy, Clefable, Cleffa\n5% (or 20%): Mr Mime, Skitty, Delcatty, Mime Jr, Galarian Mime Jr"
+  },
+  {
+    "itemname": "Life Orb",
+    "location": "5% (or 20%): Absol"
+  },
+  {
+    "itemname": "Light Ball",
+    "location": "5% (or 20%): Pikachu"
+  },
+  {
+    "itemname": "Light Clay",
+    "location": "5% (or 20%): Baltoy, Claydol, Golett, Golurk, Mudbray, Mudsdale"
+  },
+  {
+    "itemname": "Lucky Egg",
+    "location": "55% (or 80%): Blissey\n5% (or 20%): Chansey, Pelipper, Happiny"
+  },
+  {
+    "itemname": "Lucky Punch",
+    "location": "50% (or 60%): Chansey"
+  },
+  {
+    "itemname": "Luminous Moss",
+    "location": "5% (or 20%): Corsola"
+  },
+  {
+    "itemname": "Lum Berry",
+    "location": "55% (or 80%): Mew, Celebi, Shaymin"
+  },
+  {
+    "itemname": "Magmarizer",
+    "location": "5% (or 20%): Magmar, Magby, Magmortar"
+  },
+  {
+    "itemname": "Magnet",
+    "location": "5% (or 20%): Nosepass, Probopass"
+  },
+  {
+    "itemname": "Max Revive",
+    "location": "5% (or 20%): Linoone"
+  },
+  {
+    "itemname": "Mental Herb",
+    "location": "5% (or 20%): Lotad, Lombre, Ludicolo, Sewaddle, Swadloon, Leavanny, Pancham, Pangoro"
+  },
+  {
+    "itemname": "Metal Coat",
+    "location": "5% (or 20%): Magnemite, Magneton, Steelix, Skarmory, Mawile, Beldum, Metang, Metagross, Bronzor, Bronzong, Magnezone"
+  },
+  {
+    "itemname": "Metal Powder",
+    "location": "5% (or 20%): Ditto"
+  },
+  {
+    "itemname": "Metronome",
+    "location": "5% (or 20%): Kricketot, Kricketune, Chatot"
+  },
+  {
+    "itemname": "Miracle Seed",
+    "location": "55% (or 80%): Pumpkaboo Xl, Gourgeist Xl\n5% (or 20%): Cherrim, Cherubi, Maractus, Fomantis, Lurantis"
+  },
+  {
+    "itemname": "Misty Seed",
+    "location": "5% (or 20%): Comfey"
+  },
+  {
+    "itemname": "Moomoo Milk",
+    "location": "55% (or 80%): Miltank"
+  },
+  {
+    "itemname": "Moon Stone",
+    "location": "5% (or 20%): Clefairy, Clefable, Jigglypuff, Wigglytuff, Cleffa, Lunatone"
+  },
+  {
+    "itemname": "Mystic Water",
+    "location": "55% (or 80%): Lapras, Castform\n5% (or 20%): Goldeen, Seaking, Dewpider, Araquanid"
+  },
+  {
+    "itemname": "Never Melt Ice",
+    "location": "50% (or 60%): Vanilluxe\n5% (or 20%): Dewgong, Piloswine, Glalie, Snover, Abomasnow, Vanillite, Vanillish, Cryogonal"
+  },
+  {
+    "itemname": "Nugget",
+    "location": "5% (or 20%): Garbodor"
+  },
+  {
+    "itemname": "Oran Berry",
+    "location": "50% (or 60%): Pikachu, Jigglypuff, Wigglytuff, Furret, Igglybuff, Teddiursa, Ursaring, Gulpin, Swalot, Bibarel, Pansage, Simisage, Pansear, Simisear, Panpour, Simipour, Audino\n5% (or 20%): Raichu, Sentret, Pichu, Pikipek, Pichu Spiky, Skwovet"
+  },
+  {
+    "itemname": "Oval Stone",
+    "location": "50% (or 60%): Happiny"
+  },
+  {
+    "itemname": "Passho Berry",
+    "location": "5% (or 20%): Phanpy, Donphan"
+  },
+  {
+    "itemname": "Payapa Berry",
+    "location": "5% (or 20%): Mankey, Primeape"
+  },
+  {
+    "itemname": "Pearl",
+    "location": "50% (or 60%): Shellder, Cloyster, Clamperl"
+  },
+  {
+    "itemname": "Pecha Berry",
+    "location": "50% (or 60%): Wurmple, Skitty, Delcatty, Buneary, Lopunny, Tympole, Seismitoad, Palpitoad, Venipede, Whirlipede, Scolipede\n5% (or 20%): Poochyena, Mightyena, Stunky, Skuntank, Yungoos, Gumshoos, Alolan Rattata, Alolan Raticate"
+  },
+  {
+    "itemname": "Persim Berry",
+    "location": "50% (or 60%): Spoink, Grumpig, Gothita, Gothorita, Gothitelle, Duosion, Reuniclus, Solosis\n5% (or 20%): Girafarig, Kecleon, Drampa"
+  },
+  {
+    "itemname": "Pink Nectar",
+    "location": "50% (or 60%): Oricorio P"
+  },
+  {
+    "itemname": "Poison Barb",
+    "location": "5% (or 20%): Beedrill, Arbok, Tentacool, Tentacruel, Qwilfish, Roselia, Budew, Roserade, Vespiquen, Skorupi, Drapion, Venipede, Whirlipede, Scolipede, Mareanie, Toxapex"
+  },
+  {
+    "itemname": "Potion",
+    "location": "50% (or 60%): Zigzagoon, Linoone"
+  },
+  {
+    "itemname": "Power Herb",
+    "location": "5% (or 20%): Seedot, Nuzleaf, Shiftry"
+  },
+  {
+    "itemname": "Pretty Wing",
+    "location": "50% (or 60%): Wingull, Pelipper"
+  },
+  {
+    "itemname": "Psychic Seed",
+    "location": "5% (or 20%): Exeggcute, Dottler, Orbeetle"
+  },
+  {
+    "itemname": "Purple Nectar",
+    "location": "50% (or 60%): Oricorio S"
+  },
+  {
+    "itemname": "Quick Claw",
+    "location": "5% (or 20%): Meowth, Persian, Sneasel, Zangoose, Weavile, Alolan Meowth, Alolan Persian"
+  },
+  {
+    "itemname": "Quick Powder",
+    "location": "50% (or 60%): Ditto"
+  },
+  {
+    "itemname": "Rawst Berry",
+    "location": "55% (or 80%): Growlithe, Arcanine, Numel, Camerupt\n50% (or 60%): Vulpix, Ninetales, Darumaka, Darmanitan\n5% (or 20%): Toucannon"
+  },
+  {
+    "itemname": "Razor Claw",
+    "location": "50% (or 60%): Kommo O\n5% (or 20%): Jangmo O, Hakamo O"
+  },
+  {
+    "itemname": "Razor Fang",
+    "location": "5% (or 20%): Bruxish"
+  },
+  {
+    "itemname": "Red Nectar",
+    "location": "50% (or 60%): Oricorio"
+  },
+  {
+    "itemname": "Revive",
+    "location": "5% (or 20%): Zigzagoon"
+  },
+  {
+    "itemname": "Rindo Berry",
+    "location": "5% (or 20%): Finneon, Lumineon"
+  },
+  {
+    "itemname": "Sacred Ash",
+    "location": "55% (or 80%): Ho Oh"
+  },
+  {
+    "itemname": "Sharp Beak",
+    "location": "5% (or 20%): Spearow, Fearow, Doduo, Dodrio"
+  },
+  {
+    "itemname": "Shed Shell",
+    "location": "5% (or 20%): Venomoth, Beautifly, Dustox, Seviper, Scrafty, Scraggy, Goomy, Sliggoo"
+  },
+  {
+    "itemname": "Shuca Berry",
+    "location": "5% (or 20%): Ponyta, Rapidash"
+  },
+  {
+    "itemname": "Silver Powder",
+    "location": "55% (or 80%): Volcarona\n5% (or 20%): Butterfree, Masquerain, Wormadam, Mothim, Wormadam Sandy, Wormadam Trash"
+  },
+  {
+    "itemname": "Sitrus Berry",
+    "location": "5% (or 20%): Furret, Teddiursa, Ursaring, Gulpin, Swalot, Bibarel, Audino, Trumbeak, Greedent"
+  },
+  {
+    "itemname": "Smoke Ball",
+    "location": "55% (or 80%): Spiritomb\n5% (or 20%): Koffing, Weezing, Salandit, Salazzle, Galarian Koffing"
+  },
+  {
+    "itemname": "Snowball",
+    "location": "5% (or 20%): Snorunt, Snom"
+  },
+  {
+    "itemname": "Soft Sand",
+    "location": "5% (or 20%): Diglett, Dugtrio, Nincada, Trapinch, Stunfisk, Alolan Diglett, Alolan Dugtrio"
+  },
+  {
+    "itemname": "Spell Tag",
+    "location": "5% (or 20%): Haunter, Gengar, Misdreavus, Duskull, Dusclops, Shuppet, Banette, Dusknoir, Yamask, Cofagrigus, Sandygast, Palossand"
+  },
+  {
+    "itemname": "Stardust",
+    "location": "50% (or 60%): Staryu, Starmie, Lunatone, Solrock"
+  },
+  {
+    "itemname": "Star Piece",
+    "location": "55% (or 80%): Jirachi, Meloetta\n5% (or 20%): Staryu, Starmie, Minior"
+  },
+  {
+    "itemname": "Sticky Barb",
+    "location": "5% (or 20%): Cacnea, Cacturne, Ferroseed, Ferrothorn"
+  },
+  {
+    "itemname": "Sun Stone",
+    "location": "5% (or 20%): Solrock"
+  },
+  {
+    "itemname": "Tanga Berry",
+    "location": "5% (or 20%): Spoink, Grumpig"
+  },
+  {
+    "itemname": "Thick Club",
+    "location": "5% (or 20%): Cubone, Marowak, Alolan Cubone, Alolan Marowak"
+  },
+  {
+    "itemname": "Tiny Mushroom",
+    "location": "50% (or 60%): Paras, Parasect, Shroomish, Breloom, Foongus, Amoonguss, Morelull\n5% (or 20%): Shiinotic"
+  },
+  {
+    "itemname": "Toxic Orb",
+    "location": "5% (or 20%): Muk"
+  },
+  {
+    "itemname": "Twisted Spoon",
+    "location": "5% (or 20%): Abra, Kadabra, Alakazam"
+  },
+  {
+    "itemname": "Up Grade",
+    "location": "55% (or 80%): Porygon2"
+  },
+  {
+    "itemname": "Wacan Berry",
+    "location": "5% (or 20%): Buizel, Floatzel"
+  },
+  {
+    "itemname": "Water Stone",
+    "location": "5% (or 20%): Panpour, Simipour"
+  },
+  {
+    "itemname": "Wide Lens",
+    "location": "5% (or 20%): Yanma, Sableye, Yanmega"
+  },
+  {
+    "itemname": "Yache Berry",
+    "location": "5% (or 20%): Starly, Staravia, Staraptor"
+  },
+  {
+    "itemname": "Yellow Nectar",
+    "location": "50% (or 60%): Oricorio Y"
+  }
+]

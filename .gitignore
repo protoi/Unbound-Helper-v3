@@ -1,0 +1,5 @@
+*.env
+__pycache__
+tempCodeRunnerFile.py
+New Text Document.txt
+loadjson.py

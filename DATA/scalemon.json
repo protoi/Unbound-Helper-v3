@@ -1,0 +1,9112 @@
+[
+	{
+		"name": "Bulbasaur",
+		"hp": "45",
+		"attack": "49",
+		"defense": "49",
+		"spattack": "65",
+		"spdef": "65",
+		"speed": "45",
+		"total": "318"
+	},
+	{
+		"name": "Ivysaur",
+		"hp": "60",
+		"attack": "62",
+		"defense": "63",
+		"spattack": "80",
+		"spdef": "80",
+		"speed": "60",
+		"total": "405"
+	},
+	{
+		"name": "Venusaur",
+		"hp": "80",
+		"attack": "95",
+		"defense": "96",
+		"spattack": "116",
+		"spdef": "116",
+		"speed": "93",
+		"total": "596"
+	},
+	{
+		"name": "Charmander",
+		"hp": "39",
+		"attack": "52",
+		"defense": "43",
+		"spattack": "60",
+		"spdef": "50",
+		"speed": "65",
+		"total": "309"
+	},
+	{
+		"name": "Charmeleon",
+		"hp": "58",
+		"attack": "64",
+		"defense": "58",
+		"spattack": "80",
+		"spdef": "65",
+		"speed": "80",
+		"total": "405"
+	},
+	{
+		"name": "Charizard",
+		"hp": "78",
+		"attack": "96",
+		"defense": "89",
+		"spattack": "124",
+		"spdef": "97",
+		"speed": "114",
+		"total": "598"
+	},
+	{
+		"name": "Squirtle",
+		"hp": "44",
+		"attack": "48",
+		"defense": "65",
+		"spattack": "50",
+		"spdef": "64",
+		"speed": "43",
+		"total": "314"
+	},
+	{
+		"name": "Wartortle",
+		"hp": "59",
+		"attack": "63",
+		"defense": "80",
+		"spattack": "65",
+		"spdef": "80",
+		"speed": "58",
+		"total": "405"
+	},
+	{
+		"name": "Blastoise",
+		"hp": "79",
+		"attack": "95",
+		"defense": "115",
+		"spattack": "98",
+		"spdef": "121",
+		"speed": "90",
+		"total": "598"
+	},
+	{
+		"name": "Caterpie",
+		"hp": "45",
+		"attack": "30",
+		"defense": "35",
+		"spattack": "20",
+		"spdef": "20",
+		"speed": "45",
+		"total": "195"
+	},
+	{
+		"name": "Metapod",
+		"hp": "50",
+		"attack": "20",
+		"defense": "55",
+		"spattack": "25",
+		"spdef": "25",
+		"speed": "30",
+		"total": "205"
+	},
+	{
+		"name": "Butterfree",
+		"hp": "60",
+		"attack": "72",
+		"defense": "80",
+		"spattack": "145",
+		"spdef": "128",
+		"speed": "112",
+		"total": "597"
+	},
+	{
+		"name": "Weedle",
+		"hp": "40",
+		"attack": "35",
+		"defense": "30",
+		"spattack": "20",
+		"spdef": "20",
+		"speed": "50",
+		"total": "195"
+	},
+	{
+		"name": "Kakuna",
+		"hp": "45",
+		"attack": "25",
+		"defense": "50",
+		"spattack": "25",
+		"spdef": "25",
+		"speed": "35",
+		"total": "205"
+	},
+	{
+		"name": "Beedrill",
+		"hp": "65",
+		"attack": "145",
+		"defense": "64",
+		"spattack": "72",
+		"spdef": "129",
+		"speed": "121",
+		"total": "596"
+	},
+	{
+		"name": "Pidgey",
+		"hp": "40",
+		"attack": "45",
+		"defense": "40",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "56",
+		"total": "251"
+	},
+	{
+		"name": "Pidgeotto",
+		"hp": "63",
+		"attack": "60",
+		"defense": "55",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "71",
+		"total": "349"
+	},
+	{
+		"name": "Pidgeot",
+		"hp": "83",
+		"attack": "104",
+		"defense": "97",
+		"spattack": "91",
+		"spdef": "91",
+		"speed": "131",
+		"total": "597"
+	},
+	{
+		"name": "Rattata",
+		"hp": "30",
+		"attack": "56",
+		"defense": "35",
+		"spattack": "25",
+		"spdef": "35",
+		"speed": "72",
+		"total": "253"
+	},
+	{
+		"name": "Raticate",
+		"hp": "55",
+		"attack": "123",
+		"defense": "91",
+		"spattack": "76",
+		"spdef": "106",
+		"speed": "147",
+		"total": "598"
+	},
+	{
+		"name": "Spearow",
+		"hp": "40",
+		"attack": "60",
+		"defense": "30",
+		"spattack": "31",
+		"spdef": "31",
+		"speed": "70",
+		"total": "262"
+	},
+	{
+		"name": "Fearow",
+		"hp": "65",
+		"attack": "127",
+		"defense": "92",
+		"spattack": "86",
+		"spdef": "86",
+		"speed": "141",
+		"total": "597"
+	},
+	{
+		"name": "Ekans",
+		"hp": "35",
+		"attack": "60",
+		"defense": "44",
+		"spattack": "40",
+		"spdef": "54",
+		"speed": "55",
+		"total": "288"
+	},
+	{
+		"name": "Arbok",
+		"hp": "60",
+		"attack": "132",
+		"defense": "96",
+		"spattack": "90",
+		"spdef": "109",
+		"speed": "111",
+		"total": "598"
+	},
+	{
+		"name": "Pikachu",
+		"hp": "35",
+		"attack": "55",
+		"defense": "40",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "90",
+		"total": "320"
+	},
+	{
+		"name": "Pikachu Alt Form",
+		"hp": "35",
+		"attack": "109",
+		"defense": "79",
+		"spattack": "99",
+		"spdef": "99",
+		"speed": "178",
+		"total": "599"
+	},
+	{
+		"name": "Raichu",
+		"hp": "60",
+		"attack": "114",
+		"defense": "69",
+		"spattack": "114",
+		"spdef": "101",
+		"speed": "139",
+		"total": "597"
+	},
+	{
+		"name": "Sandshrew",
+		"hp": "50",
+		"attack": "75",
+		"defense": "85",
+		"spattack": "20",
+		"spdef": "30",
+		"speed": "40",
+		"total": "300"
+	},
+	{
+		"name": "Sandslash",
+		"hp": "75",
+		"attack": "140",
+		"defense": "154",
+		"spattack": "63",
+		"spdef": "77",
+		"speed": "91",
+		"total": "600"
+	},
+	{
+		"name": "Nidoran Female",
+		"hp": "55",
+		"attack": "47",
+		"defense": "52",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "41",
+		"total": "275"
+	},
+	{
+		"name": "Nidorina",
+		"hp": "70",
+		"attack": "62",
+		"defense": "67",
+		"spattack": "55",
+		"spdef": "55",
+		"speed": "56",
+		"total": "365"
+	},
+	{
+		"name": "Nidoqueen",
+		"hp": "90",
+		"attack": "113",
+		"defense": "106",
+		"spattack": "92",
+		"spdef": "104",
+		"speed": "93",
+		"total": "598"
+	},
+	{
+		"name": "Nidoran Male",
+		"hp": "46",
+		"attack": "57",
+		"defense": "40",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "50",
+		"total": "273"
+	},
+	{
+		"name": "Nidorino",
+		"hp": "61",
+		"attack": "72",
+		"defense": "57",
+		"spattack": "55",
+		"spdef": "55",
+		"speed": "65",
+		"total": "365"
+	},
+	{
+		"name": "Nidoking",
+		"hp": "81",
+		"attack": "124",
+		"defense": "94",
+		"spattack": "104",
+		"spdef": "91",
+		"speed": "104",
+		"total": "598"
+	},
+	{
+		"name": "Clefairy",
+		"hp": "70",
+		"attack": "45",
+		"defense": "48",
+		"spattack": "60",
+		"spdef": "65",
+		"speed": "35",
+		"total": "323"
+	},
+	{
+		"name": "Clefable",
+		"hp": "95",
+		"attack": "91",
+		"defense": "95",
+		"spattack": "123",
+		"spdef": "117",
+		"speed": "78",
+		"total": "599"
+	},
+	{
+		"name": "Vulpix",
+		"hp": "38",
+		"attack": "41",
+		"defense": "40",
+		"spattack": "50",
+		"spdef": "65",
+		"speed": "65",
+		"total": "299"
+	},
+	{
+		"name": "Ninetales",
+		"hp": "73",
+		"attack": "92",
+		"defense": "91",
+		"spattack": "98",
+		"spdef": "121",
+		"speed": "121",
+		"total": "596"
+	},
+	{
+		"name": "Jigglypuff",
+		"hp": "115",
+		"attack": "45",
+		"defense": "20",
+		"spattack": "45",
+		"spdef": "25",
+		"speed": "20",
+		"total": "270"
+	},
+	{
+		"name": "Wigglytuff",
+		"hp": "140",
+		"attack": "109",
+		"defense": "70",
+		"spattack": "132",
+		"spdef": "77",
+		"speed": "70",
+		"total": "598"
+	},
+	{
+		"name": "Zubat",
+		"hp": "40",
+		"attack": "45",
+		"defense": "35",
+		"spattack": "30",
+		"spdef": "40",
+		"speed": "55",
+		"total": "245"
+	},
+	{
+		"name": "Golbat",
+		"hp": "75",
+		"attack": "80",
+		"defense": "70",
+		"spattack": "65",
+		"spdef": "75",
+		"speed": "90",
+		"total": "455"
+	},
+	{
+		"name": "Oddish",
+		"hp": "45",
+		"attack": "50",
+		"defense": "55",
+		"spattack": "75",
+		"spdef": "65",
+		"speed": "30",
+		"total": "320"
+	},
+	{
+		"name": "Gloom",
+		"hp": "60",
+		"attack": "65",
+		"defense": "70",
+		"spattack": "85",
+		"spdef": "75",
+		"speed": "40",
+		"total": "395"
+	},
+	{
+		"name": "Vileplume",
+		"hp": "75",
+		"attack": "101",
+		"defense": "107",
+		"spattack": "139",
+		"spdef": "113",
+		"speed": "63",
+		"total": "598"
+	},
+	{
+		"name": "Paras",
+		"hp": "35",
+		"attack": "70",
+		"defense": "55",
+		"spattack": "45",
+		"spdef": "55",
+		"speed": "25",
+		"total": "285"
+	},
+	{
+		"name": "Parasect",
+		"hp": "60",
+		"attack": "148",
+		"defense": "125",
+		"spattack": "93",
+		"spdef": "125",
+		"speed": "46",
+		"total": "597"
+	},
+	{
+		"name": "Venonat",
+		"hp": "60",
+		"attack": "55",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "55",
+		"speed": "45",
+		"total": "305"
+	},
+	{
+		"name": "Venomoth",
+		"hp": "70",
+		"attack": "90",
+		"defense": "83",
+		"spattack": "125",
+		"spdef": "104",
+		"speed": "125",
+		"total": "597"
+	},
+	{
+		"name": "Diglett",
+		"hp": "10",
+		"attack": "55",
+		"defense": "25",
+		"spattack": "35",
+		"spdef": "45",
+		"speed": "95",
+		"total": "265"
+	},
+	{
+		"name": "Dugtrio",
+		"hp": "35",
+		"attack": "144",
+		"defense": "72",
+		"spattack": "72",
+		"spdef": "101",
+		"speed": "173",
+		"total": "597"
+	},
+	{
+		"name": "Meowth",
+		"hp": "40",
+		"attack": "45",
+		"defense": "35",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "90",
+		"total": "290"
+	},
+	{
+		"name": "Persian",
+		"hp": "65",
+		"attack": "99",
+		"defense": "85",
+		"spattack": "92",
+		"spdef": "92",
+		"speed": "164",
+		"total": "597"
+	},
+	{
+		"name": "Psyduck",
+		"hp": "50",
+		"attack": "52",
+		"defense": "48",
+		"spattack": "65",
+		"spdef": "50",
+		"speed": "55",
+		"total": "320"
+	},
+	{
+		"name": "Golduck",
+		"hp": "80",
+		"attack": "101",
+		"defense": "96",
+		"spattack": "117",
+		"spdef": "99",
+		"speed": "105",
+		"total": "598"
+	},
+	{
+		"name": "Mankey",
+		"hp": "40",
+		"attack": "80",
+		"defense": "35",
+		"spattack": "35",
+		"spdef": "45",
+		"speed": "70",
+		"total": "305"
+	},
+	{
+		"name": "Primeape",
+		"hp": "65",
+		"attack": "144",
+		"defense": "82",
+		"spattack": "82",
+		"spdef": "96",
+		"speed": "130",
+		"total": "599"
+	},
+	{
+		"name": "Growlithe",
+		"hp": "55",
+		"attack": "70",
+		"defense": "45",
+		"spattack": "70",
+		"spdef": "50",
+		"speed": "60",
+		"total": "350"
+	},
+	{
+		"name": "Arcanine",
+		"hp": "90",
+		"attack": "120",
+		"defense": "87",
+		"spattack": "109",
+		"spdef": "87",
+		"speed": "104",
+		"total": "597"
+	},
+	{
+		"name": "Poliwag",
+		"hp": "40",
+		"attack": "50",
+		"defense": "40",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "90",
+		"total": "300"
+	},
+	{
+		"name": "Poliwhirl",
+		"hp": "65",
+		"attack": "65",
+		"defense": "65",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "90",
+		"total": "385"
+	},
+	{
+		"name": "Poliwrath",
+		"hp": "90",
+		"attack": "115",
+		"defense": "115",
+		"spattack": "85",
+		"spdef": "109",
+		"speed": "85",
+		"total": "599"
+	},
+	{
+		"name": "Abra",
+		"hp": "25",
+		"attack": "20",
+		"defense": "15",
+		"spattack": "105",
+		"spdef": "55",
+		"speed": "90",
+		"total": "310"
+	},
+	{
+		"name": "Kadabra",
+		"hp": "40",
+		"attack": "35",
+		"defense": "30",
+		"spattack": "120",
+		"spdef": "70",
+		"speed": "105",
+		"total": "400"
+	},
+	{
+		"name": "Alakazam",
+		"hp": "55",
+		"attack": "61",
+		"defense": "55",
+		"spattack": "165",
+		"spdef": "116",
+		"speed": "146",
+		"total": "598"
+	},
+	{
+		"name": "Machop",
+		"hp": "70",
+		"attack": "80",
+		"defense": "50",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "35",
+		"total": "305"
+	},
+	{
+		"name": "Machoke",
+		"hp": "80",
+		"attack": "100",
+		"defense": "70",
+		"spattack": "50",
+		"spdef": "60",
+		"speed": "45",
+		"total": "405"
+	},
+	{
+		"name": "Machamp",
+		"hp": "90",
+		"attack": "159",
+		"defense": "98",
+		"spattack": "79",
+		"spdef": "104",
+		"speed": "67",
+		"total": "597"
+	},
+	{
+		"name": "Bellsprout",
+		"hp": "50",
+		"attack": "75",
+		"defense": "35",
+		"spattack": "70",
+		"spdef": "30",
+		"speed": "40",
+		"total": "300"
+	},
+	{
+		"name": "Weepinbell",
+		"hp": "65",
+		"attack": "90",
+		"defense": "50",
+		"spattack": "85",
+		"spdef": "45",
+		"speed": "55",
+		"total": "390"
+	},
+	{
+		"name": "Victreebel",
+		"hp": "80",
+		"attack": "133",
+		"defense": "82",
+		"spattack": "126",
+		"spdef": "88",
+		"speed": "88",
+		"total": "597"
+	},
+	{
+		"name": "Tentacool",
+		"hp": "40",
+		"attack": "40",
+		"defense": "35",
+		"spattack": "50",
+		"spdef": "100",
+		"speed": "70",
+		"total": "335"
+	},
+	{
+		"name": "Tentacruel",
+		"hp": "80",
+		"attack": "83",
+		"defense": "77",
+		"spattack": "95",
+		"spdef": "143",
+		"speed": "119",
+		"total": "597"
+	},
+	{
+		"name": "Geodude",
+		"hp": "40",
+		"attack": "80",
+		"defense": "100",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "20",
+		"total": "300"
+	},
+	{
+		"name": "Graveler",
+		"hp": "55",
+		"attack": "95",
+		"defense": "115",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "35",
+		"total": "390"
+	},
+	{
+		"name": "Golem",
+		"hp": "80",
+		"attack": "150",
+		"defense": "162",
+		"spattack": "68",
+		"spdef": "81",
+		"speed": "56",
+		"total": "597"
+	},
+	{
+		"name": "Ponyta",
+		"hp": "50",
+		"attack": "85",
+		"defense": "55",
+		"spattack": "65",
+		"spdef": "65",
+		"speed": "90",
+		"total": "410"
+	},
+	{
+		"name": "Rapidash",
+		"hp": "65",
+		"attack": "122",
+		"defense": "86",
+		"spattack": "98",
+		"spdef": "98",
+		"speed": "129",
+		"total": "598"
+	},
+	{
+		"name": "Slowpoke",
+		"hp": "90",
+		"attack": "65",
+		"defense": "65",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "15",
+		"total": "315"
+	},
+	{
+		"name": "Slowbro",
+		"hp": "95",
+		"attack": "95",
+		"defense": "140",
+		"spattack": "127",
+		"spdef": "102",
+		"speed": "38",
+		"total": "597"
+	},
+	{
+		"name": "Magnemite",
+		"hp": "25",
+		"attack": "35",
+		"defense": "70",
+		"spattack": "95",
+		"spdef": "55",
+		"speed": "45",
+		"total": "325"
+	},
+	{
+		"name": "Magneton",
+		"hp": "50",
+		"attack": "60",
+		"defense": "95",
+		"spattack": "120",
+		"spdef": "70",
+		"speed": "70",
+		"total": "465"
+	},
+	{
+		"name": "Farfetchd",
+		"hp": "52",
+		"attack": "151",
+		"defense": "92",
+		"spattack": "97",
+		"spdef": "104",
+		"speed": "101",
+		"total": "597"
+	},
+	{
+		"name": "Doduo",
+		"hp": "35",
+		"attack": "85",
+		"defense": "45",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "75",
+		"total": "310"
+	},
+	{
+		"name": "Dodrio",
+		"hp": "60",
+		"attack": "144",
+		"defense": "92",
+		"spattack": "79",
+		"spdef": "79",
+		"speed": "144",
+		"total": "598"
+	},
+	{
+		"name": "Seel",
+		"hp": "65",
+		"attack": "45",
+		"defense": "55",
+		"spattack": "45",
+		"spdef": "70",
+		"speed": "45",
+		"total": "325"
+	},
+	{
+		"name": "Dewgong",
+		"hp": "90",
+		"attack": "92",
+		"defense": "105",
+		"spattack": "92",
+		"spdef": "125",
+		"speed": "92",
+		"total": "596"
+	},
+	{
+		"name": "Grimer",
+		"hp": "80",
+		"attack": "80",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "25",
+		"total": "325"
+	},
+	{
+		"name": "Muk",
+		"hp": "105",
+		"attack": "131",
+		"defense": "93",
+		"spattack": "81",
+		"spdef": "125",
+		"speed": "62",
+		"total": "597"
+	},
+	{
+		"name": "Shellder",
+		"hp": "30",
+		"attack": "65",
+		"defense": "100",
+		"spattack": "45",
+		"spdef": "25",
+		"speed": "40",
+		"total": "305"
+	},
+	{
+		"name": "Cloyster",
+		"hp": "50",
+		"attack": "110",
+		"defense": "208",
+		"spattack": "98",
+		"spdef": "52",
+		"speed": "81",
+		"total": "599"
+	},
+	{
+		"name": "Gastly",
+		"hp": "30",
+		"attack": "35",
+		"defense": "30",
+		"spattack": "100",
+		"spdef": "35",
+		"speed": "80",
+		"total": "310"
+	},
+	{
+		"name": "Haunter",
+		"hp": "45",
+		"attack": "50",
+		"defense": "45",
+		"spattack": "115",
+		"spdef": "55",
+		"speed": "95",
+		"total": "405"
+	},
+	{
+		"name": "Gengar",
+		"hp": "60",
+		"attack": "79",
+		"defense": "73",
+		"spattack": "159",
+		"spdef": "92",
+		"speed": "135",
+		"total": "598"
+	},
+	{
+		"name": "Onix",
+		"hp": "35",
+		"attack": "45",
+		"defense": "160",
+		"spattack": "30",
+		"spdef": "45",
+		"speed": "70",
+		"total": "385"
+	},
+	{
+		"name": "Drowzee",
+		"hp": "60",
+		"attack": "48",
+		"defense": "45",
+		"spattack": "43",
+		"spdef": "90",
+		"speed": "42",
+		"total": "328"
+	},
+	{
+		"name": "Hypno",
+		"hp": "85",
+		"attack": "94",
+		"defense": "90",
+		"spattack": "94",
+		"spdef": "148",
+		"speed": "86",
+		"total": "597"
+	},
+	{
+		"name": "Krabby",
+		"hp": "30",
+		"attack": "105",
+		"defense": "90",
+		"spattack": "25",
+		"spdef": "25",
+		"speed": "50",
+		"total": "325"
+	},
+	{
+		"name": "Kingler",
+		"hp": "55",
+		"attack": "168",
+		"defense": "149",
+		"spattack": "64",
+		"spdef": "64",
+		"speed": "97",
+		"total": "597"
+	},
+	{
+		"name": "Voltorb",
+		"hp": "40",
+		"attack": "30",
+		"defense": "50",
+		"spattack": "55",
+		"spdef": "55",
+		"speed": "100",
+		"total": "330"
+	},
+	{
+		"name": "Electrode",
+		"hp": "60",
+		"attack": "62",
+		"defense": "87",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "188",
+		"total": "597"
+	},
+	{
+		"name": "Exeggcute",
+		"hp": "60",
+		"attack": "40",
+		"defense": "80",
+		"spattack": "60",
+		"spdef": "45",
+		"speed": "40",
+		"total": "325"
+	},
+	{
+		"name": "Exeggutor",
+		"hp": "95",
+		"attack": "110",
+		"defense": "98",
+		"spattack": "145",
+		"spdef": "87",
+		"speed": "63",
+		"total": "598"
+	},
+	{
+		"name": "Cubone",
+		"hp": "50",
+		"attack": "50",
+		"defense": "95",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "35",
+		"total": "320"
+	},
+	{
+		"name": "Marowak",
+		"hp": "60",
+		"attack": "118",
+		"defense": "162",
+		"spattack": "73",
+		"spdef": "118",
+		"speed": "66",
+		"total": "597"
+	},
+	{
+		"name": "Hitmonlee",
+		"hp": "50",
+		"attack": "162",
+		"defense": "71",
+		"spattack": "47",
+		"spdef": "149",
+		"speed": "118",
+		"total": "597"
+	},
+	{
+		"name": "Hitmonchan",
+		"hp": "50",
+		"attack": "142",
+		"defense": "107",
+		"spattack": "47",
+		"spdef": "149",
+		"speed": "103",
+		"total": "598"
+	},
+	{
+		"name": "Lickitung",
+		"hp": "90",
+		"attack": "55",
+		"defense": "75",
+		"spattack": "60",
+		"spdef": "75",
+		"speed": "30",
+		"total": "385"
+	},
+	{
+		"name": "Koffing",
+		"hp": "40",
+		"attack": "65",
+		"defense": "95",
+		"spattack": "60",
+		"spdef": "45",
+		"speed": "35",
+		"total": "340"
+	},
+	{
+		"name": "Weezing",
+		"hp": "65",
+		"attack": "113",
+		"defense": "151",
+		"spattack": "107",
+		"spdef": "88",
+		"speed": "75",
+		"total": "599"
+	},
+	{
+		"name": "Rhyhorn",
+		"hp": "80",
+		"attack": "85",
+		"defense": "95",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "25",
+		"total": "345"
+	},
+	{
+		"name": "Rhydon",
+		"hp": "105",
+		"attack": "130",
+		"defense": "120",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "40",
+		"total": "485"
+	},
+	{
+		"name": "Chansey",
+		"hp": "250",
+		"attack": "5",
+		"defense": "5",
+		"spattack": "35",
+		"spdef": "105",
+		"speed": "50",
+		"total": "450"
+	},
+	{
+		"name": "Tangela",
+		"hp": "65",
+		"attack": "55",
+		"defense": "115",
+		"spattack": "100",
+		"spdef": "40",
+		"speed": "60",
+		"total": "435"
+	},
+	{
+		"name": "Kangaskhan",
+		"hp": "105",
+		"attack": "122",
+		"defense": "102",
+		"spattack": "51",
+		"spdef": "102",
+		"speed": "115",
+		"total": "597"
+	},
+	{
+		"name": "Horsea",
+		"hp": "30",
+		"attack": "40",
+		"defense": "70",
+		"spattack": "70",
+		"spdef": "25",
+		"speed": "60",
+		"total": "295"
+	},
+	{
+		"name": "Seadra",
+		"hp": "55",
+		"attack": "65",
+		"defense": "95",
+		"spattack": "95",
+		"spdef": "45",
+		"speed": "85",
+		"total": "440"
+	},
+	{
+		"name": "Goldeen",
+		"hp": "45",
+		"attack": "67",
+		"defense": "60",
+		"spattack": "35",
+		"spdef": "50",
+		"speed": "63",
+		"total": "320"
+	},
+	{
+		"name": "Seaking",
+		"hp": "80",
+		"attack": "129",
+		"defense": "91",
+		"spattack": "91",
+		"spdef": "112",
+		"speed": "95",
+		"total": "598"
+	},
+	{
+		"name": "Staryu",
+		"hp": "30",
+		"attack": "45",
+		"defense": "55",
+		"spattack": "70",
+		"spdef": "55",
+		"speed": "85",
+		"total": "340"
+	},
+	{
+		"name": "Starmie",
+		"hp": "60",
+		"attack": "88",
+		"defense": "99",
+		"spattack": "117",
+		"spdef": "99",
+		"speed": "135",
+		"total": "598"
+	},
+	{
+		"name": "Mr.Mime",
+		"hp": "40",
+		"attack": "60",
+		"defense": "86",
+		"spattack": "133",
+		"spdef": "160",
+		"speed": "120",
+		"total": "599"
+	},
+	{
+		"name": "Scyther",
+		"hp": "70",
+		"attack": "110",
+		"defense": "80",
+		"spattack": "55",
+		"spdef": "80",
+		"speed": "105",
+		"total": "500"
+	},
+	{
+		"name": "Jynx",
+		"hp": "65",
+		"attack": "68",
+		"defense": "48",
+		"spattack": "157",
+		"spdef": "130",
+		"speed": "130",
+		"total": "598"
+	},
+	{
+		"name": "Electabuzz",
+		"hp": "65",
+		"attack": "83",
+		"defense": "57",
+		"spattack": "95",
+		"spdef": "85",
+		"speed": "105",
+		"total": "490"
+	},
+	{
+		"name": "Magmar",
+		"hp": "65",
+		"attack": "95",
+		"defense": "57",
+		"spattack": "100",
+		"spdef": "85",
+		"speed": "93",
+		"total": "495"
+	},
+	{
+		"name": "Pinsir",
+		"hp": "65",
+		"attack": "153",
+		"defense": "122",
+		"spattack": "67",
+		"spdef": "86",
+		"speed": "104",
+		"total": "597"
+	},
+	{
+		"name": "Tauros",
+		"hp": "75",
+		"attack": "126",
+		"defense": "120",
+		"spattack": "50",
+		"spdef": "88",
+		"speed": "139",
+		"total": "598"
+	},
+	{
+		"name": "Magikarp",
+		"hp": "20",
+		"attack": "10",
+		"defense": "55",
+		"spattack": "15",
+		"spdef": "20",
+		"speed": "80",
+		"total": "200"
+	},
+	{
+		"name": "Gyarados",
+		"hp": "95",
+		"attack": "141",
+		"defense": "89",
+		"spattack": "68",
+		"spdef": "113",
+		"speed": "91",
+		"total": "597"
+	},
+	{
+		"name": "Lapras",
+		"hp": "130",
+		"attack": "98",
+		"defense": "92",
+		"spattack": "98",
+		"spdef": "110",
+		"speed": "69",
+		"total": "597"
+	},
+	{
+		"name": "Ditto",
+		"hp": "48",
+		"attack": "110",
+		"defense": "110",
+		"spattack": "110",
+		"spdef": "110",
+		"speed": "110",
+		"total": "598"
+	},
+	{
+		"name": "Eevee",
+		"hp": "55",
+		"attack": "55",
+		"defense": "50",
+		"spattack": "45",
+		"spdef": "65",
+		"speed": "55",
+		"total": "325"
+	},
+	{
+		"name": "Vaporeon",
+		"hp": "130",
+		"attack": "77",
+		"defense": "71",
+		"spattack": "130",
+		"spdef": "113",
+		"speed": "77",
+		"total": "598"
+	},
+	{
+		"name": "Jolteon",
+		"hp": "65",
+		"attack": "75",
+		"defense": "69",
+		"spattack": "127",
+		"spdef": "110",
+		"speed": "151",
+		"total": "597"
+	},
+	{
+		"name": "Flareon",
+		"hp": "65",
+		"attack": "151",
+		"defense": "69",
+		"spattack": "110",
+		"spdef": "127",
+		"speed": "75",
+		"total": "597"
+	},
+	{
+		"name": "Porygon",
+		"hp": "65",
+		"attack": "60",
+		"defense": "70",
+		"spattack": "85",
+		"spdef": "75",
+		"speed": "40",
+		"total": "395"
+	},
+	{
+		"name": "Omanyte",
+		"hp": "35",
+		"attack": "40",
+		"defense": "100",
+		"spattack": "90",
+		"spdef": "55",
+		"speed": "35",
+		"total": "355"
+	},
+	{
+		"name": "Omastar",
+		"hp": "70",
+		"attack": "74",
+		"defense": "155",
+		"spattack": "143",
+		"spdef": "87",
+		"speed": "68",
+		"total": "597"
+	},
+	{
+		"name": "Kabuto",
+		"hp": "30",
+		"attack": "80",
+		"defense": "90",
+		"spattack": "55",
+		"spdef": "45",
+		"speed": "55",
+		"total": "355"
+	},
+	{
+		"name": "Kabutops",
+		"hp": "60",
+		"attack": "142",
+		"defense": "130",
+		"spattack": "80",
+		"spdef": "86",
+		"speed": "99",
+		"total": "597"
+	},
+	{
+		"name": "Aerodactyl",
+		"hp": "80",
+		"attack": "125",
+		"defense": "77",
+		"spattack": "71",
+		"spdef": "89",
+		"speed": "155",
+		"total": "597"
+	},
+	{
+		"name": "Snorlax",
+		"hp": "160",
+		"attack": "127",
+		"defense": "75",
+		"spattack": "75",
+		"spdef": "127",
+		"speed": "34",
+		"total": "598"
+	},
+	{
+		"name": "Articuno",
+		"hp": "90",
+		"attack": "88",
+		"defense": "104",
+		"spattack": "98",
+		"spdef": "130",
+		"speed": "88",
+		"total": "598"
+	},
+	{
+		"name": "Zapdos",
+		"hp": "90",
+		"attack": "93",
+		"defense": "88",
+		"spattack": "130",
+		"spdef": "93",
+		"speed": "104",
+		"total": "598"
+	},
+	{
+		"name": "Moltres",
+		"hp": "90",
+		"attack": "104",
+		"defense": "93",
+		"spattack": "130",
+		"spdef": "88",
+		"speed": "93",
+		"total": "598"
+	},
+	{
+		"name": "Dratini",
+		"hp": "41",
+		"attack": "64",
+		"defense": "45",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "50",
+		"total": "300"
+	},
+	{
+		"name": "Dragonair",
+		"hp": "61",
+		"attack": "84",
+		"defense": "65",
+		"spattack": "70",
+		"spdef": "70",
+		"speed": "70",
+		"total": "420"
+	},
+	{
+		"name": "Dragonite",
+		"hp": "91",
+		"attack": "134",
+		"defense": "95",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "80",
+		"total": "600"
+	},
+	{
+		"name": "Mewtwo",
+		"hp": "106",
+		"attack": "94",
+		"defense": "77",
+		"spattack": "132",
+		"spdef": "77",
+		"speed": "111",
+		"total": "597"
+	},
+	{
+		"name": "Mew",
+		"hp": "100",
+		"attack": "100",
+		"defense": "100",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "100",
+		"total": "600"
+	},
+	{
+		"name": "Chikorita",
+		"hp": "45",
+		"attack": "49",
+		"defense": "65",
+		"spattack": "49",
+		"spdef": "65",
+		"speed": "45",
+		"total": "318"
+	},
+	{
+		"name": "Bayleef",
+		"hp": "60",
+		"attack": "62",
+		"defense": "80",
+		"spattack": "63",
+		"spdef": "80",
+		"speed": "60",
+		"total": "405"
+	},
+	{
+		"name": "Meganium",
+		"hp": "80",
+		"attack": "95",
+		"defense": "116",
+		"spattack": "96",
+		"spdef": "116",
+		"speed": "93",
+		"total": "596"
+	},
+	{
+		"name": "Cyndaquil",
+		"hp": "39",
+		"attack": "52",
+		"defense": "43",
+		"spattack": "60",
+		"spdef": "50",
+		"speed": "65",
+		"total": "309"
+	},
+	{
+		"name": "Quilava",
+		"hp": "58",
+		"attack": "64",
+		"defense": "58",
+		"spattack": "80",
+		"spdef": "65",
+		"speed": "80",
+		"total": "405"
+	},
+	{
+		"name": "Typhlosion",
+		"hp": "78",
+		"attack": "96",
+		"defense": "89",
+		"spattack": "124",
+		"spdef": "97",
+		"speed": "114",
+		"total": "598"
+	},
+	{
+		"name": "Totodile",
+		"hp": "50",
+		"attack": "65",
+		"defense": "64",
+		"spattack": "44",
+		"spdef": "48",
+		"speed": "43",
+		"total": "314"
+	},
+	{
+		"name": "Croconaw",
+		"hp": "65",
+		"attack": "80",
+		"defense": "80",
+		"spattack": "59",
+		"spdef": "63",
+		"speed": "58",
+		"total": "405"
+	},
+	{
+		"name": "Feraligatr",
+		"hp": "85",
+		"attack": "121",
+		"defense": "115",
+		"spattack": "91",
+		"spdef": "96",
+		"speed": "90",
+		"total": "598"
+	},
+	{
+		"name": "Sentret",
+		"hp": "35",
+		"attack": "46",
+		"defense": "34",
+		"spattack": "35",
+		"spdef": "45",
+		"speed": "20",
+		"total": "215"
+	},
+	{
+		"name": "Furret",
+		"hp": "85",
+		"attack": "118",
+		"defense": "99",
+		"spattack": "70",
+		"spdef": "85",
+		"speed": "140",
+		"total": "597"
+	},
+	{
+		"name": "Hoothoot",
+		"hp": "60",
+		"attack": "30",
+		"defense": "30",
+		"spattack": "36",
+		"spdef": "56",
+		"speed": "50",
+		"total": "262"
+	},
+	{
+		"name": "Noctowl",
+		"hp": "100",
+		"attack": "71",
+		"defense": "71",
+		"spattack": "122",
+		"spdef": "136",
+		"speed": "99",
+		"total": "599"
+	},
+	{
+		"name": "Ledyba",
+		"hp": "40",
+		"attack": "20",
+		"defense": "30",
+		"spattack": "40",
+		"spdef": "80",
+		"speed": "55",
+		"total": "265"
+	},
+	{
+		"name": "Ledian",
+		"hp": "55",
+		"attack": "56",
+		"defense": "81",
+		"spattack": "89",
+		"spdef": "178",
+		"speed": "138",
+		"total": "597"
+	},
+	{
+		"name": "Spinarak",
+		"hp": "40",
+		"attack": "60",
+		"defense": "40",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "30",
+		"total": "250"
+	},
+	{
+		"name": "Ariados",
+		"hp": "70",
+		"attack": "144",
+		"defense": "112",
+		"spattack": "96",
+		"spdef": "112",
+		"speed": "64",
+		"total": "598"
+	},
+	{
+		"name": "Crobat",
+		"hp": "85",
+		"attack": "103",
+		"defense": "91",
+		"spattack": "80",
+		"spdef": "91",
+		"speed": "148",
+		"total": "598"
+	},
+	{
+		"name": "Chinchou",
+		"hp": "75",
+		"attack": "38",
+		"defense": "38",
+		"spattack": "56",
+		"spdef": "56",
+		"speed": "67",
+		"total": "330"
+	},
+	{
+		"name": "Lanturn",
+		"hp": "125",
+		"attack": "82",
+		"defense": "82",
+		"spattack": "107",
+		"spdef": "107",
+		"speed": "95",
+		"total": "598"
+	},
+	{
+		"name": "Pichu",
+		"hp": "20",
+		"attack": "40",
+		"defense": "15",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "60",
+		"total": "205"
+	},
+	{
+		"name": "Spiky Eared Pichu",
+		"hp": "20",
+		"attack": "125",
+		"defense": "47",
+		"spattack": "109",
+		"spdef": "109",
+		"speed": "188",
+		"total": "598"
+	},
+	{
+		"name": "Cleffa",
+		"hp": "50",
+		"attack": "25",
+		"defense": "28",
+		"spattack": "45",
+		"spdef": "55",
+		"speed": "15",
+		"total": "218"
+	},
+	{
+		"name": "Igglybuff",
+		"hp": "90",
+		"attack": "30",
+		"defense": "15",
+		"spattack": "40",
+		"spdef": "20",
+		"speed": "15",
+		"total": "210"
+	},
+	{
+		"name": "Togepi",
+		"hp": "35",
+		"attack": "20",
+		"defense": "65",
+		"spattack": "40",
+		"spdef": "65",
+		"speed": "20",
+		"total": "245"
+	},
+	{
+		"name": "Togetic",
+		"hp": "55",
+		"attack": "40",
+		"defense": "85",
+		"spattack": "80",
+		"spdef": "105",
+		"speed": "40",
+		"total": "405"
+	},
+	{
+		"name": "Natu",
+		"hp": "40",
+		"attack": "50",
+		"defense": "45",
+		"spattack": "70",
+		"spdef": "45",
+		"speed": "70",
+		"total": "320"
+	},
+	{
+		"name": "Xatu",
+		"hp": "65",
+		"attack": "99",
+		"defense": "92",
+		"spattack": "125",
+		"spdef": "92",
+		"speed": "125",
+		"total": "598"
+	},
+	{
+		"name": "Mareep",
+		"hp": "55",
+		"attack": "40",
+		"defense": "40",
+		"spattack": "65",
+		"spdef": "45",
+		"speed": "35",
+		"total": "280"
+	},
+	{
+		"name": "Flaaffy",
+		"hp": "70",
+		"attack": "55",
+		"defense": "55",
+		"spattack": "80",
+		"spdef": "60",
+		"speed": "45",
+		"total": "365"
+	},
+	{
+		"name": "Ampharos",
+		"hp": "90",
+		"attack": "91",
+		"defense": "103",
+		"spattack": "139",
+		"spdef": "109",
+		"speed": "66",
+		"total": "598"
+	},
+	{
+		"name": "Bellossom",
+		"hp": "75",
+		"attack": "101",
+		"defense": "120",
+		"spattack": "113",
+		"spdef": "126",
+		"speed": "63",
+		"total": "598"
+	},
+	{
+		"name": "Marill",
+		"hp": "70",
+		"attack": "20",
+		"defense": "50",
+		"spattack": "20",
+		"spdef": "50",
+		"speed": "40",
+		"total": "250"
+	},
+	{
+		"name": "Azumarill",
+		"hp": "100",
+		"attack": "78",
+		"defense": "125",
+		"spattack": "93",
+		"spdef": "125",
+		"speed": "78",
+		"total": "599"
+	},
+	{
+		"name": "Sudowoodo",
+		"hp": "70",
+		"attack": "155",
+		"defense": "179",
+		"spattack": "46",
+		"spdef": "101",
+		"speed": "46",
+		"total": "597"
+	},
+	{
+		"name": "Politoed",
+		"hp": "90",
+		"attack": "93",
+		"defense": "93",
+		"spattack": "111",
+		"spdef": "124",
+		"speed": "87",
+		"total": "598"
+	},
+	{
+		"name": "Hoppip",
+		"hp": "35",
+		"attack": "35",
+		"defense": "40",
+		"spattack": "35",
+		"spdef": "55",
+		"speed": "50",
+		"total": "250"
+	},
+	{
+		"name": "Skiploom",
+		"hp": "55",
+		"attack": "45",
+		"defense": "50",
+		"spattack": "45",
+		"spdef": "65",
+		"speed": "80",
+		"total": "340"
+	},
+	{
+		"name": "Jumpluff",
+		"hp": "75",
+		"attack": "75",
+		"defense": "95",
+		"spattack": "75",
+		"spdef": "129",
+		"speed": "150",
+		"total": "599"
+	},
+	{
+		"name": "Aipom",
+		"hp": "55",
+		"attack": "70",
+		"defense": "55",
+		"spattack": "40",
+		"spdef": "55",
+		"speed": "85",
+		"total": "360"
+	},
+	{
+		"name": "Sunkern",
+		"hp": "30",
+		"attack": "30",
+		"defense": "30",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "30",
+		"total": "180"
+	},
+	{
+		"name": "Sunflora",
+		"hp": "75",
+		"attack": "112",
+		"defense": "82",
+		"spattack": "157",
+		"spdef": "127",
+		"speed": "45",
+		"total": "598"
+	},
+	{
+		"name": "Yanma",
+		"hp": "65",
+		"attack": "65",
+		"defense": "45",
+		"spattack": "75",
+		"spdef": "45",
+		"speed": "95",
+		"total": "390"
+	},
+	{
+		"name": "Wooper",
+		"hp": "55",
+		"attack": "45",
+		"defense": "45",
+		"spattack": "25",
+		"spdef": "25",
+		"speed": "15",
+		"total": "210"
+	},
+	{
+		"name": "Quagsire",
+		"hp": "95",
+		"attack": "128",
+		"defense": "128",
+		"spattack": "97",
+		"spdef": "97",
+		"speed": "52",
+		"total": "597"
+	},
+	{
+		"name": "Espeon",
+		"hp": "65",
+		"attack": "75",
+		"defense": "69",
+		"spattack": "151",
+		"spdef": "110",
+		"speed": "127",
+		"total": "597"
+	},
+	{
+		"name": "Umbreon",
+		"hp": "95",
+		"attack": "76",
+		"defense": "129",
+		"spattack": "70",
+		"spdef": "152",
+		"speed": "76",
+		"total": "598"
+	},
+	{
+		"name": "Murkrow",
+		"hp": "60",
+		"attack": "85",
+		"defense": "42",
+		"spattack": "85",
+		"spdef": "42",
+		"speed": "91",
+		"total": "405"
+	},
+	{
+		"name": "Slowking",
+		"hp": "95",
+		"attack": "95",
+		"defense": "102",
+		"spattack": "127",
+		"spdef": "140",
+		"speed": "38",
+		"total": "597"
+	},
+	{
+		"name": "Misdreavus",
+		"hp": "60",
+		"attack": "60",
+		"defense": "60",
+		"spattack": "85",
+		"spdef": "85",
+		"speed": "85",
+		"total": "435"
+	},
+	{
+		"name": "Unown",
+		"hp": "48",
+		"attack": "138",
+		"defense": "92",
+		"spattack": "138",
+		"spdef": "92",
+		"speed": "92",
+		"total": "600"
+	},
+	{
+		"name": "Wobbuffet",
+		"hp": "190",
+		"attack": "62",
+		"defense": "110",
+		"spattack": "62",
+		"spdef": "110",
+		"speed": "62",
+		"total": "596"
+	},
+	{
+		"name": "Girafarig",
+		"hp": "70",
+		"attack": "110",
+		"defense": "89",
+		"spattack": "123",
+		"spdef": "89",
+		"speed": "117",
+		"total": "598"
+	},
+	{
+		"name": "Pineco",
+		"hp": "50",
+		"attack": "65",
+		"defense": "90",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "15",
+		"total": "290"
+	},
+	{
+		"name": "Forretress",
+		"hp": "75",
+		"attack": "121",
+		"defense": "188",
+		"spattack": "80",
+		"spdef": "80",
+		"speed": "53",
+		"total": "597"
+	},
+	{
+		"name": "Dunsparce",
+		"hp": "100",
+		"attack": "111",
+		"defense": "111",
+		"spattack": "103",
+		"spdef": "103",
+		"speed": "71",
+		"total": "599"
+	},
+	{
+		"name": "Gligar",
+		"hp": "65",
+		"attack": "75",
+		"defense": "105",
+		"spattack": "35",
+		"spdef": "65",
+		"speed": "85",
+		"total": "430"
+	},
+	{
+		"name": "Steelix",
+		"hp": "75",
+		"attack": "102",
+		"defense": "241",
+		"spattack": "66",
+		"spdef": "78",
+		"speed": "36",
+		"total": "598"
+	},
+	{
+		"name": "Snubbull",
+		"hp": "60",
+		"attack": "80",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "30",
+		"total": "300"
+	},
+	{
+		"name": "Granbull",
+		"hp": "90",
+		"attack": "170",
+		"defense": "106",
+		"spattack": "85",
+		"spdef": "85",
+		"speed": "63",
+		"total": "599"
+	},
+	{
+		"name": "Qwilfish",
+		"hp": "65",
+		"attack": "135",
+		"defense": "121",
+		"spattack": "78",
+		"spdef": "78",
+		"speed": "121",
+		"total": "598"
+	},
+	{
+		"name": "Scizor",
+		"hp": "70",
+		"attack": "160",
+		"defense": "123",
+		"spattack": "67",
+		"spdef": "98",
+		"speed": "80",
+		"total": "598"
+	},
+	{
+		"name": "Shuckle",
+		"hp": "20",
+		"attack": "11",
+		"defense": "255",
+		"spattack": "11",
+		"spdef": "255",
+		"speed": "5",
+		"total": "557"
+	},
+	{
+		"name": "Heracross",
+		"hp": "80",
+		"attack": "154",
+		"defense": "92",
+		"spattack": "49",
+		"spdef": "117",
+		"speed": "105",
+		"total": "597"
+	},
+	{
+		"name": "Sneasel",
+		"hp": "55",
+		"attack": "95",
+		"defense": "55",
+		"spattack": "35",
+		"spdef": "75",
+		"speed": "115",
+		"total": "430"
+	},
+	{
+		"name": "Teddiursa",
+		"hp": "60",
+		"attack": "80",
+		"defense": "50",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "40",
+		"total": "330"
+	},
+	{
+		"name": "Ursaring",
+		"hp": "90",
+		"attack": "161",
+		"defense": "93",
+		"spattack": "93",
+		"spdef": "93",
+		"speed": "68",
+		"total": "598"
+	},
+	{
+		"name": "Slugma",
+		"hp": "40",
+		"attack": "40",
+		"defense": "40",
+		"spattack": "70",
+		"spdef": "40",
+		"speed": "20",
+		"total": "250"
+	},
+	{
+		"name": "Magcargo",
+		"hp": "60",
+		"attack": "72",
+		"defense": "175",
+		"spattack": "131",
+		"spdef": "116",
+		"speed": "43",
+		"total": "597"
+	},
+	{
+		"name": "Swinub",
+		"hp": "50",
+		"attack": "50",
+		"defense": "40",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "50",
+		"total": "250"
+	},
+	{
+		"name": "Piloswine",
+		"hp": "100",
+		"attack": "100",
+		"defense": "80",
+		"spattack": "60",
+		"spdef": "60",
+		"speed": "50",
+		"total": "450"
+	},
+	{
+		"name": "Corsola",
+		"hp": "65",
+		"attack": "85",
+		"defense": "147",
+		"spattack": "100",
+		"spdef": "147",
+		"speed": "54",
+		"total": "598"
+	},
+	{
+		"name": "Remoraid",
+		"hp": "35",
+		"attack": "65",
+		"defense": "35",
+		"spattack": "65",
+		"spdef": "35",
+		"speed": "65",
+		"total": "300"
+	},
+	{
+		"name": "Octillery",
+		"hp": "75",
+		"attack": "136",
+		"defense": "97",
+		"spattack": "136",
+		"spdef": "97",
+		"speed": "58",
+		"total": "599"
+	},
+	{
+		"name": "Delibird",
+		"hp": "45",
+		"attack": "107",
+		"defense": "87",
+		"spattack": "126",
+		"spdef": "87",
+		"speed": "146",
+		"total": "598"
+	},
+	{
+		"name": "Mantine",
+		"hp": "85",
+		"attack": "51",
+		"defense": "90",
+		"spattack": "103",
+		"spdef": "180",
+		"speed": "90",
+		"total": "599"
+	},
+	{
+		"name": "Skarmory",
+		"hp": "65",
+		"attack": "107",
+		"defense": "187",
+		"spattack": "53",
+		"spdef": "93",
+		"speed": "93",
+		"total": "598"
+	},
+	{
+		"name": "Houndour",
+		"hp": "45",
+		"attack": "60",
+		"defense": "30",
+		"spattack": "80",
+		"spdef": "50",
+		"speed": "65",
+		"total": "330"
+	},
+	{
+		"name": "Houndoom",
+		"hp": "75",
+		"attack": "111",
+		"defense": "61",
+		"spattack": "135",
+		"spdef": "98",
+		"speed": "117",
+		"total": "597"
+	},
+	{
+		"name": "Kingdra",
+		"hp": "75",
+		"attack": "107",
+		"defense": "107",
+		"spattack": "107",
+		"spdef": "107",
+		"speed": "95",
+		"total": "598"
+	},
+	{
+		"name": "Phanpy",
+		"hp": "90",
+		"attack": "60",
+		"defense": "60",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "40",
+		"total": "330"
+	},
+	{
+		"name": "Donphan",
+		"hp": "90",
+		"attack": "149",
+		"defense": "149",
+		"spattack": "74",
+		"spdef": "74",
+		"speed": "62",
+		"total": "598"
+	},
+	{
+		"name": "Porygon2",
+		"hp": "85",
+		"attack": "80",
+		"defense": "90",
+		"spattack": "105",
+		"spdef": "95",
+		"speed": "60",
+		"total": "515"
+	},
+	{
+		"name": "Stantler",
+		"hp": "73",
+		"attack": "127",
+		"defense": "83",
+		"spattack": "114",
+		"spdef": "87",
+		"speed": "114",
+		"total": "598"
+	},
+	{
+		"name": "Smeargle",
+		"hp": "55",
+		"attack": "55",
+		"defense": "97",
+		"spattack": "55",
+		"spdef": "125",
+		"speed": "209",
+		"total": "596"
+	},
+	{
+		"name": "Tyrogue",
+		"hp": "35",
+		"attack": "35",
+		"defense": "35",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "35",
+		"total": "210"
+	},
+	{
+		"name": "Hitmontop",
+		"hp": "50",
+		"attack": "129",
+		"defense": "129",
+		"spattack": "47",
+		"spdef": "149",
+		"speed": "95",
+		"total": "599"
+	},
+	{
+		"name": "Smoochum",
+		"hp": "45",
+		"attack": "30",
+		"defense": "15",
+		"spattack": "85",
+		"spdef": "65",
+		"speed": "65",
+		"total": "305"
+	},
+	{
+		"name": "Elekid",
+		"hp": "45",
+		"attack": "63",
+		"defense": "37",
+		"spattack": "65",
+		"spdef": "55",
+		"speed": "95",
+		"total": "360"
+	},
+	{
+		"name": "Magby",
+		"hp": "45",
+		"attack": "75",
+		"defense": "37",
+		"spattack": "70",
+		"spdef": "55",
+		"speed": "83",
+		"total": "365"
+	},
+	{
+		"name": "Miltank",
+		"hp": "95",
+		"attack": "102",
+		"defense": "134",
+		"spattack": "51",
+		"spdef": "89",
+		"speed": "127",
+		"total": "598"
+	},
+	{
+		"name": "Blissey",
+		"hp": "255",
+		"attack": "12",
+		"defense": "12",
+		"spattack": "90",
+		"spdef": "163",
+		"speed": "66",
+		"total": "598"
+	},
+	{
+		"name": "Raikou",
+		"hp": "90",
+		"attack": "88",
+		"defense": "78",
+		"spattack": "119",
+		"spdef": "104",
+		"speed": "119",
+		"total": "598"
+	},
+	{
+		"name": "Entei",
+		"hp": "115",
+		"attack": "119",
+		"defense": "88",
+		"spattack": "93",
+		"spdef": "78",
+		"speed": "104",
+		"total": "597"
+	},
+	{
+		"name": "Suicune",
+		"hp": "100",
+		"attack": "78",
+		"defense": "119",
+		"spattack": "93",
+		"spdef": "119",
+		"speed": "88",
+		"total": "597"
+	},
+	{
+		"name": "Larvitar",
+		"hp": "50",
+		"attack": "64",
+		"defense": "50",
+		"spattack": "45",
+		"spdef": "50",
+		"speed": "41",
+		"total": "300"
+	},
+	{
+		"name": "Pupitar",
+		"hp": "70",
+		"attack": "84",
+		"defense": "70",
+		"spattack": "65",
+		"spdef": "70",
+		"speed": "51",
+		"total": "410"
+	},
+	{
+		"name": "Tyranitar",
+		"hp": "100",
+		"attack": "134",
+		"defense": "110",
+		"spattack": "95",
+		"spdef": "100",
+		"speed": "61",
+		"total": "600"
+	},
+	{
+		"name": "Lugia",
+		"hp": "106",
+		"attack": "77",
+		"defense": "111",
+		"spattack": "77",
+		"spdef": "132",
+		"speed": "94",
+		"total": "597"
+	},
+	{
+		"name": "Ho-Oh",
+		"hp": "106",
+		"attack": "111",
+		"defense": "77",
+		"spattack": "94",
+		"spdef": "132",
+		"speed": "77",
+		"total": "597"
+	},
+	{
+		"name": "Celebi",
+		"hp": "100",
+		"attack": "100",
+		"defense": "100",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "100",
+		"total": "600"
+	},
+	{
+		"name": "Treecko",
+		"hp": "40",
+		"attack": "45",
+		"defense": "35",
+		"spattack": "65",
+		"spdef": "55",
+		"speed": "70",
+		"total": "310"
+	},
+	{
+		"name": "Grovyle",
+		"hp": "50",
+		"attack": "65",
+		"defense": "45",
+		"spattack": "85",
+		"spdef": "65",
+		"speed": "95",
+		"total": "405"
+	},
+	{
+		"name": "Sceptile",
+		"hp": "70",
+		"attack": "97",
+		"defense": "74",
+		"spattack": "120",
+		"spdef": "97",
+		"speed": "138",
+		"total": "596"
+	},
+	{
+		"name": "Torchic",
+		"hp": "45",
+		"attack": "60",
+		"defense": "40",
+		"spattack": "70",
+		"spdef": "50",
+		"speed": "45",
+		"total": "310"
+	},
+	{
+		"name": "Combusken",
+		"hp": "60",
+		"attack": "85",
+		"defense": "60",
+		"spattack": "85",
+		"spdef": "60",
+		"speed": "55",
+		"total": "405"
+	},
+	{
+		"name": "Blaziken",
+		"hp": "80",
+		"attack": "138",
+		"defense": "80",
+		"spattack": "127",
+		"spdef": "80",
+		"speed": "92",
+		"total": "597"
+	},
+	{
+		"name": "Mudkip",
+		"hp": "50",
+		"attack": "70",
+		"defense": "50",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "40",
+		"total": "310"
+	},
+	{
+		"name": "Marshtomp",
+		"hp": "70",
+		"attack": "85",
+		"defense": "70",
+		"spattack": "60",
+		"spdef": "70",
+		"speed": "50",
+		"total": "405"
+	},
+	{
+		"name": "Swampert",
+		"hp": "100",
+		"attack": "126",
+		"defense": "103",
+		"spattack": "97",
+		"spdef": "103",
+		"speed": "68",
+		"total": "597"
+	},
+	{
+		"name": "Poochyena",
+		"hp": "35",
+		"attack": "55",
+		"defense": "35",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "35",
+		"total": "220"
+	},
+	{
+		"name": "Mightyena",
+		"hp": "70",
+		"attack": "136",
+		"defense": "106",
+		"spattack": "90",
+		"spdef": "90",
+		"speed": "106",
+		"total": "598"
+	},
+	{
+		"name": "Zigzagoon",
+		"hp": "38",
+		"attack": "30",
+		"defense": "41",
+		"spattack": "30",
+		"spdef": "41",
+		"speed": "60",
+		"total": "240"
+	},
+	{
+		"name": "Linoone",
+		"hp": "78",
+		"attack": "106",
+		"defense": "93",
+		"spattack": "76",
+		"spdef": "93",
+		"speed": "152",
+		"total": "598"
+	},
+	{
+		"name": "Wurmple",
+		"hp": "45",
+		"attack": "45",
+		"defense": "35",
+		"spattack": "20",
+		"spdef": "30",
+		"speed": "20",
+		"total": "195"
+	},
+	{
+		"name": "Silcoon",
+		"hp": "50",
+		"attack": "35",
+		"defense": "55",
+		"spattack": "25",
+		"spdef": "25",
+		"speed": "15",
+		"total": "205"
+	},
+	{
+		"name": "Beautifly",
+		"hp": "60",
+		"attack": "112",
+		"defense": "80",
+		"spattack": "161",
+		"spdef": "80",
+		"speed": "104",
+		"total": "597"
+	},
+	{
+		"name": "Cascoon",
+		"hp": "50",
+		"attack": "35",
+		"defense": "55",
+		"spattack": "25",
+		"spdef": "25",
+		"speed": "15",
+		"total": "205"
+	},
+	{
+		"name": "Dustox",
+		"hp": "60",
+		"attack": "83",
+		"defense": "116",
+		"spattack": "83",
+		"spdef": "149",
+		"speed": "108",
+		"total": "599"
+	},
+	{
+		"name": "Lotad",
+		"hp": "40",
+		"attack": "30",
+		"defense": "30",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "30",
+		"total": "220"
+	},
+	{
+		"name": "Lombre",
+		"hp": "60",
+		"attack": "50",
+		"defense": "50",
+		"spattack": "60",
+		"spdef": "70",
+		"speed": "50",
+		"total": "340"
+	},
+	{
+		"name": "Ludicolo",
+		"hp": "80",
+		"attack": "91",
+		"defense": "91",
+		"spattack": "117",
+		"spdef": "130",
+		"speed": "91",
+		"total": "600"
+	},
+	{
+		"name": "Seedot",
+		"hp": "40",
+		"attack": "40",
+		"defense": "50",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "30",
+		"total": "220"
+	},
+	{
+		"name": "Nuzleaf",
+		"hp": "70",
+		"attack": "70",
+		"defense": "40",
+		"spattack": "60",
+		"spdef": "40",
+		"speed": "60",
+		"total": "340"
+	},
+	{
+		"name": "Shiftry",
+		"hp": "90",
+		"attack": "130",
+		"defense": "78",
+		"spattack": "117",
+		"spdef": "78",
+		"speed": "104",
+		"total": "597"
+	},
+	{
+		"name": "Nincada",
+		"hp": "31",
+		"attack": "45",
+		"defense": "90",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "40",
+		"total": "266"
+	},
+	{
+		"name": "Ninjask",
+		"hp": "61",
+		"attack": "122",
+		"defense": "61",
+		"spattack": "68",
+		"spdef": "68",
+		"speed": "218",
+		"total": "598"
+	},
+	{
+		"name": "Shedinja",
+		"hp": "1",
+		"attack": "90",
+		"defense": "45",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "40",
+		"total": "236"
+	},
+	{
+		"name": "Taillow",
+		"hp": "40",
+		"attack": "55",
+		"defense": "30",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "85",
+		"total": "270"
+	},
+	{
+		"name": "Swellow",
+		"hp": "60",
+		"attack": "116",
+		"defense": "82",
+		"spattack": "102",
+		"spdef": "68",
+		"speed": "170",
+		"total": "598"
+	},
+	{
+		"name": "Shroomish",
+		"hp": "60",
+		"attack": "40",
+		"defense": "60",
+		"spattack": "40",
+		"spdef": "60",
+		"speed": "35",
+		"total": "295"
+	},
+	{
+		"name": "Breloom",
+		"hp": "60",
+		"attack": "175",
+		"defense": "108",
+		"spattack": "81",
+		"spdef": "81",
+		"speed": "94",
+		"total": "599"
+	},
+	{
+		"name": "Spinda",
+		"hp": "60",
+		"attack": "108",
+		"defense": "108",
+		"spattack": "108",
+		"spdef": "108",
+		"speed": "108",
+		"total": "600"
+	},
+	{
+		"name": "Wingull",
+		"hp": "40",
+		"attack": "30",
+		"defense": "30",
+		"spattack": "55",
+		"spdef": "30",
+		"speed": "85",
+		"total": "270"
+	},
+	{
+		"name": "Pelipper",
+		"hp": "60",
+		"attack": "71",
+		"defense": "142",
+		"spattack": "135",
+		"spdef": "99",
+		"speed": "92",
+		"total": "599"
+	},
+	{
+		"name": "Surskit",
+		"hp": "40",
+		"attack": "30",
+		"defense": "32",
+		"spattack": "50",
+		"spdef": "52",
+		"speed": "65",
+		"total": "269"
+	},
+	{
+		"name": "Masquerain",
+		"hp": "70",
+		"attack": "82",
+		"defense": "85",
+		"spattack": "138",
+		"spdef": "113",
+		"speed": "110",
+		"total": "598"
+	},
+	{
+		"name": "Wailmer",
+		"hp": "130",
+		"attack": "70",
+		"defense": "35",
+		"spattack": "70",
+		"spdef": "35",
+		"speed": "60",
+		"total": "400"
+	},
+	{
+		"name": "Wailord",
+		"hp": "170",
+		"attack": "117",
+		"defense": "58",
+		"spattack": "117",
+		"spdef": "58",
+		"speed": "78",
+		"total": "598"
+	},
+	{
+		"name": "Skitty",
+		"hp": "50",
+		"attack": "45",
+		"defense": "45",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "50",
+		"total": "260"
+	},
+	{
+		"name": "Delcatty",
+		"hp": "70",
+		"attack": "104",
+		"defense": "104",
+		"spattack": "88",
+		"spdef": "88",
+		"speed": "144",
+		"total": "598"
+	},
+	{
+		"name": "Kecleon",
+		"hp": "60",
+		"attack": "127",
+		"defense": "99",
+		"spattack": "85",
+		"spdef": "170",
+		"speed": "56",
+		"total": "597"
+	},
+	{
+		"name": "Baltoy",
+		"hp": "40",
+		"attack": "40",
+		"defense": "55",
+		"spattack": "40",
+		"spdef": "70",
+		"speed": "55",
+		"total": "300"
+	},
+	{
+		"name": "Claydol",
+		"hp": "60",
+		"attack": "85",
+		"defense": "128",
+		"spattack": "85",
+		"spdef": "147",
+		"speed": "92",
+		"total": "597"
+	},
+	{
+		"name": "Nosepass",
+		"hp": "30",
+		"attack": "45",
+		"defense": "135",
+		"spattack": "45",
+		"spdef": "90",
+		"speed": "30",
+		"total": "375"
+	},
+	{
+		"name": "Torkoal",
+		"hp": "70",
+		"attack": "112",
+		"defense": "185",
+		"spattack": "112",
+		"spdef": "92",
+		"speed": "26",
+		"total": "597"
+	},
+	{
+		"name": "Sableye",
+		"hp": "50",
+		"attack": "125",
+		"defense": "125",
+		"spattack": "108",
+		"spdef": "108",
+		"speed": "83",
+		"total": "599"
+	},
+	{
+		"name": "Barboach",
+		"hp": "50",
+		"attack": "48",
+		"defense": "43",
+		"spattack": "46",
+		"spdef": "41",
+		"speed": "60",
+		"total": "288"
+	},
+	{
+		"name": "Whiscash",
+		"hp": "110",
+		"attack": "106",
+		"defense": "99",
+		"spattack": "104",
+		"spdef": "97",
+		"speed": "82",
+		"total": "598"
+	},
+	{
+		"name": "Luvdisc",
+		"hp": "43",
+		"attack": "58",
+		"defense": "106",
+		"spattack": "77",
+		"spdef": "126",
+		"speed": "188",
+		"total": "598"
+	},
+	{
+		"name": "Corphish",
+		"hp": "43",
+		"attack": "80",
+		"defense": "65",
+		"spattack": "50",
+		"spdef": "35",
+		"speed": "35",
+		"total": "308"
+	},
+	{
+		"name": "Crawdaunt",
+		"hp": "63",
+		"attack": "159",
+		"defense": "112",
+		"spattack": "119",
+		"spdef": "72",
+		"speed": "72",
+		"total": "597"
+	},
+	{
+		"name": "Feebas",
+		"hp": "20",
+		"attack": "15",
+		"defense": "20",
+		"spattack": "10",
+		"spdef": "55",
+		"speed": "80",
+		"total": "200"
+	},
+	{
+		"name": "Milotic",
+		"hp": "95",
+		"attack": "68",
+		"defense": "89",
+		"spattack": "113",
+		"spdef": "141",
+		"speed": "91",
+		"total": "597"
+	},
+	{
+		"name": "Carvanha",
+		"hp": "45",
+		"attack": "90",
+		"defense": "20",
+		"spattack": "65",
+		"spdef": "20",
+		"speed": "65",
+		"total": "305"
+	},
+	{
+		"name": "Sharpedo",
+		"hp": "70",
+		"attack": "163",
+		"defense": "54",
+		"spattack": "129",
+		"spdef": "54",
+		"speed": "129",
+		"total": "599"
+	},
+	{
+		"name": "Trapinch",
+		"hp": "45",
+		"attack": "100",
+		"defense": "45",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "10",
+		"total": "290"
+	},
+	{
+		"name": "Vibrava",
+		"hp": "50",
+		"attack": "70",
+		"defense": "50",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "70",
+		"total": "340"
+	},
+	{
+		"name": "Flygon",
+		"hp": "80",
+		"attack": "118",
+		"defense": "94",
+		"spattack": "94",
+		"spdef": "94",
+		"speed": "118",
+		"total": "598"
+	},
+	{
+		"name": "Makuhita",
+		"hp": "72",
+		"attack": "60",
+		"defense": "30",
+		"spattack": "20",
+		"spdef": "30",
+		"speed": "25",
+		"total": "237"
+	},
+	{
+		"name": "Hariyama",
+		"hp": "144",
+		"attack": "165",
+		"defense": "82",
+		"spattack": "55",
+		"spdef": "82",
+		"speed": "69",
+		"total": "597"
+	},
+	{
+		"name": "Electrike",
+		"hp": "40",
+		"attack": "45",
+		"defense": "40",
+		"spattack": "65",
+		"spdef": "40",
+		"speed": "65",
+		"total": "295"
+	},
+	{
+		"name": "Manectric",
+		"hp": "70",
+		"attack": "98",
+		"defense": "78",
+		"spattack": "137",
+		"spdef": "78",
+		"speed": "137",
+		"total": "598"
+	},
+	{
+		"name": "Numel",
+		"hp": "60",
+		"attack": "60",
+		"defense": "40",
+		"spattack": "65",
+		"spdef": "45",
+		"speed": "35",
+		"total": "305"
+	},
+	{
+		"name": "Camerupt",
+		"hp": "70",
+		"attack": "135",
+		"defense": "95",
+		"spattack": "142",
+		"spdef": "101",
+		"speed": "54",
+		"total": "597"
+	},
+	{
+		"name": "Spheal",
+		"hp": "70",
+		"attack": "40",
+		"defense": "50",
+		"spattack": "55",
+		"spdef": "50",
+		"speed": "25",
+		"total": "290"
+	},
+	{
+		"name": "Sealeo",
+		"hp": "90",
+		"attack": "60",
+		"defense": "70",
+		"spattack": "75",
+		"spdef": "70",
+		"speed": "45",
+		"total": "410"
+	},
+	{
+		"name": "Walrein",
+		"hp": "110",
+		"attack": "93",
+		"defense": "105",
+		"spattack": "110",
+		"spdef": "105",
+		"speed": "75",
+		"total": "598"
+	},
+	{
+		"name": "Cacnea",
+		"hp": "50",
+		"attack": "85",
+		"defense": "40",
+		"spattack": "85",
+		"spdef": "40",
+		"speed": "35",
+		"total": "335"
+	},
+	{
+		"name": "Cacturne",
+		"hp": "70",
+		"attack": "150",
+		"defense": "78",
+		"spattack": "150",
+		"spdef": "78",
+		"speed": "71",
+		"total": "597"
+	},
+	{
+		"name": "Snorunt",
+		"hp": "50",
+		"attack": "50",
+		"defense": "50",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "50",
+		"total": "300"
+	},
+	{
+		"name": "Glalie",
+		"hp": "80",
+		"attack": "104",
+		"defense": "104",
+		"spattack": "104",
+		"spdef": "104",
+		"speed": "104",
+		"total": "600"
+	},
+	{
+		"name": "Lunatone",
+		"hp": "90",
+		"attack": "75",
+		"defense": "89",
+		"spattack": "130",
+		"spdef": "117",
+		"speed": "96",
+		"total": "597"
+	},
+	{
+		"name": "Solrock",
+		"hp": "90",
+		"attack": "130",
+		"defense": "117",
+		"spattack": "75",
+		"spdef": "89",
+		"speed": "96",
+		"total": "597"
+	},
+	{
+		"name": "Azurill",
+		"hp": "50",
+		"attack": "20",
+		"defense": "40",
+		"spattack": "20",
+		"spdef": "40",
+		"speed": "20",
+		"total": "190"
+	},
+	{
+		"name": "Spoink",
+		"hp": "60",
+		"attack": "25",
+		"defense": "35",
+		"spattack": "70",
+		"spdef": "80",
+		"speed": "60",
+		"total": "330"
+	},
+	{
+		"name": "Grumpig",
+		"hp": "80",
+		"attack": "60",
+		"defense": "86",
+		"spattack": "120",
+		"spdef": "146",
+		"speed": "106",
+		"total": "598"
+	},
+	{
+		"name": "Plusle",
+		"hp": "60",
+		"attack": "78",
+		"defense": "62",
+		"spattack": "133",
+		"spdef": "117",
+		"speed": "148",
+		"total": "598"
+	},
+	{
+		"name": "Minun",
+		"hp": "60",
+		"attack": "62",
+		"defense": "78",
+		"spattack": "117",
+		"spdef": "133",
+		"speed": "148",
+		"total": "598"
+	},
+	{
+		"name": "Mawile",
+		"hp": "50",
+		"attack": "141",
+		"defense": "141",
+		"spattack": "91",
+		"spdef": "91",
+		"speed": "83",
+		"total": "597"
+	},
+	{
+		"name": "Meditite",
+		"hp": "30",
+		"attack": "40",
+		"defense": "55",
+		"spattack": "40",
+		"spdef": "55",
+		"speed": "60",
+		"total": "280"
+	},
+	{
+		"name": "Medicham",
+		"hp": "60",
+		"attack": "92",
+		"defense": "115",
+		"spattack": "92",
+		"spdef": "115",
+		"speed": "123",
+		"total": "597"
+	},
+	{
+		"name": "Swablu",
+		"hp": "45",
+		"attack": "40",
+		"defense": "60",
+		"spattack": "40",
+		"spdef": "75",
+		"speed": "50",
+		"total": "310"
+	},
+	{
+		"name": "Altaria",
+		"hp": "75",
+		"attack": "88",
+		"defense": "113",
+		"spattack": "88",
+		"spdef": "132",
+		"speed": "101",
+		"total": "597"
+	},
+	{
+		"name": "Wynaut",
+		"hp": "95",
+		"attack": "23",
+		"defense": "48",
+		"spattack": "23",
+		"spdef": "48",
+		"speed": "23",
+		"total": "260"
+	},
+	{
+		"name": "Duskull",
+		"hp": "20",
+		"attack": "40",
+		"defense": "90",
+		"spattack": "30",
+		"spdef": "90",
+		"speed": "25",
+		"total": "295"
+	},
+	{
+		"name": "Dusclops",
+		"hp": "40",
+		"attack": "70",
+		"defense": "130",
+		"spattack": "60",
+		"spdef": "130",
+		"speed": "25",
+		"total": "455"
+	},
+	{
+		"name": "Roselia",
+		"hp": "50",
+		"attack": "60",
+		"defense": "45",
+		"spattack": "100",
+		"spdef": "80",
+		"speed": "65",
+		"total": "400"
+	},
+	{
+		"name": "Slakoth",
+		"hp": "60",
+		"attack": "60",
+		"defense": "60",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "30",
+		"total": "280"
+	},
+	{
+		"name": "Vigoroth",
+		"hp": "80",
+		"attack": "80",
+		"defense": "80",
+		"spattack": "55",
+		"spdef": "55",
+		"speed": "90",
+		"total": "440"
+	},
+	{
+		"name": "Slaking",
+		"hp": "150",
+		"attack": "138",
+		"defense": "86",
+		"spattack": "82",
+		"spdef": "56",
+		"speed": "86",
+		"total": "598"
+	},
+	{
+		"name": "Gulpin",
+		"hp": "70",
+		"attack": "43",
+		"defense": "53",
+		"spattack": "43",
+		"spdef": "53",
+		"speed": "40",
+		"total": "302"
+	},
+	{
+		"name": "Swalot",
+		"hp": "100",
+		"attack": "99",
+		"defense": "113",
+		"spattack": "99",
+		"spdef": "113",
+		"speed": "74",
+		"total": "598"
+	},
+	{
+		"name": "Tropius",
+		"hp": "99",
+		"attack": "94",
+		"defense": "115",
+		"spattack": "99",
+		"spdef": "120",
+		"speed": "70",
+		"total": "597"
+	},
+	{
+		"name": "Whismur",
+		"hp": "64",
+		"attack": "51",
+		"defense": "23",
+		"spattack": "51",
+		"spdef": "23",
+		"speed": "28",
+		"total": "240"
+	},
+	{
+		"name": "Loudred",
+		"hp": "84",
+		"attack": "71",
+		"defense": "43",
+		"spattack": "71",
+		"spdef": "43",
+		"speed": "48",
+		"total": "360"
+	},
+	{
+		"name": "Exploud",
+		"hp": "104",
+		"attack": "116",
+		"defense": "80",
+		"spattack": "116",
+		"spdef": "93",
+		"speed": "87",
+		"total": "596"
+	},
+	{
+		"name": "Clamperl",
+		"hp": "35",
+		"attack": "64",
+		"defense": "85",
+		"spattack": "74",
+		"spdef": "55",
+		"speed": "32",
+		"total": "345"
+	},
+	{
+		"name": "Huntail",
+		"hp": "55",
+		"attack": "131",
+		"defense": "133",
+		"spattack": "119",
+		"spdef": "95",
+		"speed": "65",
+		"total": "598"
+	},
+	{
+		"name": "Gorebyss",
+		"hp": "55",
+		"attack": "106",
+		"defense": "133",
+		"spattack": "144",
+		"spdef": "95",
+		"speed": "65",
+		"total": "598"
+	},
+	{
+		"name": "Absol",
+		"hp": "65",
+		"attack": "173",
+		"defense": "80",
+		"spattack": "100",
+		"spdef": "80",
+		"speed": "100",
+		"total": "598"
+	},
+	{
+		"name": "Shuppet",
+		"hp": "44",
+		"attack": "75",
+		"defense": "35",
+		"spattack": "63",
+		"spdef": "33",
+		"speed": "45",
+		"total": "295"
+	},
+	{
+		"name": "Banette",
+		"hp": "64",
+		"attack": "157",
+		"defense": "89",
+		"spattack": "113",
+		"spdef": "86",
+		"speed": "89",
+		"total": "598"
+	},
+	{
+		"name": "Seviper",
+		"hp": "73",
+		"attack": "136",
+		"defense": "82",
+		"spattack": "136",
+		"spdef": "82",
+		"speed": "88",
+		"total": "597"
+	},
+	{
+		"name": "Zangoose",
+		"hp": "73",
+		"attack": "157",
+		"defense": "82",
+		"spattack": "82",
+		"spdef": "82",
+		"speed": "123",
+		"total": "599"
+	},
+	{
+		"name": "Relicanth",
+		"hp": "100",
+		"attack": "116",
+		"defense": "168",
+		"spattack": "58",
+		"spdef": "84",
+		"speed": "71",
+		"total": "597"
+	},
+	{
+		"name": "Aron",
+		"hp": "50",
+		"attack": "70",
+		"defense": "100",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "30",
+		"total": "330"
+	},
+	{
+		"name": "Lairon",
+		"hp": "60",
+		"attack": "90",
+		"defense": "140",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "40",
+		"total": "430"
+	},
+	{
+		"name": "Aggron",
+		"hp": "70",
+		"attack": "126",
+		"defense": "207",
+		"spattack": "69",
+		"spdef": "69",
+		"speed": "57",
+		"total": "598"
+	},
+	{
+		"name": "Castform",
+		"hp": "70",
+		"attack": "106",
+		"defense": "106",
+		"spattack": "106",
+		"spdef": "106",
+		"speed": "106",
+		"total": "600"
+	},
+	{
+		"name": "Volbeat",
+		"hp": "65",
+		"attack": "107",
+		"defense": "109",
+		"spattack": "68",
+		"spdef": "124",
+		"speed": "124",
+		"total": "597"
+	},
+	{
+		"name": "Illumise",
+		"hp": "65",
+		"attack": "68",
+		"defense": "109",
+		"spattack": "107",
+		"spdef": "124",
+		"speed": "124",
+		"total": "597"
+	},
+	{
+		"name": "Lileep",
+		"hp": "66",
+		"attack": "41",
+		"defense": "77",
+		"spattack": "61",
+		"spdef": "87",
+		"speed": "23",
+		"total": "355"
+	},
+	{
+		"name": "Cradily",
+		"hp": "86",
+		"attack": "101",
+		"defense": "121",
+		"spattack": "101",
+		"spdef": "134",
+		"speed": "54",
+		"total": "597"
+	},
+	{
+		"name": "Anorith",
+		"hp": "45",
+		"attack": "95",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "75",
+		"total": "355"
+	},
+	{
+		"name": "Armaldo",
+		"hp": "75",
+		"attack": "156",
+		"defense": "125",
+		"spattack": "87",
+		"spdef": "100",
+		"speed": "56",
+		"total": "599"
+	},
+	{
+		"name": "Ralts",
+		"hp": "28",
+		"attack": "25",
+		"defense": "25",
+		"spattack": "45",
+		"spdef": "35",
+		"speed": "40",
+		"total": "198"
+	},
+	{
+		"name": "Kirlia",
+		"hp": "38",
+		"attack": "35",
+		"defense": "35",
+		"spattack": "65",
+		"spdef": "55",
+		"speed": "50",
+		"total": "278"
+	},
+	{
+		"name": "Gardevoir",
+		"hp": "68",
+		"attack": "76",
+		"defense": "76",
+		"spattack": "147",
+		"spdef": "135",
+		"speed": "94",
+		"total": "596"
+	},
+	{
+		"name": "Bagon",
+		"hp": "45",
+		"attack": "75",
+		"defense": "60",
+		"spattack": "40",
+		"spdef": "30",
+		"speed": "50",
+		"total": "300"
+	},
+	{
+		"name": "Shelgon",
+		"hp": "65",
+		"attack": "95",
+		"defense": "100",
+		"spattack": "60",
+		"spdef": "50",
+		"speed": "50",
+		"total": "420"
+	},
+	{
+		"name": "Salamence",
+		"hp": "95",
+		"attack": "135",
+		"defense": "80",
+		"spattack": "110",
+		"spdef": "80",
+		"speed": "100",
+		"total": "600"
+	},
+	{
+		"name": "Beldum",
+		"hp": "40",
+		"attack": "55",
+		"defense": "80",
+		"spattack": "35",
+		"spdef": "60",
+		"speed": "30",
+		"total": "300"
+	},
+	{
+		"name": "Metang",
+		"hp": "60",
+		"attack": "75",
+		"defense": "100",
+		"spattack": "55",
+		"spdef": "80",
+		"speed": "50",
+		"total": "420"
+	},
+	{
+		"name": "Metagross",
+		"hp": "80",
+		"attack": "135",
+		"defense": "130",
+		"spattack": "95",
+		"spdef": "90",
+		"speed": "70",
+		"total": "600"
+	},
+	{
+		"name": "Regirock",
+		"hp": "80",
+		"attack": "104",
+		"defense": "208",
+		"spattack": "52",
+		"spdef": "104",
+		"speed": "52",
+		"total": "600"
+	},
+	{
+		"name": "Regice",
+		"hp": "80",
+		"attack": "52",
+		"defense": "104",
+		"spattack": "104",
+		"spdef": "208",
+		"speed": "52",
+		"total": "600"
+	},
+	{
+		"name": "Registeel",
+		"hp": "80",
+		"attack": "78",
+		"defense": "156",
+		"spattack": "78",
+		"spdef": "156",
+		"speed": "52",
+		"total": "600"
+	},
+	{
+		"name": "Kyogre",
+		"hp": "100",
+		"attack": "87",
+		"defense": "78",
+		"spattack": "131",
+		"spdef": "122",
+		"speed": "78",
+		"total": "596"
+	},
+	{
+		"name": "Groudon",
+		"hp": "100",
+		"attack": "131",
+		"defense": "122",
+		"spattack": "87",
+		"spdef": "78",
+		"speed": "78",
+		"total": "596"
+	},
+	{
+		"name": "Rayquaza",
+		"hp": "105",
+		"attack": "129",
+		"defense": "77",
+		"spattack": "129",
+		"spdef": "77",
+		"speed": "81",
+		"total": "598"
+	},
+	{
+		"name": "Latias",
+		"hp": "80",
+		"attack": "80",
+		"defense": "90",
+		"spattack": "110",
+		"spdef": "130",
+		"speed": "110",
+		"total": "600"
+	},
+	{
+		"name": "Latios",
+		"hp": "80",
+		"attack": "90",
+		"defense": "80",
+		"spattack": "130",
+		"spdef": "110",
+		"speed": "110",
+		"total": "600"
+	},
+	{
+		"name": "Jirachi",
+		"hp": "100",
+		"attack": "100",
+		"defense": "100",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "100",
+		"total": "600"
+	},
+	{
+		"name": "Deoxys",
+		"hp": "50",
+		"attack": "150",
+		"defense": "50",
+		"spattack": "150",
+		"spdef": "50",
+		"speed": "150",
+		"total": "600"
+	},
+	{
+		"name": "Deoxys Attack",
+		"hp": "50",
+		"attack": "180",
+		"defense": "20",
+		"spattack": "180",
+		"spdef": "20",
+		"speed": "150",
+		"total": "600"
+	},
+	{
+		"name": "Deoxys Defense",
+		"hp": "50",
+		"attack": "70",
+		"defense": "160",
+		"spattack": "70",
+		"spdef": "160",
+		"speed": "90",
+		"total": "600"
+	},
+	{
+		"name": "Deoxys Speed",
+		"hp": "50",
+		"attack": "95",
+		"defense": "90",
+		"spattack": "95",
+		"spdef": "90",
+		"speed": "180",
+		"total": "600"
+	},
+	{
+		"name": "Chimecho",
+		"hp": "75",
+		"attack": "69",
+		"defense": "110",
+		"spattack": "131",
+		"spdef": "124",
+		"speed": "89",
+		"total": "598"
+	},
+	{
+		"name": "Turtwig",
+		"hp": "55",
+		"attack": "68",
+		"defense": "64",
+		"spattack": "45",
+		"spdef": "55",
+		"speed": "31",
+		"total": "318"
+	},
+	{
+		"name": "Grotle",
+		"hp": "75",
+		"attack": "89",
+		"defense": "85",
+		"spattack": "55",
+		"spdef": "65",
+		"speed": "36",
+		"total": "405"
+	},
+	{
+		"name": "Torterra",
+		"hp": "95",
+		"attack": "128",
+		"defense": "123",
+		"spattack": "88",
+		"spdef": "99",
+		"speed": "65",
+		"total": "598"
+	},
+	{
+		"name": "Chimchar",
+		"hp": "44",
+		"attack": "58",
+		"defense": "44",
+		"spattack": "58",
+		"spdef": "44",
+		"speed": "61",
+		"total": "309"
+	},
+	{
+		"name": "Monferno",
+		"hp": "64",
+		"attack": "78",
+		"defense": "52",
+		"spattack": "78",
+		"spdef": "52",
+		"speed": "81",
+		"total": "405"
+	},
+	{
+		"name": "Infernape",
+		"hp": "76",
+		"attack": "118",
+		"defense": "81",
+		"spattack": "118",
+		"spdef": "81",
+		"speed": "123",
+		"total": "597"
+	},
+	{
+		"name": "Piplup",
+		"hp": "53",
+		"attack": "51",
+		"defense": "53",
+		"spattack": "61",
+		"spdef": "56",
+		"speed": "40",
+		"total": "314"
+	},
+	{
+		"name": "Prinplup",
+		"hp": "64",
+		"attack": "66",
+		"defense": "68",
+		"spattack": "81",
+		"spdef": "76",
+		"speed": "50",
+		"total": "405"
+	},
+	{
+		"name": "Empoleon",
+		"hp": "84",
+		"attack": "99",
+		"defense": "101",
+		"spattack": "128",
+		"spdef": "116",
+		"speed": "69",
+		"total": "597"
+	},
+	{
+		"name": "Starly",
+		"hp": "40",
+		"attack": "55",
+		"defense": "30",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "60",
+		"total": "245"
+	},
+	{
+		"name": "Staravia",
+		"hp": "55",
+		"attack": "75",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "80",
+		"total": "340"
+	},
+	{
+		"name": "Staraptor",
+		"hp": "85",
+		"attack": "154",
+		"defense": "90",
+		"spattack": "64",
+		"spdef": "77",
+		"speed": "128",
+		"total": "598"
+	},
+	{
+		"name": "Bidoof",
+		"hp": "59",
+		"attack": "45",
+		"defense": "40",
+		"spattack": "35",
+		"spdef": "40",
+		"speed": "31",
+		"total": "250"
+	},
+	{
+		"name": "Bibarel",
+		"hp": "79",
+		"attack": "133",
+		"defense": "94",
+		"spattack": "86",
+		"spdef": "94",
+		"speed": "111",
+		"total": "597"
+	},
+	{
+		"name": "Kricketot",
+		"hp": "37",
+		"attack": "25",
+		"defense": "41",
+		"spattack": "25",
+		"spdef": "41",
+		"speed": "25",
+		"total": "194"
+	},
+	{
+		"name": "Kricketune",
+		"hp": "77",
+		"attack": "144",
+		"defense": "86",
+		"spattack": "93",
+		"spdef": "86",
+		"speed": "110",
+		"total": "596"
+	},
+	{
+		"name": "Shinx",
+		"hp": "45",
+		"attack": "65",
+		"defense": "34",
+		"spattack": "40",
+		"spdef": "34",
+		"speed": "45",
+		"total": "263"
+	},
+	{
+		"name": "Luxio",
+		"hp": "60",
+		"attack": "85",
+		"defense": "49",
+		"spattack": "60",
+		"spdef": "49",
+		"speed": "60",
+		"total": "363"
+	},
+	{
+		"name": "Luxray",
+		"hp": "80",
+		"attack": "140",
+		"defense": "92",
+		"spattack": "111",
+		"spdef": "92",
+		"speed": "82",
+		"total": "597"
+	},
+	{
+		"name": "Budew",
+		"hp": "40",
+		"attack": "30",
+		"defense": "35",
+		"spattack": "50",
+		"spdef": "70",
+		"speed": "55",
+		"total": "280"
+	},
+	{
+		"name": "Roserade",
+		"hp": "60",
+		"attack": "83",
+		"defense": "77",
+		"spattack": "148",
+		"spdef": "124",
+		"speed": "106",
+		"total": "598"
+	},
+	{
+		"name": "Cranidos",
+		"hp": "67",
+		"attack": "125",
+		"defense": "40",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "58",
+		"total": "350"
+	},
+	{
+		"name": "Rampardos",
+		"hp": "97",
+		"attack": "208",
+		"defense": "75",
+		"spattack": "82",
+		"spdef": "63",
+		"speed": "73",
+		"total": "598"
+	},
+	{
+		"name": "Shieldon",
+		"hp": "30",
+		"attack": "42",
+		"defense": "118",
+		"spattack": "42",
+		"spdef": "88",
+		"speed": "30",
+		"total": "350"
+	},
+	{
+		"name": "Bastiodon",
+		"hp": "60",
+		"attack": "64",
+		"defense": "208",
+		"spattack": "58",
+		"spdef": "171",
+		"speed": "37",
+		"total": "598"
+	},
+	{
+		"name": "Burmy",
+		"hp": "40",
+		"attack": "29",
+		"defense": "45",
+		"spattack": "29",
+		"spdef": "45",
+		"speed": "36",
+		"total": "224"
+	},
+	{
+		"name": "Wormadam",
+		"hp": "60",
+		"attack": "87",
+		"defense": "126",
+		"spattack": "117",
+		"spdef": "155",
+		"speed": "53",
+		"total": "598"
+	},
+	{
+		"name": "Mothim",
+		"hp": "70",
+		"attack": "140",
+		"defense": "74",
+		"spattack": "140",
+		"spdef": "74",
+		"speed": "98",
+		"total": "596"
+	},
+	{
+		"name": "Combee",
+		"hp": "30",
+		"attack": "30",
+		"defense": "42",
+		"spattack": "30",
+		"spdef": "42",
+		"speed": "70",
+		"total": "244"
+	},
+	{
+		"name": "Vespiquen",
+		"hp": "70",
+		"attack": "104",
+		"defense": "133",
+		"spattack": "104",
+		"spdef": "133",
+		"speed": "52",
+		"total": "596"
+	},
+	{
+		"name": "Pachirisu",
+		"hp": "60",
+		"attack": "70",
+		"defense": "109",
+		"spattack": "70",
+		"spdef": "140",
+		"speed": "148",
+		"total": "597"
+	},
+	{
+		"name": "Buizel",
+		"hp": "55",
+		"attack": "65",
+		"defense": "35",
+		"spattack": "60",
+		"spdef": "30",
+		"speed": "85",
+		"total": "330"
+	},
+	{
+		"name": "Floatzel",
+		"hp": "85",
+		"attack": "131",
+		"defense": "69",
+		"spattack": "106",
+		"spdef": "62",
+		"speed": "144",
+		"total": "597"
+	},
+	{
+		"name": "Cherubi",
+		"hp": "45",
+		"attack": "35",
+		"defense": "45",
+		"spattack": "62",
+		"spdef": "53",
+		"speed": "35",
+		"total": "275"
+	},
+	{
+		"name": "Cherrim",
+		"hp": "70",
+		"attack": "83",
+		"defense": "97",
+		"spattack": "121",
+		"spdef": "108",
+		"speed": "118",
+		"total": "597"
+	},
+	{
+		"name": "Shellos",
+		"hp": "76",
+		"attack": "48",
+		"defense": "48",
+		"spattack": "57",
+		"spdef": "62",
+		"speed": "34",
+		"total": "325"
+	},
+	{
+		"name": "Gastrodon",
+		"hp": "111",
+		"attack": "111",
+		"defense": "91",
+		"spattack": "123",
+		"spdef": "110",
+		"speed": "52",
+		"total": "598"
+	},
+	{
+		"name": "Ambipom",
+		"hp": "75",
+		"attack": "128",
+		"defense": "85",
+		"spattack": "77",
+		"spdef": "85",
+		"speed": "148",
+		"total": "598"
+	},
+	{
+		"name": "Drifloon",
+		"hp": "90",
+		"attack": "50",
+		"defense": "34",
+		"spattack": "60",
+		"spdef": "44",
+		"speed": "70",
+		"total": "348"
+	},
+	{
+		"name": "Drifblim",
+		"hp": "150",
+		"attack": "103",
+		"defense": "56",
+		"spattack": "116",
+		"spdef": "69",
+		"speed": "103",
+		"total": "597"
+	},
+	{
+		"name": "Buneary",
+		"hp": "55",
+		"attack": "66",
+		"defense": "44",
+		"spattack": "44",
+		"spdef": "56",
+		"speed": "85",
+		"total": "350"
+	},
+	{
+		"name": "Lopunny",
+		"hp": "65",
+		"attack": "97",
+		"defense": "108",
+		"spattack": "69",
+		"spdef": "123",
+		"speed": "135",
+		"total": "597"
+	},
+	{
+		"name": "Mismagius",
+		"hp": "60",
+		"attack": "74",
+		"defense": "74",
+		"spattack": "130",
+		"spdef": "130",
+		"speed": "130",
+		"total": "598"
+	},
+	{
+		"name": "Honchkrow",
+		"hp": "100",
+		"attack": "154",
+		"defense": "64",
+		"spattack": "129",
+		"spdef": "64",
+		"speed": "87",
+		"total": "598"
+	},
+	{
+		"name": "Glameow",
+		"hp": "49",
+		"attack": "55",
+		"defense": "42",
+		"spattack": "42",
+		"spdef": "37",
+		"speed": "85",
+		"total": "310"
+	},
+	{
+		"name": "Purugly",
+		"hp": "71",
+		"attack": "113",
+		"defense": "88",
+		"spattack": "88",
+		"spdef": "81",
+		"speed": "155",
+		"total": "596"
+	},
+	{
+		"name": "Chingling",
+		"hp": "45",
+		"attack": "30",
+		"defense": "50",
+		"spattack": "65",
+		"spdef": "50",
+		"speed": "45",
+		"total": "285"
+	},
+	{
+		"name": "Stunky",
+		"hp": "63",
+		"attack": "63",
+		"defense": "47",
+		"spattack": "41",
+		"spdef": "41",
+		"speed": "74",
+		"total": "329"
+	},
+	{
+		"name": "Skuntank",
+		"hp": "103",
+		"attack": "122",
+		"defense": "88",
+		"spattack": "93",
+		"spdef": "80",
+		"speed": "111",
+		"total": "597"
+	},
+	{
+		"name": "Bronzor",
+		"hp": "57",
+		"attack": "24",
+		"defense": "86",
+		"spattack": "24",
+		"spdef": "86",
+		"speed": "23",
+		"total": "300"
+	},
+	{
+		"name": "Bronzong",
+		"hp": "67",
+		"attack": "109",
+		"defense": "142",
+		"spattack": "97",
+		"spdef": "142",
+		"speed": "40",
+		"total": "597"
+	},
+	{
+		"name": "Bonsly",
+		"hp": "50",
+		"attack": "80",
+		"defense": "95",
+		"spattack": "10",
+		"spdef": "45",
+		"speed": "10",
+		"total": "290"
+	},
+	{
+		"name": "Mime Jr.",
+		"hp": "20",
+		"attack": "25",
+		"defense": "45",
+		"spattack": "70",
+		"spdef": "90",
+		"speed": "60",
+		"total": "310"
+	},
+	{
+		"name": "Happiny",
+		"hp": "100",
+		"attack": "5",
+		"defense": "5",
+		"spattack": "15",
+		"spdef": "65",
+		"speed": "30",
+		"total": "220"
+	},
+	{
+		"name": "Chatot",
+		"hp": "76",
+		"attack": "101",
+		"defense": "70",
+		"spattack": "143",
+		"spdef": "65",
+		"speed": "142",
+		"total": "597"
+	},
+	{
+		"name": "Spiritomb",
+		"hp": "50",
+		"attack": "116",
+		"defense": "136",
+		"spattack": "116",
+		"spdef": "136",
+		"speed": "44",
+		"total": "598"
+	},
+	{
+		"name": "Gible",
+		"hp": "58",
+		"attack": "70",
+		"defense": "45",
+		"spattack": "40",
+		"spdef": "45",
+		"speed": "42",
+		"total": "300"
+	},
+	{
+		"name": "Gabite",
+		"hp": "68",
+		"attack": "90",
+		"defense": "65",
+		"spattack": "50",
+		"spdef": "55",
+		"speed": "82",
+		"total": "410"
+	},
+	{
+		"name": "Garchomp",
+		"hp": "108",
+		"attack": "130",
+		"defense": "95",
+		"spattack": "80",
+		"spdef": "85",
+		"speed": "102",
+		"total": "600"
+	},
+	{
+		"name": "Munchlax",
+		"hp": "135",
+		"attack": "85",
+		"defense": "40",
+		"spattack": "40",
+		"spdef": "85",
+		"speed": "5",
+		"total": "390"
+	},
+	{
+		"name": "Riolu",
+		"hp": "40",
+		"attack": "70",
+		"defense": "40",
+		"spattack": "35",
+		"spdef": "40",
+		"speed": "60",
+		"total": "285"
+	},
+	{
+		"name": "Lucario",
+		"hp": "70",
+		"attack": "128",
+		"defense": "81",
+		"spattack": "133",
+		"spdef": "81",
+		"speed": "104",
+		"total": "597"
+	},
+	{
+		"name": "Hippopotas",
+		"hp": "68",
+		"attack": "72",
+		"defense": "78",
+		"spattack": "38",
+		"spdef": "42",
+		"speed": "32",
+		"total": "330"
+	},
+	{
+		"name": "Hippowdon",
+		"hp": "108",
+		"attack": "132",
+		"defense": "139",
+		"spattack": "80",
+		"spdef": "84",
+		"speed": "55",
+		"total": "598"
+	},
+	{
+		"name": "Skorupi",
+		"hp": "40",
+		"attack": "50",
+		"defense": "90",
+		"spattack": "30",
+		"spdef": "55",
+		"speed": "65",
+		"total": "330"
+	},
+	{
+		"name": "Drapion",
+		"hp": "70",
+		"attack": "110",
+		"defense": "135",
+		"spattack": "73",
+		"spdef": "92",
+		"speed": "117",
+		"total": "597"
+	},
+	{
+		"name": "Croagunk",
+		"hp": "48",
+		"attack": "61",
+		"defense": "40",
+		"spattack": "61",
+		"spdef": "40",
+		"speed": "50",
+		"total": "300"
+	},
+	{
+		"name": "Toxicroak",
+		"hp": "83",
+		"attack": "134",
+		"defense": "82",
+		"spattack": "109",
+		"spdef": "82",
+		"speed": "107",
+		"total": "597"
+	},
+	{
+		"name": "Carnivine",
+		"hp": "74",
+		"attack": "138",
+		"defense": "99",
+		"spattack": "124",
+		"spdef": "99",
+		"speed": "63",
+		"total": "597"
+	},
+	{
+		"name": "Finneon",
+		"hp": "49",
+		"attack": "49",
+		"defense": "56",
+		"spattack": "49",
+		"spdef": "61",
+		"speed": "66",
+		"total": "330"
+	},
+	{
+		"name": "Lumineon",
+		"hp": "69",
+		"attack": "93",
+		"defense": "103",
+		"spattack": "93",
+		"spdef": "116",
+		"speed": "123",
+		"total": "597"
+	},
+	{
+		"name": "Mantyke",
+		"hp": "45",
+		"attack": "20",
+		"defense": "50",
+		"spattack": "60",
+		"spdef": "120",
+		"speed": "50",
+		"total": "345"
+	},
+	{
+		"name": "Snover",
+		"hp": "60",
+		"attack": "62",
+		"defense": "50",
+		"spattack": "62",
+		"spdef": "60",
+		"speed": "40",
+		"total": "334"
+	},
+	{
+		"name": "Abomasnow",
+		"hp": "90",
+		"attack": "116",
+		"defense": "94",
+		"spattack": "116",
+		"spdef": "107",
+		"speed": "75",
+		"total": "598"
+	},
+	{
+		"name": "Weavile",
+		"hp": "70",
+		"attack": "144",
+		"defense": "78",
+		"spattack": "54",
+		"spdef": "102",
+		"speed": "150",
+		"total": "598"
+	},
+	{
+		"name": "Magnezone",
+		"hp": "70",
+		"attack": "79",
+		"defense": "131",
+		"spattack": "148",
+		"spdef": "102",
+		"speed": "68",
+		"total": "598"
+	},
+	{
+		"name": "Lickilicky",
+		"hp": "110",
+		"attack": "102",
+		"defense": "114",
+		"spattack": "96",
+		"spdef": "114",
+		"speed": "60",
+		"total": "596"
+	},
+	{
+		"name": "Rhyperior",
+		"hp": "115",
+		"attack": "161",
+		"defense": "150",
+		"spattack": "63",
+		"spdef": "63",
+		"speed": "46",
+		"total": "598"
+	},
+	{
+		"name": "Tangrowth",
+		"hp": "100",
+		"attack": "114",
+		"defense": "143",
+		"spattack": "126",
+		"spdef": "57",
+		"speed": "57",
+		"total": "597"
+	},
+	{
+		"name": "Electivire",
+		"hp": "75",
+		"attack": "138",
+		"defense": "75",
+		"spattack": "107",
+		"spdef": "95",
+		"speed": "107",
+		"total": "597"
+	},
+	{
+		"name": "Magmortar",
+		"hp": "75",
+		"attack": "107",
+		"defense": "75",
+		"spattack": "141",
+		"spdef": "107",
+		"speed": "93",
+		"total": "598"
+	},
+	{
+		"name": "Togekiss",
+		"hp": "85",
+		"attack": "55",
+		"defense": "106",
+		"spattack": "134",
+		"spdef": "128",
+		"speed": "89",
+		"total": "597"
+	},
+	{
+		"name": "Yanmega",
+		"hp": "86",
+		"attack": "91",
+		"defense": "103",
+		"spattack": "138",
+		"spdef": "67",
+		"speed": "113",
+		"total": "598"
+	},
+	{
+		"name": "Leafeon",
+		"hp": "65",
+		"attack": "127",
+		"defense": "151",
+		"spattack": "69",
+		"spdef": "75",
+		"speed": "110",
+		"total": "597"
+	},
+	{
+		"name": "Glaceon",
+		"hp": "65",
+		"attack": "69",
+		"defense": "127",
+		"spattack": "151",
+		"spdef": "110",
+		"speed": "75",
+		"total": "597"
+	},
+	{
+		"name": "Gliscor",
+		"hp": "75",
+		"attack": "114",
+		"defense": "150",
+		"spattack": "54",
+		"spdef": "90",
+		"speed": "114",
+		"total": "597"
+	},
+	{
+		"name": "Mamoswine",
+		"hp": "110",
+		"attack": "151",
+		"defense": "93",
+		"spattack": "81",
+		"spdef": "70",
+		"speed": "93",
+		"total": "598"
+	},
+	{
+		"name": "PorygonZ",
+		"hp": "85",
+		"attack": "91",
+		"defense": "80",
+		"spattack": "154",
+		"spdef": "85",
+		"speed": "103",
+		"total": "598"
+	},
+	{
+		"name": "Gallade",
+		"hp": "68",
+		"attack": "147",
+		"defense": "76",
+		"spattack": "76",
+		"spdef": "135",
+		"speed": "94",
+		"total": "596"
+	},
+	{
+		"name": "Probopass",
+		"hp": "60",
+		"attack": "63",
+		"defense": "168",
+		"spattack": "87",
+		"spdef": "174",
+		"speed": "46",
+		"total": "598"
+	},
+	{
+		"name": "Dusknoir",
+		"hp": "45",
+		"attack": "115",
+		"defense": "156",
+		"spattack": "75",
+		"spdef": "156",
+		"speed": "52",
+		"total": "599"
+	},
+	{
+		"name": "Froslass",
+		"hp": "70",
+		"attack": "103",
+		"defense": "90",
+		"spattack": "103",
+		"spdef": "90",
+		"speed": "142",
+		"total": "598"
+	},
+	{
+		"name": "Rotom",
+		"hp": "50",
+		"attack": "70",
+		"defense": "108",
+		"spattack": "133",
+		"spdef": "108",
+		"speed": "128",
+		"total": "597"
+	},
+	{
+		"name": "Rotom Form",
+		"hp": "50",
+		"attack": "76",
+		"defense": "125",
+		"spattack": "122",
+		"spdef": "125",
+		"speed": "100",
+		"total": "598"
+	},
+	{
+		"name": "Uxie",
+		"hp": "75",
+		"attack": "77",
+		"defense": "135",
+		"spattack": "77",
+		"spdef": "135",
+		"speed": "98",
+		"total": "597"
+	},
+	{
+		"name": "Mesprit",
+		"hp": "80",
+		"attack": "109",
+		"defense": "109",
+		"spattack": "109",
+		"spdef": "109",
+		"speed": "83",
+		"total": "599"
+	},
+	{
+		"name": "Azelf",
+		"hp": "75",
+		"attack": "129",
+		"defense": "72",
+		"spattack": "129",
+		"spdef": "72",
+		"speed": "119",
+		"total": "596"
+	},
+	{
+		"name": "Dialga",
+		"hp": "100",
+		"attack": "103",
+		"defense": "103",
+		"spattack": "129",
+		"spdef": "86",
+		"speed": "77",
+		"total": "598"
+	},
+	{
+		"name": "Palkia",
+		"hp": "90",
+		"attack": "103",
+		"defense": "86",
+		"spattack": "129",
+		"spdef": "103",
+		"speed": "86",
+		"total": "597"
+	},
+	{
+		"name": "Heatran",
+		"hp": "91",
+		"attack": "90",
+		"defense": "106",
+		"spattack": "130",
+		"spdef": "106",
+		"speed": "77",
+		"total": "600"
+	},
+	{
+		"name": "Regigigas",
+		"hp": "110",
+		"attack": "140",
+		"defense": "96",
+		"spattack": "70",
+		"spdef": "96",
+		"speed": "87",
+		"total": "599"
+	},
+	{
+		"name": "Giratina Altered",
+		"hp": "150",
+		"attack": "84",
+		"defense": "101",
+		"spattack": "84",
+		"spdef": "101",
+		"speed": "76",
+		"total": "596"
+	},
+	{
+		"name": "Giratina Origin",
+		"hp": "150",
+		"attack": "101",
+		"defense": "84",
+		"spattack": "101",
+		"spdef": "84",
+		"speed": "76",
+		"total": "596"
+	},
+	{
+		"name": "Cresselia",
+		"hp": "120",
+		"attack": "70",
+		"defense": "120",
+		"spattack": "75",
+		"spdef": "130",
+		"speed": "85",
+		"total": "600"
+	},
+	{
+		"name": "Phione",
+		"hp": "80",
+		"attack": "104",
+		"defense": "104",
+		"spattack": "104",
+		"spdef": "104",
+		"speed": "104",
+		"total": "600"
+	},
+	{
+		"name": "Manaphy",
+		"hp": "100",
+		"attack": "100",
+		"defense": "100",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "100",
+		"total": "600"
+	},
+	{
+		"name": "Darkrai",
+		"hp": "70",
+		"attack": "90",
+		"defense": "90",
+		"spattack": "135",
+		"spdef": "90",
+		"speed": "125",
+		"total": "600"
+	},
+	{
+		"name": "Shaymin",
+		"hp": "100",
+		"attack": "100",
+		"defense": "100",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "100",
+		"total": "600"
+	},
+	{
+		"name": "Shaymin Sky",
+		"hp": "100",
+		"attack": "103",
+		"defense": "75",
+		"spattack": "120",
+		"spdef": "75",
+		"speed": "127",
+		"total": "600"
+	},
+	{
+		"name": "Arceus",
+		"hp": "120",
+		"attack": "96",
+		"defense": "96",
+		"spattack": "96",
+		"spdef": "96",
+		"speed": "96",
+		"total": "600"
+	},
+	{
+		"name": "Victini",
+		"hp": "100",
+		"attack": "100",
+		"defense": "100",
+		"spattack": "100",
+		"spdef": "100",
+		"speed": "100",
+		"total": "600"
+	},
+	{
+		"name": "Snivy",
+		"hp": "45",
+		"attack": "45",
+		"defense": "55",
+		"spattack": "45",
+		"spdef": "55",
+		"speed": "63",
+		"total": "308"
+	},
+	{
+		"name": "Servine",
+		"hp": "60",
+		"attack": "60",
+		"defense": "75",
+		"spattack": "60",
+		"spdef": "75",
+		"speed": "83",
+		"total": "413"
+	},
+	{
+		"name": "Serperior",
+		"hp": "75",
+		"attack": "86",
+		"defense": "110",
+		"spattack": "86",
+		"spdef": "110",
+		"speed": "130",
+		"total": "597"
+	},
+	{
+		"name": "Tepig",
+		"hp": "65",
+		"attack": "63",
+		"defense": "45",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "45",
+		"total": "308"
+	},
+	{
+		"name": "Pignite",
+		"hp": "90",
+		"attack": "93",
+		"defense": "55",
+		"spattack": "70",
+		"spdef": "55",
+		"speed": "55",
+		"total": "418"
+	},
+	{
+		"name": "Emboar",
+		"hp": "110",
+		"attack": "144",
+		"defense": "76",
+		"spattack": "117",
+		"spdef": "76",
+		"speed": "76",
+		"total": "599"
+	},
+	{
+		"name": "Oshawott",
+		"hp": "55",
+		"attack": "55",
+		"defense": "45",
+		"spattack": "63",
+		"spdef": "45",
+		"speed": "45",
+		"total": "308"
+	},
+	{
+		"name": "Dewott",
+		"hp": "75",
+		"attack": "75",
+		"defense": "60",
+		"spattack": "83",
+		"spdef": "60",
+		"speed": "60",
+		"total": "413"
+	},
+	{
+		"name": "Samurott",
+		"hp": "95",
+		"attack": "116",
+		"defense": "99",
+		"spattack": "125",
+		"spdef": "81",
+		"speed": "81",
+		"total": "597"
+	},
+	{
+		"name": "Patrat",
+		"hp": "45",
+		"attack": "55",
+		"defense": "39",
+		"spattack": "35",
+		"spdef": "39",
+		"speed": "42",
+		"total": "255"
+	},
+	{
+		"name": "Watchog",
+		"hp": "60",
+		"attack": "127",
+		"defense": "103",
+		"spattack": "90",
+		"spdef": "103",
+		"speed": "115",
+		"total": "598"
+	},
+	{
+		"name": "Lillipup",
+		"hp": "45",
+		"attack": "60",
+		"defense": "45",
+		"spattack": "25",
+		"spdef": "45",
+		"speed": "55",
+		"total": "275"
+	},
+	{
+		"name": "Herdier",
+		"hp": "65",
+		"attack": "80",
+		"defense": "65",
+		"spattack": "35",
+		"spdef": "65",
+		"speed": "60",
+		"total": "370"
+	},
+	{
+		"name": "Stoutland",
+		"hp": "85",
+		"attack": "136",
+		"defense": "111",
+		"spattack": "55",
+		"spdef": "111",
+		"speed": "99",
+		"total": "597"
+	},
+	{
+		"name": "Purrloin",
+		"hp": "41",
+		"attack": "50",
+		"defense": "37",
+		"spattack": "50",
+		"spdef": "37",
+		"speed": "66",
+		"total": "281"
+	},
+	{
+		"name": "Liepard",
+		"hp": "64",
+		"attack": "123",
+		"defense": "70",
+		"spattack": "123",
+		"spdef": "70",
+		"speed": "148",
+		"total": "598"
+	},
+	{
+		"name": "Pansage",
+		"hp": "50",
+		"attack": "53",
+		"defense": "48",
+		"spattack": "53",
+		"spdef": "48",
+		"speed": "64",
+		"total": "316"
+	},
+	{
+		"name": "Simisage",
+		"hp": "75",
+		"attack": "121",
+		"defense": "78",
+		"spattack": "121",
+		"spdef": "78",
+		"speed": "125",
+		"total": "598"
+	},
+	{
+		"name": "Pansear",
+		"hp": "50",
+		"attack": "53",
+		"defense": "48",
+		"spattack": "53",
+		"spdef": "48",
+		"speed": "64",
+		"total": "316"
+	},
+	{
+		"name": "Simisear",
+		"hp": "75",
+		"attack": "121",
+		"defense": "78",
+		"spattack": "121",
+		"spdef": "78",
+		"speed": "125",
+		"total": "598"
+	},
+	{
+		"name": "Panpour",
+		"hp": "50",
+		"attack": "53",
+		"defense": "48",
+		"spattack": "53",
+		"spdef": "48",
+		"speed": "64",
+		"total": "316"
+	},
+	{
+		"name": "Simipour",
+		"hp": "75",
+		"attack": "121",
+		"defense": "78",
+		"spattack": "121",
+		"spdef": "78",
+		"speed": "125",
+		"total": "598"
+	},
+	{
+		"name": "Munna",
+		"hp": "76",
+		"attack": "25",
+		"defense": "45",
+		"spattack": "67",
+		"spdef": "55",
+		"speed": "24",
+		"total": "292"
+	},
+	{
+		"name": "Musharna",
+		"hp": "116",
+		"attack": "71",
+		"defense": "110",
+		"spattack": "139",
+		"spdef": "123",
+		"speed": "37",
+		"total": "596"
+	},
+	{
+		"name": "Pidove",
+		"hp": "50",
+		"attack": "55",
+		"defense": "50",
+		"spattack": "36",
+		"spdef": "30",
+		"speed": "43",
+		"total": "264"
+	},
+	{
+		"name": "Tranquill",
+		"hp": "62",
+		"attack": "77",
+		"defense": "62",
+		"spattack": "50",
+		"spdef": "42",
+		"speed": "65",
+		"total": "358"
+	},
+	{
+		"name": "Unfezant",
+		"hp": "80",
+		"attack": "146",
+		"defense": "101",
+		"spattack": "82",
+		"spdef": "70",
+		"speed": "118",
+		"total": "597"
+	},
+	{
+		"name": "Blitzle",
+		"hp": "45",
+		"attack": "60",
+		"defense": "32",
+		"spattack": "50",
+		"spdef": "32",
+		"speed": "76",
+		"total": "295"
+	},
+	{
+		"name": "Zebstrika",
+		"hp": "75",
+		"attack": "124",
+		"defense": "78",
+		"spattack": "99",
+		"spdef": "78",
+		"speed": "144",
+		"total": "598"
+	},
+	{
+		"name": "Roggenrola",
+		"hp": "55",
+		"attack": "75",
+		"defense": "85",
+		"spattack": "25",
+		"spdef": "25",
+		"speed": "15",
+		"total": "280"
+	},
+	{
+		"name": "Boldore",
+		"hp": "70",
+		"attack": "105",
+		"defense": "105",
+		"spattack": "50",
+		"spdef": "40",
+		"speed": "20",
+		"total": "390"
+	},
+	{
+		"name": "Gigalith",
+		"hp": "85",
+		"attack": "161",
+		"defense": "155",
+		"spattack": "71",
+		"spdef": "95",
+		"speed": "29",
+		"total": "596"
+	},
+	{
+		"name": "Woobat",
+		"hp": "65",
+		"attack": "45",
+		"defense": "43",
+		"spattack": "55",
+		"spdef": "43",
+		"speed": "72",
+		"total": "323"
+	},
+	{
+		"name": "Swoobat",
+		"hp": "67",
+		"attack": "84",
+		"defense": "81",
+		"spattack": "114",
+		"spdef": "81",
+		"speed": "169",
+		"total": "596"
+	},
+	{
+		"name": "Drilbur",
+		"hp": "60",
+		"attack": "85",
+		"defense": "40",
+		"spattack": "30",
+		"spdef": "45",
+		"speed": "68",
+		"total": "328"
+	},
+	{
+		"name": "Excadrill",
+		"hp": "110",
+		"attack": "166",
+		"defense": "73",
+		"spattack": "61",
+		"spdef": "80",
+		"speed": "108",
+		"total": "598"
+	},
+	{
+		"name": "Audino",
+		"hp": "103",
+		"attack": "87",
+		"defense": "124",
+		"spattack": "87",
+		"spdef": "124",
+		"speed": "72",
+		"total": "597"
+	},
+	{
+		"name": "Timburr",
+		"hp": "75",
+		"attack": "80",
+		"defense": "55",
+		"spattack": "25",
+		"spdef": "35",
+		"speed": "35",
+		"total": "305"
+	},
+	{
+		"name": "Gurdurr",
+		"hp": "85",
+		"attack": "105",
+		"defense": "85",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "40",
+		"total": "405"
+	},
+	{
+		"name": "Conkeldurr",
+		"hp": "105",
+		"attack": "173",
+		"defense": "117",
+		"spattack": "68",
+		"spdef": "80",
+		"speed": "55",
+		"total": "598"
+	},
+	{
+		"name": "Tympole",
+		"hp": "50",
+		"attack": "50",
+		"defense": "40",
+		"spattack": "50",
+		"spdef": "40",
+		"speed": "64",
+		"total": "294"
+	},
+	{
+		"name": "Palpitoad",
+		"hp": "75",
+		"attack": "65",
+		"defense": "55",
+		"spattack": "65",
+		"spdef": "55",
+		"speed": "69",
+		"total": "384"
+	},
+	{
+		"name": "Seismitoad",
+		"hp": "105",
+		"attack": "116",
+		"defense": "91",
+		"spattack": "104",
+		"spdef": "91",
+		"speed": "90",
+		"total": "597"
+	},
+	{
+		"name": "Throh",
+		"hp": "120",
+		"attack": "139",
+		"defense": "118",
+		"spattack": "41",
+		"spdef": "118",
+		"speed": "62",
+		"total": "598"
+	},
+	{
+		"name": "Sawk",
+		"hp": "75",
+		"attack": "168",
+		"defense": "100",
+		"spattack": "40",
+		"spdef": "100",
+		"speed": "114",
+		"total": "597"
+	},
+	{
+		"name": "Sewaddle",
+		"hp": "45",
+		"attack": "53",
+		"defense": "70",
+		"spattack": "40",
+		"spdef": "60",
+		"speed": "42",
+		"total": "310"
+	},
+	{
+		"name": "Swadloon",
+		"hp": "55",
+		"attack": "63",
+		"defense": "90",
+		"spattack": "50",
+		"spdef": "80",
+		"speed": "42",
+		"total": "380"
+	},
+	{
+		"name": "Leavanny",
+		"hp": "75",
+		"attack": "127",
+		"defense": "98",
+		"spattack": "86",
+		"spdef": "98",
+		"speed": "113",
+		"total": "597"
+	},
+	{
+		"name": "Venipede",
+		"hp": "30",
+		"attack": "45",
+		"defense": "59",
+		"spattack": "30",
+		"spdef": "39",
+		"speed": "57",
+		"total": "260"
+	},
+	{
+		"name": "Whirlipede",
+		"hp": "40",
+		"attack": "55",
+		"defense": "99",
+		"spattack": "40",
+		"spdef": "79",
+		"speed": "47",
+		"total": "360"
+	},
+	{
+		"name": "Scolipede",
+		"hp": "60",
+		"attack": "127",
+		"defense": "113",
+		"spattack": "69",
+		"spdef": "87",
+		"speed": "142",
+		"total": "598"
+	},
+	{
+		"name": "Cottonee",
+		"hp": "40",
+		"attack": "27",
+		"defense": "60",
+		"spattack": "37",
+		"spdef": "50",
+		"speed": "66",
+		"total": "280"
+	},
+	{
+		"name": "Whimsicott",
+		"hp": "60",
+		"attack": "86",
+		"defense": "109",
+		"spattack": "99",
+		"spdef": "96",
+		"speed": "149",
+		"total": "599"
+	},
+	{
+		"name": "Petilil",
+		"hp": "45",
+		"attack": "35",
+		"defense": "50",
+		"spattack": "70",
+		"spdef": "50",
+		"speed": "30",
+		"total": "280"
+	},
+	{
+		"name": "Lilligant",
+		"hp": "70",
+		"attack": "77",
+		"defense": "96",
+		"spattack": "142",
+		"spdef": "96",
+		"speed": "116",
+		"total": "597"
+	},
+	{
+		"name": "Basculin",
+		"hp": "70",
+		"attack": "125",
+		"defense": "88",
+		"spattack": "108",
+		"spdef": "74",
+		"speed": "133",
+		"total": "598"
+	},
+	{
+		"name": "Sandile",
+		"hp": "50",
+		"attack": "72",
+		"defense": "35",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "65",
+		"total": "292"
+	},
+	{
+		"name": "Krokorok",
+		"hp": "60",
+		"attack": "82",
+		"defense": "45",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "74",
+		"total": "351"
+	},
+	{
+		"name": "Krookodile",
+		"hp": "95",
+		"attack": "139",
+		"defense": "95",
+		"spattack": "77",
+		"spdef": "83",
+		"speed": "109",
+		"total": "598"
+	},
+	{
+		"name": "Darumaka",
+		"hp": "70",
+		"attack": "90",
+		"defense": "45",
+		"spattack": "15",
+		"spdef": "45",
+		"speed": "50",
+		"total": "315"
+	},
+	{
+		"name": "Darmanitan",
+		"hp": "105",
+		"attack": "184",
+		"defense": "72",
+		"spattack": "39",
+		"spdef": "72",
+		"speed": "125",
+		"total": "597"
+	},
+	{
+		"name": "Darmanitan Zen",
+		"hp": "105",
+		"attack": "34",
+		"defense": "119",
+		"spattack": "159",
+		"spdef": "119",
+		"speed": "62",
+		"total": "598"
+	},
+	{
+		"name": "Maractus",
+		"hp": "75",
+		"attack": "116",
+		"defense": "91",
+		"spattack": "144",
+		"spdef": "91",
+		"speed": "81",
+		"total": "598"
+	},
+	{
+		"name": "Dwebble",
+		"hp": "50",
+		"attack": "65",
+		"defense": "85",
+		"spattack": "35",
+		"spdef": "35",
+		"speed": "55",
+		"total": "325"
+	},
+	{
+		"name": "Crustle",
+		"hp": "70",
+		"attack": "134",
+		"defense": "159",
+		"spattack": "83",
+		"spdef": "95",
+		"speed": "57",
+		"total": "598"
+	},
+	{
+		"name": "Scraggy",
+		"hp": "50",
+		"attack": "75",
+		"defense": "70",
+		"spattack": "35",
+		"spdef": "70",
+		"speed": "48",
+		"total": "348"
+	},
+	{
+		"name": "Scrafty",
+		"hp": "65",
+		"attack": "113",
+		"defense": "145",
+		"spattack": "56",
+		"spdef": "145",
+		"speed": "73",
+		"total": "597"
+	},
+	{
+		"name": "Sigilyph",
+		"hp": "72",
+		"attack": "73",
+		"defense": "101",
+		"spattack": "130",
+		"spdef": "101",
+		"speed": "122",
+		"total": "599"
+	},
+	{
+		"name": "Yamask",
+		"hp": "38",
+		"attack": "30",
+		"defense": "85",
+		"spattack": "55",
+		"spdef": "65",
+		"speed": "30",
+		"total": "303"
+	},
+	{
+		"name": "Cofagrigus",
+		"hp": "58",
+		"attack": "63",
+		"defense": "184",
+		"spattack": "121",
+		"spdef": "133",
+		"speed": "38",
+		"total": "597"
+	},
+	{
+		"name": "Tirtouga",
+		"hp": "54",
+		"attack": "78",
+		"defense": "103",
+		"spattack": "53",
+		"spdef": "45",
+		"speed": "22",
+		"total": "355"
+	},
+	{
+		"name": "Carracosta",
+		"hp": "74",
+		"attack": "134",
+		"defense": "166",
+		"spattack": "103",
+		"spdef": "81",
+		"speed": "39",
+		"total": "597"
+	},
+	{
+		"name": "Archen",
+		"hp": "55",
+		"attack": "112",
+		"defense": "45",
+		"spattack": "74",
+		"spdef": "45",
+		"speed": "70",
+		"total": "401"
+	},
+	{
+		"name": "Archeops",
+		"hp": "75",
+		"attack": "149",
+		"defense": "69",
+		"spattack": "119",
+		"spdef": "69",
+		"speed": "117",
+		"total": "598"
+	},
+	{
+		"name": "Trubbish",
+		"hp": "50",
+		"attack": "50",
+		"defense": "62",
+		"spattack": "40",
+		"spdef": "62",
+		"speed": "65",
+		"total": "329"
+	},
+	{
+		"name": "Garbodor",
+		"hp": "80",
+		"attack": "125",
+		"defense": "108",
+		"spattack": "79",
+		"spdef": "108",
+		"speed": "98",
+		"total": "598"
+	},
+	{
+		"name": "Zorua",
+		"hp": "40",
+		"attack": "65",
+		"defense": "40",
+		"spattack": "80",
+		"spdef": "40",
+		"speed": "65",
+		"total": "330"
+	},
+	{
+		"name": "Zoroark",
+		"hp": "60",
+		"attack": "126",
+		"defense": "72",
+		"spattack": "144",
+		"spdef": "72",
+		"speed": "126",
+		"total": "600"
+	},
+	{
+		"name": "Minccino",
+		"hp": "55",
+		"attack": "50",
+		"defense": "40",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "75",
+		"total": "300"
+	},
+	{
+		"name": "Cinccino",
+		"hp": "75",
+		"attack": "126",
+		"defense": "79",
+		"spattack": "86",
+		"spdef": "79",
+		"speed": "152",
+		"total": "597"
+	},
+	{
+		"name": "Gothita",
+		"hp": "45",
+		"attack": "30",
+		"defense": "50",
+		"spattack": "55",
+		"spdef": "65",
+		"speed": "45",
+		"total": "290"
+	},
+	{
+		"name": "Gothorita",
+		"hp": "60",
+		"attack": "45",
+		"defense": "70",
+		"spattack": "75",
+		"spdef": "85",
+		"speed": "55",
+		"total": "390"
+	},
+	{
+		"name": "Gothitelle",
+		"hp": "70",
+		"attack": "69",
+		"defense": "119",
+		"spattack": "119",
+		"spdef": "138",
+		"speed": "82",
+		"total": "597"
+	},
+	{
+		"name": "Solosis",
+		"hp": "45",
+		"attack": "30",
+		"defense": "40",
+		"spattack": "105",
+		"spdef": "50",
+		"speed": "20",
+		"total": "290"
+	},
+	{
+		"name": "Duosion",
+		"hp": "65",
+		"attack": "40",
+		"defense": "50",
+		"spattack": "125",
+		"spdef": "60",
+		"speed": "30",
+		"total": "370"
+	},
+	{
+		"name": "Reuniclus",
+		"hp": "110",
+		"attack": "83",
+		"defense": "96",
+		"spattack": "161",
+		"spdef": "109",
+		"speed": "38",
+		"total": "597"
+	},
+	{
+		"name": "Ducklett",
+		"hp": "62",
+		"attack": "44",
+		"defense": "50",
+		"spattack": "44",
+		"spdef": "50",
+		"speed": "55",
+		"total": "305"
+	},
+	{
+		"name": "Swanna",
+		"hp": "75",
+		"attack": "114",
+		"defense": "83",
+		"spattack": "114",
+		"spdef": "83",
+		"speed": "129",
+		"total": "598"
+	},
+	{
+		"name": "Vanillite",
+		"hp": "36",
+		"attack": "50",
+		"defense": "50",
+		"spattack": "65",
+		"spdef": "60",
+		"speed": "44",
+		"total": "305"
+	},
+	{
+		"name": "Vanillish",
+		"hp": "51",
+		"attack": "65",
+		"defense": "65",
+		"spattack": "80",
+		"spdef": "75",
+		"speed": "59",
+		"total": "395"
+	},
+	{
+		"name": "Vanilluxe",
+		"hp": "71",
+		"attack": "108",
+		"defense": "96",
+		"spattack": "125",
+		"spdef": "108",
+		"speed": "90",
+		"total": "598"
+	},
+	{
+		"name": "Deerling",
+		"hp": "60",
+		"attack": "60",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "75",
+		"total": "335"
+	},
+	{
+		"name": "Sawsbuck",
+		"hp": "80",
+		"attack": "131",
+		"defense": "92",
+		"spattack": "78",
+		"spdef": "92",
+		"speed": "125",
+		"total": "598"
+	},
+	{
+		"name": "Emolga",
+		"hp": "55",
+		"attack": "109",
+		"defense": "87",
+		"spattack": "109",
+		"spdef": "87",
+		"speed": "150",
+		"total": "597"
+	},
+	{
+		"name": "Karrablast",
+		"hp": "50",
+		"attack": "75",
+		"defense": "45",
+		"spattack": "40",
+		"spdef": "45",
+		"speed": "60",
+		"total": "315"
+	},
+	{
+		"name": "Escavalier",
+		"hp": "70",
+		"attack": "168",
+		"defense": "130",
+		"spattack": "74",
+		"spdef": "130",
+		"speed": "24",
+		"total": "596"
+	},
+	{
+		"name": "Foongus",
+		"hp": "69",
+		"attack": "55",
+		"defense": "45",
+		"spattack": "55",
+		"spdef": "55",
+		"speed": "15",
+		"total": "294"
+	},
+	{
+		"name": "Amoonguss",
+		"hp": "114",
+		"attack": "118",
+		"defense": "97",
+		"spattack": "118",
+		"spdef": "111",
+		"speed": "41",
+		"total": "599"
+	},
+	{
+		"name": "Frillish",
+		"hp": "55",
+		"attack": "40",
+		"defense": "50",
+		"spattack": "65",
+		"spdef": "85",
+		"speed": "40",
+		"total": "335"
+	},
+	{
+		"name": "Jellicent",
+		"hp": "100",
+		"attack": "78",
+		"defense": "92",
+		"spattack": "111",
+		"spdef": "138",
+		"speed": "78",
+		"total": "597"
+	},
+	{
+		"name": "Alomomola",
+		"hp": "165",
+		"attack": "106",
+		"defense": "114",
+		"spattack": "57",
+		"spdef": "64",
+		"speed": "92",
+		"total": "598"
+	},
+	{
+		"name": "Joltik",
+		"hp": "50",
+		"attack": "47",
+		"defense": "50",
+		"spattack": "57",
+		"spdef": "50",
+		"speed": "65",
+		"total": "319"
+	},
+	{
+		"name": "Galvantula",
+		"hp": "70",
+		"attack": "101",
+		"defense": "79",
+		"spattack": "127",
+		"spdef": "79",
+		"speed": "142",
+		"total": "598"
+	},
+	{
+		"name": "Ferroseed",
+		"hp": "44",
+		"attack": "50",
+		"defense": "91",
+		"spattack": "24",
+		"spdef": "86",
+		"speed": "10",
+		"total": "305"
+	},
+	{
+		"name": "Ferrothorn",
+		"hp": "74",
+		"attack": "119",
+		"defense": "166",
+		"spattack": "68",
+		"spdef": "147",
+		"speed": "25",
+		"total": "599"
+	},
+	{
+		"name": "Klink",
+		"hp": "40",
+		"attack": "55",
+		"defense": "70",
+		"spattack": "45",
+		"spdef": "60",
+		"speed": "30",
+		"total": "300"
+	},
+	{
+		"name": "Klang",
+		"hp": "60",
+		"attack": "80",
+		"defense": "95",
+		"spattack": "70",
+		"spdef": "85",
+		"speed": "50",
+		"total": "440"
+	},
+	{
+		"name": "Klinklang",
+		"hp": "60",
+		"attack": "117",
+		"defense": "135",
+		"spattack": "82",
+		"spdef": "99",
+		"speed": "105",
+		"total": "598"
+	},
+	{
+		"name": "Tynamo",
+		"hp": "35",
+		"attack": "55",
+		"defense": "40",
+		"spattack": "45",
+		"spdef": "40",
+		"speed": "60",
+		"total": "275"
+	},
+	{
+		"name": "Eelektrik",
+		"hp": "65",
+		"attack": "85",
+		"defense": "70",
+		"spattack": "75",
+		"spdef": "70",
+		"speed": "40",
+		"total": "405"
+	},
+	{
+		"name": "Eelektross",
+		"hp": "85",
+		"attack": "137",
+		"defense": "95",
+		"spattack": "125",
+		"spdef": "95",
+		"speed": "59",
+		"total": "596"
+	},
+	{
+		"name": "Elgyem",
+		"hp": "55",
+		"attack": "55",
+		"defense": "55",
+		"spattack": "85",
+		"spdef": "55",
+		"speed": "30",
+		"total": "335"
+	},
+	{
+		"name": "Beheeyem",
+		"hp": "75",
+		"attack": "96",
+		"defense": "96",
+		"spattack": "160",
+		"spdef": "121",
+		"speed": "51",
+		"total": "599"
+	},
+	{
+		"name": "Litwick",
+		"hp": "50",
+		"attack": "30",
+		"defense": "55",
+		"spattack": "65",
+		"spdef": "55",
+		"speed": "20",
+		"total": "275"
+	},
+	{
+		"name": "Lampent",
+		"hp": "60",
+		"attack": "40",
+		"defense": "60",
+		"spattack": "95",
+		"spdef": "60",
+		"speed": "55",
+		"total": "370"
+	},
+	{
+		"name": "Chandelure",
+		"hp": "60",
+		"attack": "64",
+		"defense": "105",
+		"spattack": "170",
+		"spdef": "105",
+		"speed": "93",
+		"total": "597"
+	},
+	{
+		"name": "Axew",
+		"hp": "46",
+		"attack": "87",
+		"defense": "60",
+		"spattack": "30",
+		"spdef": "40",
+		"speed": "57",
+		"total": "320"
+	},
+	{
+		"name": "Fraxure",
+		"hp": "66",
+		"attack": "117",
+		"defense": "70",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "67",
+		"total": "410"
+	},
+	{
+		"name": "Haxorus",
+		"hp": "76",
+		"attack": "166",
+		"defense": "101",
+		"spattack": "67",
+		"spdef": "79",
+		"speed": "109",
+		"total": "598"
+	},
+	{
+		"name": "Cubchoo",
+		"hp": "55",
+		"attack": "70",
+		"defense": "40",
+		"spattack": "60",
+		"spdef": "40",
+		"speed": "40",
+		"total": "305"
+	},
+	{
+		"name": "Beartic",
+		"hp": "95",
+		"attack": "160",
+		"defense": "98",
+		"spattack": "86",
+		"spdef": "98",
+		"speed": "61",
+		"total": "598"
+	},
+	{
+		"name": "Cryogonal",
+		"hp": "80",
+		"attack": "59",
+		"defense": "59",
+		"spattack": "113",
+		"spdef": "161",
+		"speed": "125",
+		"total": "597"
+	},
+	{
+		"name": "Shelmet",
+		"hp": "50",
+		"attack": "40",
+		"defense": "85",
+		"spattack": "40",
+		"spdef": "65",
+		"speed": "25",
+		"total": "305"
+	},
+	{
+		"name": "Accelgor",
+		"hp": "80",
+		"attack": "87",
+		"defense": "50",
+		"spattack": "125",
+		"spdef": "75",
+		"speed": "181",
+		"total": "598"
+	},
+	{
+		"name": "Stunfisk",
+		"hp": "109",
+		"attack": "89",
+		"defense": "113",
+		"spattack": "109",
+		"spdef": "134",
+		"speed": "43",
+		"total": "597"
+	},
+	{
+		"name": "Mienfoo",
+		"hp": "45",
+		"attack": "85",
+		"defense": "50",
+		"spattack": "55",
+		"spdef": "50",
+		"speed": "65",
+		"total": "350"
+	},
+	{
+		"name": "Mienshao",
+		"hp": "65",
+		"attack": "150",
+		"defense": "72",
+		"spattack": "114",
+		"spdef": "72",
+		"speed": "126",
+		"total": "599"
+	},
+	{
+		"name": "Druddigon",
+		"hp": "77",
+		"attack": "153",
+		"defense": "115",
+		"spattack": "76",
+		"spdef": "115",
+		"speed": "61",
+		"total": "597"
+	},
+	{
+		"name": "Golett",
+		"hp": "59",
+		"attack": "74",
+		"defense": "50",
+		"spattack": "35",
+		"spdef": "50",
+		"speed": "35",
+		"total": "303"
+	},
+	{
+		"name": "Golurk",
+		"hp": "89",
+		"attack": "160",
+		"defense": "103",
+		"spattack": "71",
+		"spdef": "103",
+		"speed": "71",
+		"total": "597"
+	},
+	{
+		"name": "Pawniard",
+		"hp": "45",
+		"attack": "85",
+		"defense": "70",
+		"spattack": "40",
+		"spdef": "40",
+		"speed": "60",
+		"total": "340"
+	},
+	{
+		"name": "Bisharp",
+		"hp": "65",
+		"attack": "157",
+		"defense": "125",
+		"spattack": "75",
+		"spdef": "88",
+		"speed": "88",
+		"total": "598"
+	},
+	{
+		"name": "Bouffalant",
+		"hp": "95",
+		"attack": "140",
+		"defense": "121",
+		"spattack": "51",
+		"spdef": "121",
+		"speed": "70",
+		"total": "598"
+	},
+	{
+		"name": "Rufflet",
+		"hp": "70",
+		"attack": "83",
+		"defense": "50",
+		"spattack": "37",
+		"spdef": "50",
+		"speed": "60",
+		"total": "350"
+	},
+	{
+		"name": "Braviary",
+		"hp": "100",
+		"attack": "150",
+		"defense": "91",
+		"spattack": "69",
+		"spdef": "91",
+		"speed": "97",
+		"total": "598"
+	},
+	{
+		"name": "Vullaby",
+		"hp": "70",
+		"attack": "55",
+		"defense": "75",
+		"spattack": "45",
+		"spdef": "65",
+		"speed": "60",
+		"total": "370"
+	},
+	{
+		"name": "Mandibuzz",
+		"hp": "110",
+		"attack": "79",
+		"defense": "128",
+		"spattack": "67",
+		"spdef": "116",
+		"speed": "98",
+		"total": "598"
+	},
+	{
+		"name": "Heatmor",
+		"hp": "85",
+		"attack": "125",
+		"defense": "85",
+		"spattack": "135",
+		"spdef": "85",
+		"speed": "83",
+		"total": "598"
+	},
+	{
+		"name": "Durant",
+		"hp": "58",
+		"attack": "138",
+		"defense": "142",
+		"spattack": "61",
+		"spdef": "61",
+		"speed": "138",
+		"total": "598"
+	},
+	{
+		"name": "Deino",
+		"hp": "52",
+		"attack": "65",
+		"defense": "50",
+		"spattack": "45",
+		"spdef": "50",
+		"speed": "38",
+		"total": "300"
+	},
+	{
+		"name": "Zweilous",
+		"hp": "72",
+		"attack": "85",
+		"defense": "70",
+		"spattack": "65",
+		"spdef": "70",
+		"speed": "58",
+		"total": "420"
+	},
+	{
+		"name": "Hydreigon",
+		"hp": "92",
+		"attack": "105",
+		"defense": "90",
+		"spattack": "125",
+		"spdef": "90",
+		"speed": "98",
+		"total": "600"
+	},
+	{
+		"name": "Larvesta",
+		"hp": "55",
+		"attack": "85",
+		"defense": "55",
+		"spattack": "50",
+		"spdef": "55",
+		"speed": "60",
+		"total": "360"
+	},
+	{
+		"name": "Volcarona",
+		"hp": "85",
+		"attack": "66",
+		"defense": "71",
+		"spattack": "149",
+		"spdef": "116",
+		"speed": "110",
+		"total": "597"
+	},
+	{
+		"name": "Cobalion",
+		"hp": "91",
+		"attack": "93",
+		"defense": "134",
+		"spattack": "93",
+		"spdef": "74",
+		"speed": "112",
+		"total": "597"
+	},
+	{
+		"name": "Terrakion",
+		"hp": "91",
+		"attack": "134",
+		"defense": "93",
+		"spattack": "74",
+		"spdef": "93",
+		"speed": "112",
+		"total": "597"
+	},
+	{
+		"name": "Virizion",
+		"hp": "91",
+		"attack": "93",
+		"defense": "74",
+		"spattack": "93",
+		"spdef": "134",
+		"speed": "112",
+		"total": "597"
+	},
+	{
+		"name": "Tornadus",
+		"hp": "79",
+		"attack": "119",
+		"defense": "72",
+		"spattack": "129",
+		"spdef": "83",
+		"speed": "115",
+		"total": "597"
+	},
+	{
+		"name": "Tornadus Therian",
+		"hp": "79",
+		"attack": "103",
+		"defense": "83",
+		"spattack": "114",
+		"spdef": "93",
+		"speed": "125",
+		"total": "597"
+	},
+	{
+		"name": "Thundurus",
+		"hp": "79",
+		"attack": "119",
+		"defense": "72",
+		"spattack": "129",
+		"spdef": "83",
+		"speed": "115",
+		"total": "597"
+	},
+	{
+		"name": "Thundurus Therian",
+		"hp": "79",
+		"attack": "109",
+		"defense": "72",
+		"spattack": "150",
+		"spdef": "83",
+		"speed": "105",
+		"total": "598"
+	},
+	{
+		"name": "Reshiram",
+		"hp": "100",
+		"attack": "103",
+		"defense": "86",
+		"spattack": "129",
+		"spdef": "103",
+		"speed": "77",
+		"total": "598"
+	},
+	{
+		"name": "Zekrom",
+		"hp": "100",
+		"attack": "129",
+		"defense": "103",
+		"spattack": "103",
+		"spdef": "86",
+		"speed": "77",
+		"total": "598"
+	},
+	{
+		"name": "Landorus",
+		"hp": "89",
+		"attack": "125",
+		"defense": "90",
+		"spattack": "115",
+		"spdef": "80",
+		"speed": "101",
+		"total": "600"
+	},
+	{
+		"name": "Landorus Therian",
+		"hp": "89",
+		"attack": "145",
+		"defense": "90",
+		"spattack": "105",
+		"spdef": "80",
+		"speed": "91",
+		"total": "600"
+	},
+	{
+		"name": "Kyurem",
+		"hp": "125",
+		"attack": "115",
+		"defense": "79",
+		"spattack": "115",
+		"spdef": "79",
+		"speed": "84",
+		"total": "597"
+	},
+	{
+		"name": "Kyurem Black",
+		"hp": "125",
+		"attack": "140",
+		"defense": "82",
+		"spattack": "99",
+		"spdef": "74",
+		"speed": "78",
+		"total": "598"
+	},
+	{
+		"name": "Kyurem White",
+		"hp": "125",
+		"attack": "99",
+		"defense": "74",
+		"spattack": "140",
+		"spdef": "82",
+		"speed": "78",
+		"total": "598"
+	},
+	{
+		"name": "Keldeo",
+		"hp": "91",
+		"attack": "74",
+		"defense": "93",
+		"spattack": "134",
+		"spdef": "93",
+		"speed": "112",
+		"total": "597"
+	},
+	{
+		"name": "Meloetta",
+		"hp": "100",
+		"attack": "77",
+		"defense": "77",
+		"spattack": "128",
+		"spdef": "128",
+		"speed": "90",
+		"total": "600"
+	},
+	{
+		"name": "Meloetta Pirouette",
+		"hp": "100",
+		"attack": "128",
+		"defense": "90",
+		"spattack": "77",
+		"spdef": "77",
+		"speed": "128",
+		"total": "600"
+	},
+	{
+		"name": "Genesect",
+		"hp": "71",
+		"attack": "120",
+		"defense": "95",
+		"spattack": "120",
+		"spdef": "95",
+		"speed": "99",
+		"total": "600"
+	},
+	{
+		"name": "Chespin",
+		"hp": "56",
+		"attack": "61",
+		"defense": "65",
+		"spattack": "48",
+		"spdef": "45",
+		"speed": "38",
+		"total": "313"
+	},
+	{
+		"name": "Quilladin",
+		"hp": "61",
+		"attack": "78",
+		"defense": "95",
+		"spattack": "56",
+		"spdef": "58",
+		"speed": "57",
+		"total": "405"
+	},
+	{
+		"name": "Chesnaught",
+		"hp": "88",
+		"attack": "123",
+		"defense": "141",
+		"spattack": "85",
+		"spdef": "86",
+		"speed": "74",
+		"total": "597"
+	},
+	{
+		"name": "Fennekin",
+		"hp": "40",
+		"attack": "45",
+		"defense": "40",
+		"spattack": "62",
+		"spdef": "60",
+		"speed": "60",
+		"total": "307"
+	},
+	{
+		"name": "Braixen",
+		"hp": "59",
+		"attack": "59",
+		"defense": "58",
+		"spattack": "90",
+		"spdef": "70",
+		"speed": "73",
+		"total": "409"
+	},
+	{
+		"name": "Delphox",
+		"hp": "75",
+		"attack": "78",
+		"defense": "82",
+		"spattack": "130",
+		"spdef": "114",
+		"speed": "118",
+		"total": "597"
+	},
+	{
+		"name": "Froakie",
+		"hp": "41",
+		"attack": "56",
+		"defense": "40",
+		"spattack": "62",
+		"spdef": "44",
+		"speed": "71",
+		"total": "314"
+	},
+	{
+		"name": "Frogadier",
+		"hp": "54",
+		"attack": "63",
+		"defense": "52",
+		"spattack": "83",
+		"spdef": "56",
+		"speed": "97",
+		"total": "405"
+	},
+	{
+		"name": "Greninja",
+		"hp": "72",
+		"attack": "109",
+		"defense": "77",
+		"spattack": "118",
+		"spdef": "81",
+		"speed": "140",
+		"total": "597"
+	},
+	{
+		"name": "Ash Greninja",
+		"hp": "72",
+		"attack": "134",
+		"defense": "62",
+		"spattack": "142",
+		"spdef": "66",
+		"speed": "122",
+		"total": "598"
+	},
+	{
+		"name": "Bunnelby",
+		"hp": "38",
+		"attack": "36",
+		"defense": "38",
+		"spattack": "32",
+		"spdef": "36",
+		"speed": "57",
+		"total": "237"
+	},
+	{
+		"name": "Diggersby",
+		"hp": "85",
+		"attack": "85",
+		"defense": "117",
+		"spattack": "76",
+		"spdef": "117",
+		"speed": "118",
+		"total": "598"
+	},
+	{
+		"name": "Fletchling",
+		"hp": "45",
+		"attack": "50",
+		"defense": "43",
+		"spattack": "40",
+		"spdef": "38",
+		"speed": "62",
+		"total": "278"
+	},
+	{
+		"name": "Fletchinder",
+		"hp": "62",
+		"attack": "73",
+		"defense": "55",
+		"spattack": "56",
+		"spdef": "52",
+		"speed": "84",
+		"total": "382"
+	},
+	{
+		"name": "Talonflame",
+		"hp": "78",
+		"attack": "100",
+		"defense": "88",
+		"spattack": "91",
+		"spdef": "85",
+		"speed": "156",
+		"total": "598"
+	},
+	{
+		"name": "Scatterbug",
+		"hp": "38",
+		"attack": "35",
+		"defense": "40",
+		"spattack": "27",
+		"spdef": "25",
+		"speed": "35",
+		"total": "200"
+	},
+	{
+		"name": "Spewpa",
+		"hp": "45",
+		"attack": "22",
+		"defense": "60",
+		"spattack": "27",
+		"spdef": "30",
+		"speed": "29",
+		"total": "213"
+	},
+	{
+		"name": "Vivillon",
+		"hp": "80",
+		"attack": "81",
+		"defense": "78",
+		"spattack": "141",
+		"spdef": "78",
+		"speed": "139",
+		"total": "597"
+	},
+	{
+		"name": "Litleo",
+		"hp": "62",
+		"attack": "50",
+		"defense": "58",
+		"spattack": "73",
+		"spdef": "54",
+		"speed": "72",
+		"total": "369"
+	},
+	{
+		"name": "Pyroar",
+		"hp": "86",
+		"attack": "83",
+		"defense": "87",
+		"spattack": "133",
+		"spdef": "80",
+		"speed": "129",
+		"total": "598"
+	},
+	{
+		"name": "Flabebe",
+		"hp": "44",
+		"attack": "38",
+		"defense": "39",
+		"spattack": "61",
+		"spdef": "79",
+		"speed": "42",
+		"total": "303"
+	},
+	{
+		"name": "Floette",
+		"hp": "54",
+		"attack": "45",
+		"defense": "47",
+		"spattack": "75",
+		"spdef": "98",
+		"speed": "52",
+		"total": "371"
+	},
+	{
+		"name": "Floette Eternal",
+		"hp": "74",
+		"attack": "71",
+		"defense": "73",
+		"spattack": "137",
+		"spdef": "141",
+		"speed": "101",
+		"total": "597"
+	},
+	{
+		"name": "Florges",
+		"hp": "78",
+		"attack": "71",
+		"defense": "74",
+		"spattack": "123",
+		"spdef": "169",
+		"speed": "82",
+		"total": "597"
+	},
+	{
+		"name": "Skiddo",
+		"hp": "66",
+		"attack": "65",
+		"defense": "48",
+		"spattack": "62",
+		"spdef": "57",
+		"speed": "52",
+		"total": "350"
+	},
+	{
+		"name": "Gogoat",
+		"hp": "123",
+		"attack": "116",
+		"defense": "72",
+		"spattack": "113",
+		"spdef": "94",
+		"speed": "79",
+		"total": "597"
+	},
+	{
+		"name": "Pancham",
+		"hp": "67",
+		"attack": "82",
+		"defense": "62",
+		"spattack": "46",
+		"spdef": "48",
+		"speed": "43",
+		"total": "348"
+	},
+	{
+		"name": "Pangoro",
+		"hp": "95",
+		"attack": "156",
+		"defense": "98",
+		"spattack": "87",
+		"spdef": "89",
+		"speed": "73",
+		"total": "598"
+	},
+	{
+		"name": "Furfrou",
+		"hp": "75",
+		"attack": "105",
+		"defense": "79",
+		"spattack": "85",
+		"spdef": "119",
+		"speed": "134",
+		"total": "597"
+	},
+	{
+		"name": "Espurr",
+		"hp": "62",
+		"attack": "48",
+		"defense": "54",
+		"spattack": "63",
+		"spdef": "60",
+		"speed": "68",
+		"total": "355"
+	},
+	{
+		"name": "Meowstic",
+		"hp": "74",
+		"attack": "64",
+		"defense": "101",
+		"spattack": "111",
+		"spdef": "108",
+		"speed": "139",
+		"total": "597"
+	},
+	{
+		"name": "Honedge",
+		"hp": "45",
+		"attack": "80",
+		"defense": "100",
+		"spattack": "35",
+		"spdef": "37",
+		"speed": "28",
+		"total": "325"
+	},
+	{
+		"name": "Doublade",
+		"hp": "59",
+		"attack": "110",
+		"defense": "150",
+		"spattack": "45",
+		"spdef": "49",
+		"speed": "35",
+		"total": "448"
+	},
+	{
+		"name": "Aegislash",
+		"hp": "60",
+		"attack": "58",
+		"defense": "176",
+		"spattack": "58",
+		"spdef": "176",
+		"speed": "70",
+		"total": "598"
+	},
+	{
+		"name": "Aegislash Blade",
+		"hp": "60",
+		"attack": "176",
+		"defense": "58",
+		"spattack": "176",
+		"spdef": "58",
+		"speed": "70",
+		"total": "598"
+	},
+	{
+		"name": "Spritzee",
+		"hp": "78",
+		"attack": "52",
+		"defense": "60",
+		"spattack": "63",
+		"spdef": "65",
+		"speed": "23",
+		"total": "341"
+	},
+	{
+		"name": "Aromatisse",
+		"hp": "101",
+		"attack": "99",
+		"defense": "99",
+		"spattack": "136",
+		"spdef": "123",
+		"speed": "40",
+		"total": "598"
+	},
+	{
+		"name": "Swirlix",
+		"hp": "62",
+		"attack": "48",
+		"defense": "66",
+		"spattack": "59",
+		"spdef": "57",
+		"speed": "49",
+		"total": "341"
+	},
+	{
+		"name": "Slurpuff",
+		"hp": "82",
+		"attack": "104",
+		"defense": "111",
+		"spattack": "110",
+		"spdef": "97",
+		"speed": "93",
+		"total": "597"
+	},
+	{
+		"name": "Inkay",
+		"hp": "53",
+		"attack": "54",
+		"defense": "53",
+		"spattack": "37",
+		"spdef": "46",
+		"speed": "45",
+		"total": "288"
+	},
+	{
+		"name": "Malamar",
+		"hp": "86",
+		"attack": "119",
+		"defense": "114",
+		"spattack": "88",
+		"spdef": "97",
+		"speed": "94",
+		"total": "598"
+	},
+	{
+		"name": "Binacle",
+		"hp": "42",
+		"attack": "52",
+		"defense": "67",
+		"spattack": "39",
+		"spdef": "56",
+		"speed": "50",
+		"total": "306"
+	},
+	{
+		"name": "Barbaracle",
+		"hp": "72",
+		"attack": "129",
+		"defense": "141",
+		"spattack": "66",
+		"spdef": "106",
+		"speed": "83",
+		"total": "597"
+	},
+	{
+		"name": "Skrelp",
+		"hp": "50",
+		"attack": "60",
+		"defense": "60",
+		"spattack": "60",
+		"spdef": "60",
+		"speed": "30",
+		"total": "320"
+	},
+	{
+		"name": "Dragalge",
+		"hp": "65",
+		"attack": "93",
+		"defense": "112",
+		"spattack": "120",
+		"spdef": "153",
+		"speed": "54",
+		"total": "597"
+	},
+	{
+		"name": "Clauncher",
+		"hp": "50",
+		"attack": "53",
+		"defense": "62",
+		"spattack": "58",
+		"spdef": "63",
+		"speed": "44",
+		"total": "330"
+	},
+	{
+		"name": "Clawitzer",
+		"hp": "71",
+		"attack": "90",
+		"defense": "108",
+		"spattack": "147",
+		"spdef": "109",
+		"speed": "72",
+		"total": "597"
+	},
+	{
+		"name": "Helioptile",
+		"hp": "44",
+		"attack": "38",
+		"defense": "33",
+		"spattack": "61",
+		"spdef": "43",
+		"speed": "70",
+		"total": "289"
+	},
+	{
+		"name": "Heliolisk",
+		"hp": "62",
+		"attack": "70",
+		"defense": "66",
+		"spattack": "139",
+		"spdef": "120",
+		"speed": "139",
+		"total": "596"
+	},
+	{
+		"name": "Tyrunt",
+		"hp": "58",
+		"attack": "89",
+		"defense": "77",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "48",
+		"total": "362"
+	},
+	{
+		"name": "Tyrantrum",
+		"hp": "82",
+		"attack": "142",
+		"defense": "140",
+		"spattack": "81",
+		"spdef": "69",
+		"speed": "83",
+		"total": "597"
+	},
+	{
+		"name": "Amaura",
+		"hp": "77",
+		"attack": "59",
+		"defense": "50",
+		"spattack": "67",
+		"spdef": "63",
+		"speed": "46",
+		"total": "362"
+	},
+	{
+		"name": "Aurorus",
+		"hp": "123",
+		"attack": "92",
+		"defense": "86",
+		"spattack": "118",
+		"spdef": "110",
+		"speed": "69",
+		"total": "598"
+	},
+	{
+		"name": "Sylveon",
+		"hp": "95",
+		"attack": "76",
+		"defense": "76",
+		"spattack": "129",
+		"spdef": "152",
+		"speed": "70",
+		"total": "598"
+	},
+	{
+		"name": "Hawlucha",
+		"hp": "78",
+		"attack": "113",
+		"defense": "92",
+		"spattack": "91",
+		"spdef": "77",
+		"speed": "145",
+		"total": "596"
+	},
+	{
+		"name": "Dedenne",
+		"hp": "67",
+		"attack": "84",
+		"defense": "83",
+		"spattack": "118",
+		"spdef": "98",
+		"speed": "147",
+		"total": "597"
+	},
+	{
+		"name": "Carbink",
+		"hp": "50",
+		"attack": "61",
+		"defense": "183",
+		"spattack": "61",
+		"spdef": "183",
+		"speed": "61",
+		"total": "599"
+	},
+	{
+		"name": "Goomy",
+		"hp": "45",
+		"attack": "50",
+		"defense": "35",
+		"spattack": "55",
+		"spdef": "75",
+		"speed": "40",
+		"total": "300"
+	},
+	{
+		"name": "Sliggoo",
+		"hp": "68",
+		"attack": "75",
+		"defense": "53",
+		"spattack": "83",
+		"spdef": "113",
+		"speed": "60",
+		"total": "452"
+	},
+	{
+		"name": "Goodra",
+		"hp": "90",
+		"attack": "100",
+		"defense": "70",
+		"spattack": "110",
+		"spdef": "150",
+		"speed": "80",
+		"total": "600"
+	},
+	{
+		"name": "Klefki",
+		"hp": "57",
+		"attack": "105",
+		"defense": "119",
+		"spattack": "105",
+		"spdef": "114",
+		"speed": "98",
+		"total": "598"
+	},
+	{
+		"name": "Phantump",
+		"hp": "43",
+		"attack": "70",
+		"defense": "48",
+		"spattack": "50",
+		"spdef": "60",
+		"speed": "38",
+		"total": "309"
+	},
+	{
+		"name": "Trevenant",
+		"hp": "85",
+		"attack": "145",
+		"defense": "100",
+		"spattack": "86",
+		"spdef": "108",
+		"speed": "74",
+		"total": "598"
+	},
+	{
+		"name": "Pumpkaboo S",
+		"hp": "44",
+		"attack": "66",
+		"defense": "70",
+		"spattack": "44",
+		"spdef": "55",
+		"speed": "56",
+		"total": "335"
+	},
+	{
+		"name": "Pumpkaboo M",
+		"hp": "49",
+		"attack": "66",
+		"defense": "70",
+		"spattack": "44",
+		"spdef": "55",
+		"speed": "51",
+		"total": "335"
+	},
+	{
+		"name": "Pumpkaboo L",
+		"hp": "54",
+		"attack": "66",
+		"defense": "70",
+		"spattack": "44",
+		"spdef": "55",
+		"speed": "46",
+		"total": "335"
+	},
+	{
+		"name": "Pumpkaboo XL",
+		"hp": "59",
+		"attack": "66",
+		"defense": "70",
+		"spattack": "44",
+		"spdef": "55",
+		"speed": "41",
+		"total": "335"
+	},
+	{
+		"name": "Gourgeist",
+		"hp": "55",
+		"attack": "105",
+		"defense": "151",
+		"spattack": "72",
+		"spdef": "93",
+		"speed": "122",
+		"total": "598"
+	},
+	{
+		"name": "Gourgeist M",
+		"hp": "65",
+		"attack": "112",
+		"defense": "152",
+		"spattack": "72",
+		"spdef": "93",
+		"speed": "104",
+		"total": "598"
+	},
+	{
+		"name": "Gourgeist L",
+		"hp": "75",
+		"attack": "119",
+		"defense": "152",
+		"spattack": "72",
+		"spdef": "93",
+		"speed": "86",
+		"total": "597"
+	},
+	{
+		"name": "Gourgeist XL",
+		"hp": "85",
+		"attack": "125",
+		"defense": "153",
+		"spattack": "73",
+		"spdef": "94",
+		"speed": "67",
+		"total": "597"
+	},
+	{
+		"name": "Bergmite",
+		"hp": "55",
+		"attack": "69",
+		"defense": "85",
+		"spattack": "32",
+		"spdef": "35",
+		"speed": "28",
+		"total": "304"
+	},
+	{
+		"name": "Avalugg",
+		"hp": "95",
+		"attack": "141",
+		"defense": "221",
+		"spattack": "53",
+		"spdef": "55",
+		"speed": "33",
+		"total": "598"
+	},
+	{
+		"name": "Noibat",
+		"hp": "40",
+		"attack": "30",
+		"defense": "35",
+		"spattack": "45",
+		"spdef": "40",
+		"speed": "55",
+		"total": "245"
+	},
+	{
+		"name": "Noivern",
+		"hp": "85",
+		"attack": "80",
+		"defense": "91",
+		"spattack": "111",
+		"spdef": "91",
+		"speed": "140",
+		"total": "598"
+	},
+	{
+		"name": "Xerneas",
+		"hp": "126",
+		"attack": "112",
+		"defense": "81",
+		"spattack": "112",
+		"spdef": "83",
+		"speed": "84",
+		"total": "598"
+	},
+	{
+		"name": "Yveltal",
+		"hp": "126",
+		"attack": "112",
+		"defense": "81",
+		"spattack": "112",
+		"spdef": "83",
+		"speed": "84",
+		"total": "598"
+	},
+	{
+		"name": "Zygarde 10",
+		"hp": "54",
+		"attack": "126",
+		"defense": "89",
+		"spattack": "77",
+		"spdef": "107",
+		"speed": "145",
+		"total": "598"
+	},
+	{
+		"name": "Zygarde 50",
+		"hp": "108",
+		"attack": "100",
+		"defense": "121",
+		"spattack": "81",
+		"spdef": "95",
+		"speed": "95",
+		"total": "600"
+	},
+	{
+		"name": "Zygarde 100",
+		"hp": "216",
+		"attack": "78",
+		"defense": "94",
+		"spattack": "71",
+		"spdef": "74",
+		"speed": "66",
+		"total": "599"
+	},
+	{
+		"name": "Diancie",
+		"hp": "50",
+		"attack": "100",
+		"defense": "150",
+		"spattack": "100",
+		"spdef": "150",
+		"speed": "50",
+		"total": "600"
+	},
+	{
+		"name": "Hoopa",
+		"hp": "80",
+		"attack": "110",
+		"defense": "60",
+		"spattack": "150",
+		"spdef": "130",
+		"speed": "70",
+		"total": "600"
+	},
+	{
+		"name": "Hoopa Unbound",
+		"hp": "80",
+		"attack": "138",
+		"defense": "52",
+		"spattack": "147",
+		"spdef": "112",
+		"speed": "69",
+		"total": "598"
+	},
+	{
+		"name": "Volcanion",
+		"hp": "80",
+		"attack": "110",
+		"defense": "120",
+		"spattack": "130",
+		"spdef": "90",
+		"speed": "70",
+		"total": "600"
+	},
+	{
+		"name": "Mega Venusaur",
+		"hp": "80",
+		"attack": "95",
+		"defense": "117",
+		"spattack": "116",
+		"spdef": "114",
+		"speed": "76",
+		"total": "598"
+	},
+	{
+		"name": "Mega Charizard X",
+		"hp": "78",
+		"attack": "122",
+		"defense": "104",
+		"spattack": "122",
+		"spdef": "79",
+		"speed": "93",
+		"total": "598"
+	},
+	{
+		"name": "Mega Charizard Y",
+		"hp": "78",
+		"attack": "97",
+		"defense": "73",
+		"spattack": "149",
+		"spdef": "107",
+		"speed": "93",
+		"total": "597"
+	},
+	{
+		"name": "Mega Blastoise",
+		"hp": "79",
+		"attack": "97",
+		"defense": "113",
+		"spattack": "127",
+		"spdef": "108",
+		"speed": "73",
+		"total": "597"
+	},
+	{
+		"name": "Mega Beedrill",
+		"hp": "65",
+		"attack": "186",
+		"defense": "49",
+		"spattack": "18",
+		"spdef": "99",
+		"speed": "180",
+		"total": "597"
+	},
+	{
+		"name": "Mega Pidgeot",
+		"hp": "83",
+		"attack": "83",
+		"defense": "83",
+		"spattack": "140",
+		"spdef": "83",
+		"speed": "126",
+		"total": "598"
+	},
+	{
+		"name": "Mega Alakazam",
+		"hp": "55",
+		"attack": "50",
+		"defense": "65",
+		"spattack": "175",
+		"spdef": "105",
+		"speed": "150",
+		"total": "600"
+	},
+	{
+		"name": "Mega Slowbro",
+		"hp": "95",
+		"attack": "76",
+		"defense": "183",
+		"spattack": "132",
+		"spdef": "81",
+		"speed": "30",
+		"total": "597"
+	},
+	{
+		"name": "Mega Gengar",
+		"hp": "60",
+		"attack": "65",
+		"defense": "80",
+		"spattack": "170",
+		"spdef": "95",
+		"speed": "130",
+		"total": "600"
+	},
+	{
+		"name": "Mega Kangaskhan",
+		"hp": "105",
+		"attack": "127",
+		"defense": "102",
+		"spattack": "61",
+		"spdef": "102",
+		"speed": "102",
+		"total": "599"
+	},
+	{
+		"name": "Mega Pinsir",
+		"hp": "65",
+		"attack": "155",
+		"defense": "120",
+		"spattack": "65",
+		"spdef": "90",
+		"speed": "105",
+		"total": "600"
+	},
+	{
+		"name": "Mega Gyarados",
+		"hp": "95",
+		"attack": "143",
+		"defense": "101",
+		"spattack": "64",
+		"spdef": "120",
+		"speed": "75",
+		"total": "598"
+	},
+	{
+		"name": "Mega Aerodactyl",
+		"hp": "80",
+		"attack": "131",
+		"defense": "82",
+		"spattack": "68",
+		"spdef": "92",
+		"speed": "145",
+		"total": "598"
+	},
+	{
+		"name": "Mega Mewtwo X",
+		"hp": "106",
+		"attack": "139",
+		"defense": "73",
+		"spattack": "112",
+		"spdef": "73",
+		"speed": "95",
+		"total": "598"
+	},
+	{
+		"name": "Mega Mewtwo Y",
+		"hp": "106",
+		"attack": "109",
+		"defense": "51",
+		"spattack": "142",
+		"spdef": "87",
+		"speed": "102",
+		"total": "597"
+	},
+	{
+		"name": "Mega Ampharos",
+		"hp": "90",
+		"attack": "93",
+		"defense": "102",
+		"spattack": "161",
+		"spdef": "107",
+		"speed": "44",
+		"total": "597"
+	},
+	{
+		"name": "Mega Steelix",
+		"hp": "75",
+		"attack": "122",
+		"defense": "225",
+		"spattack": "53",
+		"spdef": "93",
+		"speed": "29",
+		"total": "597"
+	},
+	{
+		"name": "Mega Scizor",
+		"hp": "70",
+		"attack": "150",
+		"defense": "140",
+		"spattack": "65",
+		"spdef": "100",
+		"speed": "75",
+		"total": "600"
+	},
+	{
+		"name": "Mega Heracross",
+		"hp": "80",
+		"attack": "185",
+		"defense": "115",
+		"spattack": "40",
+		"spdef": "105",
+		"speed": "75",
+		"total": "600"
+	},
+	{
+		"name": "Mega Houndoom",
+		"hp": "75",
+		"attack": "90",
+		"defense": "90",
+		"spattack": "140",
+		"spdef": "90",
+		"speed": "115",
+		"total": "600"
+	},
+	{
+		"name": "Mega Tyranitar",
+		"hp": "100",
+		"attack": "136",
+		"defense": "125",
+		"spattack": "79",
+		"spdef": "100",
+		"speed": "59",
+		"total": "599"
+	},
+	{
+		"name": "Mega Sceptile",
+		"hp": "70",
+		"attack": "104",
+		"defense": "70",
+		"spattack": "137",
+		"spdef": "80",
+		"speed": "137",
+		"total": "598"
+	},
+	{
+		"name": "Mega Blaziken",
+		"hp": "80",
+		"attack": "151",
+		"defense": "75",
+		"spattack": "122",
+		"spdef": "75",
+		"speed": "94",
+		"total": "597"
+	},
+	{
+		"name": "Mega Swampert",
+		"hp": "100",
+		"attack": "140",
+		"defense": "102",
+		"spattack": "88",
+		"spdef": "102",
+		"speed": "65",
+		"total": "597"
+	},
+	{
+		"name": "Mega Gardevoir",
+		"hp": "68",
+		"attack": "82",
+		"defense": "62",
+		"spattack": "159",
+		"spdef": "130",
+		"speed": "96",
+		"total": "597"
+	},
+	{
+		"name": "Mega Sableye",
+		"hp": "50",
+		"attack": "108",
+		"defense": "159",
+		"spattack": "108",
+		"spdef": "147",
+		"speed": "25",
+		"total": "597"
+	},
+	{
+		"name": "Mega Mawile",
+		"hp": "50",
+		"attack": "134",
+		"defense": "159",
+		"spattack": "70",
+		"spdef": "121",
+		"speed": "63",
+		"total": "597"
+	},
+	{
+		"name": "Mega Aggron",
+		"hp": "70",
+		"attack": "132",
+		"defense": "217",
+		"spattack": "56",
+		"spdef": "75",
+		"speed": "47",
+		"total": "597"
+	},
+	{
+		"name": "Mega Medicham",
+		"hp": "60",
+		"attack": "120",
+		"defense": "102",
+		"spattack": "96",
+		"spdef": "102",
+		"speed": "120",
+		"total": "600"
+	},
+	{
+		"name": "Mega Manectric",
+		"hp": "70",
+		"attack": "78",
+		"defense": "83",
+		"spattack": "141",
+		"spdef": "83",
+		"speed": "141",
+		"total": "596"
+	},
+	{
+		"name": "Mega Sharpedo",
+		"hp": "70",
+		"attack": "151",
+		"defense": "75",
+		"spattack": "118",
+		"spdef": "70",
+		"speed": "113",
+		"total": "597"
+	},
+	{
+		"name": "Mega Camerupt",
+		"hp": "70",
+		"attack": "129",
+		"defense": "108",
+		"spattack": "156",
+		"spdef": "113",
+		"speed": "21",
+		"total": "597"
+	},
+	{
+		"name": "Mega Altaria",
+		"hp": "75",
+		"attack": "112",
+		"defense": "112",
+		"spattack": "112",
+		"spdef": "107",
+		"speed": "81",
+		"total": "599"
+	},
+	{
+		"name": "Mega Banette",
+		"hp": "64",
+		"attack": "180",
+		"defense": "81",
+		"spattack": "101",
+		"spdef": "90",
+		"speed": "81",
+		"total": "597"
+	},
+	{
+		"name": "Mega Absol",
+		"hp": "65",
+		"attack": "160",
+		"defense": "64",
+		"spattack": "123",
+		"spdef": "64",
+		"speed": "123",
+		"total": "599"
+	},
+	{
+		"name": "Mega Glalie",
+		"hp": "80",
+		"attack": "124",
+		"defense": "83",
+		"spattack": "124",
+		"spdef": "83",
+		"speed": "104",
+		"total": "598"
+	},
+	{
+		"name": "Mega Salamence",
+		"hp": "95",
+		"attack": "121",
+		"defense": "108",
+		"spattack": "100",
+		"spdef": "75",
+		"speed": "100",
+		"total": "599"
+	},
+	{
+		"name": "Mega Metagross",
+		"hp": "80",
+		"attack": "121",
+		"defense": "125",
+		"spattack": "88",
+		"spdef": "92",
+		"speed": "92",
+		"total": "598"
+	},
+	{
+		"name": "Mega Latias",
+		"hp": "80",
+		"attack": "83",
+		"defense": "100",
+		"spattack": "117",
+		"spdef": "125",
+		"speed": "92",
+		"total": "597"
+	},
+	{
+		"name": "Mega Latios",
+		"hp": "80",
+		"attack": "109",
+		"defense": "83",
+		"spattack": "134",
+		"spdef": "100",
+		"speed": "92",
+		"total": "598"
+	},
+	{
+		"name": "Primal Groudon",
+		"hp": "100",
+		"attack": "134",
+		"defense": "119",
+		"spattack": "111",
+		"spdef": "67",
+		"speed": "67",
+		"total": "598"
+	},
+	{
+		"name": "Primal Kyogre",
+		"hp": "100",
+		"attack": "111",
+		"defense": "67",
+		"spattack": "134",
+		"spdef": "119",
+		"speed": "67",
+		"total": "598"
+	},
+	{
+		"name": "Mega Rayquaza",
+		"hp": "105",
+		"attack": "132",
+		"defense": "73",
+		"spattack": "132",
+		"spdef": "73",
+		"speed": "84",
+		"total": "599"
+	},
+	{
+		"name": "Mega Lopunny",
+		"hp": "65",
+		"attack": "141",
+		"defense": "97",
+		"spattack": "56",
+		"spdef": "99",
+		"speed": "140",
+		"total": "598"
+	},
+	{
+		"name": "Mega Garchomp",
+		"hp": "108",
+		"attack": "141",
+		"defense": "95",
+		"spattack": "99",
+		"spdef": "78",
+		"speed": "76",
+		"total": "597"
+	},
+	{
+		"name": "Mega Lucario",
+		"hp": "70",
+		"attack": "138",
+		"defense": "84",
+		"spattack": "133",
+		"spdef": "66",
+		"speed": "106",
+		"total": "597"
+	},
+	{
+		"name": "Mega Abomasnow",
+		"hp": "90",
+		"attack": "133",
+		"defense": "106",
+		"spattack": "133",
+		"spdef": "106",
+		"speed": "30",
+		"total": "598"
+	},
+	{
+		"name": "Mega Gallade",
+		"hp": "68",
+		"attack": "159",
+		"defense": "91",
+		"spattack": "62",
+		"spdef": "111",
+		"speed": "106",
+		"total": "597"
+	},
+	{
+		"name": "Mega Audino",
+		"hp": "103",
+		"attack": "67",
+		"defense": "141",
+		"spattack": "89",
+		"spdef": "141",
+		"speed": "56",
+		"total": "597"
+	},
+	{
+		"name": "Mega Diancie",
+		"hp": "50",
+		"attack": "135",
+		"defense": "93",
+		"spattack": "135",
+		"spdef": "93",
+		"speed": "93",
+		"total": "599"
+	},
+	{
+		"name": "Rowlet",
+		"hp": "68",
+		"attack": "55",
+		"defense": "55",
+		"spattack": "50",
+		"spdef": "50",
+		"speed": "42",
+		"total": "320"
+	},
+	{
+		"name": "Dartrix",
+		"hp": "78",
+		"attack": "75",
+		"defense": "75",
+		"spattack": "70",
+		"spdef": "70",
+		"speed": "52",
+		"total": "420"
+	},
+	{
+		"name": "Decidueye",
+		"hp": "78",
+		"attack": "123",
+		"defense": "86",
+		"spattack": "115",
+		"spdef": "115",
+		"speed": "80",
+		"total": "597"
+	},
+	{
+		"name": "Litten",
+		"hp": "45",
+		"attack": "65",
+		"defense": "40",
+		"spattack": "60",
+		"spdef": "40",
+		"speed": "70",
+		"total": "320"
+	},
+	{
+		"name": "Torracat",
+		"hp": "65",
+		"attack": "85",
+		"defense": "50",
+		"spattack": "80",
+		"spdef": "50",
+		"speed": "90",
+		"total": "420"
+	},
+	{
+		"name": "Incineroar",
+		"hp": "95",
+		"attack": "133",
+		"defense": "104",
+		"spattack": "92",
+		"spdef": "104",
+		"speed": "69",
+		"total": "597"
+	},
+	{
+		"name": "Popplio",
+		"hp": "50",
+		"attack": "54",
+		"defense": "54",
+		"spattack": "66",
+		"spdef": "56",
+		"speed": "40",
+		"total": "320"
+	},
+	{
+		"name": "Brionne",
+		"hp": "60",
+		"attack": "69",
+		"defense": "69",
+		"spattack": "91",
+		"spdef": "81",
+		"speed": "50",
+		"total": "420"
+	},
+	{
+		"name": "Primarina",
+		"hp": "80",
+		"attack": "85",
+		"defense": "85",
+		"spattack": "145",
+		"spdef": "134",
+		"speed": "69",
+		"total": "598"
+	},
+	{
+		"name": "Pikipek",
+		"hp": "35",
+		"attack": "75",
+		"defense": "30",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "65",
+		"total": "265"
+	},
+	{
+		"name": "Trumbeak",
+		"hp": "55",
+		"attack": "85",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "75",
+		"total": "355"
+	},
+	{
+		"name": "Toucannon",
+		"hp": "80",
+		"attack": "154",
+		"defense": "96",
+		"spattack": "96",
+		"spdef": "96",
+		"speed": "77",
+		"total": "599"
+	},
+	{
+		"name": "Yungoos",
+		"hp": "48",
+		"attack": "70",
+		"defense": "30",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "45",
+		"total": "253"
+	},
+	{
+		"name": "Gumshoos",
+		"hp": "88",
+		"attack": "170",
+		"defense": "93",
+		"spattack": "85",
+		"spdef": "93",
+		"speed": "69",
+		"total": "598"
+	},
+	{
+		"name": "Grubbin",
+		"hp": "47",
+		"attack": "62",
+		"defense": "45",
+		"spattack": "55",
+		"spdef": "45",
+		"speed": "46",
+		"total": "300"
+	},
+	{
+		"name": "Charjabug",
+		"hp": "57",
+		"attack": "82",
+		"defense": "95",
+		"spattack": "55",
+		"spdef": "75",
+		"speed": "36",
+		"total": "400"
+	},
+	{
+		"name": "Vikavolt",
+		"hp": "77",
+		"attack": "86",
+		"defense": "111",
+		"spattack": "179",
+		"spdef": "92",
+		"speed": "53",
+		"total": "598"
+	},
+	{
+		"name": "Crabrawler",
+		"hp": "47",
+		"attack": "82",
+		"defense": "57",
+		"spattack": "42",
+		"spdef": "47",
+		"speed": "63",
+		"total": "338"
+	},
+	{
+		"name": "Crabominable",
+		"hp": "97",
+		"attack": "174",
+		"defense": "101",
+		"spattack": "81",
+		"spdef": "88",
+		"speed": "56",
+		"total": "597"
+	},
+	{
+		"name": "Oricorio",
+		"hp": "75",
+		"attack": "91",
+		"defense": "91",
+		"spattack": "128",
+		"spdef": "91",
+		"speed": "121",
+		"total": "597"
+	},
+	{
+		"name": "Cutiefly",
+		"hp": "40",
+		"attack": "45",
+		"defense": "40",
+		"spattack": "55",
+		"spdef": "40",
+		"speed": "84",
+		"total": "304"
+	},
+	{
+		"name": "Ribombee",
+		"hp": "60",
+		"attack": "73",
+		"defense": "80",
+		"spattack": "126",
+		"spdef": "93",
+		"speed": "165",
+		"total": "597"
+	},
+	{
+		"name": "Rockruff",
+		"hp": "45",
+		"attack": "65",
+		"defense": "40",
+		"spattack": "30",
+		"spdef": "40",
+		"speed": "60",
+		"total": "280"
+	},
+	{
+		"name": "Lycanroc Midday",
+		"hp": "75",
+		"attack": "146",
+		"defense": "82",
+		"spattack": "70",
+		"spdef": "82",
+		"speed": "142",
+		"total": "597"
+	},
+	{
+		"name": "Lycanroc Midnight",
+		"hp": "85",
+		"attack": "147",
+		"defense": "96",
+		"spattack": "70",
+		"spdef": "96",
+		"speed": "105",
+		"total": "599"
+	},
+	{
+		"name": "Lycanroc Dusk",
+		"hp": "75",
+		"attack": "149",
+		"defense": "82",
+		"spattack": "70",
+		"spdef": "82",
+		"speed": "140",
+		"total": "598"
+	},
+	{
+		"name": "Wishiwashi Solo",
+		"hp": "45",
+		"attack": "85",
+		"defense": "85",
+		"spattack": "106",
+		"spdef": "106",
+		"speed": "170",
+		"total": "597"
+	},
+	{
+		"name": "Wishiwashi School",
+		"hp": "45",
+		"attack": "135",
+		"defense": "125",
+		"spattack": "135",
+		"spdef": "130",
+		"speed": "28",
+		"total": "598"
+	},
+	{
+		"name": "Mareanie",
+		"hp": "50",
+		"attack": "53",
+		"defense": "62",
+		"spattack": "43",
+		"spdef": "52",
+		"speed": "45",
+		"total": "305"
+	},
+	{
+		"name": "Toxapex",
+		"hp": "50",
+		"attack": "77",
+		"defense": "187",
+		"spattack": "65",
+		"spdef": "175",
+		"speed": "43",
+		"total": "597"
+	},
+	{
+		"name": "Mudbray",
+		"hp": "70",
+		"attack": "100",
+		"defense": "70",
+		"spattack": "45",
+		"spdef": "55",
+		"speed": "45",
+		"total": "385"
+	},
+	{
+		"name": "Mudsdale",
+		"hp": "100",
+		"attack": "156",
+		"defense": "125",
+		"spattack": "68",
+		"spdef": "106",
+		"speed": "43",
+		"total": "598"
+	},
+	{
+		"name": "Dewpider",
+		"hp": "38",
+		"attack": "40",
+		"defense": "52",
+		"spattack": "40",
+		"spdef": "72",
+		"speed": "27",
+		"total": "269"
+	},
+	{
+		"name": "Araquanid",
+		"hp": "68",
+		"attack": "96",
+		"defense": "126",
+		"spattack": "68",
+		"spdef": "181",
+		"speed": "57",
+		"total": "596"
+	},
+	{
+		"name": "Fomantis",
+		"hp": "40",
+		"attack": "55",
+		"defense": "35",
+		"spattack": "50",
+		"spdef": "35",
+		"speed": "35",
+		"total": "250"
+	},
+	{
+		"name": "Lurantis",
+		"hp": "70",
+		"attack": "135",
+		"defense": "116",
+		"spattack": "103",
+		"spdef": "116",
+		"speed": "58",
+		"total": "598"
+	},
+	{
+		"name": "Morelull",
+		"hp": "40",
+		"attack": "35",
+		"defense": "55",
+		"spattack": "65",
+		"spdef": "75",
+		"speed": "15",
+		"total": "285"
+	},
+	{
+		"name": "Shiinotic",
+		"hp": "60",
+		"attack": "70",
+		"defense": "125",
+		"spattack": "140",
+		"spdef": "156",
+		"speed": "46",
+		"total": "597"
+	},
+	{
+		"name": "Salandit",
+		"hp": "48",
+		"attack": "44",
+		"defense": "40",
+		"spattack": "71",
+		"spdef": "40",
+		"speed": "77",
+		"total": "320"
+	},
+	{
+		"name": "Salazzle",
+		"hp": "68",
+		"attack": "82",
+		"defense": "77",
+		"spattack": "143",
+		"spdef": "77",
+		"speed": "151",
+		"total": "598"
+	},
+	{
+		"name": "Stufful",
+		"hp": "70",
+		"attack": "75",
+		"defense": "50",
+		"spattack": "45",
+		"spdef": "50",
+		"speed": "50",
+		"total": "340"
+	},
+	{
+		"name": "Bewear",
+		"hp": "120",
+		"attack": "157",
+		"defense": "101",
+		"spattack": "69",
+		"spdef": "75",
+		"speed": "75",
+		"total": "597"
+	},
+	{
+		"name": "Bounsweet",
+		"hp": "42",
+		"attack": "30",
+		"defense": "38",
+		"spattack": "30",
+		"spdef": "38",
+		"speed": "32",
+		"total": "210"
+	},
+	{
+		"name": "Steenee",
+		"hp": "52",
+		"attack": "40",
+		"defense": "48",
+		"spattack": "40",
+		"spdef": "48",
+		"speed": "62",
+		"total": "290"
+	},
+	{
+		"name": "Tsareena",
+		"hp": "72",
+		"attack": "144",
+		"defense": "118",
+		"spattack": "60",
+		"spdef": "118",
+		"speed": "86",
+		"total": "598"
+	},
+	{
+		"name": "Comfey",
+		"hp": "51",
+		"attack": "65",
+		"defense": "113",
+		"spattack": "103",
+		"spdef": "139",
+		"speed": "126",
+		"total": "597"
+	},
+	{
+		"name": "Oranguru",
+		"hp": "90",
+		"attack": "76",
+		"defense": "102",
+		"spattack": "114",
+		"spdef": "140",
+		"speed": "76",
+		"total": "598"
+	},
+	{
+		"name": "Passimian",
+		"hp": "100",
+		"attack": "153",
+		"defense": "115",
+		"spattack": "51",
+		"spdef": "76",
+		"speed": "102",
+		"total": "597"
+	},
+	{
+		"name": "Wimpod",
+		"hp": "25",
+		"attack": "35",
+		"defense": "40",
+		"spattack": "20",
+		"spdef": "30",
+		"speed": "80",
+		"total": "230"
+	},
+	{
+		"name": "Golisopod",
+		"hp": "75",
+		"attack": "144",
+		"defense": "161",
+		"spattack": "69",
+		"spdef": "103",
+		"speed": "46",
+		"total": "598"
+	},
+	{
+		"name": "Sandygast",
+		"hp": "55",
+		"attack": "55",
+		"defense": "80",
+		"spattack": "70",
+		"spdef": "45",
+		"speed": "15",
+		"total": "320"
+	},
+	{
+		"name": "Palossand",
+		"hp": "85",
+		"attack": "97",
+		"defense": "143",
+		"spattack": "130",
+		"spdef": "97",
+		"speed": "45",
+		"total": "597"
+	},
+	{
+		"name": "Pyukumuku",
+		"hp": "55",
+		"attack": "92",
+		"defense": "199",
+		"spattack": "46",
+		"spdef": "199",
+		"speed": "7",
+		"total": "598"
+	},
+	{
+		"name": "TypeNull",
+		"hp": "95",
+		"attack": "95",
+		"defense": "95",
+		"spattack": "95",
+		"spdef": "95",
+		"speed": "59",
+		"total": "534"
+	},
+	{
+		"name": "Silvally",
+		"hp": "95",
+		"attack": "101",
+		"defense": "101",
+		"spattack": "101",
+		"spdef": "101",
+		"speed": "101",
+		"total": "600"
+	},
+	{
+		"name": "Minior Shield",
+		"hp": "60",
+		"attack": "85",
+		"defense": "142",
+		"spattack": "85",
+		"spdef": "142",
+		"speed": "85",
+		"total": "599"
+	},
+	{
+		"name": "Minior Core",
+		"hp": "60",
+		"attack": "122",
+		"defense": "73",
+		"spattack": "122",
+		"spdef": "73",
+		"speed": "147",
+		"total": "597"
+	},
+	{
+		"name": "Komala",
+		"hp": "65",
+		"attack": "148",
+		"defense": "83",
+		"spattack": "96",
+		"spdef": "122",
+		"speed": "83",
+		"total": "597"
+	},
+	{
+		"name": "Turtonator",
+		"hp": "60",
+		"attack": "99",
+		"defense": "171",
+		"spattack": "115",
+		"spdef": "108",
+		"speed": "45",
+		"total": "598"
+	},
+	{
+		"name": "Togedemaru",
+		"hp": "65",
+		"attack": "141",
+		"defense": "91",
+		"spattack": "57",
+		"spdef": "105",
+		"speed": "138",
+		"total": "597"
+	},
+	{
+		"name": "Mimikyu",
+		"hp": "55",
+		"attack": "116",
+		"defense": "103",
+		"spattack": "64",
+		"spdef": "135",
+		"speed": "124",
+		"total": "597"
+	},
+	{
+		"name": "Bruxish",
+		"hp": "68",
+		"attack": "137",
+		"defense": "91",
+		"spattack": "91",
+		"spdef": "91",
+		"speed": "120",
+		"total": "598"
+	},
+	{
+		"name": "Drampa",
+		"hp": "78",
+		"attack": "76",
+		"defense": "109",
+		"spattack": "173",
+		"spdef": "116",
+		"speed": "46",
+		"total": "598"
+	},
+	{
+		"name": "Dhelmise",
+		"hp": "70",
+		"attack": "155",
+		"defense": "118",
+		"spattack": "101",
+		"spdef": "106",
+		"speed": "47",
+		"total": "597"
+	},
+	{
+		"name": "Jangmo o",
+		"hp": "45",
+		"attack": "55",
+		"defense": "65",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "45",
+		"total": "300"
+	},
+	{
+		"name": "Hakamo o",
+		"hp": "55",
+		"attack": "75",
+		"defense": "90",
+		"spattack": "65",
+		"spdef": "70",
+		"speed": "65",
+		"total": "420"
+	},
+	{
+		"name": "Kommo o",
+		"hp": "75",
+		"attack": "110",
+		"defense": "125",
+		"spattack": "100",
+		"spdef": "105",
+		"speed": "85",
+		"total": "600"
+	},
+	{
+		"name": "Tapu Koko",
+		"hp": "70",
+		"attack": "121",
+		"defense": "90",
+		"spattack": "100",
+		"spdef": "79",
+		"speed": "137",
+		"total": "597"
+	},
+	{
+		"name": "Tapu Lele",
+		"hp": "70",
+		"attack": "90",
+		"defense": "79",
+		"spattack": "137",
+		"spdef": "121",
+		"speed": "100",
+		"total": "597"
+	},
+	{
+		"name": "Tapu Bulu",
+		"hp": "70",
+		"attack": "137",
+		"defense": "121",
+		"spattack": "90",
+		"spdef": "100",
+		"speed": "79",
+		"total": "597"
+	},
+	{
+		"name": "Tapu Fini",
+		"hp": "70",
+		"attack": "79",
+		"defense": "121",
+		"spattack": "100",
+		"spdef": "137",
+		"speed": "90",
+		"total": "597"
+	},
+	{
+		"name": "Cosmog",
+		"hp": "43",
+		"attack": "29",
+		"defense": "31",
+		"spattack": "29",
+		"spdef": "31",
+		"speed": "37",
+		"total": "200"
+	},
+	{
+		"name": "Cosmoem",
+		"hp": "43",
+		"attack": "29",
+		"defense": "131",
+		"spattack": "29",
+		"spdef": "131",
+		"speed": "37",
+		"total": "400"
+	},
+	{
+		"name": "Solgaleo",
+		"hp": "137",
+		"attack": "116",
+		"defense": "91",
+		"spattack": "96",
+		"spdef": "75",
+		"speed": "82",
+		"total": "597"
+	},
+	{
+		"name": "Lunala",
+		"hp": "137",
+		"attack": "96",
+		"defense": "75",
+		"spattack": "116",
+		"spdef": "91",
+		"speed": "82",
+		"total": "597"
+	},
+	{
+		"name": "Nihilego",
+		"hp": "109",
+		"attack": "56",
+		"defense": "50",
+		"spattack": "135",
+		"spdef": "139",
+		"speed": "109",
+		"total": "598"
+	},
+	{
+		"name": "Buzzwole",
+		"hp": "107",
+		"attack": "148",
+		"defense": "148",
+		"spattack": "56",
+		"spdef": "56",
+		"speed": "84",
+		"total": "599"
+	},
+	{
+		"name": "Pheromosa",
+		"hp": "71",
+		"attack": "145",
+		"defense": "39",
+		"spattack": "145",
+		"spdef": "39",
+		"speed": "160",
+		"total": "599"
+	},
+	{
+		"name": "Xurkitree",
+		"hp": "83",
+		"attack": "94",
+		"defense": "75",
+		"spattack": "183",
+		"spdef": "75",
+		"speed": "88",
+		"total": "598"
+	},
+	{
+		"name": "Celesteela",
+		"hp": "97",
+		"attack": "107",
+		"defense": "109",
+		"spattack": "113",
+		"spdef": "107",
+		"speed": "64",
+		"total": "597"
+	},
+	{
+		"name": "Kartana",
+		"hp": "59",
+		"attack": "191",
+		"defense": "138",
+		"spattack": "62",
+		"spdef": "32",
+		"speed": "115",
+		"total": "597"
+	},
+	{
+		"name": "Guzzlord",
+		"hp": "223",
+		"attack": "109",
+		"defense": "57",
+		"spattack": "105",
+		"spdef": "57",
+		"speed": "46",
+		"total": "597"
+	},
+	{
+		"name": "Necrozma",
+		"hp": "97",
+		"attack": "107",
+		"defense": "101",
+		"spattack": "127",
+		"spdef": "89",
+		"speed": "79",
+		"total": "600"
+	},
+	{
+		"name": "Necrozma Dusk Mane",
+		"hp": "97",
+		"attack": "135",
+		"defense": "109",
+		"spattack": "97",
+		"spdef": "94",
+		"speed": "66",
+		"total": "598"
+	},
+	{
+		"name": "Necrozma Dawn Wings",
+		"hp": "97",
+		"attack": "97",
+		"defense": "94",
+		"spattack": "135",
+		"spdef": "109",
+		"speed": "66",
+		"total": "598"
+	},
+	{
+		"name": "Ultra Necrozma",
+		"hp": "97",
+		"attack": "127",
+		"defense": "74",
+		"spattack": "127",
+		"spdef": "74",
+		"speed": "98",
+		"total": "597"
+	},
+	{
+		"name": "Magearna",
+		"hp": "80",
+		"attack": "95",
+		"defense": "115",
+		"spattack": "130",
+		"spdef": "115",
+		"speed": "65",
+		"total": "600"
+	},
+	{
+		"name": "Marshadow",
+		"hp": "90",
+		"attack": "125",
+		"defense": "80",
+		"spattack": "90",
+		"spdef": "90",
+		"speed": "125",
+		"total": "600"
+	},
+	{
+		"name": "Poipole",
+		"hp": "67",
+		"attack": "73",
+		"defense": "67",
+		"spattack": "73",
+		"spdef": "67",
+		"speed": "73",
+		"total": "420"
+	},
+	{
+		"name": "Naganadel",
+		"hp": "73",
+		"attack": "82",
+		"defense": "82",
+		"spattack": "143",
+		"spdef": "82",
+		"speed": "136",
+		"total": "598"
+	},
+	{
+		"name": "Stakataka",
+		"hp": "61",
+		"attack": "138",
+		"defense": "223",
+		"spattack": "56",
+		"spdef": "106",
+		"speed": "13",
+		"total": "597"
+	},
+	{
+		"name": "Blacephalon",
+		"hp": "53",
+		"attack": "134",
+		"defense": "56",
+		"spattack": "159",
+		"spdef": "83",
+		"speed": "113",
+		"total": "598"
+	},
+	{
+		"name": "Zeraora",
+		"hp": "88",
+		"attack": "112",
+		"defense": "75",
+		"spattack": "102",
+		"spdef": "80",
+		"speed": "143",
+		"total": "600"
+	},
+	{
+		"name": "Meltan",
+		"hp": "46",
+		"attack": "65",
+		"defense": "65",
+		"spattack": "55",
+		"spdef": "35",
+		"speed": "34",
+		"total": "300"
+	},
+	{
+		"name": "Melmetal",
+		"hp": "135",
+		"attack": "143",
+		"defense": "143",
+		"spattack": "80",
+		"spdef": "65",
+		"speed": "34",
+		"total": "600"
+	},
+	{
+		"name": "Alolan Rattata",
+		"hp": "30",
+		"attack": "56",
+		"defense": "35",
+		"spattack": "25",
+		"spdef": "35",
+		"speed": "72",
+		"total": "253"
+	},
+	{
+		"name": "Alolan Raticate",
+		"hp": "75",
+		"attack": "110",
+		"defense": "108",
+		"spattack": "62",
+		"spdef": "124",
+		"speed": "119",
+		"total": "598"
+	},
+	{
+		"name": "Alolan Raichu",
+		"hp": "60",
+		"attack": "108",
+		"defense": "63",
+		"spattack": "120",
+		"spdef": "108",
+		"speed": "139",
+		"total": "598"
+	},
+	{
+		"name": "Alolan Sandshrew",
+		"hp": "50",
+		"attack": "75",
+		"defense": "90",
+		"spattack": "10",
+		"spdef": "35",
+		"speed": "40",
+		"total": "300"
+	},
+	{
+		"name": "Alolan Sandslash",
+		"hp": "75",
+		"attack": "140",
+		"defense": "168",
+		"spattack": "35",
+		"spdef": "91",
+		"speed": "91",
+		"total": "600"
+	},
+	{
+		"name": "Alolan Vulpix",
+		"hp": "38",
+		"attack": "41",
+		"defense": "40",
+		"spattack": "50",
+		"spdef": "65",
+		"speed": "65",
+		"total": "299"
+	},
+	{
+		"name": "Alolan Ninetales",
+		"hp": "73",
+		"attack": "81",
+		"defense": "91",
+		"spattack": "98",
+		"spdef": "121",
+		"speed": "132",
+		"total": "596"
+	},
+	{
+		"name": "Alolan Diglett",
+		"hp": "10",
+		"attack": "55",
+		"defense": "30",
+		"spattack": "35",
+		"spdef": "45",
+		"speed": "90",
+		"total": "265"
+	},
+	{
+		"name": "Alolan Dugtrio",
+		"hp": "35",
+		"attack": "144",
+		"defense": "86",
+		"spattack": "72",
+		"spdef": "101",
+		"speed": "159",
+		"total": "597"
+	},
+	{
+		"name": "Alolan Meowth",
+		"hp": "40",
+		"attack": "35",
+		"defense": "35",
+		"spattack": "50",
+		"spdef": "40",
+		"speed": "90",
+		"total": "290"
+	},
+	{
+		"name": "Alolan Persian",
+		"hp": "65",
+		"attack": "85",
+		"defense": "85",
+		"spattack": "107",
+		"spdef": "92",
+		"speed": "164",
+		"total": "598"
+	},
+	{
+		"name": "Alolan Geodude",
+		"hp": "40",
+		"attack": "80",
+		"defense": "100",
+		"spattack": "30",
+		"spdef": "30",
+		"speed": "20",
+		"total": "300"
+	},
+	{
+		"name": "Alolan Graveler",
+		"hp": "55",
+		"attack": "95",
+		"defense": "115",
+		"spattack": "45",
+		"spdef": "45",
+		"speed": "35",
+		"total": "390"
+	},
+	{
+		"name": "Alolan Golem",
+		"hp": "80",
+		"attack": "150",
+		"defense": "162",
+		"spattack": "68",
+		"spdef": "81",
+		"speed": "56",
+		"total": "597"
+	},
+	{
+		"name": "Alolan Grimer",
+		"hp": "80",
+		"attack": "80",
+		"defense": "50",
+		"spattack": "40",
+		"spdef": "50",
+		"speed": "25",
+		"total": "325"
+	},
+	{
+		"name": "Alolan Muk",
+		"hp": "105",
+		"attack": "131",
+		"defense": "93",
+		"spattack": "81",
+		"spdef": "125",
+		"speed": "62",
+		"total": "597"
+	},
+	{
+		"name": "Alolan Exeggutor",
+		"hp": "95",
+		"attack": "121",
+		"defense": "98",
+		"spattack": "145",
+		"spdef": "87",
+		"speed": "52",
+		"total": "598"
+	},
+	{
+		"name": "Alolan Marowak",
+		"hp": "60",
+		"attack": "118",
+		"defense": "162",
+		"spattack": "73",
+		"spdef": "118",
+		"speed": "66",
+		"total": "597,"
+	}
+]
