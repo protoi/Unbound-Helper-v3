@@ -1,5 +1,6 @@
 import re
 import constants
+
 # removes all blank spaces, underscores, slash and dash.
 
 
@@ -17,7 +18,8 @@ def StringFormatter(str, a, b, c):
     return str.format(a, b, c)
 
 
+# takes the specified column, normalizes it, then turns the list into a dictionary with key as normalized column, and value as list elements
 def listToDict(columnToUseAsIndex, listToConvert):
-    i = [re.sub(constants.normalize_regex, "", x[columnToUseAsIndex]).lower() for x in listToConvert]
-    return dict(zip(i, listToConvert))
-
+    indices = [re.sub(constants.normalize_regex, "", x[columnToUseAsIndex]).lower()
+               for x in listToConvert]  # getting the normalized list
+    return dict(zip(indices, listToConvert))  # stitching them together

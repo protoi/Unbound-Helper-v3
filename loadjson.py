@@ -16,8 +16,4 @@ ind = [re.sub(constants.normalize_regex, "", x['name']).lower() for x in ab]
 # makes a dictionary out of 2 lists with a sturcture like [string, dictionary]
 ab_dict = dict(zip(ind, ab))
 
-# print(type(ab_dict['enamorus']['Ability']))
 
-
-print(type(ab))
-print(type(ab[0]))

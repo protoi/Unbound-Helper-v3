@@ -1,5 +1,5 @@
 ##############contains the interpolated strings and the lists to be displayed.###############
-########################These are the boiler plates for our embeds###########################
+########################These are the boiler plates for the embeds###########################
 import re
 normalize_regex = "[_\-\\ ]+"
 prefix = ';'

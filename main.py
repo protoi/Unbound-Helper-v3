@@ -13,6 +13,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 
+# other than the tm list, everything is probably easier to query
 
 #################################### GENERATING DICTIONARIES ###########################################
 with open("DATA/abilities.json", encoding='utf8') as file:
@@ -59,4 +60,12 @@ async def on_message(message):
 # s = constants.stat_display.format(1, 2, 3, 4, 5, 6)
 # s = helperfunctions.StringFormatter(constants.stat_display, 1,2,3,4,5,6)
 # print(s)
-# print(tmlocation_dict[helperfunctions.normalizeString('focus                       punch')])
+# print(tmlocation_dict[helperfunctions.normalizeString('focus                       punch')]) #<- returns a dictionary
+
+
+dic = abilities_dict[helperfunctions.normalizeString('GALARIAN darManiTAN')]
+name = dic['name']
+ability = dic['Ability']
+
+ability_info = helperfunctions.StringFormatter(constants.ability_display, ability[0], ability[1], ability[2])
+print(f'ability for {name}:\n{ability_info}')
