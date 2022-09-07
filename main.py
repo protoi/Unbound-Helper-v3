@@ -1,3 +1,5 @@
+from dataclasses import field, fields
+from dis import disco
 from tabnanny import check
 import discord
 import os
@@ -58,13 +60,35 @@ async def on_message(message):
         return
 
     if message.content.startswith(constants.prefix):
+        embedToSend = None
         query = message.content
         inputs = helperfunctions.msgSplitter(query, splitter)
         if inputs == False:  # not a message we are interested in
             return
-
-        await message.channel.send(inputs[1])
-
+            
+        if(inputs[1] == 'pokedata'):                                        #POKEDATA
+            if(len(inputs) < 3):                                            # check if there is a key associated with the command
+                await message.channel.send(constants.invalid_text)          #error message
+                return
+            stat_element = stats_dict.get(inputs[2], False)                 # query dictionary 
+            if stat_element == False:                                       # is key not present, display error message and break out of it
+                await message.channel.send(constants.invalid_text)
+                return
+            embedBody = helperfunctions.generateStatScreen(stat_element)    #obtain formatted string
+            embedToSend = discord.Embed(
+                title=stat_element.get('name',
+                'place_holder_name'),
+                description=embedBody)                                      #create embed
+            await message.channel.send(embed = embedToSend)                 #post embed
+        
+        elif(inputs[1] == 'help'):                                          #HELP
+            embedToSend = discord.Embed(title= 'Help')                      #sets title as help, don't care about rest of the message
+            for index, (n,v) in enumerate(constants.command_text):          #looping over the commant_text list for name and value pairs
+                embedToSend.add_field(                                      #adding the fields one at a time
+                    name=constants.prefix + n,
+                    value=v, 
+                    inline=False)                                           #inline commands not supported on mobile, it lets you have atmost 3 columns in your embeds
+            await message.channel.send(embed = embedToSend)                 #sending the embed
 
 client.run(os.getenv('tok'))
 
