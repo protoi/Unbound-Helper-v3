@@ -23,3 +23,11 @@ def listToDict(columnToUseAsIndex, listToConvert):
     indices = [re.sub(constants.normalize_regex, "", x[columnToUseAsIndex]).lower()
                for x in listToConvert]  # getting the normalized list
     return dict(zip(indices, listToConvert))  # stitching them together
+
+def calcScaledStats(bst, hp, at, df, sp, spd, spe):
+    return bst + hp + at + df + sp + spd + spe
+
+def generateStatScreen(data):
+    print(data)
+    return constants.stat_display.format(*(data.values()))
+

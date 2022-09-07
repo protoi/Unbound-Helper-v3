@@ -38,6 +38,9 @@ with open("DATA/tm_and_tutor.json", encoding='utf8') as file:
     tm_and_tutor_dict = helperfunctions.listToDict('name',  json.load(file))
 with open("DATA/zlocation.json", encoding='utf8') as file:
     zlocation_dict = helperfunctions.listToDict('name',  json.load(file))
+with open("DATA/stats.json", encoding='utf8') as file:
+    stats_dict = helperfunctions.listToDict('name',  json.load(file))
+
 ######################################################################################################
 
 
@@ -67,5 +70,11 @@ dic = abilities_dict[helperfunctions.normalizeString('GALARIAN darManiTAN')]
 name = dic['name']
 ability = dic['Ability']
 
-ability_info = helperfunctions.StringFormatter(constants.ability_display, ability[0], ability[1], ability[2])
+ability_info = helperfunctions.StringFormatter(
+    constants.ability_display, ability[0], ability[1], ability[2])
 print(f'ability for {name}:\n{ability_info}')
+
+stats_of_mon = stats_dict[helperfunctions.normalizeString(' king ler')]
+# a,b,c,d,e,f = []
+
+print(helperfunctions.generateStatScreen(stats_of_mon))
