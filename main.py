@@ -19,7 +19,7 @@ client = discord.Client(intents=intents)
 splitter = constants.message_checker_regex.format(constants.prefix)
 def joinstr(a):
     return str(a[0]) + " - " + str(a[1])
-
+#region JSON DESERIALIZATION
 #################################### GENERATING DICTIONARIES ###########################################
 with open("DATA/abilities.json", encoding='utf8') as file:
     abilities_dict = helperfunctions.listToDict('name',  json.load(file))
@@ -46,7 +46,7 @@ with open("DATA/zlocation.json", encoding='utf8') as file:
 with open("DATA/stats.json", encoding='utf8') as file:
     stats_dict = helperfunctions.listToDict('name',  json.load(file))
 ######################################################################################################
-
+#endregion
 
 @client.event
 async def on_ready():
