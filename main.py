@@ -1,6 +1,3 @@
-from dataclasses import field, fields
-from dis import disco
-from tabnanny import check
 import discord
 import os
 import numpy as np
@@ -11,6 +8,7 @@ import constants
 from dotenv import load_dotenv
 import re
 
+
 load_dotenv()
 intents = discord.Intents.default()
 intents.message_content = True
@@ -19,7 +17,8 @@ client = discord.Client(intents=intents)
 # other than the tm list.json and stats.json(if we want to index it with their ID too), everything is probably easier to query
 
 splitter = constants.message_checker_regex.format(constants.prefix)
-
+def joinstr(a):
+    return str(a[0]) + " - " + str(a[1])
 
 #################################### GENERATING DICTIONARIES ###########################################
 with open("DATA/abilities.json", encoding='utf8') as file:
@@ -65,6 +64,7 @@ async def on_message(message):
         inputs = helperfunctions.msgSplitter(query, splitter)
         if inputs == False:  # not a message we are interested in
             return
+#___________________________________________________________________________________________________________        
             
         if(inputs[1] == 'pokedata'):                                        #POKEDATA
             if(len(inputs) < 3):                                            # check if there is a key associated with the command
@@ -80,7 +80,7 @@ async def on_message(message):
                 'place_holder_name'),
                 description=embedBody)                                      #create embed
             await message.channel.send(embed = embedToSend)                 #post embed
-        
+#___________________________________________________________________________________________________________        
         elif(inputs[1] == 'help'):                                          #HELP
             embedToSend = discord.Embed(title= 'Help')                      #sets title as help, don't care about rest of the message
             for index, (n,v) in enumerate(constants.command_text):          #looping over the commant_text list for name and value pairs
@@ -89,6 +89,50 @@ async def on_message(message):
                     value=v, 
                     inline=False)                                           #inline commands not supported on mobile, it lets you have atmost 3 columns in your embeds
             await message.channel.send(embed = embedToSend)                 #sending the embed
+#___________________________________________________________________________________________________________        
+
+        elif(inputs[1] == 'moves'):                                         #MOVES
+            if(len(inputs) < 3):                                            #checking whether message has anything after the command
+                await message.channel.send(constants.invalid_text)          #invalid message
+                return 
+            lvl_up_element = lvlupmoves_dict.get(inputs[2] ,False)          #querying for the dictionary
+            if lvl_up_element == False:                                     #if no dicitonary found, jump out of this
+                await message.channel.send(constants.invalid_text)          #error message
+                return
+            embedTitle = lvl_up_element['name'].title()                     #setting name
+            # for (n, m) in lvl_up_element['lvlUpMoves']:                   #iterating over the list of [lvl - move] pairs
+            #     embedBody+= f'{str(n)} - {m.lower()}\n'                   #concatenating them
+  
+            # embedBody = "\n".join(joinstr(x).title() for x in lvl_up_element['lvlUpMoves'])
+
+            embedBody = '\n'.join( 
+                ' - '.join(str(y).title() for y in x) 
+                for x in lvl_up_element['lvlUpMoves'])                      #same as the for loop above OR the one liner above
+
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody) 
+            await message.channel.send(embed=embedToSend)                   #sending the embed
+#___________________________________________________________________________________________________________        
+
+        elif(inputs[1] == 'eggmoves'):                                      #EGGMOVES
+            if(len(inputs) < 3):                                            #checking whether message has anything after the command
+                await message.channel.send(constants.invalid_text)          #invalid message
+                return 
+            egg_moves_element = eggmoves_dict.get(inputs[2] ,False)         #querying for the dictionary
+            if egg_moves_element == False:                                  #if no dicitonary found, jump out of this
+                await message.channel.send(constants.invalid_text)          #error message
+                return
+            embedTitle = egg_moves_element['name'].title()                  #extracting the name of the pokemon
+            embedBody = "\n".join(
+                x.lower() for x in 
+                egg_moves_element['eggMoves'])                              #concatenating the list items
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody)                                      #producing an embed
+            await message.channel.send(embed=embedToSend)                   #sending the embed
+#___________________________________________________________________________________________________________        
+
 
 client.run(os.getenv('tok'))
 
