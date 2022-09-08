@@ -133,7 +133,8 @@ async def on_message(message):
                 title=embedTitle,
                 description=embedBody)                                      #producing an embed
             await message.channel.send(embed=embedToSend)                   #sending the embed
-#___________________________________________________________________________________________________________        
+#___________________________________________________________________________________________________________       
+ 
         elif(inputs[1] == 'ability'):
             if(len(inputs) < 3):
                 await message.channel.send(constants.invalid_text)          #checks for empty message
@@ -159,12 +160,11 @@ Ability 2: {}
                 return
             embedTitle = abilities_element['name'].title()                  # extract name of pokemon
             embedBody = "\n" + embedText
-            embedToSend = discord.Embed(
+            embedToSend = discord.Embed(                                    #producing an embed
                 title=embedTitle,
-                description=embedBody)                                      #producing an embed
+                description=embedBody)                                      
             await message.channel.send(embed=embedToSend)                   #sending the embed
-            
-            
+#___________________________________________________________________________________________________________                    
 
 
 #client.run(os.getenv('tok'))
