@@ -29,11 +29,13 @@ Sp.Attack:{}
 Sp.Def:{}
 Speed:{}'''
 
-ability_display = '''Ability 1:{} 
+ability_display = '''__Ability 1__: **{}**
 {}
-Ability 2:{} 
+
+__Ability 2__: **{}**
 {}
- Hidden Ability:{}
+
+__Hidden Ability__: **{}**
 {}'''
 
 breeding_display = [

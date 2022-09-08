@@ -135,25 +135,34 @@ async def on_message(message):
             await message.channel.send(embed=embedToSend)                   #sending the embed
 #___________________________________________________________________________________________________________       
  
-        elif(inputs[1] == 'ability'):
+        elif(inputs[1] == 'ability'):                                       #ABILITY
             if(len(inputs) < 3):
                 await message.channel.send(constants.invalid_text)          #checks for empty message
                 return                                                      #error
-            #sets all the ability/ability description variables to use in the membed text
+
             abilities_element = abilities_dict.get(inputs[2], False)
-            ability1, ability2, hiddenAbility  = str(abilities_element['Ability'][0]).lower(), str(abilities_element['Ability'][1]).lower(), str(abilities_element['Ability'][2]).lower()
-            ability1_desc, ability2_desc, hidden_ability_desc = ability_desc_dict[''.join(ability1.split())]['effect'], ability_desc_dict[''.join(ability2.split())]['effect'], ability_desc_dict[''.join(hiddenAbility.split())]['effect']
-
-            embedText = helperfunctions.StringFormatter('''Ability 1: {}    
-{}
-Ability 2: {} 
-{}
- Hidden Ability: {}
-{}''', "**" + str(ability1).capitalize() + "**", ability1_desc, "**" + str(ability2).capitalize() + "**", ability2_desc, "**" + str(hiddenAbility).capitalize() + "**", hidden_ability_desc)
-
+            
             if abilities_element == False:                                  #if no dictionary found return and send error message
                 await message.channel.send(constants.invalid_text)          #error
                 return
+          
+            
+            ability1, ability2, hiddenAbility = [str(x).lower().title()     # extracting abilites and ability descriptions for embedText
+            for x in abilities_element['Ability']]
+            
+            ability1_desc, ability2_desc, hidden_ability_desc =  [ ability_desc_dict[helperfunctions.normalizeString(x)]['effect'] 
+            for x in (ability1, ability2, hiddenAbility)]
+
+            embedText = helperfunctions.StringFormatter(
+                constants.ability_display, 
+                str(ability1), 
+                ability1_desc, 
+                str(ability2), 
+                ability2_desc, 
+                str(hiddenAbility), 
+                hidden_ability_desc)
+
+            
             embedTitle = abilities_element['name'].title()                  # extract name of pokemon
             embedBody = "\n" + embedText
             embedToSend = discord.Embed(                                    #producing an embed
@@ -163,7 +172,7 @@ Ability 2: {}
 #___________________________________________________________________________________________________________                    
 
 
-#client.run(os.getenv('tok'))
+client.run(os.getenv('tok'))
 
 
 ######################################CODE FOR TESTING###################################
@@ -172,13 +181,13 @@ x = stats_dict.get(helperfunctions.normalizeString('galarian Darmanitan'), False
 #print(helperfunctions.generateStatScreen(x))
 
 
-s1=";scale pokemon name"
-s2=";   tmlocation focus punch"
-s3="  ;     help"
-s4="   ;zmove Kommomium-Z"
-s5 = "; help help help help"
-s6 = ";ability Galarian Darmanitan"
-myreg = constants.message_checker_regex.format(constants.prefix)
+# s1=";scale pokemon name"
+# s2=";   tmlocation focus punch"
+# s3="  ;     help"
+# s4="   ;zmove Kommomium-Z"
+# s5 = "; help help help help"
+# s6 = ";ability Galarian Darmanitan"
+# myreg = constants.message_checker_regex.format(constants.prefix)
 
 #print(helperfunctions.msgSplitter(s1, myreg))
 #print(helperfunctions.msgSplitter(s2, myreg))
@@ -187,4 +196,4 @@ myreg = constants.message_checker_regex.format(constants.prefix)
 
 #########################################################################################
 
-client.run('')
+# client.run('')
