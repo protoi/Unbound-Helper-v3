@@ -1154,5 +1154,9 @@
   {
     "name": "Royal Roar",
     "effect": "Raises Special Attack stat by one stage upon KO'ing a target."
+  },
+  {
+    "name": "None",
+    "effect": "..."
   }
 ]

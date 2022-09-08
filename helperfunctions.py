@@ -10,13 +10,13 @@ def normalizeString(text): # removes
 # overloaded function to format the interpolated string, {}'s -> parameters.
 
 
-# TODO: Replace this with twigs implementation fo StringFormatter
-def StringFormatter(str, a, b, c, d, e, f):
-    return str.format(a, b, c, d, e, f)
 
+def StringFormatter(str, a, b, c, d=None, e=None, f=None):
+    if d != None:
+        return str.format(a, b, c, d, e, f)
+    else:
+        return str.format(a, b, c)
 
-def StringFormatter(str, a, b, c):
-    return str.format(a, b, c)
 
 
 # takes the specified column, normalizes it, then turns the list into a dictionary with key as normalized column, and value as list elements
