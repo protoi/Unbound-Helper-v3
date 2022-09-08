@@ -191,4 +191,4 @@ myreg = constants.message_checker_regex.format(constants.prefix)
 
 #########################################################################################
 
-client.run('MTAxNjQ5MDYwNDA5MzUwOTY5Mg.GqEV6Y.yCFkJ3vWzLyULXN1nH-VWNy0eXbpOA1ynsneuo')
+client.run('')
