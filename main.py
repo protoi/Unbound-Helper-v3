@@ -80,7 +80,7 @@ async def on_message(message):
         
 #___________________________________________________________________________________________________________        
             
-        if(inputs[1] == 'pokedata'):                                        #POKEDATA
+        if(inputs[1] == 'stats'):                                        #POKEDATA
             if(len(inputs) < 3):                                            # check if there is a key associated with the command
                 await message.channel.send(constants.invalid_text)          #error message
                 return
@@ -206,8 +206,41 @@ async def on_message(message):
                 description=embedBody)                                      #producing an embed
             await message.channel.send(embed=embedToSend)                   #sending the embed
 #___________________________________________________________________________________________________________       
-     
+        elif(inputs[1] == 'z' or inputs[1] == 'megastone'):                 #z crystal and megastone
+            if(len(inputs) < 3):                                            #checking whether message has anything after the command
+                await message.channel.send(constands.invalid_text)          #invalid message
+                return
+            
+            if(inputs[1] == 'z'):                                           #checks for z command
+                z_element = zlocation_dict.get(inputs[2], False)            #query for z crystal
 
+                if z_element == False:                                      #does entry exist?
+                    await message.channel.send(constants.invalid_text)      #if not send error
+                    return
+                
+                embedTitle = z_element['name'].title()                      #extract name of z crystal
+                embedBody = z_element['location']                           #extract location of z crystal
+                embedToSend = discord.Embed(
+                    title=embedTitle,
+                    description=embedBody)
+                await message.channel.send(embed=embedToSend)               #send embed
+                return
+
+            elif(inputs[1] == 'megastone'):                                 #checks for megastone command
+                megastone_element = megastone_dict.get(inputs[2], False)    #query for megastone
+
+                if megastone_element == False:                              #does entry exist?
+                    await message.channel.send(constants.invalid_text)      #if not send error
+                    return
+                
+                embedTitle = megastone_element['name'].title()              #extract name of megastone
+                embedBody = megastone_element['location']                   #extract location of megastone
+                embedToSend = discord.Embed(
+                    title=embedTitle,
+                    description=embedBody)
+                await message.channel.send(embed=embedToSend)               #send embed
+                return
+#___________________________________________________________________________________________________________  
 client.run(os.getenv('tok'))
 
 
@@ -232,4 +265,3 @@ client.run(os.getenv('tok'))
 
 #########################################################################################
 
-client.run('MTAxNjQ5MDYwNDA5MzUwOTY5Mg.GvBBWF.DMKT_iUf_Wvv0Lk2cicUd17hnQ7ftSEzCUX7os')

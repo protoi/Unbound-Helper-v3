@@ -150,7 +150,7 @@ command_text = [
     ["scale",
      '''Syntax: `;scale <pokemon_name>`
      scalemon stats'''],
-     ["Pokedata",
-      '''Syntax: `;pokedata <pokemon_name>`
+     ["stats",
+      '''Syntax: `;stats <pokemon_name>`
      normal stats''']
 ]
