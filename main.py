@@ -141,13 +141,9 @@ async def on_message(message):
                 return                                                      #error
             #sets all the ability/ability description variables to use in the membed text
             abilities_element = abilities_dict.get(inputs[2], False)
-            ability1 = str(abilities_element['Ability'][0]).lower()
-            ability1_desc = ability_desc_dict[''.join(ability1.split())]['effect']
-            ability2 = str(abilities_element['Ability'][1]).lower() 
-            ability2_desc = ability_desc_dict[''.join(ability2.split())]['effect']
-            hiddenAbility = str(abilities_element['Ability'][2]).lower()
-            hidden_ability_desc = ability_desc_dict[''.join(hiddenAbility.split())]['effect']
-            ##############################################################################
+            ability1, ability2, hiddenAbility  = str(abilities_element['Ability'][0]).lower(), str(abilities_element['Ability'][1]).lower(), str(abilities_element['Ability'][2]).lower()
+            ability1_desc, ability2_desc, hidden_ability_desc = ability_desc_dict[''.join(ability1.split())]['effect'], ability_desc_dict[''.join(ability2.split())]['effect'], ability_desc_dict[''.join(hiddenAbility.split())]['effect']
+
             embedText = helperfunctions.StringFormatter('''Ability 1: {}    
 {}
 Ability 2: {} 
@@ -191,4 +187,4 @@ myreg = constants.message_checker_regex.format(constants.prefix)
 
 #########################################################################################
 
-client.run('')
+client.run('MTAxNjQ5MDYwNDA5MzUwOTY5Mg.GPkNJ2.RNZhUNGFLMrZ7BQvVap_mocZhemqKd_n_DDJrg')

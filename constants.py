@@ -37,7 +37,7 @@ Ability 2:{}
 {}'''
 
 breeding_display = [
-    ["Wynaut:", "Breed Wobuffet  with Lax Incense."],
+    ["Wynaut:", "Breed Wobbuffet  with Lax Incense."],
     ["Munchlax:", "Breed Snorlax with Full Incense."],
     ["Chingling:", "Breed Chimecho with Pure Incense."],
     ["Mime Jr:", "Breed Mr. Mime with Odd Incense."],
@@ -147,5 +147,8 @@ command_text = [
      shows tm compatibility, thanks dave99 again!!!!'''],
     ["scale",
      '''Syntax: `;scale <pokemon_name>`
-     scalemon stats''']
+     scalemon stats'''],
+     ["Pokedata",
+      '''Syntax: `;pokedata <pokemon_name>`
+     normal stats''']
 ]
