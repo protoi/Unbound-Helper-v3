@@ -1,0 +1,1162 @@
+[
+  {
+    "name": "Adaptability",
+    "effect": "Increases the same-type attack bonus from 1.5× to 2×."
+  },
+  {
+    "name": "Aerilate",
+    "effect": "Turns Normal-type moves into Flying-type and receive a 30% power boost."
+  },
+  {
+    "name": "Aftermath",
+    "effect": "When the Pokémon with this Ability faints due to damage from a move that makes contact, the attacking Pokémon takes damage equal to 1/4 of its max HP."
+  },
+  {
+    "name": "Air Lock",
+    "effect": "Negates all effects of weather, but does not prevent the weather itself."
+  },
+  {
+    "name": "Analytic",
+    "effect": "Increases the power of moves by 30% when moving last."
+  },
+  {
+    "name": "Anger Point",
+    "effect": "Maxes the Attack stat after receiving a critical hit."
+  },
+  {
+    "name": "Anticipation",
+    "effect": "Notifies all trainers upon entering battle if an opponent has a “super-effective” move, Self-Destruct, Explosion, or a one-hit KO move."
+  },
+  {
+    "name": "Arena Trap",
+    "effect": "Prevents opponents from fleeing or switching out. Does not affect Flying-type and Pokémon with Levitate.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is doubled."
+  },
+  {
+    "name": "Aroma Veil",
+    "effect": "Prevents the Pokémon with this Ability and its allies from being afflicted by Taunt, Torment, Encore, Disable, Cursed Body, Heal Block, and infatuation."
+  },
+  {
+    "name": "As One",
+    "effect": "Prevents the opposing Pokémon from eating berries and raises its Attack (Ice Raider) or Special Attack stat (Shadow Raider) by one stage upon KO'ing a target."
+  },
+  {
+    "name": "Aura Break",
+    "effect": "Makes Dark Aura and Fairy Aura weaken moves of their respective types to 2/3 their power."
+  },
+  {
+    "name": "Bad Dreams",
+    "effect": "Damages sleeping opponents for 1/8 of their max HP at the end of each turn."
+  },
+  {
+    "name": "Ball Fetch",
+    "effect": "If the Pokémon with Ball Fetch isn't holding an item, it'll retrieve the first Poké Ball that failed to catch a Pokémon at the end of a turn."
+  },
+  {
+    "name": "Battery",
+    "effect": "Raises the power of allies' special moves by 30%."
+  },
+  {
+    "name": "Battle Armor",
+    "effect": "Prevents the opponent from landing a critical hit."
+  },
+  {
+    "name": "Battle Bond",
+    "effect": "Changes Greninja into Ash-Greninja after it knocks out a Pokémon. If Ash-Greninja uses Water Shuriken, the move's power becomes 20 and it always hits three times. When the battle ends, Greninja reverts to its original form."
+  },
+  {
+    "name": "Beast Boost",
+    "effect": "Raises the Pokémon's highest stat (other than HP) by one stage each time it knocks out a Pokémon."
+  },
+  {
+    "name": "Berserk",
+    "effect": "Raises Special Attack stat by one stage when HP drops below 50%."
+  },
+  {
+    "name": "Big Pecks",
+    "effect": "Prevents Defense stat from being lowered by other Pokémon."
+  },
+  {
+    "name": "Blaze",
+    "effect": "Increases the power of Fire-type moves by 50% at 1/3 max HP or less."
+  },
+  {
+    "name": "Bulletproof",
+    "effect": "Protects against bullet, ball, and bomb-based moves."
+  },
+  {
+    "name": "Cheek Pouch",
+    "effect": "Restores 33% of max HP upon eating a Berry, in addition to the Berry's effect."
+  },
+  {
+    "name": "Chilling Neigh",
+    "effect": "Raises Attack stat by one stage upon KO'ing a target."
+  },
+  {
+    "name": "Chlorophyll",
+    "effect": "Doubles Speed stat during harsh sunlight."
+  },
+  {
+    "name": "Clear Body",
+    "effect": "Prevents stats from being lowered by other Pokémon."
+  },
+  {
+    "name": "Cloud Nine",
+    "effect": "Negates all effects of weather, but does not prevent the weather itself."
+  },
+  {
+    "name": "Color Change",
+    "effect": "Changes the Pokémon's type to the type of the move that it was hit by."
+  },
+  {
+    "name": "Comatose",
+    "effect": "Keeps the Pokémon perpetually in a drowsing state, which prevents it from getting any other status conditions."
+  },
+  {
+    "name": "Competitive",
+    "effect": "Raises Special Attack stat by two stages upon having any stat lowered."
+  },
+  {
+    "name": "Compound Eyes",
+    "effect": "Increases moves' accuracy by 30%.\nOverworld: If the lead Pokémon has this Ability, the chances of finding a wild Pokémon holding an item increase from 50% to 60% (for common items), 5% to 20% (for uncommon items)."
+  },
+  {
+    "name": "Contrary",
+    "effect": "Inverts stat changes."
+  },
+  {
+    "name": "Corrosion",
+    "effect": "Allows the user to inflict poison on any Pokémon regardless of type."
+  },
+  {
+    "name": "Cotton Down",
+    "effect": "When the Pokémon with this Ability is hit by a damaging move, the Speed stat of all other Pokémon is decreased by one stage."
+  },
+  {
+    "name": "Curious Medicine",
+    "effect": "When the Pokémon with this Ability enters the battle, allies’ stat changes are reset."
+  },
+  {
+    "name": "Cursed Body",
+    "effect": "Has a 30% chance of disabling any move that hits the Pokémon with this Ability for 4 turns."
+  },
+  {
+    "name": "Cute Charm",
+    "effect": "Has a 30% chance of infatuating the attacking Pokémon with opposite gender on contact.\nOverworld: If the lead Pokémon has this Ability, the chance of encountering a Pokémon of the opposite gender is 66,7%."
+  },
+  {
+    "name": "Damp",
+    "effect": "Prevents Self-Destruct, Explosion, Mind Blown, Misty Explosion and Aftermath from working."
+  },
+  {
+    "name": "Dancer",
+    "effect": "If another Pokémon in the field uses a dancing move, the Pokémon with this Ability will immediately use that move as well."
+  },
+  {
+    "name": "Dark Aura",
+    "effect": "Increases the damage dealt by Dark-type moves by 33% for all Pokémon on the field."
+  },
+  {
+    "name": "Dauntless Shield",
+    "effect": "Raises Defense stat by one stage upon entering battle."
+  },
+  {
+    "name": "Dazzling",
+    "effect": "Prevents opponents from using priority moves that normally strike first."
+  },
+  {
+    "name": "Defeatist",
+    "effect": "Halves the user's Attack and Special Attack stats at 50% max HP or less."
+  },
+  {
+    "name": "Defiant",
+    "effect": "Raises Attack stat by two stages upon having any stat lowered."
+  },
+  {
+    "name": "Delta Stream",
+    "effect": "Creates strong winds to eliminate all of the Flying type’s weaknesses upon entering battle."
+  },
+  {
+    "name": "Desolate Land",
+    "effect": "Creates extremely harsh sunlight to nullify Water-type moves upon entering battle."
+  },
+  {
+    "name": "Disguise",
+    "effect": "Prevents damage from a single attack. After that, Mimikyu changes into Busted Form and loses 1/8 of its max HP."
+  },
+  {
+    "name": "Download",
+    "effect": "Raises either Attack or Special Attack stat by one stage base on the opponent's defenses upon entering battle."
+  },
+  {
+    "name": "Dragon's Maw",
+    "effect": "Increases the power of Dragon-type moves by 50%."
+  },
+  {
+    "name": "Drizzle",
+    "effect": "Summons rain that lasts for five turns upon entering battle."
+  },
+  {
+    "name": "Drought",
+    "effect": "Summons harsh sunlight that lasts for five turns upon entering battle."
+  },
+  {
+    "name": "Dry Skin",
+    "effect": "The user loses 1/8 of its max HP each turn during harsh sunlight, but recovers 1/8 of max HP during rain. Increases the damage taken from Fire-type moves by 25%, but absorbs Water-type moves, restores 1/4 of max HP."
+  },
+  {
+    "name": "Early Bird",
+    "effect": "Causes quick awakening from sleep."
+  },
+  {
+    "name": "Effect Spore",
+    "effect": "When the Pokémon with this Ability is hit by a move that makes contact, there is a 30% chance that the attacking Pokémon will become either poisoned, paralyzed, or asleep."
+  },
+  {
+    "name": "Electric Surge",
+    "effect": "The field turns into Electric Terrain, boosting the power of any Electric-type moves used by Pokémon on the ground by 30% and preventing them from falling asleep."
+  },
+  {
+    "name": "Emergency Exit",
+    "effect": "Switches out when HP drops below 50%."
+  },
+  {
+    "name": "Fairy Aura",
+    "effect": "Increases the damage dealt by Fairy-type moves by 33% for all Pokémon on the field."
+  },
+  {
+    "name": "Filter",
+    "effect": "Reduces the damage taken from “super-effective” moves by 25%."
+  },
+  {
+    "name": "Flame Body",
+    "effect": "Has a 30% chance of burning the attacking Pokémon on contact.\nOverworld: If a Pokémon with Flame Body is in the party, the number of steps required to hatch the egg are halved."
+  },
+  {
+    "name": "Flare Boost",
+    "effect": "Increases the power of special moves by 50% when burned."
+  },
+  {
+    "name": "Flash Fire",
+    "effect": "Immune to Fire-type moves. When activated, the power of the user's Fire-type moves is increased by 50%.\nOverworld: If the lead Pokémon has this Ability, the chance of encountering a Fire-type wild Pokémon increases by 50%."
+  },
+  {
+    "name": "Flower Gift",
+    "effect": "Changes Cherrim into Sunshine Form during harsh sunlight, raises the Attack and Special Defense stats of all party Pokémon by 50%."
+  },
+  {
+    "name": "Flower Veil",
+    "effect": "Protects the user and its Grass-type allies from having their stats lowered by other Pokémon."
+  },
+  {
+    "name": "Fluffy",
+    "effect": "Halves the damage taken from moves that make contact, but takes double damage from Fire-type moves."
+  },
+  {
+    "name": "Forecast",
+    "effect": "Changes Castform's type and form to match the weather."
+  },
+  {
+    "name": "Forewarn",
+    "effect": "Reveals the opponents' strongest move upon entering battle."
+  },
+  {
+    "name": "Friend Guard",
+    "effect": "Reduces the damage received by allies by 25%."
+  },
+  {
+    "name": "Frisk",
+    "effect": "Reveals an opponent's held item upon entering battle."
+  },
+  {
+    "name": "Full Metal Body",
+    "effect": "The Pokémon’s stats can not be lowered by the effects of an opponent’s moves or Ability."
+  },
+  {
+    "name": "Fur Coat",
+    "effect": "Doubles Defense stat."
+  },
+  {
+    "name": "Gale Wings",
+    "effect": "Increases the priority of Flying-type moves by +1."
+  },
+  {
+    "name": "Galvanize",
+    "effect": "Turns all Normal-type moves into Electric-type and receive a 20% power boost."
+  },
+  {
+    "name": "Gluttony",
+    "effect": "Causes the Pokémon to eat Berries that would normally be eaten at 25% HP or lower at 50% HP or lower instead."
+  },
+  {
+    "name": "Gooey",
+    "effect": "Lowers the attacking Pokémon's Speed stat by one stage on contact."
+  },
+  {
+    "name": "Gorilla Tactics",
+    "effect": "Increases Attack stat by 50%, but limits the Pokémon to using only one move."
+  },
+  {
+    "name": "Grass Pelt",
+    "effect": "Increases Defense stat by 50% on Grassy Terrain."
+  },
+  {
+    "name": "Grassy Surge",
+    "effect": "The field turns into Grassy Terrain, boosting the power of any Grass-type moves used by Pokémon on the ground by 30% and restoring a bit of HP to them each turn. It also halves the damage taken from Earthquake, Magnitude, and Bulldoze."
+  },
+  {
+    "name": "Grim Neigh",
+    "effect": "Raises Special Attack stat by one stage upon KO'ing a target."
+  },
+  {
+    "name": "Gulp Missile",
+    "effect": "When the Pokémon with this Ability uses Surf or Dive, it will come back with prey. When it takes damage, it will spit out the prey to attack."
+  },
+  {
+    "name": "Guts",
+    "effect": "While the Pokémon with this Ability has a status condition, its Attack stat is increased by 50%. It also does not lose Attack due to burn."
+  },
+  {
+    "name": "Harvest",
+    "effect": "Has a 50% chance (100% chance during harsh sunlight) of restoring a used Berry at the end of each turn.\nOverworld: If the lead Pokémon has this Ability, the chance of encountering a Grass-type wild Pokémon increases by 50%."
+  },
+  {
+    "name": "Healer",
+    "effect": "Has a 30% chance of curing an adjacent ally's status condition at the end of each turn."
+  },
+  {
+    "name": "Heatproof",
+    "effect": "Halves damage from Fire-type moves and burns."
+  },
+  {
+    "name": "Heavy Metal",
+    "effect": "Doubles the Pokémon's weight."
+  },
+  {
+    "name": "Honey Gather",
+    "effect": "The Pokémon may pick up honey after battle."
+  },
+  {
+    "name": "Huge Power",
+    "effect": "Doubles Attack stat in battle."
+  },
+  {
+    "name": "Hunger Switch",
+    "effect": "Causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode. Morpeko's form also changes the type of its signature move, Aura Wheel."
+  },
+  {
+    "name": "Hustle",
+    "effect": "Increases Attack stat by 50%, but lowers the accuracy of physical moves by 20%. Special moves and status moves are unaffected by Hustler.\nOverworld: If the lead Pokémon has this Ability, wild Pokémon are 50% more likely to be higher level."
+  },
+  {
+    "name": "Hydration",
+    "effect": "Heals status conditions at the end of each turn during rain."
+  },
+  {
+    "name": "Hyper Cutter",
+    "effect": "Prevents Attack stat from being lowered by other Pokémon, blocks Intimidate."
+  },
+  {
+    "name": "Ice Body",
+    "effect": "Restores 1/16 of max HP at the end of each turn during hail. Protects against hail damage."
+  },
+  {
+    "name": "Ice Face",
+    "effect": "Prevents damage from a single physical attack. After that, Eiscue changes into Noice Face form. The Ice Face can be restored once per battle at the end of a turn during hail."
+  },
+  {
+    "name": "Ice Scales",
+    "effect": "Halves the damage taken from special moves."
+  },
+  {
+    "name": "Illuminate",
+    "effect": "No effect.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is doubled."
+  },
+  {
+    "name": "Illusion",
+    "effect": "Takes the name and appearance of the last non-fainted Pokémon of the player's party upon entering battle."
+  },
+  {
+    "name": "Immunity",
+    "effect": "Prevents the Pokémon from being poisoned."
+  },
+  {
+    "name": "Imposter",
+    "effect": "Transforms into the opponent it's facing upon entering battle."
+  },
+  {
+    "name": "Infiltrator",
+    "effect": "Moves used by the Pokémon with this Ability bypass the effects of targets' Reflect, Light Screen, Safeguard, Mist, Aurora Veil and Substitute. Prevents accuracy from being lowered.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is halved."
+  },
+  {
+    "name": "Innards Out",
+    "effect": "When the Pokémon with this Ability faints, it deals damage to the opponent equal to amount of damage it took on the final blow."
+  },
+  {
+    "name": "Inner Focus",
+    "effect": "Prevents the Pokémon from flinching and blocks Intimidate"
+  },
+  {
+    "name": "Insomnia",
+    "effect": "Prevents the Pokémon from falling asleep."
+  },
+  {
+    "name": "Intimidate",
+    "effect": "Lowers the opponents' Attack stat by one stage upon entering battle. Does not affect Inner Focus, Oblivious, Scrappy, or Own Tempo. Intimidate also triggers Rattled.\nOverworld: If the lead Pokémon has this Ability, wild Pokémon are 50% less likely to be lower level."
+  },
+  {
+    "name": "Intrepid Sword",
+    "effect": "Raises Attack stat by one stage upon entering battle."
+  },
+  {
+    "name": "Iron Barbs",
+    "effect": "When the Pokémon with this Ability is hit by a move that makes contact, the attacking Pokémon takes damage equal to 1/8 of its max HP."
+  },
+  {
+    "name": "Iron Fist",
+    "effect": "Increases the power of punching moves by 20%."
+  },
+  {
+    "name": "Justified",
+    "effect": "Raises Attack stat by one stage upon taking damage from a Dark-type move."
+  },
+  {
+    "name": "Keen Eye",
+    "effect": "Prevents accuracy from being lowered and ignores the target's evasion stages.\nOverworld: If the lead Pokémon has this Ability, wild Pokémon are 50% less likely to be lower level."
+  },
+  {
+    "name": "Klutz",
+    "effect": "Prevents the Pokémon from using its held item in battle."
+  },
+  {
+    "name": "Leaf Guard",
+    "effect": "Protects against major status ailments during harsh sunlight."
+  },
+  {
+    "name": "Levitate",
+    "effect": "Immune to Ground-type moves, Spikes, Toxic Spikes, Sticky Web, Rototiller, Arena Trap and terrain effects."
+  },
+  {
+    "name": "Libero",
+    "effect": "Changes the user's type to the type of the move it's about to use."
+  },
+  {
+    "name": "Light Metal",
+    "effect": "Halves the Pokémon's weight."
+  },
+  {
+    "name": "Lightning Rod",
+    "effect": "Redirects single-target Electric-type moves to this Pokémon. Absorbs Electric-type moves, raising Special Attack stat by one stage.\nOverworld: If the lead Pokémon has this Ability, the chance of encountering an Electric-type wild Pokémon increases by 50%."
+  },
+  {
+    "name": "Limber",
+    "effect": "Prevents the Pokémon from being paralyzed."
+  },
+  {
+    "name": "Liquid Ooze",
+    "effect": "Causes HP-draining moves used on the Pokémon with this Ability to damage their user instead of healing them."
+  },
+  {
+    "name": "Liquid Voice",
+    "effect": "Turns all sound-based moves into Water-type moves."
+  },
+  {
+    "name": "Long Reach",
+    "effect": "If the Pokémon uses a contact move, it will not activate any effects caused by contact."
+  },
+  {
+    "name": "Magic Bounce",
+    "effect": "Reflects most of non-damaging moves back to the user."
+  },
+  {
+    "name": "Magic Guard",
+    "effect": "Prevents damage caused by effects."
+  },
+  {
+    "name": "Magician",
+    "effect": "Steals the target's held item when the Pokémon with this Ability uses a damaging move."
+  },
+  {
+    "name": "Magma Armor",
+    "effect": "Prevents the Pokémon from being frostbitten.\nOverworld: If a Pokémon with Magma Armor is in the party, the number of steps required to hatch the egg are halved."
+  },
+  {
+    "name": "Magnet Pull",
+    "effect": "Prevents Steel-type opponents from fleeing or switching out.\nOverworld: If the lead Pokémon has this Ability, the chance of encountering a Steel-type wild Pokémon increases by 50%."
+  },
+  {
+    "name": "Marvel Scale",
+    "effect": "Increases Defense stat by 50% if the user has a status condition."
+  },
+  {
+    "name": "Mega Launcher",
+    "effect": "Increases the power of aura and pulse moves by 50%. Heal Pulse heals 75% of the target's max HP."
+  },
+  {
+    "name": "Merciless",
+    "effect": "The user's attacks become critical hits if the target is poisoned."
+  },
+  {
+    "name": "Mimicry",
+    "effect": "Changes the Pokémon’s type depending on the terrain."
+  },
+  {
+    "name": "Minus",
+    "effect": "Increases Special Attack stat by 50% if an ally has Plus or Minus."
+  },
+  {
+    "name": "Mirror Armor",
+    "effect": "Reflects the stat-lowering effects of moves and Abilities back to the user."
+  },
+  {
+    "name": "Misty Surge",
+    "effect": "The field turns into Misty Terrain, halving the damage taken by Pokémon on the ground from Dragon-type moves and preventing them from being afflicted with status conditions or confusion."
+  },
+  {
+    "name": "Mold Breaker",
+    "effect": "Prevents a target's Ability from affecting moves that the Mold Breaker Pokémon uses."
+  },
+  {
+    "name": "Moody",
+    "effect": "Raises a random stat by two stages and lowers another by one stage at the end of each turn. It does not select evasion or accuracy."
+  },
+  {
+    "name": "Motor Drive",
+    "effect": "Raises Speed stat by one stage if hit by an Electric-type move instead of taking damage."
+  },
+  {
+    "name": "Moxie",
+    "effect": "Raises Attack stat by one stage upon KO'ing a Pokémon."
+  },
+  {
+    "name": "Multiscale",
+    "effect": "Halves damage taken at full HP."
+  },
+  {
+    "name": "Multitype",
+    "effect": "Changes Arceus' type to match its held Plate or Z-Crystal."
+  },
+  {
+    "name": "Mummy",
+    "effect": "Changes the attacking Pokémon's Ability to Mummy on contact."
+  },
+  {
+    "name": "Natural Cure",
+    "effect": "Heals any status conditions upon switching out.\nOverworld: Natural Cure automatically heals status conditions upon the end of a battle."
+  },
+  {
+    "name": "Neuroforce",
+    "effect": "Increases the power of “super-effective” moves by 25%."
+  },
+  {
+    "name": "Neutralizing Gas",
+    "effect": "Suppresses the effects of Abilities of other Pokémon currently in battle."
+  },
+  {
+    "name": "No Guard",
+    "effect": "Ensures all moves used by and against the Pokémon with this Ability hit without fail.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is doubled."
+  },
+  {
+    "name": "Normalize",
+    "effect": "Turns all moves used by the Pokémon with this Ability into Normal-type and receive a 20% power boost."
+  },
+  {
+    "name": "Oblivious",
+    "effect": "Prevents the Pokémon from being infatuated, protects against Captivate, Taunt and Intimidate."
+  },
+  {
+    "name": "Overcoat",
+    "effect": "Protects against damage from weather, also protects the user from powder and spore moves, as well as Effect Spore."
+  },
+  {
+    "name": "Overgrow",
+    "effect": "Increases the power of Grass-type moves by 50% at 1/3 max HP or less."
+  },
+  {
+    "name": "Own Tempo",
+    "effect": "Prevents the Pokémon from being confused and blocks Intimidate."
+  },
+  {
+    "name": "Parental Bond",
+    "effect": "Allows the user to attack twice. The second attack hits with 25% of the power."
+  },
+  {
+    "name": "Pastel Veil",
+    "effect": "Protects the Pokémon and its ally from being poisoned."
+  },
+  {
+    "name": "Perish Body",
+    "effect": "When hit by a move that makes contact, the Pokémon with this Ability and the attacker will faint in three turns."
+  },
+  {
+    "name": "Pickpocket",
+    "effect": "When hit by a move that makes contact, the Pokémon with this Ability will steal the held item of the attacking Pokémon."
+  },
+  {
+    "name": "Pickup",
+    "effect": "Collects the item that other Pokémon consumed in battle.\nOverworld: When a battle ends, any party Pokémon with Pickup has a 10% chance of picking up an item (if they are not already holding an item)."
+  },
+  {
+    "name": "Pixilate",
+    "effect": "Turns Normal-type moves into Fairy-type and receive a 30% power boost."
+  },
+  {
+    "name": "Plus",
+    "effect": "Increases Special Attack stat by 50% if an ally has Minus or Plus."
+  },
+  {
+    "name": "Poison Heal",
+    "effect": "Restores 1/8 of max HP at the end of each turn if the Pokémon is poisoned."
+  },
+  {
+    "name": "Poison Point",
+    "effect": "Has a 30% chance of poisoning the attacking Pokémon on contact."
+  },
+  {
+    "name": "Poison Touch",
+    "effect": "Has a 30% chance of poisoning the target on contact."
+  },
+  {
+    "name": "Power Construct",
+    "effect": "Changes Zygarde 10% Forme or Zygarde 50% Forme into Zygarde Complete Forme when its HP drops below 50%."
+  },
+  {
+    "name": "Power of Alchemy",
+    "effect": "When an ally of the Pokémon with this Ability faints in battle, Power of Alchemy will be replaced by the fainted Pokémon's Ability."
+  },
+  {
+    "name": "Power Spot",
+    "effect": "Increases the power of allies' moves by 30%."
+  },
+  {
+    "name": "Prankster",
+    "effect": "Increases the priority of status moves by +1. Moves increased by this that are used on Dark-type opponents will fail."
+  },
+  {
+    "name": "Pressure",
+    "effect": "Increases the PP cost of moves that targetting the Pokémon with this Ability by one.\nOverworld: If the lead Pokémon has this Ability, wild Pokémon are 50% more likely to be higher level."
+  },
+  {
+    "name": "Primordial Sea",
+    "effect": "Creates heavy rain to nullify Fire-type moves upon entering battle."
+  },
+  {
+    "name": "Prism Armor",
+    "effect": "Reduces the damage taken from “super-effective” moves by 25%."
+  },
+  {
+    "name": "Propeller Tail",
+    "effect": "Makes the user's moves ignore the target-redirecting effects of moves and Abilities."
+  },
+  {
+    "name": "Protean",
+    "effect": "Changes the user's type to the type of the move it's about to use."
+  },
+  {
+    "name": "Psychic Surge",
+    "effect": "The field turns into Psychic Terrain, boosting the power of any Psychic-type moves used by Pokémon on the ground by 30% and preventing them from being hit by priority moves."
+  },
+  {
+    "name": "Punk Rock",
+    "effect": "Increases the power of sound-based moves by 30%. The user also takes half damage from damaging sound-based moves."
+  },
+  {
+    "name": "Pure Power",
+    "effect": "Doubles Attack stat in battle."
+  },
+  {
+    "name": "Queenly Majesty",
+    "effect": "Prevents opponents from using priority moves."
+  },
+  {
+    "name": "Quick Draw",
+    "effect": "Has a 30% chance of moving first with a damaging move. (44% chance if the user's holding Quick Claw)."
+  },
+  {
+    "name": "Quick Feet",
+    "effect": "Increases Speed stat by 50% if the user has a status condition.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is halved."
+  },
+  {
+    "name": "Rain Dish",
+    "effect": "Restores 1/16 of max HP at the end of each turn during rain."
+  },
+  {
+    "name": "Rattled",
+    "effect": "Raises Speed stat by one stage upon being hit by a Dark-, Ghost-, or Bug-type damaging move. Also activates if the Pokémon with this Ability is affected by Intimidate."
+  },
+  {
+    "name": "Receiver",
+    "effect": "When an ally of the Pokémon with this Ability faints in battle, Receiver will be replaced by the fainted Pokémon's Ability."
+  },
+  {
+    "name": "Reckless",
+    "effect": "Increases the power of moves that have recoil or crash damage by 20%."
+  },
+  {
+    "name": "Refrigerate",
+    "effect": "Turns Normal-type moves into Ice-type and receive a 30% power boost."
+  },
+  {
+    "name": "Regenerator",
+    "effect": "Restores 1/3 of max HP upon switching out."
+  },
+  {
+    "name": "Ripen",
+    "effect": "Doubles the effects of held Berries when eaten in battle."
+  },
+  {
+    "name": "Rivalry",
+    "effect": "Increases damage by 25% against the same gender target, but decreases damage by 25% against the opposite gender."
+  },
+  {
+    "name": "RKS System",
+    "effect": "Changes Silvally's type to match its held Memory Disk."
+  },
+  {
+    "name": "Rock Head",
+    "effect": "Prevents recoil damage from moves."
+  },
+  {
+    "name": "Rough Skin",
+    "effect": "When the Pokémon with this Ability is hit by a move that makes contact, the attacking Pokémon takes damage equal to 1/8 of its max HP."
+  },
+  {
+    "name": "Run Away",
+    "effect": "Ensures success fleeing from wild battles."
+  },
+  {
+    "name": "Sand Force",
+    "effect": "Increases the power of Rock-, Ground-, and Steel-type moves by 30% during a sandstorm. Protects against sandstorm damage."
+  },
+  {
+    "name": "Sand Rush",
+    "effect": "Doubles Speed stat during a sandstorm. Protects against sandstorm damage."
+  },
+  {
+    "name": "Sand Spit",
+    "effect": "Summons a sandstorm that lasts for five turns when hit by a damaging move."
+  },
+  {
+    "name": "Sand Stream",
+    "effect": "Summons a sandstorm that lasts for five turns upon entering battle."
+  },
+  {
+    "name": "Sand Veil",
+    "effect": "Increases evasion by 20% during a sandstorm. Protects against sandstorm damage.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is halved in a sandstorm."
+  },
+  {
+    "name": "Sap Sipper",
+    "effect": "Absorbs Grass-type moves, raising Attack stat by one stage."
+  },
+  {
+    "name": "Schooling",
+    "effect": "Changes Wishiwashi into School Form if its HP is above 25% and is at least level 20. If its HP drops below 25%, Wishiwashi will revert back to Solo Form."
+  },
+  {
+    "name": "Scrappy",
+    "effect": "Allows Normal- and Fighting-type moves hit Ghost-type Pokémon, blocks Intimidate."
+  },
+  {
+    "name": "Screen Cleaner",
+    "effect": "When the Pokémon with this Ability is sent out, the effects of Light Screen, Reflect, and Aurora Veil end on both sides of the field."
+  },
+  {
+    "name": "Serene Grace",
+    "effect": "Doubles the chance of moves' secondary effects."
+  },
+  {
+    "name": "Shadow Shield",
+    "effect": "Halves damage taken at full HP."
+  },
+  {
+    "name": "Shadow Tag",
+    "effect": "Prevents opponents from fleeing or switching out."
+  },
+  {
+    "name": "Shed Skin",
+    "effect": "Has a 33% chance of curing any major status condition at the end of each turn."
+  },
+  {
+    "name": "Sheer Force",
+    "effect": "Increases the power of moves that have beneficial secondary effects by 30%, but removes those additional effects."
+  },
+  {
+    "name": "Shell Armor",
+    "effect": "Prevents the opponent from landing a critical hit."
+  },
+  {
+    "name": "Shield Dust",
+    "effect": "Protects against additional effects of damaging moves."
+  },
+  {
+    "name": "Shields Down",
+    "effect": "Changes Minior into Core Form when its HP drops below 50%. Before then, it cannot be affected by status conditions such as burn or paralysis."
+  },
+  {
+    "name": "Simple",
+    "effect": "Doubles the number of stages of all stat changes."
+  },
+  {
+    "name": "Skill Link",
+    "effect": "Causes multi-strike moves to always hit five times."
+  },
+  {
+    "name": "Slow Start",
+    "effect": "Halves Attack and Speed stats for five turns upon entering battle."
+  },
+  {
+    "name": "Slush Rush",
+    "effect": "Doubles Speed stat during a hailstorm. The Pokémon with this Ability still takes damage from hail unless it is Ice-type."
+  },
+  {
+    "name": "Sniper",
+    "effect": "Increases the power of critical hits by 1.5×. This means a critical hit will deal 2.25× damage."
+  },
+  {
+    "name": "Snow Cloak",
+    "effect": "Increases evasion by 20% during a hailstorm. Protects against hail damage.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is halved in a hailstorm."
+  },
+  {
+    "name": "Snow Warning",
+    "effect": "Summons a hailstorm that lasts for five turns upon entering battle."
+  },
+  {
+    "name": "Solar Power",
+    "effect": "Increases Special Attack stat by 50% but loses 1/8 of max HP at the end of each turn during harsh sunlight."
+  },
+  {
+    "name": "Solid Rock",
+    "effect": "Reduces the damage taken from “super-effective” moves by 25%."
+  },
+  {
+    "name": "Soul-Heart",
+    "effect": "Raises Special Attack stat by one stage every time a Pokémon faints."
+  },
+  {
+    "name": "Soundproof",
+    "effect": "Protects against sound-based moves."
+  },
+  {
+    "name": "Speed Boost",
+    "effect": "Raises Speed stat by one stage at the end of each turn."
+  },
+  {
+    "name": "Stakeout",
+    "effect": "Doubles the damage dealt to the targets that have switched in mid-battle."
+  },
+  {
+    "name": "Stall",
+    "effect": "The Pokémon always moves last."
+  },
+  {
+    "name": "Stalwart",
+    "effect": "Makes the user's moves ignore the target-redirecting effects of moves and Abilities."
+  },
+  {
+    "name": "Stamina",
+    "effect": "Raises Defense stat by one stage when hit by an attack."
+  },
+  {
+    "name": "Stance Change",
+    "effect": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King's Shield."
+  },
+  {
+    "name": "Static",
+    "effect": "Has a 30% chance of paralyzing the attacking Pokémon on contact. This can affect Ground-type Pokémon.\nOverworld: If the lead Pokémon has this Ability, the chance of encountering an Electric-type wild Pokémon increases by 50%."
+  },
+  {
+    "name": "Steadfast",
+    "effect": "Raises Speed stat by one stage when flinched."
+  },
+  {
+    "name": "Steam Engine",
+    "effect": "Raises Speed stat by six stages when hit by a Fire- or Water-type move.\nOverworld: If a Pokémon with Steam Engine is in the party, the number of steps required to hatch the egg are halved."
+  },
+  {
+    "name": "Steelworker",
+    "effect": "Increases the power of Steel-type moves by 50%."
+  },
+  {
+    "name": "Steely Spirit",
+    "effect": "Increases the power of Steel-type moves used by the user and its allies by 50%."
+  },
+  {
+    "name": "Stench",
+    "effect": "Has a 10% chance of causing the opponent to flinch when hit by a damaging move.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is halved."
+  },
+  {
+    "name": "Sticky Hold",
+    "effect": "Prevents held items from being taken or switched by other Pokémon.\nOverworld: If the lead Pokémon has this Ability, the encounter rate while fishing is increased."
+  },
+  {
+    "name": "Storm Drain",
+    "effect": "Redirects single-target Water-type moves to this Pokémon. Absorbs Water-type moves, raising Special Attack stat by one stage.\nOverworld: If the lead Pokémon has this Ability, the chance of encountering a Water-type wild Pokémon increases by 50%."
+  },
+  {
+    "name": "Strong Jaw",
+    "effect": "Increases the power of biting moves by 50%."
+  },
+  {
+    "name": "Sturdy",
+    "effect": "Prevents being KO'ed from full HP, leaving 1 HP instead. Prevents One-Hit-KO moves."
+  },
+  {
+    "name": "Suction Cups",
+    "effect": "Prevents being forced out of battle by other Pokémon's moves.\nOverworld: If the lead Pokémon has this Ability, the encounter rate while fishing is increased."
+  },
+  {
+    "name": "Super Luck",
+    "effect": "Raises the critical-hit ratio by one stage.\nOverworld: If the lead Pokémon has this Ability, the chances of finding a wild Pokémon holding an item increase from 50% to 60% (for common items), 5% to 20% (for uncommon items)."
+  },
+  {
+    "name": "Surge Surfer",
+    "effect": "Doubles Speed stat on Electric Terrain."
+  },
+  {
+    "name": "Swarm",
+    "effect": "Increases the power of Bug-type moves by 50% at 1/3 max HP or less."
+  },
+  {
+    "name": "Sweet Veil",
+    "effect": "Prevents the Pokémon with this Ability and its allies from falling asleep."
+  },
+  {
+    "name": "Swift Swim",
+    "effect": "Doubles Speed stat in rain."
+  },
+  {
+    "name": "Symbiosis",
+    "effect": "Passes the user's hold item to an ally that has used up an item."
+  },
+  {
+    "name": "Synchronize",
+    "effect": "When the Pokémon with this Ability is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition.\nOverworld: If the lead Pokémon has this Ability, wild Pokémon are guaranteed to have the same Nature as the leading Pokémon."
+  },
+  {
+    "name": "Tangled Feet",
+    "effect": "Doubles evasion when confused."
+  },
+  {
+    "name": "Tangling Hair",
+    "effect": "Lowers the attacking Pokémon's Speed stat by one stage on contact."
+  },
+  {
+    "name": "Technician",
+    "effect": "Increases the power of moves that have a base power of 60 or less by 50%."
+  },
+  {
+    "name": "Telepathy",
+    "effect": "Protects against allies' damaging moves."
+  },
+  {
+    "name": "Teravolt",
+    "effect": "Prevents a target's Ability from affecting moves that the Teravolt Pokémon uses."
+  },
+  {
+    "name": "Thick Fat",
+    "effect": "Halves damage from Fire- and Ice-type moves."
+  },
+  {
+    "name": "Tinted Lens",
+    "effect": "Doubles the damage done by “not very effective” moves."
+  },
+  {
+    "name": "Torrent",
+    "effect": "Increases the power of Water-type moves by 50% at 1/3 max HP or less."
+  },
+  {
+    "name": "Tough Claws",
+    "effect": "Increases the power of moves that make contact by 30%."
+  },
+  {
+    "name": "Toxic Boost",
+    "effect": "Increases Attack stat by 50% when poisoned."
+  },
+  {
+    "name": "Trace",
+    "effect": "Copies an opponent's Ability upon entering battle."
+  },
+  {
+    "name": "Transistor",
+    "effect": "Increases the power of Electric-type moves by 50%."
+  },
+  {
+    "name": "Triage",
+    "effect": "Increases the priority of HP-restoring moves by +3."
+  },
+  {
+    "name": "Truant",
+    "effect": "Skips every second turn."
+  },
+  {
+    "name": "Turboblaze",
+    "effect": "Prevents a target's Ability from affecting moves that the Turboblaze Pokémon uses."
+  },
+  {
+    "name": "Unaware",
+    "effect": "Ignores other Pokémon's stat changes for damage and accuracy calculation."
+  },
+  {
+    "name": "Unburden",
+    "effect": "Doubles Speed stat upon using or losing a held item."
+  },
+  {
+    "name": "Unnerve",
+    "effect": "Prevents opposing Pokémon from eating held Berries."
+  },
+  {
+    "name": "Unseen Fist",
+    "effect": "Contact moves can strike through Protect/Detect."
+  },
+  {
+    "name": "Victory Star",
+    "effect": "Increases moves' accuracy by 10% for the user and its allies."
+  },
+  {
+    "name": "Vital Spirit",
+    "effect": "Prevents the Pokémon from falling asleep.\nOverworld: If the lead Pokémon has this Ability, wild Pokémon are 50% more likely to be higher level."
+  },
+  {
+    "name": "Volt Absorb",
+    "effect": "Absorbs Electric-type moves, restores 1/4 of max HP."
+  },
+  {
+    "name": "Wandering Spirit",
+    "effect": "Swaps Abilities with opponents on contact."
+  },
+  {
+    "name": "Water Absorb",
+    "effect": "Absorbs Water-type moves, restores 1/4 of max HP."
+  },
+  {
+    "name": "Water Bubble",
+    "effect": "Halves the damage taken from Fire-type moves, and doubles the power of Water-type moves used by the Pokémon with this Ability. It also prevents the Pokémon from being burned."
+  },
+  {
+    "name": "Water Compaction",
+    "effect": "Raises Defense stat by two stages when hit by a Water-type move."
+  },
+  {
+    "name": "Water Veil",
+    "effect": "Prevents the Pokémon from being burned."
+  },
+  {
+    "name": "Weak Armor ",
+    "effect": "Raises Speed stat by two stages and lowers Defense stat by one stage upon being hit by a physical move."
+  },
+  {
+    "name": "White Smoke",
+    "effect": "Prevents stats from being lowered by other Pokémon.\nOverworld: If the lead Pokémon has this Ability, the wild encounter rate is halved."
+  },
+  {
+    "name": "Wimp Out",
+    "effect": "Causes the user to switch out (or flee in a wild battle) when its HP drops below 50%."
+  },
+  {
+    "name": "Wonder Guard",
+    "effect": "Prevents damage from damaging moves unless they are “super-effective”."
+  },
+  {
+    "name": "Wonder Skin",
+    "effect": "Halves the accuracy of all status moves targeted at the Pokémon with this Ability."
+  },
+  {
+    "name": "Zen Mode",
+    "effect": "Changes Darmanitan into Zen Mode when its HP drops below 50%."
+  },
+  {
+    "name": "Portal Power",
+    "effect": "Reduces the power of non-contact moves by 25%."
+  },
+  {
+    "name": "Nine Lives",
+    "effect": "Prevents being KO'ed from full HP, leaving 1 HP instead. Prevents One-Hit-KO moves."
+  },
+  {
+    "name": "Focus Belt",
+    "effect": "Prevents being KO'ed from full HP, leaving 1 HP instead. Prevents One-Hit-KO moves."
+  },
+  {
+    "name": "Fiery Neigh",
+    "effect": "Raises Attack stat by one stage upon KO'ing a Pokémon."
+  },
+  {
+    "name": "Shocking Neigh",
+    "effect": "Raises Attack stat by one stage upon KO'ing a Pokémon."
+  },
+  {
+    "name": "Pride",
+    "effect": "Raises Attack stat by one stage upon KO'ing a Pokémon."
+  },
+  {
+    "name": "Multieye",
+    "effect": "Halves damage taken at full HP."
+  },
+  {
+    "name": "Subterfuge",
+    "effect": "Changes the user's type to the type of the move it's about to use."
+  },
+  {
+    "name": "Tangling Wool",
+    "effect": "Lowers the attacking Pokémon's Speed stat by one stage on contact."
+  },
+  {
+    "name": "Brain Bond",
+    "effect": "Allows the user to attack twice. The second attack hits with 25% of the power."
+  },
+  {
+    "name": "Cotton Cloud",
+    "effect": "When the Pokémon with this Ability is hit by a damaging move, the Speed stat of all other Pokémon is decreased by one stage."
+  },
+  {
+    "name": "Bellow",
+    "effect": "Increases the power of sound-based moves by 30%. The user also takes half damage from damaging sound-based moves."
+  },
+  {
+    "name": "Sound Waves",
+    "effect": "Increases the power of sound-based moves by 30%. The user also takes half damage from damaging sound-based moves."
+  },
+  {
+    "name": "Icy Skin",
+    "effect": "Halves the damage taken from special moves."
+  },
+  {
+    "name": "Dusty Scales",
+    "effect": "Halves the damage taken from special moves."
+  },
+  {
+    "name": "Crabby Tactics",
+    "effect": "Increases Attack stat by 50%, but limits the Pokémon to using only one move."
+  },
+  {
+    "name": "Honey Armor",
+    "effect": "Raises Defense stat by one stage upon entering battle."
+  },
+  {
+    "name": "Drill Beak",
+    "effect": "Drill moves always land a critical hits."
+  },
+  {
+    "name": "Evaporate",
+    "effect": "Nullifies Water-type moves, raising Special Attack stat by one stage."
+  },
+  {
+    "name": "Grass Dash",
+    "effect": "Increases the priority of Grass-type moves by +1."
+  },
+  {
+    "name": "Slippery Tail",
+    "effect": "Increases the priority of Tail moves by +1."
+  },
+  {
+    "name": "Face Shield",
+    "effect": "Raises Defense stat by one stage upon entering battle."
+  },
+  {
+    "name": "Royal Roar",
+    "effect": "Raises Special Attack stat by one stage upon KO'ing a target."
+  },
+  {
+    "name": "None",
+    "effect": "..."
+  }
+]
