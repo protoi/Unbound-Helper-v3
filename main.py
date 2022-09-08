@@ -218,13 +218,6 @@ async def on_message(message):
                     await message.channel.send(constants.invalid_text)      #if not send error
                     return
                 
-                embedTitle = z_element['name'].title()                      #extract name of z crystal
-                embedBody = z_element['location']                           #extract location of z crystal
-                embedToSend = discord.Embed(
-                    title=embedTitle,
-                    description=embedBody)
-                await message.channel.send(embed=embedToSend)               #send embed
-                return
 
             elif(inputs[1] == 'megastone'):                                 #checks for megastone command
                 megastone_element = megastone_dict.get(inputs[2], False)    #query for megastone
@@ -233,13 +226,13 @@ async def on_message(message):
                     await message.channel.send(constants.invalid_text)      #if not send error
                     return
                 
-                embedTitle = megastone_element['name'].title()              #extract name of megastone
-                embedBody = megastone_element['location']                   #extract location of megastone
-                embedToSend = discord.Embed(
-                    title=embedTitle,
-                    description=embedBody)
-                await message.channel.send(embed=embedToSend)               #send embed
-                return
+            embedTitle = z_element['name'].title()                      #extract name of z crystal
+            embedBody = z_element['location']                           #extract location of z crystal
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody)
+            await message.channel.send(embed=embedToSend)               #send embed
+            return
 #___________________________________________________________________________________________________________  
 client.run(os.getenv('tok'))
 
