@@ -415,6 +415,41 @@ Scalemons Story Mode''')                                                    #set
             return  
 #___________________________________________________________________________________________________________
 
+        elif(inputs[1] == 'learntm' or inputs[1] == 'tutor'):               #LEARN TM AND TUTORS
+            if(len(inputs) < 3):                                            #checking whether message has anything after the command
+                await message.channel.send(constants.invalid_text)          #invalid message
+                return 
+            tm_or_tutor_element = tm_and_tutor_dict.get(inputs[2] ,False)   #querying for the dictionary
+
+            if tm_or_tutor_element == False:                                #if no dicitonary found, jump out of this
+                await message.channel.send(constants.invalid_text)          #error message
+                return
+
+
+            if(inputs[1] == 'learntm'):                                     #about the query tmMoves key for the dictionary
+                embedTitle = "TM's compatible with "
+                embedBody = ", ".join(
+                    x.title() for x in 
+                    tm_or_tutor_element.get('tmMoves', "")
+                )
+            else:                                                           #about to query tutorMoves key for the dictionary
+                embedTitle = "Tutor moves learnt by "
+                embedBody = ", ".join(
+                    x.title() for x in 
+                    tm_or_tutor_element.get('tutorMoves', "")
+                )
+            
+            embedTitle += tm_or_tutor_element['name'].title()               #extracting the name of the pokemon
+            
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody)                                      #producing an embed
+            await message.channel.send(embed=embedToSend)                   #sending the embed
+
+#___________________________________________________________________________________________________________        
+
+
+# print(tm_and_tutor_dict['typhlosion']['tmMoves'])
 
 client.run(os.getenv('tok'))
 
