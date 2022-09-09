@@ -264,7 +264,9 @@ async def on_message(message):
                 description=embedBody)                                      #create embed
 
             embedToSend.set_footer(text = '''Only fully evolved
-Pokemons(except Shedinja)
+Pokemon including 
+mega evolutions
+(except Shedinja)
 get scaled in
 Scalemons Story Mode''')                                                    #setting a footer
             await message.channel.send(embed = embedToSend)                 #post embed
@@ -307,6 +309,112 @@ Scalemons Story Mode''')                                                    #set
                 description=embedBody)
             await message.channel.send(embed=embedToSend)                    #send embed
             return
+#___________________________________________________________________________________________________________
+        
+        elif(inputs[1] == 'difficulty'):                                     #DIFFICULTY
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            embedToSend = discord.Embed(title= '**Which difficulty should I pick:**') 
+            for index, (n,v) in enumerate(constants.difficulty_text):       #looping over the commant_text list for name and value pairs
+                embedToSend.add_field(                                      #adding the fields one at a time
+                    name=n,
+                    value=v, 
+                    inline=False)                                           #inline commands not supported on mobile, it lets you have atmost 3 columns in your embeds
+            await message.channel.send(embed = embedToSend)                 #sending the embed
+            return
+#___________________________________________________________________________________________________________
+
+        elif(inputs[1] == 'shinyodd' or inputs[1] == 'shiny'):              #SHINYODD
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            embedTitle = '**Shiny Odds:**'
+            embedBody = constants.shiny_odd_text
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody
+            )
+            await message.channel.send(embed=embedToSend)                   #send embed
+            return
+#___________________________________________________________________________________________________________
+
+        elif(inputs[1] == 'pickup' or inputs[1] == 'pick'):                 #PICKUP
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            
+            embedToSend = discord.Embed(title=constants.pick_up_image_source[0]) #creates embed
+            embedToSend.set_image(url=constants.pick_up_image_source[1])    #adds image to embed
+            await message.channel.send(embed=embedToSend)                   #send embed
+            return
+#___________________________________________________________________________________________________________
+
+        elif(inputs[1] == 'kbt'):                                           #KBT
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            embedToSend = discord.Embed(title=constants.kbt_image_source[0])#creates embed
+            embedToSend.set_image(url=constants.kbt_image_source[1])        #adds image to embed
+            await message.channel.send(embed=embedToSend)                   #send embed
+            return
+#___________________________________________________________________________________________________________
+
+        elif(inputs[1] == 'breeding'):                                      #BREEDING
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            embedToSend = discord.Embed(title= '**Extreme Hyperosmia Breeding Help:**') 
+            for index, (n,v) in enumerate(constants.breeding_display):      #looping over the commant_text list for name and value pairs
+                embedToSend.add_field(                                      #adding the fields one at a time
+                    name=n,
+                    value=v, 
+                    inline=False)                                           #inline commands not supported on mobile, it lets you have atmost 3 columns in your embeds
+            await message.channel.send(embed = embedToSend)                 #sending the embed
+            return
+            await message.channel.send(embed=embedToSend)                   #send embed
+            return
+#___________________________________________________________________________________________________________
+
+        elif(inputs[1] == 'caps' or inputs[1] == 'lvlcaps'):                #CAPS
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            embedTitle = '**Level Caps:**'
+            embedBody = constants.caps_display
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody
+            )
+            await message.channel.send(embed=embedToSend)                   #send embed
+            return
+#___________________________________________________________________________________________________________
+
+        elif(inputs[1] == 'download'):                                      #DOWNLOAD
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            embedToSend = discord.Embed(
+                title='**Pokemon Unbound Official Patch:**',
+                description='[Pokemon Unbound Official Patch](https://www.mediafire.com/file/brvvppywnxhmsdb/Pokemon+Unbound+Official+Patch+2.0+.zip/file)'
+            ) 
+            await message.channel.send(embed=embedToSend)                   #send embed
+            return
+#___________________________________________________________________________________________________________
+        
+        elif(inputs[1] == 'docs'):                                          #DOCS
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+            embedTitle = '**Offical Unbound Docs:**'                        #extracting the name of the pokemon
+            embedBody = "\n".join(
+                x for x in 
+                constants.docs_text)                                        #concatenating the list items
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody)                                      #producing an embed
+            await message.channel.send(embed=embedToSend)
+            return  
 #___________________________________________________________________________________________________________
 
 

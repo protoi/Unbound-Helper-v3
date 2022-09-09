@@ -77,14 +77,28 @@ caps_display = '''**Gym 1:** 20
 
 invalid_text = "Sorry, invalid input!"
 
-vanilla_text = ["Vanilla",
-                "• More in line with official game difficulty nowadays. Play this if you like over leveling or just want to play a game without worrying too much about the battles. My 8-year old brother beat this several times using Ash's teams (and remember, Ash rarely evolved his Pokemon). EV training is not required."]
-difficult_text = ["Difficult",
-                  "• Difficult: You're looking for something slightly harder than normal Pokémon games, and don't mind losing boss battles once or twice to force you to rethink your strategy with the same team. EV training is not required."]
-expert_text = ["Expert",
-               "• Expert: If you're running a fully EV trained team, this is probably going to be as hard as Difficult early on. You also probably won't need to change up your team in between major battles. Late game will get harder, though, but still nowhere near as hard as Insane"]
-insane_text = ["Insane",
-               "Insane: This should be the hardest hack you've ever played. Period. Items can't be used in Trainer battles, and bosses all have a team with competitive movesets and full EVs. If you're ready to rage quit after the first Gym, this difficulty is NOT for you. It was designed to be inherently unfun for most players."]
+difficulty_text = [
+    ["Vanilla",
+        "• Vanilla: More in line with official game difficulty nowadays. Play this if you like over leveling or just want to play a game without worrying too much about the battles. My 8-year old brother beat this several times using Ash's teams (and remember, Ash rarely evolved his Pokemon). EV training is not required."],
+    ["Difficult",
+        "• Difficult: You're looking for something slightly harder than normal Pokémon games, and don't mind losing boss battles once or twice to force you to rethink your strategy with the same team. EV training is not required."],
+    ["Expert",
+       "• Expert: If you're running a fully EV trained team, this is probably going to be as hard as Difficult early on. You also probably won't need to change up your team in between major battles. Late game will get harder, though, but still nowhere near as hard as Insane"],
+    ["Insane",
+        "• Insane: This should be the hardest hack you've ever played. Period. Items can't be used in Trainer battles, and bosses all have a team with competitive movesets and full EVs. If you're ready to rage quit after the first Gym, this difficulty is NOT for you. It was designed to be inherently unfun for most players."]
+]
+
+docs_text = [
+    '[General Guide (Pokemon, Items, Missions, etc.) ](https://docs.google.com/spreadsheets/d/1LFSBZuPDtJrwAz7t6ZkJ-il4j8M3qCdaKLNe6EZdPmQ/edit#gid=693940475)' + '(Credits to The Spectre)',
+    '[Location Guide ](https://docs.google.com/spreadsheets/d/1PyGm-yrit5Ow6cns2tBA9VEMwLVMzn3YhDRipABjLUM/edit?usp=drivesdk)' + '(Credits to SevenK)',
+    '[Mission Guide+ (Daily Events, Key Items, Berry Blender, etc.) ](https://docs.google.com/spreadsheets/d/1-sQWHzIbLw2hSLfrUILg9prcbdDN57zefXhNF7Bx2PY/edit?usp=sharing)' + '(Credits to SevenK)',
+    '[Pokedex ](https://unbound.ashencone.com/)' + '(Credits to Sounak9434)',
+    '[TM Compatibility](https://github.com/Skeli789/Dynamic-Pokemon-Expansion/tree/Unbound/src/tm_compatibility)',
+    '[Tutor Compatibility](https://github.com/Skeli789/Dynamic-Pokemon-Expansion/tree/Unbound/src/tutor_compatibility)',
+    '[Evolutions](https://raw.githubusercontent.com/Skeli789/Dynamic-Pokemon-Expansion/Unbound/src/Evolution%20Table.c)',
+    '[Raid Drops Guide](https://docs.google.com/spreadsheets/d/1rf6ch14TKmAuWDAR0uJbDTirnC14YVUXNFFN0yWxs-8/edit?usp=drivesdk)',
+    '[Trainers ](https://docs.google.com/spreadsheets/d/1Ha06sD9mKw5yXXT2icVZjVQapcArU5C5gLEvA-hkq9o/)' + '(Credits to SkiDY)'
+]
 
 shiny_odd_text = '''Regular Shiny Odds: 1/4096
 Shiny Odds with Shiny Charm: 1/1365
@@ -130,9 +144,6 @@ command_text = [
     ["difficulty",
      '''Syntax: `;difficulty`
      Displays the difficulty summary'''],
-    ["statmods",
-     '''Syntax: `;statmods`
-     Displays the bottle cap lady's schedue'''],
     ["shinyodd",
      '''Syntax: `;shinyodd` OR `;shiny`
      Displays the odds of getting a shiny'''],
@@ -151,9 +162,6 @@ command_text = [
     ["download",
      '''Syntax: `;download`
      The URL to download the latest patch to Pokemon Unbound.'''],
-    ["league",
-     '''Syntax: `;league`
-     Gym Leader and Elite 4 teams for the Insane difficulty.'''],
     ["tutor",
      '''Syntax: `;tutor <pokemon_name> `
      shows tutor compatibility, thanks dave99 for the lists!!'''],
@@ -165,5 +173,8 @@ command_text = [
      scalemon stats'''],
      ["stats",
       '''Syntax: `;stats <pokemon_name>`
-     normal stats''']
+     normal stats'''],
+     ["docs",
+     '''Syntax: `;docs`
+     shows links to the docs''']
 ]
