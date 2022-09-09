@@ -372,8 +372,6 @@ Scalemons Story Mode''')                                                    #set
                     inline=False)                                           #inline commands not supported on mobile, it lets you have atmost 3 columns in your embeds
             await message.channel.send(embed = embedToSend)                 #sending the embed
             return
-            await message.channel.send(embed=embedToSend)                   #send embed
-            return
 #___________________________________________________________________________________________________________
 
         elif(inputs[1] == 'caps' or inputs[1] == 'lvlcaps'):                #CAPS
