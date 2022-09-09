@@ -27,17 +27,15 @@ def listToDict(columnToUseAsIndex, listToConvert):
 
 
 def calcScaledStats(bst, hp, at, df, sp, spd, spe):  # replace this with the formula
-    at = round(at * (600 - hp) / (bst - hp))
-    if at > 255: at = 255
-    df = round(df * (600 - hp) / (bst - hp))
-    if df > 255: df = 255
-    sp = round(sp * (600 - hp) / (bst - hp))
-    if sp > 255: sp = 255
-    spd = round(spd * (600 - hp) / (bst - hp))
-    if spd > 255: spd = 255
-    spe = round(spe * (600 - hp) / (bst - hp))
-    if spe > 255: spe = 255
-    bst = round(at + df + sp + spd + spe + hp)
+    Actualstats = [at, df, sp, spd, spe] 
+
+    multiplier = (600-hp)/(bst-hp)
+
+
+    at, df, sp, spd, spe = [   
+
+    min(255, floor( Multiplier * x))
+        for x in ActualStats ]
     
     return bst, hp, at, df, sp, spd, spe
 
