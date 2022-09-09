@@ -27,7 +27,19 @@ def listToDict(columnToUseAsIndex, listToConvert):
 
 
 def calcScaledStats(bst, hp, at, df, sp, spd, spe):  # replace this with the formula
-    return bst + hp + at + df + sp + spd + spe
+    at = round(at * (600 - hp) / (bst - hp))
+    if at > 255: at = 255
+    df = round(df * (600 - hp) / (bst - hp))
+    if df > 255: df = 255
+    sp = round(sp * (600 - hp) / (bst - hp))
+    if sp > 255: sp = 255
+    spd = round(spd * (600 - hp) / (bst - hp))
+    if spd > 255: spd = 255
+    spe = round(spe * (600 - hp) / (bst - hp))
+    if spe > 255: spe = 255
+    bst = round(at + df + sp + spd + spe + hp)
+    
+    return bst, hp, at, df, sp, spd, spe
 
 
 # returns a formatted string with the pokemon data from stats.json (name, types, stats, generation etc)

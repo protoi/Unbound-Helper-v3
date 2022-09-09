@@ -17,6 +17,7 @@ Defense: {}
 Sp.Attack: {}
 Sp.Def: {}
 Speed: {}
+
 Total: {}
 '''
 

@@ -80,7 +80,7 @@ async def on_message(message):
         
 #___________________________________________________________________________________________________________        
             
-        if(inputs[1] == 'stats'):                                        #POKEDATA
+        if(inputs[1] == 'stats'):                                           #stats
             if(len(inputs) < 3):                                            # check if there is a key associated with the command
                 await message.channel.send(constants.invalid_text)          #error message
                 return
@@ -233,9 +233,30 @@ async def on_message(message):
                 description=embedBody)
             await message.channel.send(embed=embedToSend)               #send embed
             return
-#___________________________________________________________________________________________________________  
-client.run(os.getenv('tok'))
+#___________________________________________________________________________________________________________
+        elif(inputs[1] == 'scale'):
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
 
+            stat_element = stats_dict.get(inputs[2], False)                 # query normal stats dictionary 
+            if stat_element == False:                                       # is key not present, display error message and break out of it
+                await message.channel.send(constants.invalid_text)
+                return
+            #Get scale stats
+            scaleStats = list(helperfunctions.calcScaledStats(stat_element['total'], stat_element['hp'], stat_element["attack"], stat_element['defense'], stat_element['sp_attack'], stat_element['sp_defense'], stat_element['speed']))
+            #make new dictionary by combining the stats.json data with the scale stats
+            scaleDict = {'number': stat_element['number'],'name': stat_element['name'],'type1': stat_element['type1'],'type2': stat_element['type2'],'generation': stat_element['generation'],'hp': scaleStats[1],'attack': scaleStats[2],'defense': scaleStats[3],'sp_attack': scaleStats[4],'sp_defense': scaleStats[5],'speed': scaleStats[6],'total': scaleStats[0]}
+            
+            #format embed body text
+            embedBody = helperfunctions.generateStatScreen(scaleDict)
+            embedToSend = discord.Embed(
+                title=stat_element.get('name',
+                'place_holder_name'),
+                description=embedBody)                                      #create embed
+            await message.channel.send(embed = embedToSend)                 #post embed
+client.run(os.getenv('tok'))
+#___________________________________________________________________________________________________________
 
 ######################################CODE FOR TESTING###################################
 # x = stats_dict.get(helperfunctions.normalizeString('galarian Darmanitan'), False) #use this to query
