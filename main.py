@@ -266,12 +266,12 @@ async def on_message(message):
                 await message.channel.send(constants.invalid_text)
                 return
 
-            embedTitle = helditem_element['itemname'].title()                      #extract name of z crystal
-            embedBody = helditem_element['location']                           #extract location of z crystal
+            embedTitle = helditem_element['itemname'].title()                #extract name of item
+            embedBody = helditem_element['location']                         #extract location of item
             embedToSend = discord.Embed(
                 title=embedTitle,
                 description=embedBody)
-            await message.channel.send(embed=embedToSend)               #send embed
+            await message.channel.send(embed=embedToSend)                    #send embed
             return
 #___________________________________________________________________________________________________________
 
