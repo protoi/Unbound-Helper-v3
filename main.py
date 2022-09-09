@@ -255,8 +255,30 @@ async def on_message(message):
                 'place_holder_name'),
                 description=embedBody)                                      #create embed
             await message.channel.send(embed = embedToSend)                 #post embed
-client.run(os.getenv('tok'))
 #___________________________________________________________________________________________________________
+        elif(inputs[1] == 'helditem'):
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
+
+            helditem_element = helditem_dict.get(inputs[2], False)
+            if helditem_element == False:                                    # is key not present, display error message and break out of it
+                await message.channel.send(constants.invalid_text)
+                return
+
+            embedTitle = helditem_element['itemname'].title()                      #extract name of z crystal
+            embedBody = helditem_element['location']                           #extract location of z crystal
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody)
+            await message.channel.send(embed=embedToSend)               #send embed
+            return
+#___________________________________________________________________________________________________________
+
+
+
+client.run(os.getenv('tok'))
+
 
 ######################################CODE FOR TESTING###################################
 # x = stats_dict.get(helperfunctions.normalizeString('galarian Darmanitan'), False) #use this to query
