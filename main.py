@@ -274,7 +274,24 @@ async def on_message(message):
             await message.channel.send(embed=embedToSend)                    #send embed
             return
 #___________________________________________________________________________________________________________
+        elif(inputs[1] == 'location'):
+            if(len(inputs) < 3):
+                await message.channel.send(constants.invalid_text)
+                return
 
+            pokelocation_element = pokelocation_dict.get(inputs[2], False)
+            if pokelocation_element == False:                                # is key not present, display error message and break out of it
+                await message.channel.send(constants.invalid_text)
+                return
+
+            embedTitle = pokelocation_element['name'].title()                #extract name of pokemon
+            embedBody = pokelocation_element['location']                     #extract location of pokemon
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody)
+            await message.channel.send(embed=embedToSend)                    #send embed
+            return
+#___________________________________________________________________________________________________________
 
 
 client.run(os.getenv('tok'))
