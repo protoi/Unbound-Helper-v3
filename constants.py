@@ -1,7 +1,7 @@
 ##############contains the interpolated strings and the lists to be displayed.###############
 ########################These are the boiler plates for the embeds###########################
 
-normalize_regex = "[_\-\\ ]+"
+normalize_regex = "[_\-\\\. ]+"
 
 message_checker_regex= "[ ]*({})[ ]*([a-zA-Z]+)[ ]*(.*)"
 
@@ -11,6 +11,7 @@ stat_display='''Number: {}
 Name: {}
 Type: {} {}
 Generation: {}
+
 HP: {}
 Attack: {}
 Defense: {}
@@ -23,12 +24,23 @@ Total: {}
 
 download_link = "https://www.mediafire.com/file/brvvppywnxhmsdb/Pokemon+Unbound+Official+Patch+2.0+.zip/file"
 
-stat_display_relegated = '''HP:{}
-Attack:{}
-Defense:{}
-Sp.Attack:{}
-Sp.Def:{}
-Speed:{}'''
+just_stats = '''HP: {}
+Attack: {}
+Defense: {}
+Sp.Attack: {}
+Sp.Def: {}
+Speed: {}
+
+Total: {}
+'''
+
+for_scalemons='''Number: {}
+Name: {}
+Type: {} {}
+Generation: {}
+
+{}
+'''
 
 ability_display = '''__Ability 1__: **{}**
 {}

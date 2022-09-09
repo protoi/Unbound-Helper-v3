@@ -2279,7 +2279,7 @@
   },
 
   {
-    "name": "ARTICUNO_G",
+    "name": "GALARIAN ARTICUNO",
     "tmMoves": [
       "Calm Mind",
       "Roar",
@@ -9410,7 +9410,7 @@
   },
 
   {
-    "name": "CORSOLA_G",
+    "name": "GALARIAN CORSOLA",
     "tmMoves": [
       "Water Pulse",
       "Calm Mind",
@@ -10572,7 +10572,7 @@
   },
 
   {
-    "name": "CUBONE_A",
+    "name": "ALOLAN CUBONE",
     "tmMoves": [
       "Sunny Day",
       "Ice Beam",
@@ -11057,7 +11057,7 @@
   },
 
   {
-    "name": "DARMANITAN_G",
+    "name": "GALARIAN DARMANITAN",
     "tmMoves": [
       "Focus Punch",
       "Roar",
@@ -11262,7 +11262,7 @@
   },
 
   {
-    "name": "DARUMAKA_G",
+    "name": "GALARIAN DARUMAKA",
     "tmMoves": [
       "Focus Punch",
       "Roar",
@@ -12726,7 +12726,7 @@
   },
 
   {
-    "name": "DIGLETT_A",
+    "name": "ALOLAN DIGLETT",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -14428,7 +14428,7 @@
   },
 
   {
-    "name": "DUGTRIO_A",
+    "name": "ALOLAN DUGTRIO",
     "tmMoves": [
       "Hidden Power",
       "Sunny Day",
@@ -16459,7 +16459,7 @@
   },
 
   {
-    "name": "EXEGGCUTE_A",
+    "name": "ALOLAN EXEGGCUTE",
     "tmMoves": [
       "Bullet Seed",
       "Sunny Day",
@@ -16565,7 +16565,7 @@
   },
 
   {
-    "name": "EXEGGUTOR_A",
+    "name": "ALOLAN EXEGGUTOR",
     "tmMoves": [
       "Toxic",
       "Bullet Seed",
@@ -16850,7 +16850,7 @@
   },
 
   {
-    "name": "FARFETCHD_G",
+    "name": "GALARIAN FARFETCHD",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -20165,7 +20165,7 @@
   },
 
   {
-    "name": "GEODUDE_A",
+    "name": "ALOLAN GEODUDE",
     "tmMoves": [
       "Focus Punch",
       "Toxic",
@@ -21378,7 +21378,7 @@
   },
 
   {
-    "name": "GOLEM_A",
+    "name": "ALOLAN GOLEM",
     "tmMoves": [
       "Focus Punch",
       "Roar",
@@ -22436,7 +22436,7 @@
   },
 
   {
-    "name": "GRAVELER_A",
+    "name": "ALOLAN GRAVELER",
     "tmMoves": [
       "Focus Punch",
       "Toxic",
@@ -22702,7 +22702,7 @@
   },
 
   {
-    "name": "GRIMER_A",
+    "name": "ALOLAN GRIMER",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -28221,7 +28221,7 @@
   },
 
   {
-    "name": "KOFFING_G",
+    "name": "GALARIAN KOFFING",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -30276,7 +30276,7 @@
   },
 
   {
-    "name": "LINOONE_G",
+    "name": "GALARIAN LINOONE",
     "tmMoves": [
       "Roar",
       "Toxic",
@@ -33377,7 +33377,7 @@
   },
 
   {
-    "name": "MAROWAK_A",
+    "name": "ALOLAN MAROWAK",
     "tmMoves": [
       "Focus Punch",
       "Toxic",
@@ -34466,7 +34466,7 @@
   },
 
   {
-    "name": "MEOWTH_A",
+    "name": "ALOLAN MEOWTH",
     "tmMoves": [
       "Water Pulse",
       "Toxic",
@@ -34534,7 +34534,7 @@
   },
 
   {
-    "name": "MEOWTH_G",
+    "name": "GALARIAN MEOWTH",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -35692,7 +35692,7 @@
   },
 
   {
-    "name": "MIME_JR_G",
+    "name": "GALARIAN MIME_JR",
     "tmMoves": [
       "Focus Punch",
       "Toxic",
@@ -36622,7 +36622,7 @@
   },
 
   {
-    "name": "MOLTRES_G",
+    "name": "GALARIAN MOLTRES",
     "tmMoves": [
       "Roar",
       "Toxic",
@@ -37095,7 +37095,7 @@
   },
 
   {
-    "name": "MR_MIME_G",
+    "name": "GALARIAN MR_MIME",
     "tmMoves": [
       "Focus Punch",
       "Calm Mind",
@@ -37531,7 +37531,7 @@
   },
 
   {
-    "name": "MUK_A",
+    "name": "ALOLAN MUK",
     "tmMoves": [
       "Focus Punch",
       "Toxic",
@@ -38955,7 +38955,7 @@
   },
 
   {
-    "name": "NINETALES_A",
+    "name": "ALOLAN NINETALES",
     "tmMoves": [
       "Calm Mind",
       "Roar",
@@ -41326,7 +41326,7 @@
   },
 
   {
-    "name": "PERSIAN_A",
+    "name": "ALOLAN PERSIAN",
     "tmMoves": [
       "Water Pulse",
       "Roar",
@@ -42981,7 +42981,7 @@
   },
 
   {
-    "name": "PONYTA_G",
+    "name": "GALARIAN PONYTA",
     "tmMoves": [
       "Calm Mind",
       "Toxic",
@@ -44444,7 +44444,7 @@
   },
 
   {
-    "name": "RAICHU_A",
+    "name": "ALOLAN RAICHU",
     "tmMoves": [
       "Focus Punch",
       "Calm Mind",
@@ -44813,7 +44813,7 @@
   },
 
   {
-    "name": "RAPIDASH_G",
+    "name": "GALARIAN RAPIDASH",
     "tmMoves": [
       "Calm Mind",
       "Toxic",
@@ -44949,7 +44949,7 @@
   },
 
   {
-    "name": "RATICATE_A",
+    "name": "ALOLAN RATICATE",
     "tmMoves": [
       "Roar",
       "Toxic",
@@ -45091,7 +45091,7 @@
   },
 
   {
-    "name": "RATTATA_A",
+    "name": "ALOLAN RATTATA",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -47547,7 +47547,7 @@
   },
 
   {
-    "name": "SANDSHREW_A",
+    "name": "ALOLAN SANDSHREW",
     "tmMoves": [
       "Focus Punch",
       "Toxic",
@@ -47685,7 +47685,7 @@
   },
 
   {
-    "name": "SANDSLASH_A",
+    "name": "ALOLAN SANDSLASH",
     "tmMoves": [
       "Focus Punch",
       "Toxic",
@@ -51482,7 +51482,7 @@
   },
 
   {
-    "name": "SLOWBRO_G",
+    "name": "GALARIAN SLOWBRO",
     "tmMoves": [
       "Focus Punch",
       "Water Pulse",
@@ -51675,7 +51675,7 @@
   },
 
   {
-    "name": "SLOWKING_G",
+    "name": "GALARIAN SLOWKING",
     "tmMoves": [
       "Focus Punch",
       "Water Pulse",
@@ -51853,7 +51853,7 @@
   },
 
   {
-    "name": "SLOWPOKE_G",
+    "name": "GALARIAN SLOWPOKE",
     "tmMoves": [
       "Water Pulse",
       "Calm Mind",
@@ -54142,7 +54142,7 @@
   },
 
   {
-    "name": "STUNFISK_G",
+    "name": "GALARIAN STUNFISK",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -60501,7 +60501,7 @@
   },
 
   {
-    "name": "VULPIX_A",
+    "name": "ALOLAN VULPIX",
     "tmMoves": [
       "Roar",
       "Toxic",
@@ -61080,7 +61080,7 @@
   },
 
   {
-    "name": "WEEZING_G",
+    "name": "GALARIAN WEEZING",
     "tmMoves": [
       "Toxic",
       "Hidden Power",
@@ -62300,7 +62300,7 @@
   },
 
   {
-    "name": "YAMASK_G",
+    "name": "GALARIAN YAMASK",
     "tmMoves": [
       "Calm Mind",
       "Toxic",
@@ -63004,7 +63004,7 @@
   },
 
   {
-    "name": "ZAPDOS_G",
+    "name": "GALARIAN ZAPDOS",
     "tmMoves": [
       "Roar",
       "Toxic",
@@ -63522,7 +63522,7 @@
   },
 
   {
-    "name": "ZIGZAGOON_G",
+    "name": "GALARIAN ZIGZAGOON",
     "tmMoves": [
       "Roar",
       "Toxic",

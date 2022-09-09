@@ -1,6 +1,7 @@
+from audioop import add
 import re
 import constants
-
+import math
 # removes all blank spaces, underscores, slash and dash.
 
 
@@ -26,25 +27,24 @@ def listToDict(columnToUseAsIndex, listToConvert):
     return dict(zip(indices, listToConvert))  # stitching them together
 
 
-def calcScaledStats(bst, hp, at, df, sp, spd, spe):  # replace this with the formula
-    at = round(at * (600 - hp) / (bst - hp))
-    if at > 255: at = 255
-    df = round(df * (600 - hp) / (bst - hp))
-    if df > 255: df = 255
-    sp = round(sp * (600 - hp) / (bst - hp))
-    if sp > 255: sp = 255
-    spd = round(spd * (600 - hp) / (bst - hp))
-    if spd > 255: spd = 255
-    spe = round(spe * (600 - hp) / (bst - hp))
-    if spe > 255: spe = 255
-    bst = round(at + df + sp + spd + spe + hp)
+def calcScaledStats(data):  # replace this with the formula
+    hp = data[0]
+    if hp == 1:
+        return data
+    bst = data[6]
+
+    before_scale = data[1:6]
     
-    return bst, hp, at, df, sp, spd, spe
+    multiplier = (600.0-float(hp)) / (float(bst)-float(hp))
+
+    after_stats = [ min(255, math.floor(multiplier * x))  for x in before_scale]
+
+    return [hp] + after_stats + [sum(after_stats) + hp]
 
 
 # returns a formatted string with the pokemon data from stats.json (name, types, stats, generation etc)
 def generateStatScreen(data):
-    return constants.stat_display.format(*(data.values()))
+    return constants.stat_display.format(data)
 
 # splits the message into 3 groups, prefix + command(1 word, only alphabets, no spaces/special chars) + (rest of the string)
 
@@ -56,3 +56,17 @@ def msgSplitter(msg, reg):
         return [ normalizeString(x) for x in title]
 
     return False
+
+
+
+# li = [1,2,3,4,5,6,7]
+
+# print(li[5])
+# print(li[0])
+# print(li[1:6])
+
+
+# sss = '{} hello world {} {} {}'
+# li = [1,3]
+# li2 = [2,4]
+# print(sss.format(*[li  + li2]))

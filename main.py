@@ -1,3 +1,4 @@
+from cProfile import label
 import discord
 import os
 import numpy as np
@@ -80,7 +81,7 @@ async def on_message(message):
         
 #___________________________________________________________________________________________________________        
             
-        if(inputs[1] == 'stats'):                                           #stats
+        if(inputs[1] == 'stats'):                                           #STATS
             if(len(inputs) < 3):                                            # check if there is a key associated with the command
                 await message.channel.send(constants.invalid_text)          #error message
                 return
@@ -88,13 +89,15 @@ async def on_message(message):
             if stat_element == False:                                       # is key not present, display error message and break out of it
                 await message.channel.send(constants.invalid_text)
                 return
-            embedBody = helperfunctions.generateStatScreen(stat_element)    #obtain formatted string
+            embedBody = constants.stat_display.format(*[*stat_element.values()])
+            # embedBody = helperfunctions.generateStatScreen([*stat_element.values()])    #obtain formatted string
             embedToSend = discord.Embed(
                 title=stat_element.get('name',
                 'place_holder_name'),
                 description=embedBody)                                      #create embed
             await message.channel.send(embed = embedToSend)                 #post embed
 #___________________________________________________________________________________________________________        
+ 
         elif(inputs[1] == 'help'):                                          #HELP
             embedToSend = discord.Embed(title= 'Help')                      #sets title as help, don't care about rest of the message
             for index, (n,v) in enumerate(constants.command_text):          #looping over the commant_text list for name and value pairs
@@ -182,6 +185,7 @@ async def on_message(message):
                 description=embedBody)                                      
             await message.channel.send(embed=embedToSend)                   #sending the embed
 #___________________________________________________________________________________________________________                    
+
         elif(inputs[1] == 'tm'):                                            #TM
             if(len(inputs) < 3):                                            #checking whether message has anything after the command
                 await message.channel.send(constants.invalid_text)          #invalid message
@@ -206,64 +210,75 @@ async def on_message(message):
                 description=embedBody)                                      #producing an embed
             await message.channel.send(embed=embedToSend)                   #sending the embed
 #___________________________________________________________________________________________________________       
-        elif(inputs[1] == 'z' or inputs[1] == 'megastone'):                 #z crystal and megastone
+
+        elif(inputs[1] == 'z' or inputs[1] == 'megastone'):                 #Z-CRYSTAL AND MEGASTONE
             if(len(inputs) < 3):                                            #checking whether message has anything after the command
-                await message.channel.send(constands.invalid_text)          #invalid message
+                await message.channel.send(constants.invalid_text)          #invalid message
                 return
             
             if(inputs[1] == 'z'):                                           #checks for z command
-                z_element = zlocation_dict.get(inputs[2], False)            #query for z crystal
+                mega_or_z_element = zlocation_dict.get(inputs[2], False)            #query for z crystal
 
-                if z_element == False:                                      #does entry exist?
+                if mega_or_z_element == False:                                      #does entry exist?
                     await message.channel.send(constants.invalid_text)      #if not send error
                     return
-                
 
             elif(inputs[1] == 'megastone'):                                 #checks for megastone command
-                megastone_element = megastone_dict.get(inputs[2], False)    #query for megastone
+                mega_or_z_element = megastone_dict.get(inputs[2], False)    #query for megastone
 
-                if megastone_element == False:                              #does entry exist?
+                if mega_or_z_element == False:                              #does entry exist?
                     await message.channel.send(constants.invalid_text)      #if not send error
                     return
                 
-            embedTitle = z_element['name'].title()                      #extract name of z crystal
-            embedBody = z_element['location']                           #extract location of z crystal
+            embedTitle = mega_or_z_element['name'].title()                      #extract name of z crystal
+            embedBody = mega_or_z_element['location']                           #extract location of z crystal
             embedToSend = discord.Embed(
                 title=embedTitle,
                 description=embedBody)
             await message.channel.send(embed=embedToSend)               #send embed
             return
 #___________________________________________________________________________________________________________
-        elif(inputs[1] == 'scale'):
+
+        elif(inputs[1] == 'scale'):                                         #SCALE
             if(len(inputs) < 3):
                 await message.channel.send(constants.invalid_text)
                 return
 
-            stat_element = stats_dict.get(inputs[2], False)                 # query normal stats dictionary 
-            if stat_element == False:                                       # is key not present, display error message and break out of it
+            stat_element = stats_dict.get(inputs[2], False)                 #query normal stats dictionary 
+            if stat_element == False:                                       #is key not present, display error message and break out of it
                 await message.channel.send(constants.invalid_text)
                 return
-            #Get scale stats
-            scaleStats = list(helperfunctions.calcScaledStats(stat_element['total'], stat_element['hp'], stat_element["attack"], stat_element['defense'], stat_element['sp_attack'], stat_element['sp_defense'], stat_element['speed']))
-            #make new dictionary by combining the stats.json data with the scale stats
-            scaleDict = {'number': stat_element['number'],'name': stat_element['name'],'type1': stat_element['type1'],'type2': stat_element['type2'],'generation': stat_element['generation'],'hp': scaleStats[1],'attack': scaleStats[2],'defense': scaleStats[3],'sp_attack': scaleStats[4],'sp_defense': scaleStats[5],'speed': scaleStats[6],'total': scaleStats[0]}
             
-            #format embed body text
-            embedBody = helperfunctions.generateStatScreen(scaleDict)
+            standard_data = [*stat_element.values()][:5]                    #data that doesnt change with scalemons (name, type, generation)
+            un_scaled_data = [*stat_element.values()][5:]                   #data that changes in scalemons (stats)
+            scaled_data  = helperfunctions.calcScaledStats(un_scaled_data)  #returns a scaled list of [hp, attack, def, spatt, spdef, speed, BST]
+
+            combined_list  = standard_data + [                              #making a new list from the scalemons stats string and standard data 
+                constants.just_stats.format(*scaled_data)
+                ]
+            embedBody =  constants.for_scalemons.format(*combined_list)     #formatting for_scalemons with the created list
+
             embedToSend = discord.Embed(
                 title=stat_element.get('name',
                 'place_holder_name'),
                 description=embedBody)                                      #create embed
+
+            embedToSend.set_footer(text = '''Only fully evolved
+Pokemons(except Shedinja)
+get scaled in
+Scalemons Story Mode''')                                                    #setting a footer
             await message.channel.send(embed = embedToSend)                 #post embed
 #___________________________________________________________________________________________________________
-        elif(inputs[1] == 'helditem'):
+
+        elif(inputs[1] == 'helditem'):                                      #HELDITEM
             if(len(inputs) < 3):
                 await message.channel.send(constants.invalid_text)
                 return
 
             helditem_element = helditem_dict.get(inputs[2], False)
             if helditem_element == False:                                    # is key not present, display error message and break out of it
-                await message.channel.send(constants.invalid_text)
+                await message.channel.send(constants.invalid_text + 
+                " What you are looking for might not be an item that can be obtained from wild pokemons")
                 return
 
             embedTitle = helditem_element['itemname'].title()                #extract name of item
@@ -274,7 +289,8 @@ async def on_message(message):
             await message.channel.send(embed=embedToSend)                    #send embed
             return
 #___________________________________________________________________________________________________________
-        elif(inputs[1] == 'location'):
+
+        elif(inputs[1] == 'location'):                                      #LOCATION
             if(len(inputs) < 3):
                 await message.channel.send(constants.invalid_text)
                 return
@@ -316,5 +332,9 @@ client.run(os.getenv('tok'))
 #print(helperfunctions.msgSplitter(s3, myreg))
 #print(helperfunctions.msgSplitter(s4, myreg))
 
-#########################################################################################
 
+# print([*stats_dict['calyrex'].values()][:5])
+# print([*stats_dict['calyrex'].values()][5:])
+
+
+#########################################################################################
