@@ -7,6 +7,10 @@ message_checker_regex= "[ ]*({})[ ]*([a-zA-Z]+)[ ]*(.*)"
 
 prefix = ';'
 
+other_caps = [20, 26, 32, 36, 40, 45, 52, 57, 61, 75]
+
+vanilla_caps = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
 stat_display='''Number: {}
 Name: {}
 Type: {} {}
@@ -63,16 +67,19 @@ breeding_display = [
     ["Happiny:", "Breed Chansey/Blissey with Luck Incense."]
 ]
 
-caps_display = '''**Gym 1:** 20
-**Gym 2:** 26
-**Gym 3:** 32
-**Gym 4:** 36
-**Maxima:** 40
-**Gym 5:** 45
-**Gym 6:** 52
-**Gym 7:** 57
-**Gym 8:** 61
-**Elite 4:** 75'''
+
+
+caps_template = '''**Gym 1:** {}
+**Gym 2:** {}
+**Gym 3:** {}
+**Gym 4:** {}
+**Maxima:** {}
+**Gym 5:** {}
+**Gym 6:** {}
+**Gym 7:** {}
+**Gym 8:** {}
+**Elite 4:** {}'''
+
 
 
 invalid_text = "Sorry, invalid input!"

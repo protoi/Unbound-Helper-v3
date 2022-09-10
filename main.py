@@ -311,7 +311,7 @@ Scalemons Story Mode''')                                                    #set
             return
 #___________________________________________________________________________________________________________
         
-        elif(inputs[1] == 'difficulty'):                                     #DIFFICULTY
+        elif(inputs[1] == 'difficulty'):                                    #DIFFICULTY
             if(len(inputs) < 3):
                 await message.channel.send(constants.invalid_text)
                 return
@@ -372,15 +372,21 @@ Scalemons Story Mode''')                                                    #set
                     inline=False)                                           #inline commands not supported on mobile, it lets you have atmost 3 columns in your embeds
             await message.channel.send(embed = embedToSend)                 #sending the embed
             return
-           
 #___________________________________________________________________________________________________________
 
         elif(inputs[1] == 'caps' or inputs[1] == 'lvlcaps'):                #CAPS
-            if(len(inputs) < 3):
+            
+            if(inputs[2] == ""):                                            #If nothing after command provided, display other caps
+                embedBody  = constants.caps_template.format(*constants.other_caps)
+            elif (inputs[2] == 'vanilla' or  inputs[2] == 'v'):             #v or vanilla after command = display vanilal caps
+                embedBody  = constants.caps_template.format(*constants.vanilla_caps)
+            else:                                                           #break out of it if gibberish 
+                print(inputs)
                 await message.channel.send(constants.invalid_text)
                 return
+
+
             embedTitle = '**Level Caps:**'
-            embedBody = constants.caps_display
             embedToSend = discord.Embed(
                 title=embedTitle,
                 description=embedBody
@@ -446,7 +452,6 @@ Scalemons Story Mode''')                                                    #set
                 title=embedTitle,
                 description=embedBody)                                      #producing an embed
             await message.channel.send(embed=embedToSend)                   #sending the embed
-
 #___________________________________________________________________________________________________________        
 
 
