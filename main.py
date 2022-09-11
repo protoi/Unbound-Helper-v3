@@ -378,7 +378,7 @@ Scalemons Story Mode''')                                                    #set
             
             if(inputs[2] == ""):                                            #If nothing after command provided, display other caps
                 embedBody  = constants.caps_template.format(*constants.other_caps)
-                embedTitle  = '**Level Caps:**'
+                embedTitle  = '**Level Caps: Difficult+**'
             elif (inputs[2] == 'vanilla' or  inputs[2] == 'v'):             #v or vanilla after command = display vanilal caps
                 embedBody  = constants.caps_template.format(*constants.vanilla_caps)
                 embedTitle = '**Level Caps: Vanilla**'
