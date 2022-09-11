@@ -9,7 +9,7 @@ prefix = ';'
 
 other_caps = [20, 26, 32, 36, 40, 45, 52, 57, 61, 75]
 
-vanilla_caps = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+vanilla_caps = [15, 22, 29, 33, 37, 43, 51, 55, 60, 66]
 
 stat_display='''Number: {}
 Name: {}

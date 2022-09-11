@@ -378,15 +378,15 @@ Scalemons Story Mode''')                                                    #set
             
             if(inputs[2] == ""):                                            #If nothing after command provided, display other caps
                 embedBody  = constants.caps_template.format(*constants.other_caps)
+                embedTitle  = '**Level Caps:**'
             elif (inputs[2] == 'vanilla' or  inputs[2] == 'v'):             #v or vanilla after command = display vanilal caps
                 embedBody  = constants.caps_template.format(*constants.vanilla_caps)
+                embedTitle = '**Level Caps: Vanilla**'
             else:                                                           #break out of it if gibberish 
                 print(inputs)
                 await message.channel.send(constants.invalid_text)
                 return
 
-
-            embedTitle = '**Level Caps:**'
             embedToSend = discord.Embed(
                 title=embedTitle,
                 description=embedBody
@@ -460,7 +460,8 @@ Scalemons Story Mode''')                                                    #set
 client.run(os.getenv('tok'))
 
 
-######################################CODE FOR TESTING###################################
+#region CODE FOR TESTING
+
 # x = stats_dict.get(helperfunctions.normalizeString('galarian Darmanitan'), False) #use this to query
 #print(x)
 #print(helperfunctions.generateStatScreen(x))
@@ -484,4 +485,4 @@ client.run(os.getenv('tok'))
 # print([*stats_dict['calyrex'].values()][5:])
 
 
-#########################################################################################
+#endregion 
