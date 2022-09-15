@@ -58,6 +58,10 @@ with open("DATA/zlocation.json", encoding='utf8') as file:
 
 with open("DATA/stats.json", encoding='utf8') as file:
     stats_dict = helperfunctions.listToDict('name',  json.load(file))
+
+with open("DATA/movedescription.json", encoding='utf8') as file:
+    move_info_dict = helperfunctions.listToDict('movename',  json.load(file))
+
 ######################################################################################################
 #endregion
 
@@ -454,8 +458,24 @@ Scalemons Story Mode''')                                                    #set
             await message.channel.send(embed=embedToSend)                   #sending the embed
 #___________________________________________________________________________________________________________        
 
-
-# print(tm_and_tutor_dict['typhlosion']['tmMoves'])
+        elif(inputs[1] == 'moveinfo'):                                      #MOVE INFORMATION
+            if(len(inputs) < 3):                                            #checking whether message has anything after the command
+                await message.channel.send(constants.invalid_text)          #invalid message
+                return 
+            move_info_element = move_info_dict.get(inputs[2] ,False)        #querying for the dictionary
+            if move_info_element == False:                                  #if no dicitonary found, jump out of this
+                await message.channel.send(constants.invalid_text)          #error message
+                return
+            embedTitle = move_info_element['movename'].title()              #setting name
+            
+            embedBody = constants.move_info_display.format(
+                *[*(move_info_element.values())][1:])                       #removing the first element, it's the name being displayed in the title
+            
+            embedToSend = discord.Embed(
+                title=embedTitle,
+                description=embedBody) 
+            await message.channel.send(embed=embedToSend)                   #sending the embed
+#___________________________________________________________________________________________________________        
 
 client.run(os.getenv('tok'))
 

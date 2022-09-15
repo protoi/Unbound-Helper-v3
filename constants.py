@@ -185,3 +185,15 @@ command_text = [
      '''Syntax: `;docs`
      shows links to the docs''']
 ]
+
+move_info_display = '''__Description__: {}
+__Effect__: {}
+__Power__: {}
+__Type__: {}
+__Accuracy__: {}
+__PP__: {}
+__Effect Accuracy__: {}
+__Target__: {}
+__Priority__: {}
+__Info__: {}
+'''
