@@ -10361,7 +10361,7 @@
   },
   {
     "number": 641,
-    "name": "Tornadus Incarnate",
+    "name": "Tornadus",
     "type1": "Flying",
     "type2": "",
     "generation": 5,
@@ -10389,7 +10389,7 @@
   },
   {
     "number": 642,
-    "name": "Thundurus Incarnate",
+    "name": "Thundurus",
     "type1": "Electric",
     "type2": "Flying",
     "generation": 5,
@@ -10445,7 +10445,7 @@
   },
   {
     "number": 645,
-    "name": "Landorus Incarnate",
+    "name": "Landorus",
     "type1": "Ground",
     "type2": "Flying",
     "generation": 5,
@@ -14897,7 +14897,7 @@
   },
   {
     "number": 905,
-    "name": "Enamorus Incarnate",
+    "name": "Enamorus",
     "type1": "Fairy",
     "type2": "Flying",
     "generation": 8,
