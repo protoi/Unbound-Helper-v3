@@ -75,13 +75,11 @@ async def on_ready():
 @bot.command(name='stats')
 async def stats(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
-    print(args) 
     stat_element = stats_dict.get(args, False)                                       # query dictionary 
     if stat_element == False:                                                       # is key not present, display error message and break out of it
         await ctx.send(constants.invalid_text)
         return
     embedBody = constants.stat_display.format(*[*stat_element.values()])
-    # embedBody = helperfunctions.generateStatScreen([*stat_element.values()])      #obtain formatted string
     embedToSend = discord.Embed(
         title=stat_element.get('name',
         'place_holder_name'),
@@ -93,27 +91,27 @@ async def stats(ctx, *args):
 async def help(interaction: discord.interactions):
     menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
 
-    page1 = discord.Embed(title= 'Help Page 1')                      #sets title as help page 1, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text1):          #looping over the commant_text list for name and value pairs
-        page1.add_field(                                      #adding the fields one at a time
+    page1 = discord.Embed(title= 'Help Page 1')                     #sets title as help page 1, don't care about rest of the message
+    for index, (n,v) in enumerate(constants.help_text1):            #looping over the commant_text list for name and value pairs
+        page1.add_field(                                            #adding the fields one at a time
             name=constants.prefix + n,
             value=v, 
             inline=False)
-    page2 = discord.Embed(title= 'Help Page 2')                      #sets title as help page 2, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text2):          #looping over the commant_text list for name and value pairs
-        page2.add_field(                                      #adding the fields one at a time
+    page2 = discord.Embed(title= 'Help Page 2')                     #sets title as help page 2, don't care about rest of the message
+    for index, (n,v) in enumerate(constants.help_text2):            #looping over the commant_text list for name and value pairs
+        page2.add_field(                                            #adding the fields one at a time
             name=constants.prefix + n,
             value=v, 
             inline=False)
-    page3 = discord.Embed(title= 'Help Page 3')                      #sets title as help page 3, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text3):          #looping over the commant_text list for name and value pairs
-        page3.add_field(                                      #adding the fields one at a time
+    page3 = discord.Embed(title= 'Help Page 3')                     #sets title as help page 3, don't care about rest of the message
+    for index, (n,v) in enumerate(constants.help_text3):            #looping over the commant_text list for name and value pairs
+        page3.add_field(                                            #adding the fields one at a time
             name=constants.prefix + n,
             value=v, 
             inline=False)
-    page4 = discord.Embed(title= 'Help Page 4')                      #sets title as help page 4, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text4):          #looping over the commant_text list for name and value pairs
-        page4.add_field(                                      #adding the fields one at a time
+    page4 = discord.Embed(title= 'Help Page 4')                     #sets title as help page 4, don't care about rest of the message
+    for index, (n,v) in enumerate(constants.help_text4):            #looping over the commant_text list for name and value pairs
+        page4.add_field(                                            #adding the fields one at a time
             name=constants.prefix + n,
             value=v, 
             inline=False)
@@ -126,8 +124,96 @@ async def help(interaction: discord.interactions):
     menu.add_button(ViewButton.back())
     menu.add_button(ViewButton.next())                
 
-    await menu.start()                       #sending the embed
+    await menu.start()                                              #sending the embed
 #________________________________________________________________________________________________________________
+@bot.command(name='moves')
+async def moves(ctx, *args):
+    args = helperfunctions.normalizeString(' '.join(args)) 
+    lvl_up_element = lvlupmoves_dict.get(args ,False)               #querying for the dictionary
+    if lvl_up_element == False:                                     #if no dicitonary found, jump out of this
+        await ctx.send(constants.invalid_text)                      #error message
+        return
+    embedTitle = lvl_up_element['name'].title()                     #setting name
 
+    embedBody = '\n'.join( 
+        ' - '.join(str(y).title() for y in x) 
+        for x in lvl_up_element['lvlUpMoves'])                      #same as the for loop above OR the one liner above
+
+    embedToSend = discord.Embed(
+        title=embedTitle,
+        description=embedBody) 
+    await ctx.send(embed=embedToSend)                               #sending the embed
+#________________________________________________________________________________________________________________
+@bot.command(name='eggmoves')
+async def eggmoves(ctx, *args):
+    args = helperfunctions.normalizeString(' '.join(args)) 
+    egg_moves_element = eggmoves_dict.get(args ,False)              #querying for the dictionary
+    if egg_moves_element == False:                                  #if no dicitonary found, jump out of this
+        await ctx.send(constants.invalid_text)                      #error message
+        return
+    embedTitle = egg_moves_element['name'].title()                  #extracting the name of the pokemon
+    embedBody = "\n".join(
+        x.lower() for x in 
+        egg_moves_element['eggMoves'])                              #concatenating the list items
+    embedToSend = discord.Embed(
+        title=embedTitle,
+        description=embedBody)                                      #producing an embed
+    await ctx.send(embed=embedToSend)                               #sending the embed
+#________________________________________________________________________________________________________________
+@bot.command(name='ability')
+async def ability(ctx, *args):
+    args = helperfunctions.normalizeString(' '.join(args))
+    abilities_element = abilities_dict.get(args, False)
+            
+    if abilities_element == False:                                  #if no dictionary found return and send error message
+        await ctx.send(constants.invalid_text)                      #error
+        return
+    
+    
+    ability1, ability2, hiddenAbility = [str(x).lower().title()     # extracting abilites and ability descriptions for embedText
+    for x in abilities_element['Ability']]
+    
+    ability1_desc, ability2_desc, hidden_ability_desc =  [ ability_desc_dict[helperfunctions.normalizeString(x)]['effect'] 
+    for x in (ability1, ability2, hiddenAbility)]
+
+    embedText = helperfunctions.StringFormatter(
+        constants.ability_display, 
+        str(ability1), 
+        ability1_desc, 
+        str(ability2), 
+        ability2_desc, 
+        str(hiddenAbility), 
+        hidden_ability_desc)
+
+    
+    embedTitle = abilities_element['name'].title()                  # extract name of pokemon
+    embedBody = "\n" + embedText
+    embedToSend = discord.Embed(                                    #producing an embed
+        title=embedTitle,
+        description=embedBody)                                      
+    await ctx.send(embed=embedToSend)                               #sending the embed 
+#________________________________________________________________________________________________________________
+@bot.command(name='tmlocation')
+async def tmlocation(ctx, *args):
+    args = helperfunctions.normalizeString(' '.join(args))
+    q = args
+
+    searchThis = tm_name_number_mapping.get(q, q)                   #checking if the query is present in the mapping
+                                                                    #can only be possible if query was a number between 1 to 120 (inclusive)
+                                                                    # obtain name of tm to search here 
+    
+    tmlocation_element = tmlocation_dict.get(searchThis, False)     #querying using the name now
+    
+    if tmlocation_element == False:                                 #if no dicitonary found, jump out of this
+        await ctx.send(constants.invalid_text)          #error message
+        return
+    embedTitle = "TM# "+str(tmlocation_element['tmnumber'])         #extracting the name of the pokemon
+    embedBody = f'''{tmlocation_element['tmname'].title()}
+    {tmlocation_element['tmlocation']}'''                           #tm name + tm location in body
+    embedToSend = discord.Embed(
+        title=embedTitle,
+        description=embedBody)                                      #producing an embed
+    await ctx.send(embed=embedToSend)                   #sending the embed
+#________________________________________________________________________________________________________________
 
 bot.run(os.getenv('tok'))

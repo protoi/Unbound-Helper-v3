@@ -126,8 +126,8 @@ command_text = [
     ["ability",
      '''Syntax: `;ability <pokemon_name>`
      Displays the abilities of the Pokemon, thank SevenK for this :pleading_face:'''],
-    ["tm",
-     '''Syntax: `;tm <tm_number>` OR `;tm <tm_name>`
+    ["tm location",
+     '''Syntax: `;tmlocation <tm_number>` OR `;tmlocation <tm_name>`
      Displays the location of the TM'''],
     ["location",
      '''Syntax: `;location <pokemon_name>`
