@@ -76,6 +76,7 @@ async def on_ready():
 @bot.command(name='stats')                                          #STATS
 async def stats(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
+    
     stat_element = stats_dict.get(args, False)                      #query dictionary 
     if stat_element == False:                                       #is key not present, display error message and break out of it
         await ctx.send(constants.invalid_text)
@@ -130,6 +131,7 @@ async def help(interaction: discord.interactions):
 @bot.command(name='moves')                                          #MOVES
 async def moves(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
+    
     lvl_up_element = lvlupmoves_dict.get(args ,False)               #querying for the dictionary
 
     if lvl_up_element == False:                                     #if no dicitonary found, jump out of this
@@ -149,6 +151,7 @@ async def moves(ctx, *args):
 @bot.command(name='eggmoves')                                       #EGGMOVES
 async def eggmoves(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
+    
     egg_moves_element = eggmoves_dict.get(args ,False)              #querying for the dictionary
     if egg_moves_element == False:                                  #if no dicitonary found, jump out of this
         await ctx.send(constants.invalid_text)                      #error message
@@ -165,6 +168,7 @@ async def eggmoves(ctx, *args):
 @bot.command(name='ability')                                        #ABILITY
 async def ability(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args))
+    
     abilities_element = abilities_dict.get(args, False)
             
     if abilities_element == False:                                  #if no dictionary found return and send error message
