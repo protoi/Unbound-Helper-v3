@@ -104,6 +104,7 @@ def getComplexStats(element, scaleORnot=False):
                                                                      element["evYield_SpAttack"],
                                                                      element["evYield_SpDefense"],
                                                                      element["evYield_Speed"])
+
     item_template = constants.pokemon_item_template.format(element["item1"].title(),
                                                            element["item2"].title())
 
@@ -116,6 +117,9 @@ def getComplexStats(element, scaleORnot=False):
     breeding_template = constants.pokemon_breeding_template.format(element["genderRatio"].title(),
                                                                    element["eggCycles"],
                                                                    eg)
+    ability_template = constants.pokemon_ability_template.format(element['ability1'].title(),
+                                                                 element['ability2'].title(),
+                                                                 element['hiddenAbility'].title())
 
     characteristics_template = constants.pokemon_characteristics_template.format(element['friendship'],
                                                                                  element['growthRate'].title())
