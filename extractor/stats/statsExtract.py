@@ -104,7 +104,7 @@ while True:
                             ans = f'{femPrec}% female, {malePerc}% male'
                         temp_stats[stats.group(1)] = ans
                     else:
-                        temp_stats[stats.group(1)] = stats.group(2)
+                        temp_stats[stats.group(1)] = stats.group(2).replace('_', ' ')
 
             line = level.readline()
             if line == None:
