@@ -422,12 +422,13 @@ async def moveinfo(ctx, *args):
 @bot.command(name='stats')                                          #STATS AND SCALEMONS
 async def stats(interaction: discord.interactions, *args ):
     scalemonFlag=False                                              #setting the scalemon flag to be false initially
-    
+
     if len(args) != 0 and helperfunctions.normalizeString(args[0]) == 'scale':
         scalemonFlag = True                                         #setting it to true if user wants scaled stats
-    
-    args = helperfunctions.normalizeString(' '.join(args))
-    print(args)
+        args = helperfunctions.normalizeString(' '.join(args[1:]))
+    else:
+        args = helperfunctions.normalizeString(' '.join(args[:1]))
+        
     base_stat_element = base_stats_dict.get(args, False)            #query dictionary 
     if base_stat_element == False:                                  #is key not present, display error message and break out of it
         await interaction.send(content = constants.invalid_text)
