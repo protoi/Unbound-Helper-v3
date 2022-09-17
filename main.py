@@ -60,9 +60,6 @@ with open("DATA/tm_and_tutor.json", encoding='utf8') as file:
 with open("DATA/zlocation.json", encoding='utf8') as file:
     zlocation_dict = helperfunctions.listToDict('name',  json.load(file))
 
-with open("DATA/stats.json", encoding='utf8') as file:
-    stats_dict = helperfunctions.listToDict('name',  json.load(file))
-
 with open("DATA/movedescription.json", encoding='utf8') as file:
     move_info_dict = helperfunctions.listToDict('movename',  json.load(file))
 
