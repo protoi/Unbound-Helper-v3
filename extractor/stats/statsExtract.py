@@ -51,9 +51,6 @@ while True:
         temp_name = (pokeName.group(1))  # getting the name of the pokemon
         if temp_name == "NONE":
             continue
-        
-        if(temp_name == "SHADOW_WARRIOR"):
-            print(temp_name)
 
         if temp_name[-2:] == "_A":
             temp_name = "ALOLAN " + temp_name[:-2]
