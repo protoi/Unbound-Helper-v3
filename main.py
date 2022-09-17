@@ -440,7 +440,13 @@ async def stats(interaction: discord.interactions, *args ):
         await interaction.send(content = constants.invalid_text)
         return
     
-    s,t,c,e,i,b,a,ch = helperfunctions.getComplexStats(base_stat_element['stats'], scalemonFlag)
+    temp = base_stat_element['stats'].copy()
+
+    temp['ability1'] = ability_desc_dict.get( helperfunctions.normalizeString(temp['ability1']),  temp['ability1']).get('name', temp['ability1'])
+    temp['ability2'] = ability_desc_dict.get( helperfunctions.normalizeString(temp['ability2']),  temp['ability2']).get('name', temp['ability2'])
+    temp['hiddenAbility'] = ability_desc_dict.get( helperfunctions.normalizeString(temp['hiddenAbility']),  temp['hiddenAbility']).get('name', temp['hiddenAbility'])
+
+    s,t,c,e,i,b,a,ch = helperfunctions.getComplexStats(temp, scalemonFlag)
 
 
     stat_menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
