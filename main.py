@@ -473,12 +473,12 @@ async def stats(interaction: discord.interactions, *args ):
 
     await stat_menu.start() #posting the menu
 
-@bot.command(name='gifts')
+@bot.command(name='gifts')                                          #GIFTS
 async def gifts(interaction: discord.interactions, *args):
     menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
     
     args = helperfunctions.normalizeString(' '.join(args))
-    if args == 'bfd':
+    if args == 'bfd':                                               #If user asked for BFD, we set the search_key to be bfd, unless display maingame gifts
         search_key ='bfd'
     else:
         search_key = 'maingame'
@@ -487,27 +487,26 @@ async def gifts(interaction: discord.interactions, *args):
         
     pages = []
 
-    for i in range(0, numOfPagesGifts):                                  #Producing the pages
+    for i in range(0, numOfPagesGifts):                             #Producing the pages
         pages.append(discord.Embed(title = f"Gift Page #{i+1}"))
         
-        for j in range(0, constants.maxEntriesPerPageGifts):                       #adding information to the pages
+        for j in range(0, constants.maxEntriesPerPageGifts):        #adding information to the pages
             currentIndex =  j + i * constants.maxEntriesPerPageGifts
             if currentIndex == len(gifts_dict[search_key]):
                 break
             pages[i].add_field(
-                name= gifts_dict[search_key][currentIndex][1],
-                value = f'`{gifts_dict[search_key][currentIndex][0]}`',
+                name= gifts_dict[search_key][currentIndex][1],      #pokemon name
+                value = f'`{gifts_dict[search_key][currentIndex][0]}`', #gift code
                 inline = False
             )
             
-    for p in pages:
+    for p in pages:                                                 #adding the pages to the menu
         menu.add_page(p)
             
     menu.add_button(ViewButton.back())
     menu.add_button(ViewButton.next())                
 
     await menu.start()                                              #sending the embed
-
 
 #endregion
 
