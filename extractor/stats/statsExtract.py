@@ -1,7 +1,7 @@
 from ast import Try
 import re
 import json
-level = open("extractor\stats\Base_Stats.c", "r")
+level = open("extractor\stats\input\Base_Stats.c", "r")
 
 count = 0
 overAllStats = []  # overAllStats.append(temp_dict)
@@ -112,5 +112,5 @@ while True:
 
 print(len(overAllStats))
 
-with open("extractor\stats\Base_Stats.json", "w", encoding="utf-8") as outfile:
+with open("extractor\stats\output\Base_Stats.json", "w", encoding="utf-8") as outfile:
     json.dump(overAllStats, outfile, indent=2)

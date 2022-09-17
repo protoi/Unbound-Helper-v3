@@ -1,0 +1,3486 @@
+[
+  {
+    "movename": "Pound",
+    "movedesc": "A physical attack delivered with a long tail or a foreleg, etc."
+  },
+  {
+    "movename": "Karate Chop",
+    "movedesc": "The foe is attacked with a sharp chop. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Double Slap",
+    "movedesc": "The foe is slapped repeatedly, back and forth, two to five times."
+  },
+  {
+    "movename": "Comet Punch",
+    "movedesc": "The foe is hit with a flurry of punches that strike two to five times."
+  },
+  {
+    "movename": "Mega Punch",
+    "movedesc": "The foe is slugged by a punch thrown with muscle-packed power."
+  },
+  {
+    "movename": "Pay Day",
+    "movedesc": "Numerous coins are hurled at the foe. Money is earned after battle."
+  },
+  {
+    "movename": "Fire Punch",
+    "movedesc": "The foe is punched with a fiery fist. It may leave the foe with a burn."
+  },
+  {
+    "movename": "Ice Punch",
+    "movedesc": "The foe is punched with an icy fist. It may leave the foe with frostbite."
+  },
+  {
+    "movename": "ThunderPunch",
+    "movedesc": "The foe is punched with an electrified fist. It may leave the foe paralyzed."
+  },
+  {
+    "movename": "Scratch",
+    "movedesc": "Hard, pointed, and sharp claws rake the foe."
+  },
+  {
+    "movename": "Vise Grip",
+    "movedesc": "Huge, impressive pincers grip and squeeze the foe."
+  },
+  {
+    "movename": "Guillotine",
+    "movedesc": "A vicious tearing attack with pincers. The foe will faint if it hits."
+  },
+  {
+    "movename": "Razor Wind",
+    "movedesc": "Blades of wind hit the foe on the 2nd turn. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Swords Dance",
+    "movedesc": "A frenetic dance of fighting. It sharply raises the Attack stat."
+  },
+  {
+    "movename": "Cut",
+    "movedesc": "A basic attack. It can be used to cut down thin trees and grass."
+  },
+  {
+    "movename": "Gust",
+    "movedesc": "Strikes the foe with a gust of wind whipped up by wings."
+  },
+  {
+    "movename": "Wing Attack",
+    "movedesc": "The foe is struck with large, imposing wings spread wide."
+  },
+  {
+    "movename": "Whirlwind",
+    "movedesc": "The foe is made to switch out with an ally. In the wild, the battle ends."
+  },
+  {
+    "movename": "Fly",
+    "movedesc": "A 2-turn move that hits on the 2nd turn. Use it to fly to any known town."
+  },
+  {
+    "movename": "Bind",
+    "movedesc": "A long body or tentacles are used to bind the foe for two to five turns."
+  },
+  {
+    "movename": "Slam",
+    "movedesc": "The foe is struck with a long tail, vines, etc."
+  },
+  {
+    "movename": "Vine Whip",
+    "movedesc": "The foe is struck with slender, whip- like vines."
+  },
+  {
+    "movename": "Stomp",
+    "movedesc": "The foe is stomped with a big foot. It may make the foe flinch."
+  },
+  {
+    "movename": "Double Kick",
+    "movedesc": "Two legs are used to quickly kick the foe twice in one turn."
+  },
+  {
+    "movename": "Mega Kick",
+    "movedesc": "The foe is attacked by a kick fired with muscle-packed power."
+  },
+  {
+    "movename": "Jump Kick",
+    "movedesc": "The user jumps up high, then kicks. If it misses, the user hurts itself."
+  },
+  {
+    "movename": "Rolling Kick",
+    "movedesc": "A quick kick from a rolling spin. It may make the foe flinch."
+  },
+  {
+    "movename": "Sand Attack",
+    "movedesc": "A lot of sand is hurled in the foe's face, reducing its accuracy."
+  },
+  {
+    "movename": "Headbutt",
+    "movedesc": "The user sticks its head out and rams. It may make the foe flinch."
+  },
+  {
+    "movename": "Horn Attack",
+    "movedesc": "The foe is jabbed with a sharply pointed horn to inflict damage."
+  },
+  {
+    "movename": "Fury Attack",
+    "movedesc": "The foe is jabbed repeatedly with a horn or beak two to five times."
+  },
+  {
+    "movename": "Horn Drill",
+    "movedesc": "The horn is rotated like a drill to ram. The foe will faint if it hits."
+  },
+  {
+    "movename": "Tackle",
+    "movedesc": "A physical attack in which the user charges, full body, into the foe."
+  },
+  {
+    "movename": "Body Slam",
+    "movedesc": "The user drops its full body on the foe. It may leave the foe paralyzed."
+  },
+  {
+    "movename": "Wrap",
+    "movedesc": "A long body or vines are used to wrap the foe for two to five turns."
+  },
+  {
+    "movename": "Take Down",
+    "movedesc": "A reckless, full- body charge attack that also hurts the user a little."
+  },
+  {
+    "movename": "Thrash",
+    "movedesc": "The user rampages about for two to three turns, then becomes confused."
+  },
+  {
+    "movename": "Double-Edge",
+    "movedesc": "A reckless, life- risking tackle that also hurts the user a little."
+  },
+  {
+    "movename": "Tail Whip",
+    "movedesc": "The user wags its tail cutely, making the foe lower its Defense stat."
+  },
+  {
+    "movename": "Poison Sting",
+    "movedesc": "The foe is stabbed with a toxic barb, etc. It may poison the foe."
+  },
+  {
+    "movename": "Twineedle",
+    "movedesc": "The foe is stabbed twice with foreleg stingers. It may poison the foe."
+  },
+  {
+    "movename": "Pin Missile",
+    "movedesc": "Sharp pins are shot at the foe and hit two to five times at once."
+  },
+  {
+    "movename": "Leer",
+    "movedesc": "The foe is given an intimidating look that lowers its Defense stat."
+  },
+  {
+    "movename": "Bite",
+    "movedesc": "The user bites with vicious fangs. It may make the foe flinch."
+  },
+  {
+    "movename": "Growl",
+    "movedesc": "The user growls in a cute way, making the foe lower its Attack stat."
+  },
+  {
+    "movename": "Roar",
+    "movedesc": "The foe is made to switch out with an ally. In the wild, the battle ends."
+  },
+  {
+    "movename": "Sing",
+    "movedesc": "A soothing song in a calming voice lulls the foe into a deep slumber."
+  },
+  {
+    "movename": "Supersonic",
+    "movedesc": "The user generates odd sound waves. It may confuse the foe."
+  },
+  {
+    "movename": "Sonic Boom",
+    "movedesc": "The foe is hit with a shock wave that always inflicts 20- HP damage."
+  },
+  {
+    "movename": "Disable",
+    "movedesc": "For a few turns, it prevents the foe from using the move it last used."
+  },
+  {
+    "movename": "Acid",
+    "movedesc": "The foe is sprayed with a harsh, hide- melting acid that may lower Defense."
+  },
+  {
+    "movename": "Ember",
+    "movedesc": "The foe is attacked with small flames. The foe may suffer a burn."
+  },
+  {
+    "movename": "Flamethrower",
+    "movedesc": "The foe is scorched with intense flames. The foe may suffer a burn."
+  },
+  {
+    "movename": "Mist",
+    "movedesc": "The ally party is protected by a mist that prevents stat reductions."
+  },
+  {
+    "movename": "Water Gun",
+    "movedesc": "The foe is struck with a lot of water expelled forcibly from the mouth."
+  },
+  {
+    "movename": "Hydro Pump",
+    "movedesc": "A high volume of water is blasted at the foe under great pressure."
+  },
+  {
+    "movename": "Surf",
+    "movedesc": "A big wave crashes down on the foe. Can also be used for crossing water."
+  },
+  {
+    "movename": "Ice Beam",
+    "movedesc": "The foe is struck with an icy beam. It may leave the foe with frostbite."
+  },
+  {
+    "movename": "Blizzard",
+    "movedesc": "A blizzard strikes the opposing team. It may also leave them with frostbite."
+  },
+  {
+    "movename": "Psybeam",
+    "movedesc": "A peculiar ray is shot at the foe. It may leave the foe confused."
+  },
+  {
+    "movename": "Bubble Beam",
+    "movedesc": "A spray of bubbles strikes the foe. It may lower the foe's Speed stat."
+  },
+  {
+    "movename": "Aurora Beam",
+    "movedesc": "A rainbow-colored attack beam. It may lower the foe's Attack stat."
+  },
+  {
+    "movename": "Hyper Beam",
+    "movedesc": "A severely damaging attack that makes the user rest on the next turn."
+  },
+  {
+    "movename": "Peck",
+    "movedesc": "The foe is jabbed with a sharply pointed beak or horn."
+  },
+  {
+    "movename": "Drill Peck",
+    "movedesc": "A corkscrewing attack with the sharp beak acting as a drill."
+  },
+  {
+    "movename": "Submission",
+    "movedesc": "A reckless, full- body throw attack that also hurts the user a little."
+  },
+  {
+    "movename": "Low Kick",
+    "movedesc": "A low, tripping kick that inflicts more damage on heavier foes."
+  },
+  {
+    "movename": "Counter",
+    "movedesc": "A retaliation move that counters any physical hit with double the damage."
+  },
+  {
+    "movename": "Seismic Toss",
+    "movedesc": "A gravity-fed throw that causes damage matching the user's level."
+  },
+  {
+    "movename": "Strength",
+    "movedesc": "The foe is slugged at maximum power. Can also be used to move boulders."
+  },
+  {
+    "movename": "Absorb",
+    "movedesc": "An attack that absorbs half the damage it inflicted to restore HP."
+  },
+  {
+    "movename": "Mega Drain",
+    "movedesc": "A tough attack that drains half the damage it inflicted to restore HP."
+  },
+  {
+    "movename": "Leech Seed",
+    "movedesc": "A seed is planted on the foe to steal some HP for the  user on every turn."
+  },
+  {
+    "movename": "Growth",
+    "movedesc": "The user's body is forced to grow, raising the Attack and Sp. Atk stats."
+  },
+  {
+    "movename": "Razor Leaf",
+    "movedesc": "The foe is hit with a cutting leaf. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Solar Beam",
+    "movedesc": "A 2-turn move that blasts the foe with absorbed energy in the 2nd turn."
+  },
+  {
+    "movename": "PoisonPowder",
+    "movedesc": "A cloud of toxic dust is scattered. It may poison the foe."
+  },
+  {
+    "movename": "Stun Spore",
+    "movedesc": "Paralyzing dust is scattered wildly. It may paralyze the foe."
+  },
+  {
+    "movename": "Sleep Powder",
+    "movedesc": "A sleep-inducing dust is scattered in high volume around a foe."
+  },
+  {
+    "movename": "Petal Dance",
+    "movedesc": "The user attacks with petals for two to three turns, then gets confused."
+  },
+  {
+    "movename": "String Shot",
+    "movedesc": "The foe is bound with strings shot from the mouth to reduce its Speed."
+  },
+  {
+    "movename": "Dragon Rage",
+    "movedesc": "The foe is hit with a shock wave that always inflicts 40- HP damage."
+  },
+  {
+    "movename": "Fire Spin",
+    "movedesc": "The foe is trapped in an intense spiral of fire that rages two to five turns."
+  },
+  {
+    "movename": "ThunderShock",
+    "movedesc": "An electric shock attack that may also leave the foe paralyzed."
+  },
+  {
+    "movename": "Thunderbolt",
+    "movedesc": "A strong electrical attack that may also leave the foe paralyzed."
+  },
+  {
+    "movename": "Thunder Wave",
+    "movedesc": "A weak electric shock that is sure to cause paralysis if it hits."
+  },
+  {
+    "movename": "Thunder",
+    "movedesc": "A brutal lightning attack that may also leave the foe paralyzed."
+  },
+  {
+    "movename": "Rock Throw",
+    "movedesc": "The foe is attacked with a shower of small, easily thrown rocks."
+  },
+  {
+    "movename": "Earthquake",
+    "movedesc": "An earthquake that strikes all Pokemon in battle excluding the user."
+  },
+  {
+    "movename": "Fissure",
+    "movedesc": "The foe is dropped into a fissure. The foe faints if it hits."
+  },
+  {
+    "movename": "Dig",
+    "movedesc": "An attack that hits on the 2nd turn. Can also be used to exit dungeons."
+  },
+  {
+    "movename": "Toxic",
+    "movedesc": "A move that badly poisons the foe. Its poison damage worsens every turn."
+  },
+  {
+    "movename": "Confusion",
+    "movedesc": "A weak telekinetic attack that may also leave the foe confused."
+  },
+  {
+    "movename": "Psychic",
+    "movedesc": "A strong telekinetic attack. It may also lower the foe's Sp. Def stat."
+  },
+  {
+    "movename": "Hypnosis",
+    "movedesc": "Hypnotic suggestion is used to make the foe fall into a deep sleep."
+  },
+  {
+    "movename": "Meditate",
+    "movedesc": "The user meditates to awaken its power and raise its Attack stat."
+  },
+  {
+    "movename": "Agility",
+    "movedesc": "The user relaxes and lightens its body to sharply boost its Speed."
+  },
+  {
+    "movename": "Quick Attack",
+    "movedesc": "An almost invisibly fast attack that is certain to strike first."
+  },
+  {
+    "movename": "Rage",
+    "movedesc": "An attack that becomes stronger each time the user is hit in battle."
+  },
+  {
+    "movename": "Teleport",
+    "movedesc": "Use it to flee from any wild Pokemon. Also warps to the last Pok\u00c3\u00a9 Centre."
+  },
+  {
+    "movename": "Night Shade",
+    "movedesc": "An attack with a mirage that inflicts damage matching the user's level."
+  },
+  {
+    "movename": "Mimic",
+    "movedesc": "The user copies the move last used by the foe for the rest of the battle."
+  },
+  {
+    "movename": "Screech",
+    "movedesc": "An ear-splitting screech is emitted to sharply reduce the foe's Defense."
+  },
+  {
+    "movename": "Double Team",
+    "movedesc": "The user creates illusory copies of itself to raise its evasiveness."
+  },
+  {
+    "movename": "Recover",
+    "movedesc": "A self-healing move that restores HP by up to half of the user's maximum HP."
+  },
+  {
+    "movename": "Harden",
+    "movedesc": "The user stiffens all the muscles in its body to raise its Defense stat."
+  },
+  {
+    "movename": "Minimize",
+    "movedesc": "The user compresses all the cells in its body to raise its evasiveness."
+  },
+  {
+    "movename": "Smokescreen",
+    "movedesc": "An obscuring cloud of smoke or ink reduces the foe's accuracy."
+  },
+  {
+    "movename": "Confuse Ray",
+    "movedesc": "The foe is exposed to a sinister ray that triggers confusion."
+  },
+  {
+    "movename": "Withdraw",
+    "movedesc": "The user withdraws its body in its hard shell, raising its Defense stat."
+  },
+  {
+    "movename": "Defense Curl",
+    "movedesc": "The user curls up to conceal weak spots and raise its Defense stat."
+  },
+  {
+    "movename": "Barrier",
+    "movedesc": "The user creates a sturdy wall that sharply raises its Defense stat."
+  },
+  {
+    "movename": "Light Screen",
+    "movedesc": "A wall of light cuts damage from Sp. Atk attacks for five turns."
+  },
+  {
+    "movename": "Haze",
+    "movedesc": "Eliminates all stat changes among all Pokemon engaged in battle."
+  },
+  {
+    "movename": "Reflect",
+    "movedesc": "A wall of light cuts damage from physical attacks for five turns."
+  },
+  {
+    "movename": "Focus Energy",
+    "movedesc": "The user takes a deep breath and focuses to raise its critical-hit ratio."
+  },
+  {
+    "movename": "Bide",
+    "movedesc": "The user endures attacks for two turns, then strikes back double."
+  },
+  {
+    "movename": "Metronome",
+    "movedesc": "Waggles a finger and stimulates the brain into using any move at random."
+  },
+  {
+    "movename": "Mirror Move",
+    "movedesc": "The user counters the move last used by the foe with the same move."
+  },
+  {
+    "movename": "Selfdestruct",
+    "movedesc": "The user blows up to inflict severe damage, even making itself faint."
+  },
+  {
+    "movename": "Egg Bomb",
+    "movedesc": "A large egg is hurled with great force at the foe to inflict damage."
+  },
+  {
+    "movename": "Lick",
+    "movedesc": "The foe is licked and hit with a long tongue. It may also paralyze."
+  },
+  {
+    "movename": "Smog",
+    "movedesc": "The foe is attacked with exhaust gases. It may also poison the foe."
+  },
+  {
+    "movename": "Sludge",
+    "movedesc": "Toxic sludge is hurled at the foe. It may poison the target."
+  },
+  {
+    "movename": "Bone Club",
+    "movedesc": "The foe is clubbed with a bone held in hand. It may make the foe flinch."
+  },
+  {
+    "movename": "Fire Blast",
+    "movedesc": "The foe is hit with an intense flame. It may leave the target with a burn."
+  },
+  {
+    "movename": "Waterfall",
+    "movedesc": "A powerful charge attack. It can also be used to climb a waterfall."
+  },
+  {
+    "movename": "Clamp",
+    "movedesc": "The foe is clamped and squeezed by the user's shell for two to five turns."
+  },
+  {
+    "movename": "Swift",
+    "movedesc": "Star-shaped rays that never miss are fired at all foes in battle."
+  },
+  {
+    "movename": "Skull Bash",
+    "movedesc": "The user raises its Defense in the 1st turn, then attacks in the 2nd turn."
+  },
+  {
+    "movename": "Spike Cannon",
+    "movedesc": "Sharp spikes are fired at the foe to strike two to five times."
+  },
+  {
+    "movename": "Constrict",
+    "movedesc": "The foe is attacked with long tentacles or vines. It may lower Speed."
+  },
+  {
+    "movename": "Amnesia",
+    "movedesc": "Forgets about something and sharply raises Sp. Def."
+  },
+  {
+    "movename": "Kinesis",
+    "movedesc": "The user distracts the foe by bending a spoon. It may lower accuracy."
+  },
+  {
+    "movename": "Soft-Boiled",
+    "movedesc": "Heals the user by up to half its full HP. It can be used to heal an ally."
+  },
+  {
+    "movename": "Hi Jump Kick",
+    "movedesc": "A strong jumping knee kick. If it misses, the user is hurt."
+  },
+  {
+    "movename": "Glare",
+    "movedesc": "The user intimidates the foe with the design on its belly to cause paralysis."
+  },
+  {
+    "movename": "Dream Eater",
+    "movedesc": "Absorbs half the damage it inflicted on a sleeping foe to restore HP."
+  },
+  {
+    "movename": "Poison Gas",
+    "movedesc": "The foe is sprayed with a cloud of toxic gas that may poison the foe."
+  },
+  {
+    "movename": "Barrage",
+    "movedesc": "Round objects are hurled at the foe to strike two to five times."
+  },
+  {
+    "movename": "Leech Life",
+    "movedesc": "An attack that absorbs half the damage it inflicted to restore HP."
+  },
+  {
+    "movename": "Lovely Kiss",
+    "movedesc": "The user forces a kiss on the foe with a scary face that induces sleep."
+  },
+  {
+    "movename": "Sky Attack",
+    "movedesc": "A 2nd-turn attack move with a high critical-hit ratio. The foe may flinch."
+  },
+  {
+    "movename": "Transform",
+    "movedesc": "The user transforms into a copy of the foe with even the same move set."
+  },
+  {
+    "movename": "Bubble",
+    "movedesc": "A spray of bubbles hits the foe. It may lower the foe's Speed stat."
+  },
+  {
+    "movename": "Dizzy Punch",
+    "movedesc": "The foe is hit with a rhythmic punch that may leave it confused."
+  },
+  {
+    "movename": "Spore",
+    "movedesc": "The user scatters bursts of fine spores that induce sleep."
+  },
+  {
+    "movename": "Flash",
+    "movedesc": "A blast of light that cuts the foe's accuracy. It also illuminates caves."
+  },
+  {
+    "movename": "Psywave",
+    "movedesc": "The foe is attacked with an odd, hot energy wave that varies in intensity."
+  },
+  {
+    "movename": "Splash",
+    "movedesc": "The user just flops and splashes around without having any effect."
+  },
+  {
+    "movename": "Acid Armor",
+    "movedesc": "The user alters its cells to liquefy itself and sharply raise Defense."
+  },
+  {
+    "movename": "Crabhammer",
+    "movedesc": "A large pincer is used to hammer the foe. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Explosion",
+    "movedesc": "The user explodes to inflict terrible damage even while fainting itself."
+  },
+  {
+    "movename": "Fury Swipes",
+    "movedesc": "The foe is raked with sharp claws or scythes two to five times."
+  },
+  {
+    "movename": "Bonemerang",
+    "movedesc": "The user throws a bone that hits the foe once, then once again on return."
+  },
+  {
+    "movename": "Rest",
+    "movedesc": "The user sleeps for two turns to fully restore HP and heal any status problem."
+  },
+  {
+    "movename": "Rock Slide",
+    "movedesc": "Large boulders are hurled at the foe. It may make the foe flinch."
+  },
+  {
+    "movename": "Hyper Fang",
+    "movedesc": "The foe is attacked with sharp fangs. It may make the foe flinch."
+  },
+  {
+    "movename": "Sharpen",
+    "movedesc": "The user reduces its polygon count to sharpen edges and raise Attack."
+  },
+  {
+    "movename": "Conversion",
+    "movedesc": "The user changes its type to match the type of one of its moves."
+  },
+  {
+    "movename": "Tri Attack",
+    "movedesc": "A simultaneous 3-beam attack that may paralyze, burn, or frostbite the foe."
+  },
+  {
+    "movename": "Super Fang",
+    "movedesc": "The user attacks with sharp fangs and halves the foe's HP."
+  },
+  {
+    "movename": "Slash",
+    "movedesc": "The foe is slashed with claws, etc. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Substitute",
+    "movedesc": "The user creates a decoy using one- quarter of its full HP."
+  },
+  {
+    "movename": "Struggle",
+    "movedesc": "An attack that is used only if there is no PP. It also hurts the user."
+  },
+  {
+    "movename": "Sketch",
+    "movedesc": "This move copies the move last used by the foe, then disappears."
+  },
+  {
+    "movename": "Triple Kick",
+    "movedesc": "A 3-kick attack that becomes more powerful with each successive hit."
+  },
+  {
+    "movename": "Thief",
+    "movedesc": "An attack that may take the foe's held item if the user isn't holding one."
+  },
+  {
+    "movename": "Spider Web",
+    "movedesc": "Ensnares the foe  with sticky string so it doesn't flee or switch out."
+  },
+  {
+    "movename": "Mind Reader",
+    "movedesc": "The user predicts the foe's action to ensure its next attack hits."
+  },
+  {
+    "movename": "Nightmare",
+    "movedesc": "A sleeping foe is shown a nightmare that inflicts some damage every turn."
+  },
+  {
+    "movename": "Flame Wheel",
+    "movedesc": "The user makes a fiery charge at the foe. It may cause a burn."
+  },
+  {
+    "movename": "Snore",
+    "movedesc": "An attack that can be used only while asleep. It may cause flinching."
+  },
+  {
+    "movename": "Curse",
+    "movedesc": "A move that works differently for the Ghost-type and all the other types."
+  },
+  {
+    "movename": "Flail",
+    "movedesc": "A desperate attack that becomes more powerful the less HP the user has."
+  },
+  {
+    "movename": "Conversion 2",
+    "movedesc": "The user changes type to make itself resistant to the last attack it took."
+  },
+  {
+    "movename": "Aeroblast",
+    "movedesc": "A vortex of air is shot at the foe. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Cotton Spore",
+    "movedesc": "Cotton-like spores cling to the foe, sharply reducing its Speed stat."
+  },
+  {
+    "movename": "Reversal",
+    "movedesc": "An all-out attack that becomes more powerful the less HP the user has."
+  },
+  {
+    "movename": "Spite",
+    "movedesc": "A move that cuts 2 to 5 PP from the move last used by the foe."
+  },
+  {
+    "movename": "Powder Snow",
+    "movedesc": "The opposing team is hit with powdery snow that may leave them with frostbite."
+  },
+  {
+    "movename": "Protect",
+    "movedesc": "Enables the user to evade all attacks. It may fail if used in succession."
+  },
+  {
+    "movename": "Mach Punch",
+    "movedesc": "A punch thrown at blinding speed. It is certain to strike first."
+  },
+  {
+    "movename": "Scary Face",
+    "movedesc": "Frightens the foe with a scary face to sharply reduce its Speed."
+  },
+  {
+    "movename": "Feint Attack",
+    "movedesc": "The user draws up close to the foe disarmingly, then hits without fail."
+  },
+  {
+    "movename": "Sweet Kiss",
+    "movedesc": "The user kisses the foe with sweet cuteness that causes confusion."
+  },
+  {
+    "movename": "Belly Drum",
+    "movedesc": "The user maximizes its Attack stat at the cost of half its full HP."
+  },
+  {
+    "movename": "Sludge Bomb",
+    "movedesc": "Filthy sludge is hurled at the foe. It may poison the target."
+  },
+  {
+    "movename": "Mud-Slap",
+    "movedesc": "Mud is hurled in the foe's face to inflict damage and lower its accuracy."
+  },
+  {
+    "movename": "Octazooka",
+    "movedesc": "Ink is blasted in the foe's face or eyes to damage and lower accuracy."
+  },
+  {
+    "movename": "Spikes",
+    "movedesc": "A trap of spikes is laid around the foe's party to hurt foes switching in."
+  },
+  {
+    "movename": "Zap Cannon",
+    "movedesc": "An electric blast is fired like a cannon to inflict damage and paralyze."
+  },
+  {
+    "movename": "Foresight",
+    "movedesc": "Completely negates the foe's efforts to heighten its ability to evade."
+  },
+  {
+    "movename": "Destiny Bond",
+    "movedesc": "If the user faints, the foe delivering the final hit also faints."
+  },
+  {
+    "movename": "Perish Song",
+    "movedesc": "Any battler that hears this faints in three turns unless it switches."
+  },
+  {
+    "movename": "Icy Wind",
+    "movedesc": "A chilling wind is used to attack. It also lowers the Speed stat."
+  },
+  {
+    "movename": "Detect",
+    "movedesc": "Enables the user to evade all attacks. It may fail if used in succession."
+  },
+  {
+    "movename": "Bone Rush",
+    "movedesc": "The user strikes the foe with a bone in hand two to five times."
+  },
+  {
+    "movename": "Lock-On",
+    "movedesc": "The user locks on to the foe, making the next move sure to hit."
+  },
+  {
+    "movename": "Outrage",
+    "movedesc": "The user thrashes about for two to three turns, then becomes confused."
+  },
+  {
+    "movename": "Sandstorm",
+    "movedesc": "A 5-turn sandstorm that damages all types except Rock, Ground, and Steel."
+  },
+  {
+    "movename": "Giga Drain",
+    "movedesc": "A harsh attack that absorbs half the damage it inflicted to restore HP."
+  },
+  {
+    "movename": "Endure",
+    "movedesc": "The user endures any hit with 1 HP left. It may fail if used in succession."
+  },
+  {
+    "movename": "Charm",
+    "movedesc": "The foe is charmed by the user's cute appeals, sharply cutting its Attack."
+  },
+  {
+    "movename": "Rollout",
+    "movedesc": "A 5-turn rolling attack that becomes stronger each time it hits."
+  },
+  {
+    "movename": "False Swipe",
+    "movedesc": "A restrained attack that always leaves the foe with at least 1 HP."
+  },
+  {
+    "movename": "Swagger",
+    "movedesc": "A move that makes the foe confused, but also sharply raises its Attack."
+  },
+  {
+    "movename": "Milk Drink",
+    "movedesc": "Heals the user by up to half its full HP. It can be used to heal an ally."
+  },
+  {
+    "movename": "Spark",
+    "movedesc": "An electrically charged tackle that may also paralyze the foe."
+  },
+  {
+    "movename": "Fury Cutter",
+    "movedesc": "An attack that grows stronger on each successive hit."
+  },
+  {
+    "movename": "Steel Wing",
+    "movedesc": "The foe is hit with wings of steel. It may also raise the user's Defense."
+  },
+  {
+    "movename": "Mean Look",
+    "movedesc": "The foe is fixed with a mean look that prevents it from escaping."
+  },
+  {
+    "movename": "Attract",
+    "movedesc": "If it is the other gender, the foe is made infatuated and unlikely to attack."
+  },
+  {
+    "movename": "Sleep Talk",
+    "movedesc": "While asleep, the user randomly uses one of the moves it knows."
+  },
+  {
+    "movename": "Heal Bell",
+    "movedesc": "A soothing bell chimes to heal the status problems of all allies."
+  },
+  {
+    "movename": "Return",
+    "movedesc": "This attack move grows more powerful the more the user likes its Trainer."
+  },
+  {
+    "movename": "Present",
+    "movedesc": "The foe is given a booby-trapped gift. It restores HP sometimes, however."
+  },
+  {
+    "movename": "Frustration",
+    "movedesc": "This attack move grows more powerful the less the user likes its Trainer."
+  },
+  {
+    "movename": "Safeguard",
+    "movedesc": "It protects the user's party from all status problems for five turns."
+  },
+  {
+    "movename": "Pain Split",
+    "movedesc": "The user adds its HP to the foe's HP, then equally shares the total HP."
+  },
+  {
+    "movename": "Sacred Fire",
+    "movedesc": "A mystical and powerful fire attack that may inflict a burn."
+  },
+  {
+    "movename": "Magnitude",
+    "movedesc": "A ground-shaking attack against all standing Pokemon. Its power varies."
+  },
+  {
+    "movename": "DynamicPunch",
+    "movedesc": "The foe is punched with the user's full power. It confuses the foe if it hits."
+  },
+  {
+    "movename": "Megahorn",
+    "movedesc": "A brutal ramming attack delivered with a tough and impressive horn."
+  },
+  {
+    "movename": "DragonBreath",
+    "movedesc": "The foe is hit with an incredible blast of breath that may also paralyze."
+  },
+  {
+    "movename": "Baton Pass",
+    "movedesc": "The user switches out, passing along any stat changes to the new battler."
+  },
+  {
+    "movename": "Encore",
+    "movedesc": "Makes the foe use the move it last used repeatedly for two to six turns."
+  },
+  {
+    "movename": "Pursuit",
+    "movedesc": "An attack move that works especially well on a foe that is switching out."
+  },
+  {
+    "movename": "Rapid Spin",
+    "movedesc": "An attack that frees the user from traps and hazards. Also raises Speed."
+  },
+  {
+    "movename": "Sweet Scent",
+    "movedesc": "Allures the foe to reduce evasiveness. It also attracts wild Pokemon."
+  },
+  {
+    "movename": "Iron Tail",
+    "movedesc": "An attack with a steel-hard tail. It may lower the foe's Defense stat."
+  },
+  {
+    "movename": "Metal Claw",
+    "movedesc": "The foe is attacked with steel claws. It may also raise the user's Attack."
+  },
+  {
+    "movename": "Vital Throw",
+    "movedesc": "Makes the user attack after the foe. In return, it will not miss."
+  },
+  {
+    "movename": "Morning Sun",
+    "movedesc": "Restores the user's HP. The amount of HP regained varies with the weather."
+  },
+  {
+    "movename": "Synthesis",
+    "movedesc": "Restores the user's HP. The amount of HP regained varies with the weather."
+  },
+  {
+    "movename": "Moonlight",
+    "movedesc": "Restores the user's HP. The amount of HP regained varies with the weather."
+  },
+  {
+    "movename": "Hidden Power",
+    "movedesc": "A unique attack  that varies in type depending on the user.       "
+  },
+  {
+    "movename": "Cross Chop",
+    "movedesc": "The foe is hit with double chops. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Twister",
+    "movedesc": "A vicious twister attacks the foe. It may make the foe flinch."
+  },
+  {
+    "movename": "Rain Dance",
+    "movedesc": "A heavy rain falls for five turns, powering up Water- type moves."
+  },
+  {
+    "movename": "Sunny Day",
+    "movedesc": "The sun blazes for five turns, powering up Fire-type moves."
+  },
+  {
+    "movename": "Crunch",
+    "movedesc": "The foe is crunched with sharp fangs. It may lower the foe's Defense."
+  },
+  {
+    "movename": "Mirror Coat",
+    "movedesc": "A retaliation move that pays back the foe's special attack double."
+  },
+  {
+    "movename": "Psych Up",
+    "movedesc": "The user hypnotizes itself into copying any stat change made by the foe."
+  },
+  {
+    "movename": "ExtremeSpeed",
+    "movedesc": "A blindingly speedy charge attack that always goes before any other."
+  },
+  {
+    "movename": "AncientPower",
+    "movedesc": "An ancient power is used to attack. It may also raise all the user's stats."
+  },
+  {
+    "movename": "Shadow Ball",
+    "movedesc": "A shadowy blob is hurled at the foe. May also lower the foe's Sp. Def."
+  },
+  {
+    "movename": "Future Sight",
+    "movedesc": "Two turns after this move is used, the foe is attacked psychically."
+  },
+  {
+    "movename": "Rock Smash",
+    "movedesc": "An attack that lowers Defense. It can also smash cracked boulders.      "
+  },
+  {
+    "movename": "Whirlpool",
+    "movedesc": "The foe is trapped in a fast, vicious whirlpool for two to five turns."
+  },
+  {
+    "movename": "Beat Up",
+    "movedesc": "All party Pokemon join in the attack. The more allies, the more damage."
+  },
+  {
+    "movename": "Fake Out",
+    "movedesc": "An attack that hits first and causes flinching. Usable only on 1st turn."
+  },
+  {
+    "movename": "Uproar",
+    "movedesc": "The user attacks in an uproar that prevents sleep for two to five turns."
+  },
+  {
+    "movename": "Stockpile",
+    "movedesc": "The user charges up power for use later. It can be used three times."
+  },
+  {
+    "movename": "Spit Up",
+    "movedesc": "The power built using Stockpile is released at once for attack."
+  },
+  {
+    "movename": "Swallow",
+    "movedesc": "The energy it built using Stockpile is absorbed to restore HP."
+  },
+  {
+    "movename": "Heat Wave",
+    "movedesc": "The user exhales a heated breath to attack. It may also inflict a burn."
+  },
+  {
+    "movename": "Hail",
+    "movedesc": "A hailstorm lasting five turns damages all Pokemon except the Ice-type."
+  },
+  {
+    "movename": "Torment",
+    "movedesc": "It enrages the foe, making it incapable of using the same move successively."
+  },
+  {
+    "movename": "Flatter",
+    "movedesc": "Flattery is used to confuse the foe, but its Sp. Atk also rises."
+  },
+  {
+    "movename": "Will-O-Wisp",
+    "movedesc": "A sinister, bluish white flame is shot at the foe to inflict a burn."
+  },
+  {
+    "movename": "Memento",
+    "movedesc": "The user faints, but sharply lowers the foe's Attack and Sp. Atk."
+  },
+  {
+    "movename": "Facade",
+    "movedesc": "An attack that is boosted if user is burned, poisoned, or paralyzed."
+  },
+  {
+    "movename": "Focus Punch",
+    "movedesc": "An attack that is executed last. The user flinches if hit beforehand."
+  },
+  {
+    "movename": "SmellingSalt",
+    "movedesc": "Doubly effective on a paralyzed foe, but it also cures the foe's paralysis."
+  },
+  {
+    "movename": "Follow Me",
+    "movedesc": "The user draws attention to itself, making foes attack only the user."
+  },
+  {
+    "movename": "Nature Power",
+    "movedesc": "An attack that changes type depending on the user's location."
+  },
+  {
+    "movename": "Charge",
+    "movedesc": "The user charges power to boost the Electric move it uses next."
+  },
+  {
+    "movename": "Taunt",
+    "movedesc": "The foe is taunted into a rage that allows it to use only attack moves."
+  },
+  {
+    "movename": "Helping Hand",
+    "movedesc": "A move that boosts the power of the ally's attack in a battle."
+  },
+  {
+    "movename": "Trick",
+    "movedesc": "A move that tricks the foe into trading held items with the user."
+  },
+  {
+    "movename": "Role Play",
+    "movedesc": "The user mimics the foe completely and copies the foe's ability."
+  },
+  {
+    "movename": "Wish",
+    "movedesc": "A self-healing move that restores half the full HP on the next turn."
+  },
+  {
+    "movename": "Assist",
+    "movedesc": "The user randomly picks and uses a move of an allied Pokemon."
+  },
+  {
+    "movename": "Ingrain",
+    "movedesc": "The user lays roots that restore HP on every turn. It can't switch out."
+  },
+  {
+    "movename": "Superpower",
+    "movedesc": "A powerful attack, but it also lowers the user's Attack and Defense stats."
+  },
+  {
+    "movename": "Magic Coat",
+    "movedesc": "Reflects back the foe's Leech Seed and any status- damaging move."
+  },
+  {
+    "movename": "Recycle",
+    "movedesc": "A move that recycles a used item for use once more."
+  },
+  {
+    "movename": "Revenge",
+    "movedesc": "An attack move that gains in intensity if the target has hurt the user."
+  },
+  {
+    "movename": "Brick Break",
+    "movedesc": "An attack that also breaks any barrier like Light Screen and Reflect."
+  },
+  {
+    "movename": "Yawn",
+    "movedesc": "A huge yawn lulls the foe into falling asleep on the next turn."
+  },
+  {
+    "movename": "Knock Off",
+    "movedesc": "Knocks down the foe's held item to prevent its use during the battle."
+  },
+  {
+    "movename": "Endeavor",
+    "movedesc": "Gains power the fewer HP the user has compared with the foe."
+  },
+  {
+    "movename": "Eruption",
+    "movedesc": "The higher the user's HP, the more powerful this attack becomes."
+  },
+  {
+    "movename": "Skill Swap",
+    "movedesc": "The user employs its psychic power to swap abilities with the foe."
+  },
+  {
+    "movename": "Imprison",
+    "movedesc": "Prevents foes from using any move that is also known by the user."
+  },
+  {
+    "movename": "Refresh",
+    "movedesc": "A self-healing move that cures the user of a poisoning, burn, or paralysis."
+  },
+  {
+    "movename": "Grudge",
+    "movedesc": "If the user faints, this move deletes the PP of the move that finished it."
+  },
+  {
+    "movename": "Snatch",
+    "movedesc": "Steals the effects of the foe's healing or status- changing move."
+  },
+  {
+    "movename": "Secret Power",
+    "movedesc": "An attack that may have an additional effect that varies with the terrain."
+  },
+  {
+    "movename": "Dive",
+    "movedesc": "The user dives underwater on the first turn and strikes next turn."
+  },
+  {
+    "movename": "Arm Thrust",
+    "movedesc": "A quick flurry of straight-arm punches that hit two to five times."
+  },
+  {
+    "movename": "Camouflage",
+    "movedesc": "Alters the user's type depending on the location's terrain."
+  },
+  {
+    "movename": "Tail Glow",
+    "movedesc": "The user flashes a light that sharply raises its Sp. Atk stat."
+  },
+  {
+    "movename": "Luster Purge",
+    "movedesc": "A burst of light injures the foe. It may also lower the foe's Sp. Def."
+  },
+  {
+    "movename": "Mist Ball",
+    "movedesc": "A flurry of down hits the foe. It may also lower the foe's Sp. Atk."
+  },
+  {
+    "movename": "FeatherDance",
+    "movedesc": "The foe is covered with a mass of down that sharply cuts the Attack stat."
+  },
+  {
+    "movename": "Teeter Dance",
+    "movedesc": "A wobbly dance that confuses all the Pokemon in battle."
+  },
+  {
+    "movename": "Blaze Kick",
+    "movedesc": "A fiery kick with a high critical-hit ratio. It may also burn the foe."
+  },
+  {
+    "movename": "Mud Sport",
+    "movedesc": "Weakens Electric- type attacks while the user is in the battle."
+  },
+  {
+    "movename": "Ice Ball",
+    "movedesc": "A 5-turn rolling attack that becomes stronger each time it rolls."
+  },
+  {
+    "movename": "Needle Arm",
+    "movedesc": "An attack using thorny arms. It may make the foe flinch."
+  },
+  {
+    "movename": "Slack Off",
+    "movedesc": "The user slacks off and restores its HP by half its full HP."
+  },
+  {
+    "movename": "Hyper Voice",
+    "movedesc": "The user lets loose a horribly loud shout with the power to damage."
+  },
+  {
+    "movename": "Poison Fang",
+    "movedesc": "The foe is bitten with toxic fangs. It may also badly poison the foe."
+  },
+  {
+    "movename": "Crush Claw",
+    "movedesc": "The foe is attacked with sharp claws. It may also lower the foe's Defense."
+  },
+  {
+    "movename": "Blast Burn",
+    "movedesc": "The foe is hit with a huge explosion. The user can't move on the next turn."
+  },
+  {
+    "movename": "Hydro Cannon",
+    "movedesc": "The foe is hit with a watery cannon. The user can't move on the next turn."
+  },
+  {
+    "movename": "Meteor Mash",
+    "movedesc": "The foe is hit with a hard, fast punch. It may also raise the user's Attack."
+  },
+  {
+    "movename": "Astonish",
+    "movedesc": "An attack using a startling shout. It also may make the foe flinch."
+  },
+  {
+    "movename": "Weather Ball",
+    "movedesc": "An attack that varies in power and type depending on the weather."
+  },
+  {
+    "movename": "Aromatherapy",
+    "movedesc": "A soothing scent is released to heal all status problems in the user's party."
+  },
+  {
+    "movename": "Fake Tears",
+    "movedesc": "The user feigns crying to sharply lower the foe's Sp. Def stat."
+  },
+  {
+    "movename": "Air Cutter",
+    "movedesc": "The foe is hit with razor-like wind. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Overheat",
+    "movedesc": "An intense attack that also sharply reduces the user's Sp. Atk stat."
+  },
+  {
+    "movename": "Odor Sleuth",
+    "movedesc": "Completely negates the foe's efforts to heighten its ability to evade."
+  },
+  {
+    "movename": "Rock Tomb",
+    "movedesc": "Boulders are hurled at the foe. It also lowers the foe's Speed if it hits."
+  },
+  {
+    "movename": "Silver Wind",
+    "movedesc": "The foe is attacked with a silver dust. It may raise all the user's stats."
+  },
+  {
+    "movename": "Metal Sound",
+    "movedesc": "A horrible metallic screech is used to sharply lower the foe's Sp. Def."
+  },
+  {
+    "movename": "Grasswhistle",
+    "movedesc": "A pleasant melody is played to lull the foe into a deep sleep."
+  },
+  {
+    "movename": "Tickle",
+    "movedesc": "The foe is made to laugh, reducing its Attack and Defense stats."
+  },
+  {
+    "movename": "Cosmic Power",
+    "movedesc": "The user absorbs a mystic power to raise its Defense and Sp. Def."
+  },
+  {
+    "movename": "Water Spout",
+    "movedesc": "The higher the user's HP, the more powerful this attack becomes."
+  },
+  {
+    "movename": "Signal Beam",
+    "movedesc": "The foe is hit with a flashing beam that may also cause confusion."
+  },
+  {
+    "movename": "Shadow Punch",
+    "movedesc": "The user throws a punch from the shadows. It cannot be evaded."
+  },
+  {
+    "movename": "Extrasensory",
+    "movedesc": "The user attacks with an odd power that may make the foe flinch."
+  },
+  {
+    "movename": "Sky Uppercut",
+    "movedesc": "The user attacks with an uppercut thrown skywards with force."
+  },
+  {
+    "movename": "Sand Tomb",
+    "movedesc": "The foe is trapped inside a painful sandstorm for two to five turns."
+  },
+  {
+    "movename": "Sheer Cold",
+    "movedesc": "The foe is attacked with ultimate cold that causes fainting if it hits."
+  },
+  {
+    "movename": "Muddy Water",
+    "movedesc": "The user attacks with muddy water. It may also lower the foe's accuracy."
+  },
+  {
+    "movename": "Bullet Seed",
+    "movedesc": "The user shoots seeds at the foe. Two to five seeds are shot at once."
+  },
+  {
+    "movename": "Aerial Ace",
+    "movedesc": "An extremely fast attack against one target. It can't be evaded."
+  },
+  {
+    "movename": "Icicle Spear",
+    "movedesc": "Sharp icicles are fired at the foe. It strikes two to five times."
+  },
+  {
+    "movename": "Iron Defense",
+    "movedesc": "The user hardens its body's surface to sharply raise its Defense stat."
+  },
+  {
+    "movename": "Block",
+    "movedesc": "The user blocks the foe's way with arms spread wide to prevent escape."
+  },
+  {
+    "movename": "Howl",
+    "movedesc": "The user howls to raise its team's spirit and boost their Attack stats."
+  },
+  {
+    "movename": "Dragon Claw",
+    "movedesc": "Sharp, huge claws hook and slash the foe quickly and with great power."
+  },
+  {
+    "movename": "Frenzy Plant",
+    "movedesc": "The foe is hit with an enormous branch. The user can't move on the next turn."
+  },
+  {
+    "movename": "Bulk Up",
+    "movedesc": "The user bulks up its body to boost both its Attack and Defense stats."
+  },
+  {
+    "movename": "Bounce",
+    "movedesc": "The user bounces on the foe on the 2nd turn. It may paralyze the foe."
+  },
+  {
+    "movename": "Mud Shot",
+    "movedesc": "The user attacks by hurling mud. It also reduces the foe's Speed."
+  },
+  {
+    "movename": "Poison Tail",
+    "movedesc": "An attack with a high critical-hit ratio. It may also poison the foe."
+  },
+  {
+    "movename": "Covet",
+    "movedesc": "A cutely executed attack that also steals the foe's held item."
+  },
+  {
+    "movename": "Volt Tackle",
+    "movedesc": "The user throws an electrified tackle. It hurts the user a little."
+  },
+  {
+    "movename": "Magical Leaf",
+    "movedesc": "The foe is attacked with a strange leaf that cannot be evaded."
+  },
+  {
+    "movename": "Water Sport",
+    "movedesc": "Weakens Fire-type attacks while the user is in the battle."
+  },
+  {
+    "movename": "Calm Mind",
+    "movedesc": "The user focuses its mind to raise the Sp. Atk and Sp. Def stats."
+  },
+  {
+    "movename": "Leaf Blade",
+    "movedesc": "The foe is slashed with a sharp leaf. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Dragon Dance",
+    "movedesc": "A mystic, powerful dance that boosts the user's Attack and Speed stats."
+  },
+  {
+    "movename": "Rock Blast",
+    "movedesc": "The user hurls two to five hard rocks at the foe to attack."
+  },
+  {
+    "movename": "Shock Wave",
+    "movedesc": "A rapid jolt of electricity strikes the foe. It can't be evaded."
+  },
+  {
+    "movename": "Water Pulse",
+    "movedesc": "An attack with a pulsing blast of water. It may also confuse the foe."
+  },
+  {
+    "movename": "Doom Desire",
+    "movedesc": "A move that attacks the foe with a blast of light two turns after use."
+  },
+  {
+    "movename": "Psycho Boost",
+    "movedesc": "An intense attack that also sharply reduces the user's Sp. Atk stat."
+  },
+  {
+    "movename": "Leech Fang",
+    "movedesc": "An attack that absorbs half the damage it inflicted to restore HP."
+  },
+  {
+    "movename": "Air Slash",
+    "movedesc": "The foe is sliced by a blade of air. It may also make the foe flinch."
+  },
+  {
+    "movename": "Aqua Jet",
+    "movedesc": "An almost invisibly fast lunge that is certain to strike first."
+  },
+  {
+    "movename": "Aqua Tail",
+    "movedesc": "The foe is attacked with a swinging tail as vicious as a wave in a storm."
+  },
+  {
+    "movename": "Aura Sphere",
+    "movedesc": "A blast of aura power is let loose at the foe. It is sure to hit."
+  },
+  {
+    "movename": "Avalanche",
+    "movedesc": "An attack move that gains in intensity if the target has hurt the user."
+  },
+  {
+    "movename": "Brave Bird",
+    "movedesc": "The user tucks in its wings and charges. It also hurts the user.         "
+  },
+  {
+    "movename": "Bug Buzz",
+    "movedesc": "The user creates a damaging sound wave that may lower the foe's Sp. Def."
+  },
+  {
+    "movename": "Bullet Punch",
+    "movedesc": "The user strikes with a tough punch that is certain to strike first."
+  },
+  {
+    "movename": "Charge Beam",
+    "movedesc": "The user fires a load of electricity that may raise the user's Sp. Atk.  "
+  },
+  {
+    "movename": "Close Combat",
+    "movedesc": "The foe is fought up close. This cuts the user's Defense and Sp. Def stats."
+  },
+  {
+    "movename": "Cross Poison",
+    "movedesc": "An attack with a high critical-hit ratio. It may also poison the foe."
+  },
+  {
+    "movename": "Dark Pulse",
+    "movedesc": "The user releases a horrible aura that may also make the foe flinch."
+  },
+  {
+    "movename": "Discharge",
+    "movedesc": "The user looses an electric flare that hits all Pokemon and may paralyze.         "
+  },
+  {
+    "movename": "Draco Meteor",
+    "movedesc": "An intense attack that also sharply reduces the user's Sp. Atk stat."
+  },
+  {
+    "movename": "Dragon Pulse",
+    "movedesc": "The foe is attacked with a shock wave generated by the user's gaping mouth."
+  },
+  {
+    "movename": "Drain Punch",
+    "movedesc": "A harsh punch that absorbs half the damage it inflicted to restore HP."
+  },
+  {
+    "movename": "Earth Power",
+    "movedesc": "The ground under the foe erupts. It may also lower the foe's Sp. Def.          "
+  },
+  {
+    "movename": "Energy Ball",
+    "movedesc": "The foe is blasted with natural energy. It may also lower the foe's Sp. Def."
+  },
+  {
+    "movename": "Focus Blast",
+    "movedesc": "The user unleashes its power. It may also lower the foe's Sp. Def."
+  },
+  {
+    "movename": "Force Palm",
+    "movedesc": "The foe is attacked with a shock wave that may also leave it paralyzed."
+  },
+  {
+    "movename": "Giga Impact",
+    "movedesc": "A severely damaging attack that makes the user rest on the next turn."
+  },
+  {
+    "movename": "Grass Knot",
+    "movedesc": "Grass snares and trips the foe. It does more damage to heavier foes."
+  },
+  {
+    "movename": "Gunk Shot",
+    "movedesc": "Filthy garbage is shot at the foe. It may also poison the target."
+  },
+  {
+    "movename": "Hammer Arm",
+    "movedesc": "The user swings its heavy fist. It also lowers the user's Speed."
+  },
+  {
+    "movename": "Head Smash",
+    "movedesc": "A reckless, life- risking tackle that also hurts the user terribly."
+  },
+  {
+    "movename": "Ice Shard",
+    "movedesc": "The user hurls chunks of ice that are certain to strike first."
+  },
+  {
+    "movename": "Iron Head",
+    "movedesc": "The foe is slammed with its hard head. It may also make the foe flinch."
+  },
+  {
+    "movename": "Lava Plume",
+    "movedesc": "Scarlet flames wash over all Pokemon in battle. It may also inflict burns."
+  },
+  {
+    "movename": "Magnet Bomb",
+    "movedesc": "A steel bomb is stuck to the foe. It is sure to hit."
+  },
+  {
+    "movename": "Mud Bomb",
+    "movedesc": "The foe is struck with a mud ball that may also lower its accuracy."
+  },
+  {
+    "movename": "Nasty Plot",
+    "movedesc": "The user thinks bad thoughts. It sharply raises the Sp. Atk stat."
+  },
+  {
+    "movename": "Night Slash",
+    "movedesc": "The user slashes the foe when opportune. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Ominous Wind",
+    "movedesc": "Repulsive wind is used to attack. It may also raise all the user's stats."
+  },
+  {
+    "movename": "Power Gem",
+    "movedesc": "The user attacks with a ray of light that sparkles like gemstones."
+  },
+  {
+    "movename": "Power Whip",
+    "movedesc": "The user violently whirls its vines or tentacles to lash the foe."
+  },
+  {
+    "movename": "Psycho Cut",
+    "movedesc": "The user tears the foe with psychic blades. It has a high crit ratio.        "
+  },
+  {
+    "movename": "Rock Climb",
+    "movedesc": "A charging attack that may confuse the foe. Can also be used to scale walls."
+  },
+  {
+    "movename": "Rock Polish",
+    "movedesc": "The user polishes its body to sharply boost its Speed."
+  },
+  {
+    "movename": "Rock Wrecker",
+    "movedesc": "The foe is hit with a huge boulder. The user can't move on the next turn."
+  },
+  {
+    "movename": "Roost",
+    "movedesc": "A self-healing move that restores HP by up to half of the user's maximum HP."
+  },
+  {
+    "movename": "Seed Bomb",
+    "movedesc": "The user shoots a barrage of hard seeds at the foe."
+  },
+  {
+    "movename": "Shadow Claw",
+    "movedesc": "Claws made of shadows rake the foe. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Shadow Sneak",
+    "movedesc": "The user extends its shadow to attack. It will strike first.         "
+  },
+  {
+    "movename": "Vacuum Wave",
+    "movedesc": "The user sends a wave of vacuum at the foe. It will strike first.         "
+  },
+  {
+    "movename": "X-Scissor",
+    "movedesc": "The user slashes the foe with crossed claws as if they were scissors."
+  },
+  {
+    "movename": "Zen Headbutt",
+    "movedesc": "The user focuses and rams the foe. It may also make the foe flinch."
+  },
+  {
+    "movename": "Switcheroo",
+    "movedesc": "The user trades held items with the foe faster than the eye can follow."
+  },
+  {
+    "movename": "Drill Run",
+    "movedesc": "The user rotates its body like a drill. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Bulldoze",
+    "movedesc": "The user hits all Pokemon in battle by stomping. Lowers Speed of those hit.     "
+  },
+  {
+    "movename": "Electroweb",
+    "movedesc": "The user traps the foe in an electric net. It also lowers the foe's Speed."
+  },
+  {
+    "movename": "Flame Charge",
+    "movedesc": "The user cloaks itself in flames and attacks. It also ups the user's Speed.   "
+  },
+  {
+    "movename": "Frost Breath",
+    "movedesc": "The user blows cold air at the foe. It always results in a critical hit."
+  },
+  {
+    "movename": "Heart Stamp",
+    "movedesc": "The foe is hit after a cute act. It may also make the foe flinch."
+  },
+  {
+    "movename": "Hone Claws",
+    "movedesc": "The user sharpens its claws to raise its Attack and accuracy."
+  },
+  {
+    "movename": "Horn Leech",
+    "movedesc": "A harsh attack that absorbs half the damage it inflicted to restore HP."
+  },
+  {
+    "movename": "Coil",
+    "movedesc": "The user coils up, raising its Attack, Defense, and accuracy."
+  },
+  {
+    "movename": "Hurricane",
+    "movedesc": "The foe is caught in a fierce wind. It may also confuse the foe."
+  },
+  {
+    "movename": "Icicle Crash",
+    "movedesc": "Icicles are dropped on the foe. It may also make the foe flinch."
+  },
+  {
+    "movename": "Work Up",
+    "movedesc": "The user rouses itself to raise its Attack and Sp. Atk stats."
+  },
+  {
+    "movename": "Quiver Dance",
+    "movedesc": "The user mystically dances, raising its Sp. Atk, Sp. Def, and Speed."
+  },
+  {
+    "movename": "Leaf Tornado",
+    "movedesc": "Sharp leaves circle the foe. It may also lower the foe's accuracy."
+  },
+  {
+    "movename": "Low Sweep",
+    "movedesc": "The user attacks the foe's legs, lowering its Speed stat."
+  },
+  {
+    "movename": "Snarl",
+    "movedesc": "The user barks menacingly. It also lowers the foe's Sp. Atk."
+  },
+  {
+    "movename": "Struggle Bug",
+    "movedesc": "While resisting, the user attacks the foe, lowering its Sp. Atk stat."
+  },
+  {
+    "movename": "Steamroller",
+    "movedesc": "The user crushes the foe with its body. It may also make the foe flinch."
+  },
+  {
+    "movename": "Storm Throw",
+    "movedesc": "The user strikes the foe fiercely. It always results in a critical hit."
+  },
+  {
+    "movename": "Venoshock",
+    "movedesc": "The foe is soaked by a special acid. Its power doubles if the foe is poisoned."
+  },
+  {
+    "movename": "Wild Charge",
+    "movedesc": "The user throws an electrified tackle. It hurts the user a little."
+  },
+  {
+    "movename": "Poison Jab",
+    "movedesc": "The foe is stabbed by an arm steeped in poison. It may also poison the foe."
+  },
+  {
+    "movename": "Acid Spray",
+    "movedesc": "The user spits fluid that melts the foe. It harshly lowers the foe's Sp. Def."
+  },
+  {
+    "movename": "Fiery Dance",
+    "movedesc": "Cloaked in flames, the user dances. It may also raise the user's Sp. Atk."
+  },
+  {
+    "movename": "Clear Smog",
+    "movedesc": "The user throws a clump of special mud that reverts all stat changes."
+  },
+  {
+    "movename": "Leaf Storm",
+    "movedesc": "An intense attack that also sharply reduces the user's Sp. Atk stat."
+  },
+  {
+    "movename": "Stone Edge",
+    "movedesc": "The foe is stabbed by sharpened stones. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Payback",
+    "movedesc": "If the user moves after the target, this attack's power will be doubled."
+  },
+  {
+    "movename": "Fire Fang",
+    "movedesc": "The user bites the foe. It may make the foe flinch or leave it burned."
+  },
+  {
+    "movename": "Ice Fang",
+    "movedesc": "The user bites the foe. It may make the foe flinch or leave it frostbitten."
+  },
+  {
+    "movename": "Thunder Fang",
+    "movedesc": "The user bites the foe. It may make the foe flinch or leave it paralyzed.   "
+  },
+  {
+    "movename": "Flare Blitz",
+    "movedesc": "A fiery tackle that may leave the foe burned. It also hurts the user a little."
+  },
+  {
+    "movename": "Inferno",
+    "movedesc": "The foe is engulfed by an intense fire that is sure to leave a burn."
+  },
+  {
+    "movename": "Hex",
+    "movedesc": "This attack does double damage to a target affected by a status problem."
+  },
+  {
+    "movename": "Dual Chop",
+    "movedesc": "The user hits the foe with two brutal strikes in one turn."
+  },
+  {
+    "movename": "Double Hit",
+    "movedesc": "The user slams the foe twice in a row with a long tail, vines, etc."
+  },
+  {
+    "movename": "Cotton Guard",
+    "movedesc": "The user protects itself with cotton, drastically raising its Defense."
+  },
+  {
+    "movename": "Acrobatics",
+    "movedesc": "A nimble attack that does double damage if the user has no held item."
+  },
+  {
+    "movename": "Flame Burst",
+    "movedesc": "The user attacks the foe with a bursting flame."
+  },
+  {
+    "movename": "U-turn",
+    "movedesc": "After attacking, the user switches places with a party Pokemon."
+  },
+  {
+    "movename": "Volt Switch",
+    "movedesc": "After attacking, the user switches places with a party Pokemon."
+  },
+  {
+    "movename": "Dragon Tail",
+    "movedesc": "The foe is made to switch out with an ally. In the wild, the battle ends."
+  },
+  {
+    "movename": "Circle Throw",
+    "movedesc": "The foe is made to switch out with an ally. In the wild, the battle ends."
+  },
+  {
+    "movename": "Mirror Shot",
+    "movedesc": "The user looses a flash of energy to damage and lower accuracy."
+  },
+  {
+    "movename": "Wood Hammer",
+    "movedesc": "The user slams the foe with its hard body, also hurting itself a little."
+  },
+  {
+    "movename": "Heal Pulse",
+    "movedesc": "The user emits a healing pulse that restores a target's HP by up to half."
+  },
+  {
+    "movename": "Flash Cannon",
+    "movedesc": "Light energy is shot at the foe. It may also lower the foe's Sp. Def."
+  },
+  {
+    "movename": "Bug Bite",
+    "movedesc": "The user bites the foe, eating its berry if it is holding one."
+  },
+  {
+    "movename": "Pluck",
+    "movedesc": "The user pecks the foe, plucking its berry if it is holding one."
+  },
+  {
+    "movename": "Shell Smash",
+    "movedesc": "Sharply raises Attack, Sp. Atk, and Speed, but lowers Defense and Sp. Def."
+  },
+  {
+    "movename": "Rage Powder",
+    "movedesc": "The user scatters a cloud of powder, making foes attack only the user."
+  },
+  {
+    "movename": "Wake-Up Slap",
+    "movedesc": "Does double damage to a sleeping foe. It also wakes the foe up, however."
+  },
+  {
+    "movename": "Razor Shell",
+    "movedesc": "The foe is cut by sharp shells. It may also lower the foe's Defense."
+  },
+  {
+    "movename": "Copycat",
+    "movedesc": "The user mimics the last move used. Fails if no move has been used yet."
+  },
+  {
+    "movename": "Miracle Eye",
+    "movedesc": "Completely negates the foe's efforts to heighten its ability to evade."
+  },
+  {
+    "movename": "Sucker Punch",
+    "movedesc": "This move allows the user to strike first, if the foe is readying an attack."
+  },
+  {
+    "movename": "Scald",
+    "movedesc": "Boiling water is shot at the foe. It may also cause a burn."
+  },
+  {
+    "movename": "Brine",
+    "movedesc": "If the foe's HP is down to half, this attack does double damage."
+  },
+  {
+    "movename": "Fairy Wind",
+    "movedesc": "The user stirs up a fairy wind and strikes the foe with it."
+  },
+  {
+    "movename": "Doll Eyes",
+    "movedesc": "A cute stare that lowers the foe's Attack stat. It is sure to go first."
+  },
+  {
+    "movename": "Play Rough",
+    "movedesc": "The foe is roughed up by the user. This may lower the foe's Attack."
+  },
+  {
+    "movename": "Moonblast",
+    "movedesc": "The foe is attacked with the power of the moon. This may lower its Sp. Atk."
+  },
+  {
+    "movename": "Drain Kiss",
+    "movedesc": "A sweet kiss that absorbs over half the damage inflicted to restore HP."
+  },
+  {
+    "movename": "Dazzle Gleam",
+    "movedesc": "The user damages opposing Pokemon by emitting a powerful flash."
+  },
+  {
+    "movename": "Disarm Cry",
+    "movedesc": "The user lets out a charming cry that cannot be evaded."
+  },
+  {
+    "movename": "Stealth Rock",
+    "movedesc": "Levitating rocks are laid around the foe's party to hurt foes switching in."
+  },
+  {
+    "movename": "Toxic Spikes",
+    "movedesc": "Poisoned spikes are laid around the foe's party to hurt foes switching in."
+  },
+  {
+    "movename": "Healing Wish",
+    "movedesc": "The user faints, but will fully heal the Pokemon taking its place."
+  },
+  {
+    "movename": "Lunar Dance",
+    "movedesc": "The user faints, but will fully heal the Pokemon taking its place."
+  },
+  {
+    "movename": "Tailwind",
+    "movedesc": "Whips up a tailwind that ups the Speed of all party Pokemon for four turns."
+  },
+  {
+    "movename": "Boomburst",
+    "movedesc": "The user emits a terrible soundwave that hits everything around it."
+  },
+  {
+    "movename": "Incinerate",
+    "movedesc": "The user burns the foe completely, rendering a held Gem or Berry useless."
+  },
+  {
+    "movename": "Worry Seed",
+    "movedesc": "A worrying seed is planted on the foe, making its ability Insomnia."
+  },
+  {
+    "movename": "Gastro Acid",
+    "movedesc": "Stomach acid is hurled onto the foe, suppressing its ability."
+  },
+  {
+    "movename": "Geomancy",
+    "movedesc": "The user's Sp. Atk, Sp. Def, and Speed rise sharply on the second turn."
+  },
+  {
+    "movename": "Flower Guard",
+    "movedesc": "The Defense stat of all Grass-type Pokemon is raised by a strange power."
+  },
+  {
+    "movename": "Rototiller",
+    "movedesc": "The Attack and Sp. Atk stats of all Grass-type Pokemon are raised."
+  },
+  {
+    "movename": "Shift Gear",
+    "movedesc": "Rotating its gears, the user raises its Attack and sharply raises its Speed."
+  },
+  {
+    "movename": "Sticky Web",
+    "movedesc": "A sticky net is woven around the foe's party to slow foes switching in."
+  },
+  {
+    "movename": "Stored Power",
+    "movedesc": "The user attacks with a stored power that grows with each raised stat."
+  },
+  {
+    "movename": "Acupressure",
+    "movedesc": "The user sharply raises one of its stats by pressing its stress points."
+  },
+  {
+    "movename": "Punishment",
+    "movedesc": "The more the foe has raised its stats, the greater the move's power."
+  },
+  {
+    "movename": "Assurance",
+    "movedesc": "Does double damage if the foe has already taken damage this turn."
+  },
+  {
+    "movename": "Dragon Rush",
+    "movedesc": "A tackle exhibiting devastating menace. This may also make the target flinch."
+  },
+  {
+    "movename": "Dark Void",
+    "movedesc": "All foes are taken into a world of total darkness that makes them sleep."
+  },
+  {
+    "movename": "Feint",
+    "movedesc": "An attack that hits a protected target. This also lifts the protection."
+  },
+  {
+    "movename": "PhantomForce",
+    "movedesc": "The user vanishes, then strikes on the next turn, hitting even protected foes."
+  },
+  {
+    "movename": "Petal Storm",
+    "movedesc": "Stirs up a violent petal blizzard, hitting everything around it."
+  },
+  {
+    "movename": "Play Nice",
+    "movedesc": "The target loses its will to fight. This lowers its Attack."
+  },
+  {
+    "movename": "Roar of Time",
+    "movedesc": "An attack which distorts time. The user must rest on the next turn."
+  },
+  {
+    "movename": "Spacial Rend",
+    "movedesc": "An attack that tears the space around it. Critical hits land more easily."
+  },
+  {
+    "movename": "Magma Storm",
+    "movedesc": "A maelstrom of fire rages that traps the target for four to five turns."
+  },
+  {
+    "movename": "Final Gambit",
+    "movedesc": "The user risks all, dealing damage equal to its HP and then fainting from exhaustion."
+  },
+  {
+    "movename": "Shadow Force",
+    "movedesc": "The user vanishes, then strikes on the next turn, hitting even protected foes."
+  },
+  {
+    "movename": "Nuzzle",
+    "movedesc": "The target is attacked with electrified cheeks that leave it paralyzed."
+  },
+  {
+    "movename": "Retaliate",
+    "movedesc": "If an ally fainted in the previous turn, this attack's damage increases."
+  },
+  {
+    "movename": "Metal Bash",
+    "movedesc": "A physical attack in which the user charges, full body, into the foe."
+  },
+  {
+    "movename": "Judgment",
+    "movedesc": "An attack which changes type, depending on which kind of Plate the user is holding."
+  },
+  {
+    "movename": "Freeze-Dry",
+    "movedesc": "An attack which may leave the foe with frostbite. It is also super effective on Water-types."
+  },
+  {
+    "movename": "Psyshock",
+    "movedesc": "An odd psychic wave attacks the target. This attack does physical damage."
+  },
+  {
+    "movename": "Round",
+    "movedesc": "The user attacks with a song. Others can join in, doing more damage."
+  },
+  {
+    "movename": "Tail Slap",
+    "movedesc": "The user attacks by hitting the target with its hard tail. It hits two to five times in a row."
+  },
+  {
+    "movename": "Gear Grind",
+    "movedesc": "The user attacks by throwing two steel gears at it target. This attack hits twice in a row."
+  },
+  {
+    "movename": "Natural Gift",
+    "movedesc": "The type and base power of this move is determined by the user's Berry."
+  },
+  {
+    "movename": "Chip Away",
+    "movedesc": "An attack which is not affected by the target's stat changes."
+  },
+  {
+    "movename": "Smack Down",
+    "movedesc": "A projectile is thrown at the opponent. A flying Pokemon will fall to the ground."
+  },
+  {
+    "movename": "Space Hole",
+    "movedesc": "The user attacks from a hyperspace hole, hitting even protected targets."
+  },
+  {
+    "movename": "Gyro Ball",
+    "movedesc": "A high-speed spin. The slower the user is than the foe, the greater the damage."
+  },
+  {
+    "movename": "Space Fury",
+    "movedesc": "The target is hit with many arms. This hits protected foes, and lowers the user's Defense."
+  },
+  {
+    "movename": "Attack Order",
+    "movedesc": "The user calls out its underlings to pummel the foe. It has a high critical-hit ratio."
+  },
+  {
+    "movename": "Defend Order",
+    "movedesc": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats."
+  },
+  {
+    "movename": "Heal Order",
+    "movedesc": "The user calls out its underlings to heal it. The user regains up to half of its max HP."
+  },
+  {
+    "movename": "Captivate",
+    "movedesc": "If the foe is the opposite gender of the user, the foe's Special Attack is harshly lowered."
+  },
+  {
+    "movename": "Defog",
+    "movedesc": "A strong wind blows away the target's obstacles. It also lowers the target's evasiveness."
+  },
+  {
+    "movename": "Origin Pulse",
+    "movedesc": "The user attacks opposing Pokemon with countless beams of light that glow a deep blue."
+  },
+  {
+    "movename": "Cliff Blades",
+    "movedesc": "The user attacks opposing Pokemon by manifesting the power of the land in blades of stone."
+  },
+  {
+    "movename": "Guard Swap",
+    "movedesc": "The user uses its psychic power to switch changes to its Defense and Sp. Def with the foe."
+  },
+  {
+    "movename": "Steam Pump",
+    "movedesc": "The user immerses the target in superheated steam. This may also burn the target."
+  },
+  {
+    "movename": "Metal Burst",
+    "movedesc": "The user retaliates with much greater force against the opponent that last did damage to it."
+  },
+  {
+    "movename": "Me First",
+    "movedesc": "The user tries to cut ahead of the target to steal and use its intended move with more power."
+  },
+  {
+    "movename": "Power Swap",
+    "movedesc": "The user uses its psychic power to switch changes to its Attack and Sp. Attack with the foe."
+  },
+  {
+    "movename": "Power Trick",
+    "movedesc": "The user employs its psychic power to switch its Attack stat with its Defense stat."
+  },
+  {
+    "movename": "Psycho Shift",
+    "movedesc": "Using its psychic power of suggestion, the user transfers its status problems to the target."
+  },
+  {
+    "movename": "Wring Out",
+    "movedesc": "The user powerfully wrings the target. The more HP the target has, the greater the power."
+  },
+  {
+    "movename": "Kings Shield",
+    "movedesc": "The user protects itself from damage, and harshly lowers the foe's Attack if it makes contact."
+  },
+  {
+    "movename": "Psystrike",
+    "movedesc": "An odd psychic wave attacks the target. This attack does physical damage."
+  },
+  {
+    "movename": "Autotomize",
+    "movedesc": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat."
+  },
+  {
+    "movename": "DiamondStorm",
+    "movedesc": "The user whips up a storm of diamonds to damage the foes. This may also raise the user's Defense. "
+  },
+  {
+    "movename": "Sludge Wave",
+    "movedesc": "The area around the user is swamped by a giant sludge wave. It may also poison those hit."
+  },
+  {
+    "movename": "Heavy Slam",
+    "movedesc": "The user slams into the target. The greater the weight difference, the greater the damage."
+  },
+  {
+    "movename": "Synchronoise",
+    "movedesc": "Using an odd shock wave, the user damages same-type Pokemon in the surrounding area."
+  },
+  {
+    "movename": "Electro Ball",
+    "movedesc": "The user hurls an electric orb. The faster the user is than the foe, the greater the damage."
+  },
+  {
+    "movename": "Foul Play",
+    "movedesc": "The user turns the foe's power against it. This uses the foe's Attack stat."
+  },
+  {
+    "movename": "Entrainment",
+    "movedesc": "The user dances with an odd rhythm, making the target's Ability the same as the user's Ability."
+  },
+  {
+    "movename": "Night Daze",
+    "movedesc": "The user releases a pitch-black blast at its target. May also lower target's accuracy."
+  },
+  {
+    "movename": "Echoed Voice",
+    "movedesc": "The user attacks the target with a harsh echo. If used every turn, power increases."
+  },
+  {
+    "movename": "Land's Wrath",
+    "movedesc": "The user gathers energy from the land and damages the opposing Pokemon with its power."
+  },
+  {
+    "movename": "OblivionWing",
+    "movedesc": "The user absorbs its target's HP. The user's HP is restored by over half the damage."
+  },
+  {
+    "movename": "Heart Swap",
+    "movedesc": "The user employs its psychic power to switch stat changes with the target."
+  },
+  {
+    "movename": "Crush Grip",
+    "movedesc": "The foe's crushed with great force. The more HP the foe has, the stronger the power."
+  },
+  {
+    "movename": "Sacred Sword",
+    "movedesc": "The user attacks by slicing with a long horn. The target's stat changes are ignored."
+  },
+  {
+    "movename": "Heat Crash",
+    "movedesc": "The user slams down with fire. The more the user outweighs the foe, the greater the damage."
+  },
+  {
+    "movename": "Head Charge",
+    "movedesc": "The user charges its head into its foe, using its guard hair. It slightly damages the user."
+  },
+  {
+    "movename": "Techno Blast",
+    "movedesc": "The user fires a beam of light at its foe. The type changes depending on the Drive held."
+  },
+  {
+    "movename": "Relic Song",
+    "movedesc": "The user sings an ancient song and attacks the hearts of the listeners. It may induce sleep."
+  },
+  {
+    "movename": "Secret Sword",
+    "movedesc": "The user cuts with its long horn. The odd power in the horn does physical damage to the foe."
+  },
+  {
+    "movename": "Glaciate",
+    "movedesc": "The user attacks by blowing freezing cold air at opposing Pokemon. This lowers their Speed."
+  },
+  {
+    "movename": "Bolt Strike",
+    "movedesc": "The user surrounds itself with abundant electricity that can paralyze and charges its target."
+  },
+  {
+    "movename": "Blue Flare",
+    "movedesc": "The user attacks by engulfing the foe in a severe, beautiful, blue flame. It may burn the foe."
+  },
+  {
+    "movename": "Freeze Shock",
+    "movedesc": "A two-turn attack that hits the foe with electrically charged ice. It may paralyze the foe."
+  },
+  {
+    "movename": "Ice Burn",
+    "movedesc": "A two-turn attack that surrounds the foe with ultracold, freezing wind. It may burn the foe."
+  },
+  {
+    "movename": "V-create",
+    "movedesc": "The user hurls the hot flame on its forehead. It lowers the user's Def, Sp. Def, and Speed."
+  },
+  {
+    "movename": "Fusion Flare",
+    "movedesc": "The user brings down a huge flame. It does more damage when influenced by an enormous bolt."
+  },
+  {
+    "movename": "Fusion Bolt",
+    "movedesc": "The user throws down a giant bolt. It does more damage when influenced by an enormous flame."
+  },
+  {
+    "movename": "Fell Stinger",
+    "movedesc": "When the user knocks out a target with this move, the user's Attack stat rises drastically."
+  },
+  {
+    "movename": "Noble Roar",
+    "movedesc": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk."
+  },
+  {
+    "movename": "DragonAscent",
+    "movedesc": "The user attacks by dropping off from the sky at high speed. This cuts the user's Defense and Sp. Def."
+  },
+  {
+    "movename": "Parting Shot",
+    "movedesc": "With a parting threat, the user lowers the foe's Attack and Sp. Atk stats then switches out."
+  },
+  {
+    "movename": "Topsy-Turvy",
+    "movedesc": "All stat changes affecting the target turn topsy-turvy and become the opposite of them."
+  },
+  {
+    "movename": "Core Enforce",
+    "movedesc": "If the target has already used its move this turn, it nullifies the effect of its Ability."
+  },
+  {
+    "movename": "Chatter",
+    "movedesc": "The user attacks the target with sound waves of deafening chatter. This confuses the target."
+  },
+  {
+    "movename": "Confide",
+    "movedesc": "The user tells the foe a secret and it loses concentration. This lowers Sp. Atk."
+  },
+  {
+    "movename": "Water Star",
+    "movedesc": "The user throws stars at the foe 2 to 5 times in a row. This always strikes first."
+  },
+  {
+    "movename": "Mystic Fire",
+    "movedesc": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat."
+  },
+  {
+    "movename": "Spiky Shield",
+    "movedesc": "Aside from protecting the user from attacks, this also damages attackers who make contact."
+  },
+  {
+    "movename": "EerieImpulse",
+    "movedesc": "The user's body generates an impulse. Exposing the foe to it harshly lowers its Sp. Atk stat."
+  },
+  {
+    "movename": "Hold Back",
+    "movedesc": "The user holds back when it attacks, and the target is left with at least 1 HP."
+  },
+  {
+    "movename": "Infestation",
+    "movedesc": "The foe is infested and attacked for four to five turns. The target can't flee during this."
+  },
+  {
+    "movename": "Power-Up Hit",
+    "movedesc": "Striking over and over hardens the user's fists. Hitting a target raises Attack."
+  },
+  {
+    "movename": "1000 Arrows",
+    "movedesc": "This move also hits opposing Pokemon in the air. They are knocked down to the ground."
+  },
+  {
+    "movename": "1000 Waves",
+    "movedesc": "The user attacks with a wave that crawls along the ground. Those hit can't flee from battle."
+  },
+  {
+    "movename": "Para Charge",
+    "movedesc": "The user attacks everything around it. The user's HP is restored by half the damage."
+  },
+  {
+    "movename": "Searing Shot",
+    "movedesc": "The user torches everything around it in an inferno of scarlet flames. It may cause burns."
+  },
+  {
+    "movename": "Seed Flare",
+    "movedesc": "The user emits a shock wave from its body. This may also harshly lower the target's Sp. Def."
+  },
+  {
+    "movename": "Accelerock",
+    "movedesc": "The user smashes into the target at high speed. This move always goes first."
+  },
+  {
+    "movename": "Anchor Shot",
+    "movedesc": "The user entangles the target with its anchor chain while attacking. The target cannot flee."
+  },
+  {
+    "movename": "Aurora Veil",
+    "movedesc": "This move reduces damage from physical and special moves for five turns during a hailstorm."
+  },
+  {
+    "movename": "Baneful Bunk",
+    "movedesc": "Aside from protecting the user from attacks, this also poisons attackers who make contact."
+  },
+  {
+    "movename": "Beak Blast",
+    "movedesc": "The user heats up its beak and attacks. Contact during heating causes a burn."
+  },
+  {
+    "movename": "Brutal Swing",
+    "movedesc": "The user swings its body around violently to inflict damage on everything in its vicinity."
+  },
+  {
+    "movename": "Burn Up",
+    "movedesc": "The user burns itself out. After using this move, the user will no longer be Fire type."
+  },
+  {
+    "movename": "Clang Scales",
+    "movedesc": "The user rubs its scales and makes a huge noise to attack. The user's Def stat goes down."
+  },
+  {
+    "movename": "Dark Lariat",
+    "movedesc": "The user swings both arms and hits the target. The target's stat changes are ignored."
+  },
+  {
+    "movename": "Draco Hammer",
+    "movedesc": "The user uses its body like a hammer to attack the target and inflict damage."
+  },
+  {
+    "movename": "Fire Lash",
+    "movedesc": "The user strikes the target with a burning lash. This also lowers the target's Defense stat."
+  },
+  {
+    "movename": "First Press",
+    "movedesc": "Although this move has great power, it only works the first turn the user is in battle."
+  },
+  {
+    "movename": "Fleur Cannon",
+    "movedesc": "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat."
+  },
+  {
+    "movename": "Floral Heal",
+    "movedesc": "The user restores up to half the max HP of the target. It restores more HP on Grassy Terrain."
+  },
+  {
+    "movename": "Gear Up",
+    "movedesc": "The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability."
+  },
+  {
+    "movename": "HiHorsepower",
+    "movedesc": "The user fiercely attacks the target using its entire body."
+  },
+  {
+    "movename": "Ice Hammer",
+    "movedesc": "The user swings its heavy fist. It also lowers the user's Speed."
+  },
+  {
+    "movename": "Laser Focus",
+    "movedesc": "The user concentrates intensely. The attack on the next turn always results in a critical hit."
+  },
+  {
+    "movename": "Leafage",
+    "movedesc": "The user attacks by pelting the target with leaves."
+  },
+  {
+    "movename": "Liquidation",
+    "movedesc": "The user slams into the foe using a full-force water blast. This may lower the foe's Defense."
+  },
+  {
+    "movename": "Lunge",
+    "movedesc": "The user makes a lunge at the foe, attacking with full force. This lowers the foe's Attack."
+  },
+  {
+    "movename": "Geist Beam",
+    "movedesc": "The user emits a sinister ray. This can be used on the target regardless of its Ability."
+  },
+  {
+    "movename": "Multi-Attack",
+    "movedesc": "Cloaking itself in high energy, the user slams into the foe. Its type depends on the memory."
+  },
+  {
+    "movename": "Nature's Mad",
+    "movedesc": "The user hits the target with the force of nature. It halves the target's HP."
+  },
+  {
+    "movename": "Pollen Puff",
+    "movedesc": "The user attacks the foe with exploding pollen puff. If target is an ally, it heals instead."
+  },
+  {
+    "movename": "Power Trip",
+    "movedesc": "The user boasts its strength. The more the user's stats are raised, the greater the power."
+  },
+  {
+    "movename": "Prism Laser",
+    "movedesc": "The user shoots powerful lasers using prism power. The user can't move on the next turn."
+  },
+  {
+    "movename": "Psychic Fang",
+    "movedesc": "The user bites the target with psychic capabilities. This destroys Light Screen and Reflect."
+  },
+  {
+    "movename": "Purify",
+    "movedesc": "The user heals the target's status condition. If this succeeds, it also heals the user's HP."
+  },
+  {
+    "movename": "Revel Dance",
+    "movedesc": "The user attacks the target by dancing very hard. The user's type determines this move's type."
+  },
+  {
+    "movename": "Shadow Bone",
+    "movedesc": "The user attacks the foe with a bone of spirit. It may lower the foe's Defense."
+  },
+  {
+    "movename": "Shell Trap",
+    "movedesc": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode."
+  },
+  {
+    "movename": "Shore Up",
+    "movedesc": "The user regains up to half of its max HP. It restores more HP in a sandstorm."
+  },
+  {
+    "movename": "Smart Strike",
+    "movedesc": "The user stabs the target with a sharp horn. This attack never misses."
+  },
+  {
+    "movename": "Solar Blade",
+    "movedesc": "In this two-turn move, the user gathers light and fills a blade with light's energy to attack."
+  },
+  {
+    "movename": "Sparkle Aria",
+    "movedesc": "The user bursts into song, emitting bubbles. Any burnt Pokemon will be healed."
+  },
+  {
+    "movename": "Spect Thief",
+    "movedesc": "The user hides in the target's shadow, steals the target's stat boosts, and then attacks."
+  },
+  {
+    "movename": "Speed Swap",
+    "movedesc": "The user exchanges Speed stats with the target."
+  },
+  {
+    "movename": "Spirit Lock",
+    "movedesc": "The user attacks while stitching the target's shadow to the ground to prevent escape."
+  },
+  {
+    "movename": "Spotlight",
+    "movedesc": "The user shines a spotlight on the target so that only the target will be attacked."
+  },
+  {
+    "movename": "Bad Tantrum",
+    "movedesc": "If the previous move failed, frustration doubles the power of this move."
+  },
+  {
+    "movename": "Strength Sap",
+    "movedesc": "The user drains HP equal to the foe's Attack stat. It also lowers the foe's Attack stat."
+  },
+  {
+    "movename": "Sunsteel Ram",
+    "movedesc": "The user slams the target with a meteor force. This move disregards the target's Ability."
+  },
+  {
+    "movename": "Teary Look",
+    "movedesc": "The user gets teary eyed to look pitiful. This lowers the target's Attack and Sp. Atk stats."
+  },
+  {
+    "movename": "Throat Chop",
+    "movedesc": "The user attacks the foe's throat to prevent it from using moves that emit sound for two turns."
+  },
+  {
+    "movename": "Toxic Thread",
+    "movedesc": "The user shoots poisonous threads to poison the target and lower the target's Speed stat."
+  },
+  {
+    "movename": "Trop Kick",
+    "movedesc": "The user lands a tropical kick on the foe. It also lowers the foe's Attack."
+  },
+  {
+    "movename": "Zing Zap",
+    "movedesc": "A strong electric blast crashes down on the target. This may make the target flinch."
+  },
+  {
+    "movename": "Elec Terrain",
+    "movedesc": "The user electrifies the ground for five turns, powering up Electric moves and eluding sleep."
+  },
+  {
+    "movename": "GrassTerrain",
+    "movedesc": "The user turns the ground to grass for five turns, powering up Grass moves and restoring HP."
+  },
+  {
+    "movename": "Mist Terrain",
+    "movedesc": "The user covers the ground in mist for five turns, halving Dragon moves and preventing status."
+  },
+  {
+    "movename": "Psyc Terrain",
+    "movedesc": "The user makes the ground weird for five turns, boosting Psychic moves and blocking priority."
+  },
+  {
+    "movename": "Grass Pledge",
+    "movedesc": "When combined with Water Pledge, its power increases and a vast swamp appears."
+  },
+  {
+    "movename": "Fire Pledge",
+    "movedesc": "When combined with Grass Pledge, its power increases and a sea of fire appears."
+  },
+  {
+    "movename": "Water Pledge",
+    "movedesc": "When combined with Fire Pledge, its power increases and a rainbow appears."
+  },
+  {
+    "movename": "Trick Room",
+    "movedesc": "The user creates a bizarre area in which slower Pokemon get to move first for five turns."
+  },
+  {
+    "movename": "Magic Room",
+    "movedesc": "The user creates a bizarre area in which Pokemon's held items lose effect for five turns."
+  },
+  {
+    "movename": "Wonder Room",
+    "movedesc": "The user creates a bizarre area where Pokemon's Defense and Sp. Def swap for five turns."
+  },
+  {
+    "movename": "Crafty Guard",
+    "movedesc": "The user protects itself and its allies from status moves with a mysterious power."
+  },
+  {
+    "movename": "Mat Block",
+    "movedesc": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves."
+  },
+  {
+    "movename": "Quick Guard",
+    "movedesc": "The user protects itself and its allies from priority moves."
+  },
+  {
+    "movename": "Wide Guard",
+    "movedesc": "The user protects itself and its allies from wide- ranged attacks."
+  },
+  {
+    "movename": "Aqua Ring",
+    "movedesc": "The user envelops itself in a veil made of water. It regains some HP every turn."
+  },
+  {
+    "movename": "Aroma Mist",
+    "movedesc": "The user raises the Sp. Def stat of an ally Pokemon by using a mysterious aroma."
+  },
+  {
+    "movename": "Belch",
+    "movedesc": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this."
+  },
+  {
+    "movename": "Bestow",
+    "movedesc": "The user passes its held item to the target when the target isn't holding an item."
+  },
+  {
+    "movename": "Fling",
+    "movedesc": "The user flings its held item at the target to attack. Its power and effect depend on the item."
+  },
+  {
+    "movename": "Flying Press",
+    "movedesc": "The user dives down onto the target from the sky. This move is both Fighting and Flying type."
+  },
+  {
+    "movename": "Gravity",
+    "movedesc": "Gravity intensifies for five turns, preventing moves that use flight and negating Levitate."
+  },
+  {
+    "movename": "Guard Split",
+    "movedesc": "The user employs its psychic power to average its Defense and Sp. Def stats with the target."
+  },
+  {
+    "movename": "Heal Block",
+    "movedesc": "The user prevents the opposing team from using any HP recovery for five turns."
+  },
+  {
+    "movename": "Ion Deluge",
+    "movedesc": "The user disperses electrically charged particles, changing Normal- to Electric- type moves."
+  },
+  {
+    "movename": "Lucky Chant",
+    "movedesc": "The user chants an incantation that prevents foes from landing critical hits for five turns."
+  },
+  {
+    "movename": "Magnet Rise",
+    "movedesc": "The user levitates using electrically generated magnetism for five turns."
+  },
+  {
+    "movename": "Magnet Flux",
+    "movedesc": "The user manipulates magnets to up Def and Sp. Def stats of allies with Plus or Minus Ability."
+  },
+  {
+    "movename": "Powder",
+    "movedesc": "The user covers the target in a powder that explodes if it uses a Fire-type move."
+  },
+  {
+    "movename": "Power Split",
+    "movedesc": "The user employs its psychic power to average its Attack and Sp. Atk stats with the target."
+  },
+  {
+    "movename": "Reflect Type",
+    "movedesc": "The user reflects the target's type, making it the same type as the target."
+  },
+  {
+    "movename": "Simple Beam",
+    "movedesc": "The user's mysterious psychic wave changes the target's Ability to Simple."
+  },
+  {
+    "movename": "Soak",
+    "movedesc": "The user shoots a torrent of water at the target and changes the target's type to Water."
+  },
+  {
+    "movename": "Telekinesis",
+    "movedesc": "The user makes the target float with psychic power. The target is easier to hit for three turns."
+  },
+  {
+    "movename": "TrickoTreat",
+    "movedesc": "The foe is brought trick-or-treating. This adds Ghost type to the target's type."
+  },
+  {
+    "movename": "Venom Drench",
+    "movedesc": "The user sprays a poisonous liquid that lowers Attack, Sp. Atk, and Speed of poisoned foes."
+  },
+  {
+    "movename": "Woods Curse",
+    "movedesc": "The user puts a forest curse on the target. The target is now Grass type as well."
+  },
+  {
+    "movename": "Mind Blown",
+    "movedesc": "The user attacks everything around it by making its head explode. This also damages the user."
+  },
+  {
+    "movename": "PhotonGeyser",
+    "movedesc": "A pillar of light that deals physical or special damage based on the user's better stat."
+  },
+  {
+    "movename": "Plasma Fists",
+    "movedesc": "The user attacks with electrically charged fists. This makes Normal-type moves Electric-type."
+  },
+  {
+    "movename": "Electrify",
+    "movedesc": "If the target is electrified before its move in the turn, the target's move becomes Electric."
+  },
+  {
+    "movename": "Embargo",
+    "movedesc": "It prevents the target from using items. Its Trainer also can't use items on it."
+  },
+  {
+    "movename": "Fairy Lock",
+    "movedesc": "By locking down the battlefield, the user keeps all Pokemon from fleeing during the next turn."
+  },
+  {
+    "movename": "Light o Ruin",
+    "movedesc": "The user fires a powerful beam of light from the Eternal Flower. This damages the user."
+  },
+  {
+    "movename": "Trump Card",
+    "movedesc": "The fewer PP this move has, the greater its power."
+  },
+  {
+    "movename": "After You",
+    "movedesc": "The user helps the target and makes it use its move right after the user."
+  },
+  {
+    "movename": "Instruct",
+    "movedesc": "The user instructs the target to use the target's last move again."
+  },
+  {
+    "movename": "Quash",
+    "movedesc": "The user suppresses the target and makes its move go last."
+  },
+  {
+    "movename": "Happy Hour",
+    "movedesc": "Using Happy Hour doubles the amount of prize money received after battle."
+  },
+  {
+    "movename": "Double Iron",
+    "movedesc": "The user centers its hex nut and strikes twice with its arms. It may cause flinching."
+  },
+  {
+    "movename": "Last Resort",
+    "movedesc": "It can only be used after the user has exhausted all other moves it knows in battle."
+  },
+  {
+    "movename": "Sky Drop",
+    "movedesc": "It takes the enemy into the sky, where it can't attack. It is dropped next turn."
+  },
+  {
+    "movename": "Celebrate",
+    "movedesc": "The Pokemon congratulates you on your special day!"
+  },
+  {
+    "movename": "Hold Hands",
+    "movedesc": "The user and an ally hold hands. This makes them very happy."
+  },
+  {
+    "movename": "DMax Cannon",
+    "movedesc": "The user unleashes a strong beam that deals double damage to Dynamaxed targets."
+  },
+  {
+    "movename": "Snipe Shot",
+    "movedesc": "The user ignores the effects of moves and Abilities that draw in moves."
+  },
+  {
+    "movename": "Jaw Lock",
+    "movedesc": "The user bites down, preventing itself and the target from switching out."
+  },
+  {
+    "movename": "Stuff Cheeks",
+    "movedesc": "The user consumes its held Berry, then raises its Defense sharply."
+  },
+  {
+    "movename": "No Retreat",
+    "movedesc": "All of the user's stats are raised, but it can no longer switch out or flee."
+  },
+  {
+    "movename": "Tar Shot",
+    "movedesc": "Sticky tar lowers the target's Speed, and makes it weaker to Fire-type moves."
+  },
+  {
+    "movename": "Magic Powder",
+    "movedesc": "The user scatters magic powder that changes the target into a Psychic-type."
+  },
+  {
+    "movename": "Dragon Darts",
+    "movedesc": "The user attacks twice. If there are two targets, each is hit once."
+  },
+  {
+    "movename": "Teatime",
+    "movedesc": "All Pokemon on the field have teatime. Each Pokemon eats its held Berry."
+  },
+  {
+    "movename": "Octolock",
+    "movedesc": "The user traps the foe and makes its Defense and Sp. Def fall each turn."
+  },
+  {
+    "movename": "Bolt Beak",
+    "movedesc": "If the user moves before the target, the power of this move is doubled."
+  },
+  {
+    "movename": "FishiousRend",
+    "movedesc": "If the user moves before the target, the power of this move is doubled."
+  },
+  {
+    "movename": "Court Change",
+    "movedesc": "The user swaps the effects on either side of the field."
+  },
+  {
+    "movename": "Clang Soul",
+    "movedesc": "The user raises all of its stats by using some of its HP."
+  },
+  {
+    "movename": "Body Press",
+    "movedesc": "The higher the user's Defense, the more damage it will inflict."
+  },
+  {
+    "movename": "Decorate",
+    "movedesc": "The user sharply raises the target's Attack and Sp. Atk by decorating it."
+  },
+  {
+    "movename": "Drum Beating",
+    "movedesc": "The user plays its drum to attack. The target's Speed stat is lowered."
+  },
+  {
+    "movename": "Snap Trap",
+    "movedesc": "The user snares the target in a snap trap for four to five turns."
+  },
+  {
+    "movename": "Pyro Ball",
+    "movedesc": "The user launches a fiery ball at the target. It may also cause a burn."
+  },
+  {
+    "movename": "Giant Blade",
+    "movedesc": "The user becomes a sword and strikes. Double damage on Dynamaxed targets."
+  },
+  {
+    "movename": "Giant Bash",
+    "movedesc": "The user becomes a shield and strikes. Double damage on Dynamaxed targets."
+  },
+  {
+    "movename": "Aura Wheel",
+    "movedesc": "Morpeko raises its Speed and attacks. The move's type is based on its form."
+  },
+  {
+    "movename": "Break Swipe",
+    "movedesc": "The user attacks the foes by swinging its tail wildly, lowering their Attack."
+  },
+  {
+    "movename": "Branch Poke",
+    "movedesc": "The user attacks the target by poking it with a pointed branch."
+  },
+  {
+    "movename": "Overdrive",
+    "movedesc": "The user twangs its guitar, which causes an echo and strong vibrations."
+  },
+  {
+    "movename": "Apple Acid",
+    "movedesc": "The user attacks with acid made from tart apples. Lowers the foe's Sp. Def."
+  },
+  {
+    "movename": "Grav Apple",
+    "movedesc": "The user attacks by dropping an apple from above. Lowers the foe's Defense."
+  },
+  {
+    "movename": "Spirit Break",
+    "movedesc": "The user attacks with spirit-breaking force, lowering the target's Sp. Atk."
+  },
+  {
+    "movename": "Weird Steam",
+    "movedesc": "The user attacks by emitting steam. The steam may also confuse the target."
+  },
+  {
+    "movename": "Life Dew",
+    "movedesc": "The user scatters water that restores the HP of itself and its allies."
+  },
+  {
+    "movename": "Obstruct",
+    "movedesc": "The user protects itself, and harshly lowers the foe's Defense on contact."
+  },
+  {
+    "movename": "False Yield",
+    "movedesc": "The user bows, then uses its hair to stab the foe. It never misses."
+  },
+  {
+    "movename": "Meteor Rush",
+    "movedesc": "The user attacks with its thick leek. The user must rest on the next turn."
+  },
+  {
+    "movename": "Eternabeam",
+    "movedesc": "Eternatus's most powerful attack. The user must rest on the next turn."
+  },
+  {
+    "movename": "Steel Beam",
+    "movedesc": "It fires a beam of steel from its body, which also hurts the user."
+  },
+  {
+    "movename": "Expand Force",
+    "movedesc": "The move's power increases and damages all opposing targets in Psychic Terrain."
+  },
+  {
+    "movename": "Steel Roller",
+    "movedesc": "The user attacks and destroys the terrain. The move fails if there is no terrain."
+  },
+  {
+    "movename": "Scale Shot",
+    "movedesc": "It hits two to five times in a row. Raises Speed, but lowers Defense."
+  },
+  {
+    "movename": "Meteor Beam",
+    "movedesc": "In this two-turn move, the user gathers space power and increases Sp. Atk."
+  },
+  {
+    "movename": "ShellSideArm",
+    "movedesc": "Inflicts the more effective of physical or special damage. May poison the foe."
+  },
+  {
+    "movename": "MistyExplode",
+    "movedesc": "The user explodes and faints itself. Its power increases on Misty Terrain."
+  },
+  {
+    "movename": "Grassy Glide",
+    "movedesc": "The user glides on the ground to attack. Hits first on Grassy Terrain."
+  },
+  {
+    "movename": "Rising Volt",
+    "movedesc": "The user attacks with earthly voltage. It doubles in power on Electric Terrain."
+  },
+  {
+    "movename": "TerrainPulse",
+    "movedesc": "The move's type and power depends on the terrain currently used in battle."
+  },
+  {
+    "movename": "SkitterSmack",
+    "movedesc": "The user skitters behind the target to attack. It lowers the foe's Sp.Atk stat."
+  },
+  {
+    "movename": "Jealous Burn",
+    "movedesc": "Inflicts a burn on targets that had their stats boosted during the turn used."
+  },
+  {
+    "movename": "Lash Out",
+    "movedesc": "The move's power doubles if the user's stats have fallen during the turn."
+  },
+  {
+    "movename": "Poltergeist",
+    "movedesc": "The user controls the target's item to attack. Fails if the target has no item."
+  },
+  {
+    "movename": "Corrode Gas",
+    "movedesc": "The user cloaks itself in acidic gas. It melts away the target's held item."
+  },
+  {
+    "movename": "Coaching",
+    "movedesc": "The user coaches its ally, raising the ally's Attack and Defense stats."
+  },
+  {
+    "movename": "Flip Turn",
+    "movedesc": "After attacking, the user switches places with a party Pokemon."
+  },
+  {
+    "movename": "Triple Axel",
+    "movedesc": "A 3-kick attack that becomes more powerful with each successive hit."
+  },
+  {
+    "movename": "DualWingbeat",
+    "movedesc": "The user slams the target with its wings. The target is hit twice in a row."
+  },
+  {
+    "movename": "Scorch Sands",
+    "movedesc": "The user throws scorching sand at the target. It may also inflict a burn."
+  },
+  {
+    "movename": "Jungle Heal",
+    "movedesc": "The user restores HP and the status of itself and its ally in battle."
+  },
+  {
+    "movename": "Wicked Blow",
+    "movedesc": "The user strikes the foe fiercely. It always results in a critical hit."
+  },
+  {
+    "movename": "SurgeStrikes",
+    "movedesc": "The user strikes three times in a row. It always results in a critical hit."
+  },
+  {
+    "movename": "Freeze Glare",
+    "movedesc": "The user attacks with psychic power. It may leave the target with frostbite."
+  },
+  {
+    "movename": "Thunder Kick",
+    "movedesc": "The user delivers a fierce kick that lowers the target's defense stat."
+  },
+  {
+    "movename": "Fiery Wrath",
+    "movedesc": "The user attacks with intense, dark flames. It may also make the foe flinch."
+  },
+  {
+    "movename": "Eerie Spell",
+    "movedesc": "The user attacks with psychic power that removes 3 PP from the foe's last move."
+  },
+  {
+    "movename": "Thunder Cage",
+    "movedesc": "A cage made of electricity that traps the target for four to five turns."
+  },
+  {
+    "movename": "DragonEnergy",
+    "movedesc": "The higher the user's HP, the more powerful this attack becomes."
+  },
+  {
+    "movename": "Astral Storm",
+    "movedesc": "A frightful amount of small ghosts are sent to attack opposing Pokemon."
+  },
+  {
+    "movename": "GlacialLance",
+    "movedesc": "The user attacks by hurling a blizzard- cloaked icicle lance at opposing Pokemon."
+  },
+  {
+    "movename": "Dire Claw",
+    "movedesc": "A slash that may poison, paralyze, or sleep the foe. It has a high crit ratio."
+  },
+  {
+    "movename": "PsyshieldRam",
+    "movedesc": "The user slams into the foe with psychic energy. It raises the user's Defense too."
+  },
+  {
+    "movename": "Power Shift",
+    "movedesc": "The user swaps its offensive and defensive stats."
+  },
+  {
+    "movename": "Stone Axe",
+    "movedesc": "The foe is hit with an axe that leaves behind splinters. It has a high crit ratio."
+  },
+  {
+    "movename": "Mystic Power",
+    "movedesc": "After dealing damage, the user raises the higher stats of its offenses or defenses."
+  },
+  {
+    "movename": "Raging Fury",
+    "movedesc": "The user rampages and spews vicious flames for two to three turns."
+  },
+  {
+    "movename": "Wave Crash",
+    "movedesc": "The user slams into the target, hurting itself a little. This move strikes first."
+  },
+  {
+    "movename": "Chloroblast",
+    "movedesc": "The user launches its amassed chlorophyll at the foe. This also hurts the user."
+  },
+  {
+    "movename": "MountainGale",
+    "movedesc": "The user hurls giant chunks of ice at the foe that may cause it to flinch."
+  },
+  {
+    "movename": "VictoryDance",
+    "movedesc": "The user dances to usher in victory. This raises Attack, Defense, and Speed."
+  },
+  {
+    "movename": "HeadlongRush",
+    "movedesc": "The user smashes into the foe. This cuts the user's Defense and Sp. Def stats."
+  },
+  {
+    "movename": "Barb Barrage",
+    "movedesc": "Barbs that may poison are shot at the foe. Its power doubles if the foe is poisoned."
+  },
+  {
+    "movename": "Esper Wing",
+    "movedesc": "The foe is slashed with wings of light. This goes first and has a high crit ratio."
+  },
+  {
+    "movename": "BitterMalice",
+    "movedesc": "The user attacks and may inflict the foe with frostbite. Its power doubles if the foe has frostbite."
+  },
+  {
+    "movename": "Shelter",
+    "movedesc": "The user makes its skin iron-hard to raise its Defense and its Speed."
+  },
+  {
+    "movename": "TripleArrows",
+    "movedesc": "The foe is shot with arrows that raise the crit ratio and lower the foe's Defense."
+  },
+  {
+    "movename": "InfernalRage",
+    "movedesc": "Myriad fireballs that may burn hit the foe. Its power doubles if the foe is burned."
+  },
+  {
+    "movename": "Endless Edge",
+    "movedesc": "The foe is slashed. This leaves behind splinters. It has a high crit ratio."
+  },
+  {
+    "movename": "BleakiceWind",
+    "movedesc": "The user attacks with savagely cold winds. This may cause a frostbite."
+  },
+  {
+    "movename": "WildboltWind",
+    "movedesc": "The user savagely attacks with wind and lightning. This may cause paralysis."
+  },
+  {
+    "movename": "SandsearWind",
+    "movedesc": "The user attacks with fierce winds and hot sand. This may cause a burn."
+  },
+  {
+    "movename": "Spring Wind",
+    "movedesc": "The user attacks with love and hate. The effects depend on the user's form."
+  },
+  {
+    "movename": "Lunar Bless",
+    "movedesc": "The user heals its own statuses and restores HP. It also raises evasiveness."
+  },
+  {
+    "movename": "Take Heart",
+    "movedesc": "The user heals its own statuses and raises its Sp. Atk and Sp. Def."
+  },
+  {
+    "movename": "Z-Move 1",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 2",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 3",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 4",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 5",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 6",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 7",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 8",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 9",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 10",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 11",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 12",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 13",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 14",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 15",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 16",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 17",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 18",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 19",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 20",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 21",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 22",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 23",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 24",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 25",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 26",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 27",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 28",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 29",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 30",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 31",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 32",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 33",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 34",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 35",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 36",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 37",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 38",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 39",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 40",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 41",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 42",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 43",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 44",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 45",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 46",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 47",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 48",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 49",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 50",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 51",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 52",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Z-Move 53",
+    "movedesc": "-"
+  },
+  {
+    "movename": "Guard",
+    "movedesc": "Enables the user to evade all attacks. It may fail if used in succession."
+  },
+  {
+    "movename": "Strike",
+    "movedesc": "Normal-Type Dynamax move. It lowers the target's Speed stat."
+  },
+  {
+    "movename": "Knuckle",
+    "movedesc": "Fighting Dynamax move. It raises ally Pokemon's Attack stats."
+  },
+  {
+    "movename": "Airstream",
+    "movedesc": "Flying-Type Dynamax move. It raises ally Pokemon's Speed stats."
+  },
+  {
+    "movename": "Ooze",
+    "movedesc": "Poison-Type Dynamax move. It raises ally Pokemon's Sp. Atk stats."
+  },
+  {
+    "movename": "Quake",
+    "movedesc": "Ground-Type Dynamax move. It raises ally Pokemon's Sp. Def stats."
+  },
+  {
+    "movename": "Rockfall",
+    "movedesc": "Rock-Type Dynamax move. It summons a sandstorm that lasts five turns."
+  },
+  {
+    "movename": "Flutterby",
+    "movedesc": "Bug-Type Dynamax move. It lowers the target's Sp. Atk stat."
+  },
+  {
+    "movename": "Phantasm",
+    "movedesc": "Ghost-Type Dynamax move. It lowers the target's Defense stat."
+  },
+  {
+    "movename": "Steelspike",
+    "movedesc": "Steel-Type Dynamax move. It raises ally Pokemon's Defense stats."
+  },
+  {
+    "movename": "Flare",
+    "movedesc": "Fire-Type Dynamax move. It causes the sun to intensify for five turns."
+  },
+  {
+    "movename": "Geyser",
+    "movedesc": "Water-Type Dynamax move. It summons rain that falls for five turns."
+  },
+  {
+    "movename": "Overgrowth",
+    "movedesc": "Grass-Type Dynamax move. It activates Grassy Terrain for five turns."
+  },
+  {
+    "movename": "Lightning",
+    "movedesc": "Electric Dynamax move. It activates Electric Terrain for five turns."
+  },
+  {
+    "movename": "Mindstorm",
+    "movedesc": "Psychic Dynamax move. It activates Psychic Terrain for five turns."
+  },
+  {
+    "movename": "Hailstorm",
+    "movedesc": "Ice-Type Dynamax move. It summons a hailstorm for five turns."
+  },
+  {
+    "movename": "Wyrmwind",
+    "movedesc": "Dragon-Type Dynamax move. It lowers the target's Attack stat."
+  },
+  {
+    "movename": "Darkness",
+    "movedesc": "Dark-Type Dynamax move. It lowers the target's Sp. Def stat."
+  },
+  {
+    "movename": "Starfall",
+    "movedesc": "Fairy-Type Dynamax move. It activates Misty Terrain for five turns."
+  },
+  {
+    "movename": "Vine Lash",
+    "movedesc": "G-Max Venusaur's signature move. It deals damage for four turns."
+  },
+  {
+    "movename": "Wildfire",
+    "movedesc": "G-Max Charizard's signature move. It deals damage for four turns."
+  },
+  {
+    "movename": "Cannonade",
+    "movedesc": "G-Max Blastoise's signature move. It deals damage for four turns."
+  },
+  {
+    "movename": "Befuddle",
+    "movedesc": "G-Max Butterfree's signature move. It causes paralysis, sleep, or poison."
+  },
+  {
+    "movename": "Voltcrash",
+    "movedesc": "G-Max Pikachu's signature move. It paralyzes the target."
+  },
+  {
+    "movename": "Goldrush",
+    "movedesc": "G-Max Meowth's signature move. It confuses the foe and creates money."
+  },
+  {
+    "movename": "Chistrike",
+    "movedesc": "G-Max Machamp's signature move. It raises the chance of critical hits."
+  },
+  {
+    "movename": "Terror",
+    "movedesc": "G-Max Gengar's signature move. It prevents the foe from escaping."
+  },
+  {
+    "movename": "Foamburst",
+    "movedesc": "G-Max Kingler's signature move. It harshly lowers the target's Speed."
+  },
+  {
+    "movename": "Resonance",
+    "movedesc": "G-Max Lapras's signature move. It reduces damage for five turns."
+  },
+  {
+    "movename": "Cuddle",
+    "movedesc": "G-Max Eevee's signature move. It infatuates the target."
+  },
+  {
+    "movename": "Replenish",
+    "movedesc": "G-Max Snorlax's signature move. It restores Berries that were eaten."
+  },
+  {
+    "movename": "Malodor",
+    "movedesc": "G-Max Garbodor's signature move. It poisons the target."
+  },
+  {
+    "movename": "Meltdown",
+    "movedesc": "G-Max Melmetal's signature move. It prevents the foe from repeating moves."
+  },
+  {
+    "movename": "Drum Solo",
+    "movedesc": "G-Max Rillaboom's signature move. It strikes regardless of the target's ability."
+  },
+  {
+    "movename": "Fireball",
+    "movedesc": "G-Max Cinderace's signature move. It strikes regardless of the target's ability."
+  },
+  {
+    "movename": "Hydrosnipe",
+    "movedesc": "G-Max Inteleon's signature move. It strikes regardless of the target's ability."
+  },
+  {
+    "movename": "Windrage",
+    "movedesc": "G-Max Corviknight's signature move. It removes the effect of screen moves."
+  },
+  {
+    "movename": "Gravitas",
+    "movedesc": "G-Max Orbeetle's signature move. It changes gravity for five turns."
+  },
+  {
+    "movename": "Stonesurge",
+    "movedesc": "G-Max Drednaw's signature move. It scatters rocks around the field."
+  },
+  {
+    "movename": "Volcalith",
+    "movedesc": "G-Max Coalossal's signature move. It deals damage for four turns."
+  },
+  {
+    "movename": "Tartness",
+    "movedesc": "G-Max Flapple's signature move. It reduces the foe's evasiveness."
+  },
+  {
+    "movename": "Sweetness",
+    "movedesc": "G-Max Appletun's signature move. It heals the status of its allies."
+  },
+  {
+    "movename": "Sandblast",
+    "movedesc": "G-Max Sandaconda's signature move. It traps the foe for four to five turns."
+  },
+  {
+    "movename": "Stunshock",
+    "movedesc": "G-Max Toxtricity's signature move. It paralyzes or poisons opponents."
+  },
+  {
+    "movename": "Centiferno",
+    "movedesc": "G-Max Centiskorch's signature move. It traps the foe for four to five turns."
+  },
+  {
+    "movename": "Smite",
+    "movedesc": "G-Max Hatterene's signature move. It confuses the target."
+  },
+  {
+    "movename": "Snooze",
+    "movedesc": "G-Max Grimmsnarl's signature move. It inflicts Yawn status on the foe."
+  },
+  {
+    "movename": "Finale",
+    "movedesc": "G-Max Alcremie's signature move. It heals the HP of its allies."
+  },
+  {
+    "movename": "Steelsurge",
+    "movedesc": "G-Max Copperajah's signature move. It scatters spikes around the field."
+  },
+  {
+    "movename": "Depletion",
+    "movedesc": "G-Max Duraludon's signature move. It reduces the PP of the last move used."
+  },
+  {
+    "movename": "One Blow",
+    "movedesc": "G-Max Single Strike Urshifu's signature move. It bypasses the use of Max Guard."
+  },
+  {
+    "movename": "Rapid Flow",
+    "movedesc": "G-Max Rapid Strike Urshifu's signature move. It bypasses the use of Max Guard."
+  }
+]

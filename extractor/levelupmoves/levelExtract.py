@@ -1,6 +1,6 @@
 import re
 import json
-level = open("extractor\levelupmoves\Learnsets.c", "r")
+level = open("extractor\levelupmoves\input\Learnsets.c", "r")
 
 count = 0
 overAllMoves = []
@@ -47,5 +47,5 @@ while True:
 
 print(len(overAllMoves))
 
-with open("extractor\levelupmoves\Learnsets.json", "w", encoding="utf-8") as outfile:
+with open("extractor\levelupmoves\output\Learnsets.json", "w", encoding="utf-8") as outfile:
     json.dump(overAllMoves, outfile, indent=2)

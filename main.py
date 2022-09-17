@@ -1,4 +1,3 @@
-from cProfile import label
 from math import ceil
 import discord
 import os
@@ -20,12 +19,11 @@ bot = commands.Bot(command_prefix=constants.prefix, intents=(intents), help_comm
 
 splitter = constants.message_checker_regex.format(constants.prefix)
 
-maxEntriesPerPage = 5
-numOfPages = ceil(len(constants.command_text) / maxEntriesPerPage)
 
 def joinstr(a):
     return str(a[0]) + " - " + str(a[1])
-#region JSON DESERIALIZATION
+
+#region json deserialization
 #################################### GENERATING DICTIONARIES ###########################################
 with open("DATA/abilities.json", encoding='utf8') as file:
     abilities_dict = helperfunctions.listToDict('name',  json.load(file))
@@ -80,9 +78,10 @@ async def on_ready():
 
 @bot.event
 async def on_command_error(ctx, error):
-    await ctx.send(f"uh oh, something went wrong. Error: {error}")                               #sending the embed
+    await ctx.send(f'''uh oh, something went wrong.
+Error: `{error}`''')                                                  #sending the embed
 
-
+#region commands
 #________________________________________________________________________________________________________________
 @bot.command(name='help')                                           #HELP
 async def help(interaction: discord.interactions):
@@ -90,11 +89,11 @@ async def help(interaction: discord.interactions):
 
     pages = []
 
-    for i in range(0, numOfPages):                                  #Producing the pages
+    for i in range(0, constants.numOfPages):                                  #Producing the pages
         pages.append(discord.Embed(title = f"Help Page #{i+1}"))
         
-        for j in range(0, maxEntriesPerPage):                       #adding information to the pages
-            currentIndex =  j + i * maxEntriesPerPage
+        for j in range(0, constants.maxEntriesPerPage):                       #adding information to the pages
+            currentIndex =  j + i * constants.maxEntriesPerPage
             if currentIndex == len(constants.command_text):
                 break
             pages[i].add_field(
@@ -423,7 +422,6 @@ async def moveinfo(ctx, *args):
         description=embedBody) 
     await ctx.send(embed=embedToSend)                               #sending the embed
 #________________________________________________________________________________________________________________
-
 @bot.command(name='stats')                                          #STATS AND SCALEMONS
 async def stats(interaction: discord.interactions, *args ):
     scalemonFlag=False                                              #setting the scalemon flag to be false initially
@@ -447,9 +445,9 @@ async def stats(interaction: discord.interactions, *args ):
     stat_menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
 
     if scalemonFlag:
-        simple_page = discord.Embed(title= "Scalemon " + base_stat_element['name'])
+        simple_page = discord.Embed(title= "Scalemon " + base_stat_element['name'].title())
         simple_page.set_footer(text=constants.scalemon_warning)
-        complex_page = discord.Embed(title = "Scalemon " + base_stat_element['name'])
+        complex_page = discord.Embed(title = "Scalemon " + base_stat_element['name'].title())
         complex_page.set_footer(text = constants.scalemon_warning)
 
     else:
@@ -466,10 +464,12 @@ async def stats(interaction: discord.interactions, *args ):
 
     stat_menu.add_page(simple_page)
     stat_menu.add_page(complex_page)
-            
+
     stat_menu.add_button(ViewButton.next())
 
     await stat_menu.start() #posting the menu
+
+#endregion
 
 
 bot.run(os.getenv('tok'))

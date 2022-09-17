@@ -1,3 +1,4 @@
+from math import ceil
 ##############contains the interpolated strings and the lists to be displayed.###############
 ########################These are the boiler plates for the embeds###########################
 
@@ -67,7 +68,6 @@ breeding_display = [
     ["Happiny:", "Breed Chansey/Blissey with Luck Incense."]
 ]
 
-
 caps_template = '''**Gym 1:** {}
 **Gym 2:** {}
 **Gym 3:** {}
@@ -78,7 +78,6 @@ caps_template = '''**Gym 1:** {}
 **Gym 7:** {}
 **Gym 8:** {}
 **Elite 4:** {}'''
-
 
 invalid_text = "Sorry, invalid input!"
 
@@ -197,14 +196,12 @@ __Priority__: {}
 __Info__: {}
 '''
 
-scalemon_warning= '''Only fully evolved
+scalemon_warning = '''Only fully evolved
 Pokemon including 
 mega evolutions
 (except Shedinja)
 get scaled in
 Scalemons Story Mode'''
-
-
 
 pokemon_stat_template = '''
 HP: {}
@@ -216,6 +213,7 @@ Speed: {}
 
 BST: {}
 '''
+
 pokemon_type_template = '''{}'''
 
 pokemon_capture_template = '''
@@ -254,3 +252,7 @@ pokemon_characteristics_template = '''
 Friendship: {}
 Growth Rate: {}
 '''
+
+maxEntriesPerPage = 5                       #max entries we want in the ;help menu section
+
+numOfPages = ceil(len(command_text) / maxEntriesPerPage) #number of pages needed to accomodate this many page elements
