@@ -1,13 +1,12 @@
 from cProfile import label
+from math import ceil
 import discord
 import os
 import numpy as np
-import pandas as pd
 import json
 import helperfunctions
 import constants
 from dotenv import load_dotenv
-import re
 from discord.ext import commands
 from reactionmenu import ViewMenu, ViewButton
 
@@ -15,11 +14,15 @@ load_dotenv()
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix=';', intents=(intents), help_command=None)
+bot = commands.Bot(command_prefix=constants.prefix, intents=(intents), help_command=None)
 
 # other than the tm list.json and stats.json(if we want to index it with their ID too), everything is probably easier to query
 
 splitter = constants.message_checker_regex.format(constants.prefix)
+
+maxEntriesPerPage = 5
+numOfPages = ceil(len(constants.command_text) / maxEntriesPerPage)
+
 def joinstr(a):
     return str(a[0]) + " - " + str(a[1])
 #region JSON DESERIALIZATION
@@ -36,7 +39,7 @@ with open("DATA/eggmoves.json", encoding='utf8') as file:
 with open("DATA/helditem.json", encoding='utf8') as file:
     helditem_dict = helperfunctions.listToDict('itemname',  json.load(file))
 
-with open("DATA/lvlupmoves.json", encoding='utf8') as file:
+with open("DATA/Learnsets.json", encoding='utf8') as file:
     lvlupmoves_dict = helperfunctions.listToDict('name',  json.load(file))
 
 with open("DATA/megastone.json", encoding='utf8') as file:
@@ -64,6 +67,9 @@ with open("DATA/stats.json", encoding='utf8') as file:
 with open("DATA/movedescription.json", encoding='utf8') as file:
     move_info_dict = helperfunctions.listToDict('movename',  json.load(file))
 
+with open("DATA/Base_Stats.json", encoding='utf8') as file:
+    base_stats_dict = helperfunctions.listToDict('name',  json.load(file))
+
 ######################################################################################################
 #endregion
 
@@ -73,56 +79,28 @@ async def on_ready():
     print(f'{bot.user}')
 
 #________________________________________________________________________________________________________________
-@bot.command(name='stats')                                          #STATS
-async def stats(ctx, *args):
-    args = helperfunctions.normalizeString(' '.join(args)) 
-    
-    stat_element = stats_dict.get(args, False)                      #query dictionary 
-    if stat_element == False:                                       #is key not present, display error message and break out of it
-        await ctx.send(constants.invalid_text)
-        return
-    embedBody = constants.stat_display.format(*[*stat_element.values()])
-    embedToSend = discord.Embed(
-        title=stat_element.get('name',
-        'place_holder_name'),
-        description=embedBody)                                      #create embed
-    await ctx.send(embed = embedToSend)                             #post embed
-
-#________________________________________________________________________________________________________________
 @bot.command(name='help')                                           #HELP
 async def help(interaction: discord.interactions):
     menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
 
-    page1 = discord.Embed(title= 'Help Page 1')                     #sets title as help page 1, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text1):            #looping over the commant_text list for name and value pairs
-        page1.add_field(                                            #adding the fields one at a time
-            name=constants.prefix + n,
-            value=v, 
-            inline=False)
-    page2 = discord.Embed(title= 'Help Page 2')                     #sets title as help page 2, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text2):            #looping over the commant_text list for name and value pairs
-        page2.add_field(                                            #adding the fields one at a time
-            name=constants.prefix + n,
-            value=v, 
-            inline=False)
-    page3 = discord.Embed(title= 'Help Page 3')                     #sets title as help page 3, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text3):            #looping over the commant_text list for name and value pairs
-        page3.add_field(                                            #adding the fields one at a time
-            name=constants.prefix + n,
-            value=v, 
-            inline=False)
-    page4 = discord.Embed(title= 'Help Page 4')                     #sets title as help page 4, don't care about rest of the message
-    for index, (n,v) in enumerate(constants.help_text4):            #looping over the commant_text list for name and value pairs
-        page4.add_field(                                            #adding the fields one at a time
-            name=constants.prefix + n,
-            value=v, 
-            inline=False)
-            
-    menu.add_page(page1)
-    menu.add_page(page2)
-    menu.add_page(page3)
-    menu.add_page(page4)
+    pages = []
 
+    for i in range(0, numOfPages):                                  #Producing the pages
+        pages.append(discord.Embed(title = f"Help Page #{i+1}"))
+        
+        for j in range(0, maxEntriesPerPage):                       #adding information to the pages
+            currentIndex =  j + i * maxEntriesPerPage
+            if currentIndex == len(constants.command_text):
+                break
+            pages[i].add_field(
+                name= constants.prefix + constants.command_text[currentIndex][0],
+                value = constants.command_text[currentIndex][1],
+                inline = False
+            )
+            
+    for p in pages:
+        menu.add_page(p)
+            
     menu.add_button(ViewButton.back())
     menu.add_button(ViewButton.next())                
 
@@ -131,7 +109,6 @@ async def help(interaction: discord.interactions):
 @bot.command(name='moves')                                          #MOVES
 async def moves(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
-    
     lvl_up_element = lvlupmoves_dict.get(args ,False)               #querying for the dictionary
 
     if lvl_up_element == False:                                     #if no dicitonary found, jump out of this
@@ -151,7 +128,6 @@ async def moves(ctx, *args):
 @bot.command(name='eggmoves')                                       #EGGMOVES
 async def eggmoves(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
-    
     egg_moves_element = eggmoves_dict.get(args ,False)              #querying for the dictionary
     if egg_moves_element == False:                                  #if no dicitonary found, jump out of this
         await ctx.send(constants.invalid_text)                      #error message
@@ -168,7 +144,6 @@ async def eggmoves(ctx, *args):
 @bot.command(name='ability')                                        #ABILITY
 async def ability(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args))
-    
     abilities_element = abilities_dict.get(args, False)
             
     if abilities_element == False:                                  #if no dictionary found return and send error message
@@ -199,7 +174,7 @@ async def ability(ctx, *args):
         description=embedBody)                                      
     await ctx.send(embed=embedToSend)                               #sending the embed 
 #________________________________________________________________________________________________________________
-@bot.command(name='tmlocation')                                     #TMLOCATION
+@bot.command(name='tmlocation', aliases=['tm'])                     #TMLOCATION
 async def tmlocation(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args))
     q = args
@@ -256,37 +231,6 @@ async def megastone(ctx, *args):
         description=embedBody)
     await ctx.send(embed=embedToSend)                               #send embed
 #________________________________________________________________________________________________________________
-@bot.command(name='scale')                                          #SCALE
-async def scale(xtc, *args):
-    args = helperfunctions.normalizeString(' '.join(args))
-
-    stat_element = stats_dict.get(args, False)                      #query normal stats dictionary 
-    if stat_element == False:                                       #is key not present, display error message and break out of it
-        await ctx.send(constants.invalid_text)
-        return
-    
-    standard_data = [*stat_element.values()][:5]                    #data that doesnt change with scalemons (name, type, generation)
-    un_scaled_data = [*stat_element.values()][5:]                   #data that changes in scalemons (stats)
-    scaled_data  = helperfunctions.calcScaledStats(un_scaled_data)  #returns a scaled list of [hp, attack, def, spatt, spdef, speed, BST]
-
-    combined_list  = standard_data + [                              #making a new list from the scalemons stats string and standard data 
-        constants.just_stats.format(*scaled_data)
-        ]
-    embedBody =  constants.for_scalemons.format(*combined_list)     #formatting for_scalemons with the created list
-
-    embedToSend = discord.Embed(
-        title=stat_element.get('name',
-        'place_holder_name'),
-        description=embedBody)                                      #create embed
-
-    embedToSend.set_footer(text = '''Only fully evolved
-Pokemon including 
-mega evolutions
-(except Shedinja)
-get scaled in
-Scalemons Story Mode''')                                            #setting a footer
-    await ctx.send(embed = embedToSend)                             #post embed
-#________________________________________________________________________________________________________________
 @bot.command(name='helditem')                                       #HELDITEM
 async def helditem(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args))
@@ -334,20 +278,8 @@ async def difficulty(ctx):
     await ctx.send(embed = embedToSend)                             #sending the embed
     return
 #________________________________________________________________________________________________________________
-@bot.command(name='shinyodd')                                       #SHINYODD & SHINY
-async def shinyodd(ctx):
-
-    embedTitle = '**Shiny Odds:**'
-    embedBody = constants.shiny_odd_text
-    embedToSend = discord.Embed(
-        title=embedTitle,
-        description=embedBody
-    )
-    await ctx.send(embed=embedToSend)                               #send embed
-    return
-@bot.command(name='shiny')
+@bot.command(name='shiny', aliases=['shinyodd'])                    #SHINYODD & SHINY
 async def shiny(ctx):
-
     embedTitle = '**Shiny Odds:**'
     embedBody = constants.shiny_odd_text
     embedToSend = discord.Embed(
@@ -385,42 +317,17 @@ async def breeding(ctx):
     await ctx.send(embed = embedToSend)                             #sending the embed
     return
 #________________________________________________________________________________________________________________
-@bot.command(name='caps')                                           #CAPS & LVLCAPS
+@bot.command(name='caps', aliases=['lvlcaps'])                      #CAPS & LVLCAPS
 async def caps(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args))
 
-    if args == '':
-        embedBody  = constants.caps_template.format(*constants.other_caps)
-        embedTitle  = '**Level Caps: Difficult+**'
-    if args == 'vanilla':
+    if args == 'vanilla' or args == 'v':
         embedBody  = constants.caps_template.format(*constants.vanilla_caps)
         embedTitle = '**Level Caps: Vanilla**'
-    else:                                                           #break out of it if gibberish 
-
-        await ctx.send(constants.invalid_text)
-        return
-
-    embedToSend = discord.Embed(
-        title=embedTitle,
-        description=embedBody
-    )
-    await ctx.send(embed=embedToSend)                               #send embed
-    return 
-@bot.command(name='lvlcaps')                                        
-async def lvlcaps(ctx, *args):
-    args = helperfunctions.normalizeString(' '.join(args))
-
-    if args == '':
+    else:
         embedBody  = constants.caps_template.format(*constants.other_caps)
         embedTitle  = '**Level Caps: Difficult+**'
-    if args == 'vanilla':
-        embedBody  = constants.caps_template.format(*constants.vanilla_caps)
-        embedTitle = '**Level Caps: Vanilla**'
-    else:                                                           #break out of it if gibberish 
-
-        await ctx.send(constants.invalid_text)
-        return
-
+    
     embedToSend = discord.Embed(
         title=embedTitle,
         description=embedBody
@@ -511,4 +418,50 @@ async def moveinfo(ctx, *args):
         description=embedBody) 
     await ctx.send(embed=embedToSend)                               #sending the embed
 #________________________________________________________________________________________________________________
+
+@bot.command(name='stats')                                          #STATS AND SCALEMONS
+async def stats(interaction: discord.interactions, *args ):
+    scalemonFlag=False                                              #setting the scalemon flag to be false initially
+    
+    if len(args) != 0 and helperfunctions.normalizeString(args[0]) == 'scale':
+        scalemonFlag = True                                         #setting it to true if user wants scaled stats
+    
+    args = helperfunctions.normalizeString(' '.join(args))
+    print(args)
+    base_stat_element = base_stats_dict.get(args, False)            #query dictionary 
+    if base_stat_element == False:                                  #is key not present, display error message and break out of it
+        await interaction.send(content = constants.invalid_text)
+        return
+    
+    s,t,c,e,i,b,a,ch = helperfunctions.getComplexStats(base_stat_element['stats'], scalemonFlag)
+
+
+    stat_menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
+
+    if scalemonFlag:
+        simple_page = discord.Embed(title= "Scalemon " + base_stat_element['name'].title())
+        simple_page.set_footer(text=constants.scalemon_warning)
+        complex_page = discord.Embed(title = "Scalemon " + base_stat_element['name'].title())
+        complex_page.set_footer(text = constants.scalemon_warning)
+
+    else:
+        simple_page = discord.Embed(title= base_stat_element['name'].title())
+        complex_page = discord.Embed(title = base_stat_element['name'].title())
+
+    simple_page = helperfunctions.addFieldToEmbeds(simple_page, [t, s, a], ["Type", "Stats", "Abilities"])
+    complex_page = helperfunctions.addFieldToEmbeds(complex_page, [b, i, e, c, ch], [
+    "Breeding Information",
+    "Items",
+    "EV Yields",
+    "Catch Information",
+    "Miscellaneous"])
+
+    stat_menu.add_page(simple_page)
+    stat_menu.add_page(complex_page)
+            
+    stat_menu.add_button(ViewButton.next())
+
+    await stat_menu.start()                                         #posting the menu
+
+
 bot.run(os.getenv('tok'))
