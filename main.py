@@ -427,7 +427,7 @@ async def stats(interaction: discord.interactions, *args ):
         scalemonFlag = True                                         #setting it to true if user wants scaled stats
         args = helperfunctions.normalizeString(' '.join(args[1:]))
     else:
-        args = helperfunctions.normalizeString(' '.join(args[:1]))
+        args = helperfunctions.normalizeString(' '.join(args[0:]))
         
     base_stat_element = base_stats_dict.get(args, False)            #query dictionary 
     if base_stat_element == False:                                  #is key not present, display error message and break out of it
