@@ -3,11 +3,15 @@
 
 normalize_regex = "[_\-\\\. ]+"
 
-message_checker_regex= "[ ]*({})[ ]*([a-zA-Z]+)[ ]*(.*)"
+message_checker_regex = "[ ]*({})[ ]*([a-zA-Z]+)[ ]*(.*)"
 
 prefix = ';'
 
-stat_display='''Number: {}
+other_caps = [20, 26, 32, 36, 40, 45, 52, 57, 61, 75]
+
+vanilla_caps = [15, 22, 29, 33, 37, 43, 51, 55, 60, 66]
+
+stat_display = '''Dex Number: {}
 Name: {}
 Type: {} {}
 Generation: {}
@@ -34,7 +38,7 @@ Speed: {}
 Total: {}
 '''
 
-for_scalemons='''Number: {}
+for_scalemons = '''Dex Number: {}
 Name: {}
 Type: {} {}
 Generation: {}
@@ -63,16 +67,17 @@ breeding_display = [
     ["Happiny:", "Breed Chansey/Blissey with Luck Incense."]
 ]
 
-caps_display = '''**Gym 1:** 20
-**Gym 2:** 26
-**Gym 3:** 32
-**Gym 4:** 36
-**Maxima:** 40
-**Gym 5:** 45
-**Gym 6:** 52
-**Gym 7:** 57
-**Gym 8:** 61
-**Elite 4:** 75'''
+
+caps_template = '''**Gym 1:** {}
+**Gym 2:** {}
+**Gym 3:** {}
+**Gym 4:** {}
+**Maxima:** {}
+**Gym 5:** {}
+**Gym 6:** {}
+**Gym 7:** {}
+**Gym 8:** {}
+**Elite 4:** {}'''
 
 
 invalid_text = "Sorry, invalid input!"
@@ -83,7 +88,7 @@ difficulty_text = [
     ["Difficult",
         "• Difficult: You're looking for something slightly harder than normal Pokémon games, and don't mind losing boss battles once or twice to force you to rethink your strategy with the same team. EV training is not required."],
     ["Expert",
-       "• Expert: If you're running a fully EV trained team, this is probably going to be as hard as Difficult early on. You also probably won't need to change up your team in between major battles. Late game will get harder, though, but still nowhere near as hard as Insane"],
+     "• Expert: If you're running a fully EV trained team, this is probably going to be as hard as Difficult early on. You also probably won't need to change up your team in between major battles. Late game will get harder, though, but still nowhere near as hard as Insane"],
     ["Insane",
         "• Insane: This should be the hardest hack you've ever played. Period. Items can't be used in Trainer battles, and bosses all have a team with competitive movesets and full EVs. If you're ready to rage quit after the first Gym, this difficulty is NOT for you. It was designed to be inherently unfun for most players."]
 ]
@@ -97,7 +102,8 @@ docs_text = [
     '[Tutor Compatibility](https://github.com/Skeli789/Dynamic-Pokemon-Expansion/tree/Unbound/src/tutor_compatibility)',
     '[Evolutions](https://raw.githubusercontent.com/Skeli789/Dynamic-Pokemon-Expansion/Unbound/src/Evolution%20Table.c)',
     '[Raid Drops Guide](https://docs.google.com/spreadsheets/d/1rf6ch14TKmAuWDAR0uJbDTirnC14YVUXNFFN0yWxs-8/edit?usp=drivesdk)',
-    '[Trainers ](https://docs.google.com/spreadsheets/d/1Ha06sD9mKw5yXXT2icVZjVQapcArU5C5gLEvA-hkq9o/)' + '(Credits to SkiDY)'
+    '[Trainers ](https://docs.google.com/spreadsheets/d/1Ha06sD9mKw5yXXT2icVZjVQapcArU5C5gLEvA-hkq9o/)' +
+    '(Credits to SkiDY)'
 ]
 
 shiny_odd_text = '''Regular Shiny Odds: 1/4096
@@ -126,7 +132,7 @@ command_text = [
     ["ability",
      '''Syntax: `;ability <pokemon_name>`
      Displays the abilities of the Pokemon, thank SevenK for this :pleading_face:'''],
-    ["tm location",
+    ["tmlocation",
      '''Syntax: `;tmlocation <tm_number>` OR `;tmlocation <tm_name>`
      Displays the location of the TM'''],
     ["location",
@@ -171,10 +177,80 @@ command_text = [
     ["scale",
      '''Syntax: `;scale <pokemon_name>`
      scalemon stats'''],
-     ["stats",
-      '''Syntax: `;stats <pokemon_name>`
+    ["stats",
+     '''Syntax: `;stats <pokemon_name>`
      normal stats'''],
-     ["docs",
+    ["docs",
      '''Syntax: `;docs`
      shows links to the docs''']
 ]
+
+move_info_display = '''__Description__: {}
+__Effect__: {}
+__Power__: {}
+__Type__: {}
+__Accuracy__: {}
+__PP__: {}
+__Effect Accuracy__: {}
+__Target__: {}
+__Priority__: {}
+__Info__: {}
+'''
+
+scalemon_warning= '''Only fully evolved
+Pokemon including 
+mega evolutions
+(except Shedinja)
+get scaled in
+Scalemons Story Mode'''
+
+
+
+pokemon_stat_template = '''
+HP: {}
+Attack: {}
+Defense: {}
+SpAttack: {}
+SpDefense: {}
+Speed: {}
+
+BST: {}
+'''
+pokemon_type_template = '''{}'''
+
+pokemon_capture_template = '''
+Catch Rate: {}
+EXP Yield: {}
+'''
+
+pokemon_ev_yields_template = '''
+HP: {}
+Attack: {}
+Defense: {}
+SpAttack: {}
+SpDefense: {}
+Speed: {}
+'''
+
+pokemon_item_template = '''
+Item 1: {}
+Item 2: {}
+'''
+
+pokemon_breeding_template = '''
+Gender Ratio: {}
+egg Cycles: {}
+egg Group: {}
+'''
+
+pokemon_ability_template = '''
+Ability 1: {}
+Ability 2: {}
+
+Hidden Ability: {}
+'''
+
+pokemon_characteristics_template = '''
+Friendship: {}
+Growth Rate: {}
+'''
