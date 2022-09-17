@@ -51,6 +51,9 @@ while True:
         temp_name = (pokeName.group(1))  # getting the name of the pokemon
         if temp_name == "NONE":
             continue
+        
+        if(temp_name == "SHADOW_WARRIOR"):
+            print(temp_name)
 
         if temp_name[-2:] == "_A":
             temp_name = "ALOLAN " + temp_name[:-2]
@@ -79,7 +82,9 @@ while True:
 
         while True:  # iterate till we finish encountering the entire list
             if re.search(REGEX_STAT_TERMINATOR, line) != None:  # end of block
-                if (len(temp_stats.keys()) == 29): # to ignore the "MANAPHY EGG", that shit has no stats just .noFlip = TRUE    
+                if (len(temp_stats.keys()) >= 28): # to ignore the "MANAPHY EGG", that shit has no stats just .noFlip = TRUE    
+                    if temp_stats.get('evYield_HP', False) == False:
+                        temp_stats['evYield_HP'] = "0"
                     temp_stats['BST'] = int(temp_stats['HP']) + int(temp_stats['Attack']) + int(temp_stats['Defense']) + \
                         int(temp_stats['SpAttack']) + \
                         int(temp_stats['SpDefense']) + int(temp_stats['Speed'])
