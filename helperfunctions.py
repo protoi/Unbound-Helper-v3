@@ -93,11 +93,7 @@ def getComplexStats(element, scaleORnot=False):
             element['type1'].title())
     else:
         type_template = constants.pokemon_type_template.format(
-<<<<<<< HEAD
-            element['type1'].capitalize() + ", " + element['type2'].capitalize())
-=======
             element['type1'].title() + ", " + element['type2'].title())
->>>>>>> 14ea9dc (added .title() to every string in def getComplexStats() to remove the unnecessary capitalizations)
 
     capture_template = constants.pokemon_capture_template.format(element['catchRate'],
                                                                  element['expYield'])
@@ -108,19 +104,6 @@ def getComplexStats(element, scaleORnot=False):
                                                                      element["evYield_SpAttack"],
                                                                      element["evYield_SpDefense"],
                                                                      element["evYield_Speed"])
-<<<<<<< HEAD
-    item_template = constants.pokemon_item_template.format(element["item1"].capitalize(),
-                                                           element["item2"].capitalize())
-
-    if element['eggGroup1'] == element['eggGroup2']:
-        eg = element['eggGroup1'].capitalize()
-    else:
-        eg = element['eggGroup1'].capitalize() + \
-            ", " + element['eggGroup2'].capitalize()
-
-    breeding_template = constants.pokemon_breeding_template.format(element["genderRatio"].capitalize(),
-                                                                   element["eggCycles"].capitalize(),
-=======
     item_template = constants.pokemon_item_template.format(element["item1"].title(),
                                                            element["item2"].title())
 
@@ -132,18 +115,10 @@ def getComplexStats(element, scaleORnot=False):
 
     breeding_template = constants.pokemon_breeding_template.format(element["genderRatio"].title(),
                                                                    element["eggCycles"],
->>>>>>> 14ea9dc (added .title() to every string in def getComplexStats() to remove the unnecessary capitalizations)
                                                                    eg)
-    ability_template = constants.pokemon_ability_template.format(element['ability1'].capitalize(),
-                                                                 element['ability2'].capitalize(),
-                                                                 element['hiddenAbility'].capitalize())
 
     characteristics_template = constants.pokemon_characteristics_template.format(element['friendship'],
-<<<<<<< HEAD
-                                                                                 element['growthRate'].capitalize())
-=======
                                                                                  element['growthRate'].title())
->>>>>>> 14ea9dc (added .title() to every string in def getComplexStats() to remove the unnecessary capitalizations)
 
     return [stat_template,
             type_template,
