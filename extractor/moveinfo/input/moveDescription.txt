@@ -1,0 +1,3660 @@
+@!00(3688) ^data.pokemon.moves.descriptions[description<"">]data.pokemon.moves.names-1 #Pound#, @{ "A physical attack\n
+delivered with a\n
+long tail or a\n
+foreleg, etc." @}
++#"Karate Chop"#, @{ "The foe is attacked\n
+with a sharp chop.\n
+It has a high\n
+critical-hit ratio." @}
++#"Double Slap"#, @{ "The foe is slapped\n
+repeatedly, back\n
+and forth, two to\n
+five times." @}
++#"Comet Punch"#, @{ "The foe is hit with\n
+a flurry of punches\n
+that strike two to\n
+five times." @}
++#"Mega Punch"#, @{ "The foe is slugged\n
+by a punch thrown\n
+with muscle-packed\n
+power." @}
++#"Pay Day"#, @{ "Numerous coins are\n
+hurled at the foe.\n
+Money is earned\n
+after battle." @}
++#"Fire Punch"#, @{ "The foe is punched\n
+with a fiery fist.\n
+It may leave the\n
+foe with a burn." @}
++#"Ice Punch"#, @{ "The foe is punched\n
+with an icy fist.\n
+It may leave the\n
+foe with frostbite." @}
++#ThunderPunch#, @{ "The foe is punched\n
+with an electrified\n
+fist. It may leave\n
+the foe paralyzed." @}
++#Scratch#, @{ "Hard, pointed, and\n
+sharp claws rake\n
+the foe." @}
++#"Vise Grip"#, @{ "Huge, impressive\n
+pincers grip and\n
+squeeze the foe." @}
++#Guillotine#, @{ "A vicious tearing\n
+attack with pincers.\n
+The foe will faint\n
+if it hits." @}
++#"Razor Wind"#, @{ "Blades of wind hit\n
+the foe on the 2nd\n
+turn. It has a high\n
+critical-hit ratio." @}
++#"Swords Dance"#, @{ "A frenetic dance of\n
+fighting. It sharply\n
+raises the Attack\n
+stat." @}
++#Cut#, @{ "A basic attack.\n
+It can be used to\n
+cut down thin trees\n
+and grass." @}
++#Gust#, @{ "Strikes the foe\n
+with a gust of wind\n
+whipped up by\n
+wings." @}
++#"Wing Attack"#, @{ "The foe is struck\n
+with large, imposing\n
+wings spread wide." @}
++#Whirlwind#, @{ "The foe is made to\n
+switch out with an\n
+ally. In the wild,\n
+the battle ends." @}
++#Fly#, @{ "A 2-turn move that\n
+hits on the 2nd\n
+turn. Use it to fly\n
+to any known town." @}
++#Bind#, @{ "A long body or\n
+tentacles are used\n
+to bind the foe for\n
+two to five turns." @}
++#Slam#, @{ "The foe is struck\n
+with a long tail,\n
+vines, etc." @}
++#"Vine Whip"#, @{ "The foe is struck\n
+with slender, whip-\n
+like vines." @}
++#Stomp#, @{ "The foe is stomped\n
+with a big foot.\n
+It may make the\n
+foe flinch." @}
++#"Double Kick"#, @{ "Two legs are used\n
+to quickly kick the\n
+foe twice in one\n
+turn." @}
++#"Mega Kick"#, @{ "The foe is attacked\n
+by a kick fired\n
+with muscle-packed\n
+power." @}
++#"Jump Kick"#, @{ "The user jumps up\n
+high, then kicks.\n
+If it misses, the\n
+user hurts itself." @}
++#"Rolling Kick"#, @{ "A quick kick from a\n
+rolling spin.\n
+It may make the\n
+foe flinch." @}
++#"Sand Attack"#, @{ "A lot of sand is\n
+hurled in the foe's\n
+face, reducing its\n
+accuracy." @}
++#Headbutt#, @{ "The user sticks its\n
+head out and rams.\n
+It may make the\n
+foe flinch." @}
++#"Horn Attack"#, @{ "The foe is jabbed\n
+with a sharply\n
+pointed horn to\n
+inflict damage." @}
++#"Fury Attack"#, @{ "The foe is jabbed\n
+repeatedly with a\n
+horn or beak two to\n
+five times." @}
++#"Horn Drill"#, @{ "The horn is rotated\n
+like a drill to ram.\n
+The foe will faint\n
+if it hits." @}
++#Tackle#, @{ "A physical attack\n
+in which the user\n
+charges, full body,\n
+into the foe." @}
++#"Body Slam"#, @{ "The user drops its\n
+full body on the\n
+foe. It may leave\n
+the foe paralyzed." @}
++#Wrap#, @{ "A long body or\n
+vines are used to\n
+wrap the foe for\n
+two to five turns." @}
++#"Take Down"#, @{ "A reckless, full-\n
+body charge attack\n
+that also hurts the\n
+user a little." @}
++#Thrash#, @{ "The user rampages\n
+about for two to\n
+three turns, then\n
+becomes confused." @}
++#Double-Edge#, @{ "A reckless, life-\n
+risking tackle that\n
+also hurts the user\n
+a little." @}
++#"Tail Whip"#, @{ "The user wags its\n
+tail cutely, making\n
+the foe lower its\n
+Defense stat." @}
++#"Poison Sting"#, @{ "The foe is stabbed\n
+with a toxic barb,\n
+etc. It may poison\n
+the foe." @}
++#Twineedle#, @{ "The foe is stabbed\n
+twice with foreleg\n
+stingers. It may\n
+poison the foe." @}
++#"Pin Missile"#, @{ "Sharp pins are shot\n
+at the foe and hit\n
+two to five times\n
+at once." @}
++#Leer#, @{ "The foe is given an\n
+intimidating look\n
+that lowers its\n
+Defense stat." @}
++#Bite#, @{ "The user bites with\n
+vicious fangs.\n
+It may make the\n
+foe flinch." @}
++#Growl#, @{ "The user growls in\n
+a cute way, making\n
+the foe lower its\n
+Attack stat." @}
++#Roar#, @{ "The foe is made to\n
+switch out with an\n
+ally. In the wild,\n
+the battle ends." @}
++#Sing#, @{ "A soothing song\n
+in a calming voice\n
+lulls the foe into\n
+a deep slumber." @}
++#Supersonic#, @{ "The user generates\n
+odd sound waves.\n
+It may confuse the\n
+foe." @}
++#"Sonic Boom"#, @{ "The foe is hit with\n
+a shock wave that\n
+always inflicts 20-\n
+HP damage." @}
++#Disable#, @{ "For a few turns,\n
+it prevents the foe\n
+from using the move\n
+it last used." @}
++#Acid#, @{ "The foe is sprayed\n
+with a harsh, hide-\n
+melting acid that\n
+may lower Defense." @}
++#Ember#, @{ "The foe is attacked\n
+with small flames.\n
+The foe may suffer\n
+a burn." @}
++#Flamethrower#, @{ "The foe is scorched\n
+with intense flames.\n
+The foe may suffer\n
+a burn." @}
++#Mist#, @{ "The ally party is\n
+protected by a\n
+mist that prevents\n
+stat reductions." @}
++#"Water Gun"#, @{ "The foe is struck\n
+with a lot of water\n
+expelled forcibly\n
+from the mouth." @}
++#"Hydro Pump"#, @{ "A high volume of\n
+water is blasted at\n
+the foe under great\n
+pressure." @}
++#Surf#, @{ "A big wave crashes\n
+down on the foe.\n
+Can also be used\n
+for crossing water." @}
++#"Ice Beam"#, @{ "The foe is struck\n
+with an icy beam.\n
+It may leave the\n
+foe with frostbite." @}
++#Blizzard#, @{ "A blizzard strikes\n
+the opposing team.\n
+It may also leave\n
+them with frostbite." @}
++#Psybeam#, @{ "A peculiar ray is\n
+shot at the foe.\n
+It may leave the\n
+foe confused." @}
++#"Bubble Beam"#, @{ "A spray of bubbles\n
+strikes the foe.\n
+It may lower the\n
+foe's Speed stat." @}
++#"Aurora Beam"#, @{ "A rainbow-colored\n
+attack beam.\n
+It may lower the\n
+foe's Attack stat." @}
++#"Hyper Beam"#, @{ "A severely damaging\n
+attack that makes\n
+the user rest on\n
+the next turn." @}
++#Peck#, @{ "The foe is jabbed\n
+with a sharply\n
+pointed beak or\n
+horn." @}
++#"Drill Peck"#, @{ "A corkscrewing\n
+attack with the\n
+sharp beak acting\n
+as a drill." @}
++#Submission#, @{ "A reckless, full-\n
+body throw attack\n
+that also hurts the\n
+user a little." @}
++#"Low Kick"#, @{ "A low, tripping kick\n
+that inflicts more\n
+damage on heavier\n
+foes." @}
++#Counter#, @{ "A retaliation move\n
+that counters any\n
+physical hit with\n
+double the damage." @}
++#"Seismic Toss"#, @{ "A gravity-fed throw\n
+that causes damage\n
+matching the user's\n
+level." @}
++#Strength#, @{ "The foe is slugged\n
+at maximum power.\n
+Can also be used\n
+to move boulders." @}
++#Absorb#, @{ "An attack that\n
+absorbs half the\n
+damage it inflicted\n
+to restore HP." @}
++#"Mega Drain"#, @{ "A tough attack that\n
+drains half the\n
+damage it inflicted\n
+to restore HP." @}
++#"Leech Seed"#, @{ "A seed is planted\n
+on the foe to steal\n
+some HP for the \n
+user on every turn." @}
++#Growth#, @{ "The user's body is\n
+forced to grow,\n
+raising the Attack\n
+and Sp. Atk stats." @}
++#"Razor Leaf"#, @{ "The foe is hit with\n
+a cutting leaf.\n
+It has a high\n
+critical-hit ratio." @}
++#"Solar Beam"#, @{ "A 2-turn move that\n
+blasts the foe with\n
+absorbed energy in\n
+the 2nd turn." @}
++#PoisonPowder#, @{ "A cloud of toxic\n
+dust is scattered.\n
+It may poison the\n
+foe." @}
++#"Stun Spore"#, @{ "Paralyzing dust is\n
+scattered wildly.\n
+It may paralyze\n
+the foe." @}
++#"Sleep Powder"#, @{ "A sleep-inducing\n
+dust is scattered\n
+in high volume\n
+around a foe." @}
++#"Petal Dance"#, @{ "The user attacks\n
+with petals for two\n
+to three turns,\n
+then gets confused." @}
++#"String Shot"#, @{ "The foe is bound\n
+with strings shot\n
+from the mouth to\n
+reduce its Speed." @}
++#"Dragon Rage"#, @{ "The foe is hit with\n
+a shock wave that\n
+always inflicts 40-\n
+HP damage." @}
++#"Fire Spin"#, @{ "The foe is trapped\n
+in an intense spiral\n
+of fire that rages\n
+two to five turns." @}
++#ThunderShock#, @{ "An electric shock\n
+attack that may\n
+also leave the foe\n
+paralyzed." @}
++#Thunderbolt#, @{ "A strong electrical\n
+attack that may\n
+also leave the foe\n
+paralyzed." @}
++#"Thunder Wave"#, @{ "A weak electric\n
+shock that is sure\n
+to cause paralysis\n
+if it hits." @}
++#Thunder#, @{ "A brutal lightning\n
+attack that may\n
+also leave the foe\n
+paralyzed." @}
++#"Rock Throw"#, @{ "The foe is attacked\n
+with a shower of\n
+small, easily\n
+thrown rocks." @}
++#Earthquake#, @{ "An earthquake that\n
+strikes all Pokémon\n
+in battle excluding\n
+the user." @}
++#Fissure#, @{ "The foe is dropped\n
+into a fissure.\n
+The foe faints if it\n
+hits." @}
++#Dig#, @{ "An attack that hits\n
+on the 2nd turn.\n
+Can also be used\n
+to exit dungeons." @}
++#Toxic#, @{ "A move that badly\n
+poisons the foe.\n
+Its poison damage\n
+worsens every turn." @}
++#Confusion#, @{ "A weak telekinetic\n
+attack that may\n
+also leave the foe\n
+confused." @}
++#Psychic#, @{ "A strong telekinetic\n
+attack. It may also\n
+lower the foe's\n
+Sp. Def stat." @}
++#Hypnosis#, @{ "Hypnotic suggestion\n
+is used to make the\n
+foe fall into a\n
+deep sleep." @}
++#Meditate#, @{ "The user meditates\n
+to awaken its power\n
+and raise its\n
+Attack stat." @}
++#Agility#, @{ "The user relaxes\n
+and lightens its\n
+body to sharply\n
+boost its Speed." @}
++#"Quick Attack"#, @{ "An almost invisibly\n
+fast attack that\n
+is certain to strike\n
+first." @}
++#Rage#, @{ "An attack that\n
+becomes stronger\n
+each time the user\n
+is hit in battle." @}
++#Teleport#, @{ "Use it to flee from\n
+any wild Pokémon.\n
+Also warps to the\n
+last Poké Centre." @}
++#"Night Shade"#, @{ "An attack with a\n
+mirage that inflicts\n
+damage matching\n
+the user's level." @}
++#Mimic#, @{ "The user copies the\n
+move last used by\n
+the foe for the\n
+rest of the battle." @}
++#Screech#, @{ "An ear-splitting\n
+screech is emitted\n
+to sharply reduce\n
+the foe's Defense." @}
++#"Double Team"#, @{ "The user creates\n
+illusory copies of\n
+itself to raise its\n
+evasiveness." @}
++#Recover#, @{ "A self-healing move\n
+that restores HP by\n
+up to half of the\n
+user's maximum HP." @}
++#Harden#, @{ "The user stiffens\n
+all the muscles in\n
+its body to raise\n
+its Defense stat." @}
++#Minimize#, @{ "The user compresses\n
+all the cells in its\n
+body to raise its\n
+evasiveness." @}
++#Smokescreen#, @{ "An obscuring cloud\n
+of smoke or ink\n
+reduces the foe's\n
+accuracy." @}
++#"Confuse Ray"#, @{ "The foe is exposed\n
+to a sinister ray\n
+that triggers\n
+confusion." @}
++#Withdraw#, @{ "The user withdraws\n
+its body in its hard\n
+shell, raising its\n
+Defense stat." @}
++#"Defense Curl"#, @{ "The user curls up\n
+to conceal weak\n
+spots and raise its\n
+Defense stat." @}
++#Barrier#, @{ "The user creates a\n
+sturdy wall that\n
+sharply raises its\n
+Defense stat." @}
++#"Light Screen"#, @{ "A wall of light\n
+cuts damage from\n
+Sp. Atk attacks\n
+for five turns." @}
++#Haze#, @{ "Eliminates all stat\n
+changes among all\n
+Pokémon engaged in\n
+battle." @}
++#Reflect#, @{ "A wall of light\n
+cuts damage from\n
+physical attacks\n
+for five turns." @}
++#"Focus Energy"#, @{ "The user takes a\n
+deep breath and\n
+focuses to raise its\n
+critical-hit ratio." @}
++#Bide#, @{ "The user endures\n
+attacks for two\n
+turns, then strikes\n
+back double." @}
++#Metronome#, @{ "Waggles a finger\n
+and stimulates the\n
+brain into using any\n
+move at random." @}
++#"Mirror Move"#, @{ "The user counters\n
+the move last used\n
+by the foe with the\n
+same move." @}
++#Selfdestruct#, @{ "The user blows up\n
+to inflict severe\n
+damage, even\n
+making itself faint." @}
++#"Egg Bomb"#, @{ "A large egg is\n
+hurled with great\n
+force at the foe to\n
+inflict damage." @}
++#Lick#, @{ "The foe is licked\n
+and hit with a long\n
+tongue. It may\n
+also paralyze." @}
++#Smog#, @{ "The foe is attacked\n
+with exhaust gases.\n
+It may also poison\n
+the foe." @}
++#Sludge#, @{ "Toxic sludge is\n
+hurled at the foe.\n
+It may poison the\n
+target." @}
++#"Bone Club"#, @{ "The foe is clubbed\n
+with a bone held in\n
+hand. It may make\n
+the foe flinch." @}
++#"Fire Blast"#, @{ "The foe is hit with\n
+an intense flame.\n
+It may leave the\n
+target with a burn." @}
++#Waterfall#, @{ "A powerful charge\n
+attack. It can also\n
+be used to climb\n
+a waterfall." @}
++#Clamp#, @{ "The foe is clamped\n
+and squeezed by\n
+the user's shell for\n
+two to five turns." @}
++#Swift#, @{ "Star-shaped rays\n
+that never miss are\n
+fired at all foes in\n
+battle." @}
++#"Skull Bash"#, @{ "The user raises its\n
+Defense in the 1st\n
+turn, then attacks\n
+in the 2nd turn." @}
++#"Spike Cannon"#, @{ "Sharp spikes are\n
+fired at the foe to\n
+strike two to five\n
+times." @}
++#Constrict#, @{ "The foe is attacked\n
+with long tentacles\n
+or vines. It may\n
+lower Speed." @}
++#Amnesia#, @{ "Forgets about\n
+something and\n
+sharply raises\n
+Sp. Def." @}
++#Kinesis#, @{ "The user distracts\n
+the foe by bending\n
+a spoon. It may\n
+lower accuracy." @}
++#Soft-Boiled#, @{ "Heals the user by\n
+up to half its full\n
+HP. It can be used\n
+to heal an ally." @}
++#"Hi Jump Kick"#, @{ "A strong jumping\n
+knee kick. If it\n
+misses, the user is\n
+hurt." @}
++#Glare#, @{ "The user intimidates\n
+the foe with the\n
+design on its belly\n
+to cause paralysis." @}
++#"Dream Eater"#, @{ "Absorbs half the\n
+damage it inflicted\n
+on a sleeping foe\n
+to restore HP." @}
++#"Poison Gas"#, @{ "The foe is sprayed\n
+with a cloud of\n
+toxic gas that may\n
+poison the foe." @}
++#Barrage#, @{ "Round objects are\n
+hurled at the foe\n
+to strike two to\n
+five times." @}
++#"Leech Life"#, @{ "An attack that\n
+absorbs half the\n
+damage it inflicted\n
+to restore HP." @}
++#"Lovely Kiss"#, @{ "The user forces a\n
+kiss on the foe\n
+with a scary face\n
+that induces sleep." @}
++#"Sky Attack"#, @{ "A 2nd-turn attack\n
+move with a high\n
+critical-hit ratio.\n
+The foe may flinch." @}
++#Transform#, @{ "The user transforms\n
+into a copy of the\n
+foe with even the\n
+same move set." @}
++#Bubble#, @{ "A spray of bubbles\n
+hits the foe.\n
+It may lower the\n
+foe's Speed stat." @}
++#"Dizzy Punch"#, @{ "The foe is hit with\n
+a rhythmic punch\n
+that may leave it\n
+confused." @}
++#Spore#, @{ "The user scatters\n
+bursts of fine\n
+spores that induce\n
+sleep." @}
++#Flash#, @{ "A blast of light\n
+that cuts the foe's\n
+accuracy. It also\n
+illuminates caves." @}
++#Psywave#, @{ "The foe is attacked\n
+with an odd, hot\n
+energy wave that\n
+varies in intensity." @}
++#Splash#, @{ "The user just flops\n
+and splashes around\n
+without having any\n
+effect." @}
++#"Acid Armor"#, @{ "The user alters its\n
+cells to liquefy\n
+itself and sharply\n
+raise Defense." @}
++#Crabhammer#, @{ "A large pincer is\n
+used to hammer the\n
+foe. It has a high\n
+critical-hit ratio." @}
++#Explosion#, @{ "The user explodes\n
+to inflict terrible\n
+damage even while\n
+fainting itself." @}
++#"Fury Swipes"#, @{ "The foe is raked\n
+with sharp claws or\n
+scythes two to five\n
+times." @}
++#Bonemerang#, @{ "The user throws a\n
+bone that hits the\n
+foe once, then once\n
+again on return." @}
++#Rest#, @{ "The user sleeps for\n
+two turns to fully\n
+restore HP and heal\n
+any status problem." @}
++#"Rock Slide"#, @{ "Large boulders are\n
+hurled at the foe.\n
+It may make the\n
+foe flinch." @}
++#"Hyper Fang"#, @{ "The foe is attacked\n
+with sharp fangs.\n
+It may make the\n
+foe flinch." @}
++#Sharpen#, @{ "The user reduces\n
+its polygon count\n
+to sharpen edges\n
+and raise Attack." @}
++#Conversion#, @{ "The user changes\n
+its type to match\n
+the type of one of\n
+its moves." @}
++#"Tri Attack"#, @{ "A simultaneous\n
+3-beam attack that\n
+may paralyze, burn,\n
+or frostbite the foe." @}
++#"Super Fang"#, @{ "The user attacks\n
+with sharp fangs\n
+and halves the\n
+foe's HP." @}
++#Slash#, @{ "The foe is slashed\n
+with claws, etc.\n
+It has a high\n
+critical-hit ratio." @}
++#Substitute#, @{ "The user creates a\n
+decoy using one-\n
+quarter of its full\n
+HP." @}
++#Struggle#, @{ "An attack that is\n
+used only if there\n
+is no PP. It also\n
+hurts the user." @}
++#Sketch#, @{ "This move copies\n
+the move last used\n
+by the foe, then\n
+disappears." @}
++#"Triple Kick"#, @{ "A 3-kick attack\n
+that becomes more\n
+powerful with each\n
+successive hit." @}
++#Thief#, @{ "An attack that may\n
+take the foe's held\n
+item if the user\n
+isn't holding one." @}
++#"Spider Web"#, @{ "Ensnares the foe \n
+with sticky string\n
+so it doesn't flee\n
+or switch out." @}
++#"Mind Reader"#, @{ "The user predicts\n
+the foe's action to\n
+ensure its next\n
+attack hits." @}
++#Nightmare#, @{ "A sleeping foe is\n
+shown a nightmare\n
+that inflicts some\n
+damage every turn." @}
++#"Flame Wheel"#, @{ "The user makes a\n
+fiery charge at the\n
+foe. It may cause\n
+a burn." @}
++#Snore#, @{ "An attack that can\n
+be used only while\n
+asleep. It may\n
+cause flinching." @}
++#Curse#, @{ "A move that works\n
+differently for the\n
+Ghost-type and all\n
+the other types." @}
++#Flail#, @{ "A desperate attack\n
+that becomes more\n
+powerful the less\n
+HP the user has." @}
++#"Conversion 2"#, @{ "The user changes\n
+type to make itself\n
+resistant to the\n
+last attack it took." @}
++#Aeroblast#, @{ "A vortex of air is\n
+shot at the foe.\n
+It has a high\n
+critical-hit ratio." @}
++#"Cotton Spore"#, @{ "Cotton-like spores\n
+cling to the foe,\n
+sharply reducing\n
+its Speed stat." @}
++#Reversal#, @{ "An all-out attack\n
+that becomes more\n
+powerful the less\n
+HP the user has." @}
++#Spite#, @{ "A move that cuts\n
+2 to 5 PP from the\n
+move last used by\n
+the foe." @}
++#"Powder Snow"#, @{ "The opposing team is\n
+hit with powdery snow\n
+that may leave them\n
+with frostbite." @}
++#Protect#, @{ "Enables the user to\n
+evade all attacks.\n
+It may fail if used\n
+in succession." @}
++#"Mach Punch"#, @{ "A punch thrown at\n
+blinding speed.\n
+It is certain to\n
+strike first." @}
++#"Scary Face"#, @{ "Frightens the foe\n
+with a scary face\n
+to sharply reduce\n
+its Speed." @}
++#"Feint Attack"#, @{ "The user draws up\n
+close to the foe\n
+disarmingly, then\n
+hits without fail." @}
++#"Sweet Kiss"#, @{ "The user kisses\n
+the foe with sweet\n
+cuteness that\n
+causes confusion." @}
++#"Belly Drum"#, @{ "The user maximizes\n
+its Attack stat at\n
+the cost of half\n
+its full HP." @}
++#"Sludge Bomb"#, @{ "Filthy sludge is\n
+hurled at the foe.\n
+It may poison the\n
+target." @}
++#Mud-Slap#, @{ "Mud is hurled in\n
+the foe's face to\n
+inflict damage and\n
+lower its accuracy." @}
++#Octazooka#, @{ "Ink is blasted in\n
+the foe's face or\n
+eyes to damage and\n
+lower accuracy." @}
++#Spikes#, @{ "A trap of spikes is\n
+laid around the\n
+foe's party to hurt\n
+foes switching in." @}
++#"Zap Cannon"#, @{ "An electric blast is\n
+fired like a cannon\n
+to inflict damage\n
+and paralyze." @}
++#Foresight#, @{ "Completely negates\n
+the foe's efforts to\n
+heighten its ability\n
+to evade." @}
++#"Destiny Bond"#, @{ "If the user faints,\n
+the foe delivering\n
+the final hit also\n
+faints." @}
++#"Perish Song"#, @{ "Any battler that\n
+hears this faints\n
+in three turns\n
+unless it switches." @}
++#"Icy Wind"#, @{ "A chilling wind is\n
+used to attack.\n
+It also lowers the\n
+Speed stat." @}
++#Detect#, @{ "Enables the user to\n
+evade all attacks.\n
+It may fail if used\n
+in succession." @}
++#"Bone Rush"#, @{ "The user strikes\n
+the foe with a bone\n
+in hand two to five\n
+times." @}
++#Lock-On#, @{ "The user locks on\n
+to the foe, making\n
+the next move sure\n
+to hit." @}
++#Outrage#, @{ "The user thrashes\n
+about for two to\n
+three turns, then\n
+becomes confused." @}
++#Sandstorm#, @{ "A 5-turn sandstorm\n
+that damages all\n
+types except Rock,\n
+Ground, and Steel." @}
++#"Giga Drain"#, @{ "A harsh attack that\n
+absorbs half the\n
+damage it inflicted\n
+to restore HP." @}
++#Endure#, @{ "The user endures\n
+any hit with 1 HP\n
+left. It may fail if\n
+used in succession." @}
++#Charm#, @{ "The foe is charmed\n
+by the user's cute\n
+appeals, sharply\n
+cutting its Attack." @}
++#Rollout#, @{ "A 5-turn rolling\n
+attack that becomes\n
+stronger each time\n
+it hits." @}
++#"False Swipe"#, @{ "A restrained attack\n
+that always leaves\n
+the foe with at\n
+least 1 HP." @}
++#Swagger#, @{ "A move that makes\n
+the foe confused,\n
+but also sharply\n
+raises its Attack." @}
++#"Milk Drink"#, @{ "Heals the user by\n
+up to half its full\n
+HP. It can be used\n
+to heal an ally." @}
++#Spark#, @{ "An electrically\n
+charged tackle that\n
+may also paralyze\n
+the foe." @}
++#"Fury Cutter"#, @{ "An attack that\n
+grows stronger on\n
+each successive\n
+hit." @}
++#"Steel Wing"#, @{ "The foe is hit with\n
+wings of steel.\n
+It may also raise\n
+the user's Defense." @}
++#"Mean Look"#, @{ "The foe is fixed\n
+with a mean look\n
+that prevents it\n
+from escaping." @}
++#Attract#, @{ "If it is the other\n
+gender, the foe is\n
+made infatuated and\n
+unlikely to attack." @}
++#"Sleep Talk"#, @{ "While asleep, the\n
+user randomly uses\n
+one of the moves it\n
+knows." @}
++#"Heal Bell"#, @{ "A soothing bell\n
+chimes to heal the\n
+status problems of\n
+all allies." @}
++#Return#, @{ "This attack move\n
+grows more powerful\n
+the more the user\n
+likes its Trainer." @}
++#Present#, @{ "The foe is given a\n
+booby-trapped gift.\n
+It restores HP\n
+sometimes, however." @}
++#Frustration#, @{ "This attack move\n
+grows more powerful\n
+the less the user\n
+likes its Trainer." @}
++#Safeguard#, @{ "It protects the\n
+user's party from\n
+all status problems\n
+for five turns." @}
++#"Pain Split"#, @{ "The user adds its\n
+HP to the foe's HP,\n
+then equally shares\n
+the total HP." @}
++#"Sacred Fire"#, @{ "A mystical and\n
+powerful fire\n
+attack that may\n
+inflict a burn." @}
++#Magnitude#, @{ "A ground-shaking\n
+attack against all\n
+standing Pokémon.\n
+Its power varies." @}
++#DynamicPunch#, @{ "The foe is punched\n
+with the user's full\n
+power. It confuses\n
+the foe if it hits." @}
++#Megahorn#, @{ "A brutal ramming\n
+attack delivered\n
+with a tough and\n
+impressive horn." @}
++#DragonBreath#, @{ "The foe is hit with\n
+an incredible blast\n
+of breath that may\n
+also paralyze." @}
++#"Baton Pass"#, @{ "The user switches\n
+out, passing along\n
+any stat changes\n
+to the new battler." @}
++#Encore#, @{ "Makes the foe use\n
+the move it last\n
+used repeatedly for\n
+two to six turns." @}
++#Pursuit#, @{ "An attack move that\n
+works especially\n
+well on a foe that\n
+is switching out." @}
++#"Rapid Spin"#, @{ "An attack that frees\n
+the user from traps\n
+and hazards. Also\n
+raises Speed." @}
++#"Sweet Scent"#, @{ "Allures the foe to\n
+reduce evasiveness.\n
+It also attracts\n
+wild Pokémon." @}
++#"Iron Tail"#, @{ "An attack with a\n
+steel-hard tail.\n
+It may lower the\n
+foe's Defense stat." @}
++#"Metal Claw"#, @{ "The foe is attacked\n
+with steel claws.\n
+It may also raise\n
+the user's Attack." @}
++#"Vital Throw"#, @{ "Makes the user\n
+attack after the\n
+foe. In return,\n
+it will not miss." @}
++#"Morning Sun"#, @{ "Restores the user's\n
+HP. The amount of\n
+HP regained varies\n
+with the weather." @}
++#Synthesis#, @{ "Restores the user's\n
+HP. The amount of\n
+HP regained varies\n
+with the weather." @}
++#Moonlight#, @{ "Restores the user's\n
+HP. The amount of\n
+HP regained varies\n
+with the weather." @}
++#"Hidden Power"#, @{ "A unique attack \n
+that varies in type\n
+depending on the\n
+user.       " @}
++#"Cross Chop"#, @{ "The foe is hit with\n
+double chops.\n
+It has a high\n
+critical-hit ratio." @}
++#Twister#, @{ "A vicious twister\n
+attacks the foe.\n
+It may make the\n
+foe flinch." @}
++#"Rain Dance"#, @{ "A heavy rain falls\n
+for five turns,\n
+powering up Water-\n
+type moves." @}
++#"Sunny Day"#, @{ "The sun blazes for\n
+five turns, powering\n
+up Fire-type\n
+moves." @}
++#Crunch#, @{ "The foe is crunched\n
+with sharp fangs.\n
+It may lower the\n
+foe's Defense." @}
++#"Mirror Coat"#, @{ "A retaliation move\n
+that pays back the\n
+foe's special attack\n
+double." @}
++#"Psych Up"#, @{ "The user hypnotizes\n
+itself into copying\n
+any stat change\n
+made by the foe." @}
++#ExtremeSpeed#, @{ "A blindingly speedy\n
+charge attack that\n
+always goes before\n
+any other." @}
++#AncientPower#, @{ "An ancient power is\n
+used to attack. It\n
+may also raise all\n
+the user's stats." @}
++#"Shadow Ball"#, @{ "A shadowy blob is\n
+hurled at the foe.\n
+May also lower the\n
+foe's Sp. Def." @}
++#"Future Sight"#, @{ "Two turns after\n
+this move is used,\n
+the foe is attacked\n
+psychically." @}
++#"Rock Smash"#, @{ "An attack that\n
+lowers Defense.\n
+It can also smash\n
+cracked boulders.      " @}
++#Whirlpool#, @{ "The foe is trapped\n
+in a fast, vicious\n
+whirlpool for two\n
+to five turns." @}
++#"Beat Up"#, @{ "All party Pokémon\n
+join in the attack.\n
+The more allies,\n
+the more damage." @}
++#"Fake Out"#, @{ "An attack that hits\n
+first and causes\n
+flinching. Usable\n
+only on 1st turn." @}
++#Uproar#, @{ "The user attacks in\n
+an uproar that\n
+prevents sleep for\n
+two to five turns." @}
++#Stockpile#, @{ "The user charges\n
+up power for use\n
+later. It can be\n
+used three times." @}
++#"Spit Up"#, @{ "The power built\n
+using Stockpile is\n
+released at once\n
+for attack." @}
++#Swallow#, @{ "The energy it built\n
+using Stockpile is\n
+absorbed to restore\n
+HP." @}
++#"Heat Wave"#, @{ "The user exhales a\n
+heated breath to\n
+attack. It may also\n
+inflict a burn." @}
++#Hail#, @{ "A hailstorm lasting\n
+five turns damages\n
+all Pokémon except\n
+the Ice-type." @}
++#Torment#, @{ "It enrages the foe,\n
+making it incapable\n
+of using the same\n
+move successively." @}
++#Flatter#, @{ "Flattery is used to\n
+confuse the foe,\n
+but its Sp. Atk\n
+also rises." @}
++#Will-O-Wisp#, @{ "A sinister, bluish\n
+white flame is shot\n
+at the foe to\n
+inflict a burn." @}
++#Memento#, @{ "The user faints,\n
+but sharply lowers\n
+the foe's Attack\n
+and Sp. Atk." @}
++#Facade#, @{ "An attack that is\n
+boosted if user is\n
+burned, poisoned,\n
+or paralyzed." @}
++#"Focus Punch"#, @{ "An attack that is\n
+executed last.\n
+The user flinches\n
+if hit beforehand." @}
++#SmellingSalt#, @{ "Doubly effective on\n
+a paralyzed foe,\n
+but it also cures\n
+the foe's paralysis." @}
++#"Follow Me"#, @{ "The user draws\n
+attention to itself,\n
+making foes attack\n
+only the user." @}
++#"Nature Power"#, @{ "An attack that\n
+changes type\n
+depending on the\n
+user's location." @}
++#Charge#, @{ "The user charges\n
+power to boost the\n
+Electric move it\n
+uses next." @}
++#Taunt#, @{ "The foe is taunted\n
+into a rage that\n
+allows it to use\n
+only attack moves." @}
++#"Helping Hand"#, @{ "A move that boosts\n
+the power of the\n
+ally's attack in a\n
+battle." @}
++#Trick#, @{ "A move that tricks\n
+the foe into\n
+trading held items\n
+with the user." @}
++#"Role Play"#, @{ "The user mimics the\n
+foe completely and\n
+copies the foe's\n
+ability." @}
++#Wish#, @{ "A self-healing move\n
+that restores half\n
+the full HP on the\n
+next turn." @}
++#Assist#, @{ "The user randomly\n
+picks and uses a\n
+move of an allied\n
+Pokémon." @}
++#Ingrain#, @{ "The user lays roots\n
+that restore HP on\n
+every turn.\n
+It can't switch out." @}
++#Superpower#, @{ "A powerful attack,\n
+but it also lowers\n
+the user's Attack\n
+and Defense stats." @}
++#"Magic Coat"#, @{ "Reflects back the\n
+foe's Leech Seed\n
+and any status-\n
+damaging move." @}
++#Recycle#, @{ "A move that\n
+recycles a used\n
+item for use once\n
+more." @}
++#Revenge#, @{ "An attack move that\n
+gains in intensity\n
+if the target has\n
+hurt the user." @}
++#"Brick Break"#, @{ "An attack that also\n
+breaks any barrier\n
+like Light Screen\n
+and Reflect." @}
++#Yawn#, @{ "A huge yawn lulls\n
+the foe into falling\n
+asleep on the next\n
+turn." @}
++#"Knock Off"#, @{ "Knocks down the\n
+foe's held item to\n
+prevent its use\n
+during the battle." @}
++#Endeavor#, @{ "Gains power the\n
+fewer HP the user\n
+has compared with\n
+the foe." @}
++#Eruption#, @{ "The higher the\n
+user's HP, the more\n
+powerful this\n
+attack becomes." @}
++#"Skill Swap"#, @{ "The user employs\n
+its psychic power\n
+to swap abilities\n
+with the foe." @}
++#Imprison#, @{ "Prevents foes from\n
+using any move\n
+that is also known\n
+by the user." @}
++#Refresh#, @{ "A self-healing move\n
+that cures the user\n
+of a poisoning,\n
+burn, or paralysis." @}
++#Grudge#, @{ "If the user faints,\n
+this move deletes\n
+the PP of the move\n
+that finished it." @}
++#Snatch#, @{ "Steals the effects\n
+of the foe's\n
+healing or status-\n
+changing move." @}
++#"Secret Power"#, @{ "An attack that may\n
+have an additional\n
+effect that varies\n
+with the terrain." @}
++#Dive#, @{ "The user dives\n
+underwater on the\n
+first turn and\n
+strikes next turn." @}
++#"Arm Thrust"#, @{ "A quick flurry of\n
+straight-arm\n
+punches that hit\n
+two to five times." @}
++#Camouflage#, @{ "Alters the user's\n
+type depending on\n
+the location's\n
+terrain." @}
++#"Tail Glow"#, @{ "The user flashes a\n
+light that sharply\n
+raises its Sp. Atk\n
+stat." @}
++#"Luster Purge"#, @{ "A burst of light\n
+injures the foe. It\n
+may also lower the\n
+foe's Sp. Def." @}
++#"Mist Ball"#, @{ "A flurry of down\n
+hits the foe. It\n
+may also lower the\n
+foe's Sp. Atk." @}
++#FeatherDance#, @{ "The foe is covered\n
+with a mass of down\n
+that sharply cuts\n
+the Attack stat." @}
++#"Teeter Dance"#, @{ "A wobbly dance\n
+that confuses all\n
+the Pokémon in\n
+battle." @}
++#"Blaze Kick"#, @{ "A fiery kick with a\n
+high critical-hit\n
+ratio. It may also\n
+burn the foe." @}
++#"Mud Sport"#, @{ "Weakens Electric-\n
+type attacks while\n
+the user is in the\n
+battle." @}
++#"Ice Ball"#, @{ "A 5-turn rolling\n
+attack that becomes\n
+stronger each time\n
+it rolls." @}
++#"Needle Arm"#, @{ "An attack using\n
+thorny arms.\n
+It may make the\n
+foe flinch." @}
++#"Slack Off"#, @{ "The user slacks off\n
+and restores its HP\n
+by half its full\n
+HP." @}
++#"Hyper Voice"#, @{ "The user lets loose\n
+a horribly loud\n
+shout with the\n
+power to damage." @}
++#"Poison Fang"#, @{ "The foe is bitten\n
+with toxic fangs.\n
+It may also badly\n
+poison the foe." @}
++#"Crush Claw"#, @{ "The foe is attacked\n
+with sharp claws.\n
+It may also lower\n
+the foe's Defense." @}
++#"Blast Burn"#, @{ "The foe is hit with\n
+a huge explosion.\n
+The user can't move\n
+on the next turn." @}
++#"Hydro Cannon"#, @{ "The foe is hit with\n
+a watery cannon.\n
+The user can't move\n
+on the next turn." @}
++#"Meteor Mash"#, @{ "The foe is hit with\n
+a hard, fast punch.\n
+It may also raise\n
+the user's Attack." @}
++#Astonish#, @{ "An attack using a\n
+startling shout.\n
+It also may make\n
+the foe flinch." @}
++#"Weather Ball"#, @{ "An attack that\n
+varies in power and\n
+type depending on\n
+the weather." @}
++#Aromatherapy#, @{ "A soothing scent is\n
+released to heal\n
+all status problems\n
+in the user's party." @}
++#"Fake Tears"#, @{ "The user feigns\n
+crying to sharply\n
+lower the foe's\n
+Sp. Def stat." @}
++#"Air Cutter"#, @{ "The foe is hit with\n
+razor-like wind.\n
+It has a high\n
+critical-hit ratio." @}
++#Overheat#, @{ "An intense attack\n
+that also sharply\n
+reduces the user's\n
+Sp. Atk stat." @}
++#"Odor Sleuth"#, @{ "Completely negates\n
+the foe's efforts to\n
+heighten its ability\n
+to evade." @}
++#"Rock Tomb"#, @{ "Boulders are hurled\n
+at the foe. It also\n
+lowers the foe's\n
+Speed if it hits." @}
++#"Silver Wind"#, @{ "The foe is attacked\n
+with a silver dust.\n
+It may raise all\n
+the user's stats." @}
++#"Metal Sound"#, @{ "A horrible metallic\n
+screech is used to\n
+sharply lower the\n
+foe's Sp. Def." @}
++#Grasswhistle#, @{ "A pleasant melody\n
+is played to lull\n
+the foe into a deep\n
+sleep." @}
++#Tickle#, @{ "The foe is made to\n
+laugh, reducing its\n
+Attack and Defense\n
+stats." @}
++#"Cosmic Power"#, @{ "The user absorbs a\n
+mystic power to\n
+raise its Defense\n
+and Sp. Def." @}
++#"Water Spout"#, @{ "The higher the\n
+user's HP, the more\n
+powerful this\n
+attack becomes." @}
++#"Signal Beam"#, @{ "The foe is hit with\n
+a flashing beam\n
+that may also\n
+cause confusion." @}
++#"Shadow Punch"#, @{ "The user throws a\n
+punch from the\n
+shadows. It cannot\n
+be evaded." @}
++#Extrasensory#, @{ "The user attacks\n
+with an odd power\n
+that may make the\n
+foe flinch." @}
++#"Sky Uppercut"#, @{ "The user attacks\n
+with an uppercut\n
+thrown skywards\n
+with force." @}
++#"Sand Tomb"#, @{ "The foe is trapped\n
+inside a painful\n
+sandstorm for two\n
+to five turns." @}
++#"Sheer Cold"#, @{ "The foe is attacked\n
+with ultimate cold\n
+that causes fainting\n
+if it hits." @}
++#"Muddy Water"#, @{ "The user attacks\n
+with muddy water.\n
+It may also lower\n
+the foe's accuracy." @}
++#"Bullet Seed"#, @{ "The user shoots\n
+seeds at the foe.\n
+Two to five seeds\n
+are shot at once." @}
++#"Aerial Ace"#, @{ "An extremely fast\n
+attack against one\n
+target. It can't be\n
+evaded." @}
++#"Icicle Spear"#, @{ "Sharp icicles are\n
+fired at the foe.\n
+It strikes two to\n
+five times." @}
++#"Iron Defense"#, @{ "The user hardens\n
+its body's surface\n
+to sharply raise its\n
+Defense stat." @}
++#Block#, @{ "The user blocks the\n
+foe's way with arms\n
+spread wide to\n
+prevent escape." @}
++#Howl#, @{ "The user howls to\n
+raise its team's\n
+spirit and boost\n
+their Attack stats." @}
++#"Dragon Claw"#, @{ "Sharp, huge claws\n
+hook and slash the\n
+foe quickly and\n
+with great power." @}
++#"Frenzy Plant"#, @{ "The foe is hit with\n
+an enormous branch.\n
+The user can't move\n
+on the next turn." @}
++#"Bulk Up"#, @{ "The user bulks up\n
+its body to boost\n
+both its Attack and\n
+Defense stats." @}
++#Bounce#, @{ "The user bounces\n
+on the foe on the\n
+2nd turn. It may\n
+paralyze the foe." @}
++#"Mud Shot"#, @{ "The user attacks by\n
+hurling mud.\n
+It also reduces the\n
+foe's Speed." @}
++#"Poison Tail"#, @{ "An attack with a\n
+high critical-hit\n
+ratio. It may also\n
+poison the foe." @}
++#Covet#, @{ "A cutely executed\n
+attack that also\n
+steals the foe's\n
+held item." @}
++#"Volt Tackle"#, @{ "The user throws an\n
+electrified tackle.\n
+It hurts the user\n
+a little." @}
++#"Magical Leaf"#, @{ "The foe is attacked\n
+with a strange leaf\n
+that cannot be\n
+evaded." @}
++#"Water Sport"#, @{ "Weakens Fire-type\n
+attacks while the\n
+user is in the\n
+battle." @}
++#"Calm Mind"#, @{ "The user focuses\n
+its mind to raise\n
+the Sp. Atk and\n
+Sp. Def stats." @}
++#"Leaf Blade"#, @{ "The foe is slashed\n
+with a sharp leaf.\n
+It has a high\n
+critical-hit ratio." @}
++#"Dragon Dance"#, @{ "A mystic, powerful\n
+dance that boosts\n
+the user's Attack\n
+and Speed stats." @}
++#"Rock Blast"#, @{ "The user hurls two\n
+to five hard rocks\n
+at the foe to\n
+attack." @}
++#"Shock Wave"#, @{ "A rapid jolt of\n
+electricity strikes\n
+the foe. It can't\n
+be evaded." @}
++#"Water Pulse"#, @{ "An attack with a\n
+pulsing blast of\n
+water. It may also\n
+confuse the foe." @}
++#"Doom Desire"#, @{ "A move that attacks\n
+the foe with a\n
+blast of light two\n
+turns after use." @}
++#"Psycho Boost"#, @{ "An intense attack\n
+that also sharply\n
+reduces the user's\n
+Sp. Atk stat." @}
++#"Leech Fang"#, @{ "An attack that\n
+absorbs half the\n
+damage it inflicted\n
+to restore HP." @}
++#"Air Slash"#, @{ "The foe is sliced\n
+by a blade of air.\n
+It may also make\n
+the foe flinch." @}
++#"Aqua Jet"#, @{ "An almost invisibly\n
+fast lunge that\n
+is certain to strike\n
+first." @}
++#"Aqua Tail"#, @{ "The foe is attacked\n
+with a swinging tail\n
+as vicious as a\n
+wave in a storm." @}
++#"Aura Sphere"#, @{ "A blast of aura\n
+power is let loose\n
+at the foe. It is\n
+sure to hit." @}
++#Avalanche#, @{ "An attack move that\n
+gains in intensity\n
+if the target has\n
+hurt the user." @}
++#"Brave Bird"#, @{ "The user tucks in\n
+its wings and\n
+charges. It also\n
+hurts the user.         " @}
++#"Bug Buzz"#, @{ "The user creates a\n
+damaging sound\n
+wave that may lower\n
+the foe's Sp. Def." @}
++#"Bullet Punch"#, @{ "The user strikes\n
+with a tough punch\n
+that is certain to\n
+strike first." @}
++#"Charge Beam"#, @{ "The user fires a\n
+load of electricity\n
+that may raise the\n
+user's Sp. Atk.  " @}
++#"Close Combat"#, @{ "The foe is fought\n
+up close. This cuts\n
+the user's Defense\n
+and Sp. Def stats." @}
++#"Cross Poison"#, @{ "An attack with a\n
+high critical-hit\n
+ratio. It may also\n
+poison the foe." @}
++#"Dark Pulse"#, @{ "The user releases\n
+a horrible aura that\n
+may also make the\n
+foe flinch." @}
++#Discharge#, @{ "The user looses an\n
+electric flare that\n
+hits all Pokémon\n
+and may paralyze.         " @}
++#"Draco Meteor"#, @{ "An intense attack\n
+that also sharply\n
+reduces the user's\n
+Sp. Atk stat." @}
++#"Dragon Pulse"#, @{ "The foe is attacked\n
+with a shock wave\n
+generated by the\n
+user's gaping mouth." @}
++#"Drain Punch"#, @{ "A harsh punch that\n
+absorbs half the\n
+damage it inflicted\n
+to restore HP." @}
++#"Earth Power"#, @{ "The ground under the\n
+foe erupts. It may\n
+also lower the foe's\n
+Sp. Def.          " @}
++#"Energy Ball"#, @{ "The foe is blasted\n
+with natural energy.\n
+It may also lower\n
+the foe's Sp. Def." @}
++#"Focus Blast"#, @{ "The user unleashes\n
+its power. It may\n
+also lower the\n
+foe's Sp. Def." @}
++#"Force Palm"#, @{ "The foe is attacked\n
+with a shock wave\n
+that may also leave\n
+it paralyzed." @}
++#"Giga Impact"#, @{ "A severely damaging\n
+attack that makes\n
+the user rest on\n
+the next turn." @}
++#"Grass Knot"#, @{ "Grass snares and\n
+trips the foe. It\n
+does more damage\n
+to heavier foes." @}
++#"Gunk Shot"#, @{ "Filthy garbage is\n
+shot at the foe.\n
+It may also poison\n
+the target." @}
++#"Hammer Arm"#, @{ "The user swings\n
+its heavy fist.\n
+It also lowers the\n
+user's Speed." @}
++#"Head Smash"#, @{ "A reckless, life-\n
+risking tackle that\n
+also hurts the user\n
+terribly." @}
++#"Ice Shard"#, @{ "The user hurls\n
+chunks of ice\n
+that are certain to\n
+strike first." @}
++#"Iron Head"#, @{ "The foe is slammed\n
+with its hard head.\n
+It may also make\n
+the foe flinch." @}
++#"Lava Plume"#, @{ "Scarlet flames wash\n
+over all Pokémon in\n
+battle. It may also\n
+inflict burns." @}
++#"Magnet Bomb"#, @{ "A steel bomb is\n
+stuck to the foe.\n
+It is sure to hit." @}
++#"Mud Bomb"#, @{ "The foe is struck\n
+with a mud ball\n
+that may also lower\n
+its accuracy." @}
++#"Nasty Plot"#, @{ "The user thinks\n
+bad thoughts. It\n
+sharply raises the\n
+Sp. Atk stat." @}
++#"Night Slash"#, @{ "The user slashes the\n
+foe when opportune.\n
+It has a high\n
+critical-hit ratio." @}
++#"Ominous Wind"#, @{ "Repulsive wind is\n
+used to attack. It\n
+may also raise all\n
+the user's stats." @}
++#"Power Gem"#, @{ "The user attacks\n
+with a ray of light\n
+that sparkles like\n
+gemstones." @}
++#"Power Whip"#, @{ "The user violently\n
+whirls its vines or\n
+tentacles to lash\n
+the foe." @}
++#"Psycho Cut"#, @{ "The user tears the\n
+foe with psychic\n
+blades. It has a\n
+high crit ratio.        " @}
++#"Rock Climb"#, @{ "A charging attack\n
+that may confuse\n
+the foe. Can also be\n
+used to scale walls." @}
++#"Rock Polish"#, @{ "The user polishes\n
+its body to sharply\n
+boost its Speed." @}
++#"Rock Wrecker"#, @{ "The foe is hit with\n
+a huge boulder.\n
+The user can't move\n
+on the next turn." @}
++#Roost#, @{ "A self-healing move\n
+that restores HP by\n
+up to half of the\n
+user's maximum HP." @}
++#"Seed Bomb"#, @{ "The user shoots a\n
+barrage of hard\n
+seeds at the foe." @}
++#"Shadow Claw"#, @{ "Claws made of\n
+shadows rake the\n
+foe. It has a high\n
+critical-hit ratio." @}
++#"Shadow Sneak"#, @{ "The user extends\n
+its shadow to\n
+attack. It will\n
+strike first.         " @}
++#"Vacuum Wave"#, @{ "The user sends a\n
+wave of vacuum at\n
+the foe. It will\n
+strike first.         " @}
++#X-Scissor#, @{ "The user slashes\n
+the foe with crossed\n
+claws as if they\n
+were scissors." @}
++#"Zen Headbutt"#, @{ "The user focuses\n
+and rams the foe.\n
+It may also make\n
+the foe flinch." @}
++#Switcheroo#, @{ "The user trades held\n
+items with the foe\n
+faster than the eye\n
+can follow." @}
++#"Drill Run"#, @{ "The user rotates\n
+its body like a\n
+drill. It has a high\n
+critical-hit ratio." @}
++#Bulldoze#, @{ "The user hits all\n
+Pokémon in battle\n
+by stomping. Lowers\n
+Speed of those hit.     " @}
++#Electroweb#, @{ "The user traps the\n
+foe in an electric\n
+net. It also lowers\n
+the foe's Speed." @}
++#"Flame Charge"#, @{ "The user cloaks\n
+itself in flames and\n
+attacks. It also ups\n
+the user's Speed.   " @}
++#"Frost Breath"#, @{ "The user blows\n
+cold air at the foe.\n
+It always results in\n
+a critical hit." @}
++#"Heart Stamp"#, @{ "The foe is hit\n
+after a cute act.\n
+It may also make\n
+the foe flinch." @}
++#"Hone Claws"#, @{ "The user sharpens\n
+its claws to raise\n
+its Attack and\n
+accuracy." @}
++#"Horn Leech"#, @{ "A harsh attack that\n
+absorbs half the\n
+damage it inflicted\n
+to restore HP." @}
++#Coil#, @{ "The user coils up,\n
+raising its Attack,\n
+Defense, and\n
+accuracy." @}
++#Hurricane#, @{ "The foe is caught\n
+in a fierce wind.\n
+It may also confuse\n
+the foe." @}
++#"Icicle Crash"#, @{ "Icicles are dropped\n
+on the foe. It may\n
+also make the foe\n
+flinch." @}
++#"Work Up"#, @{ "The user rouses\n
+itself to raise\n
+its Attack and\n
+Sp. Atk stats." @}
++#"Quiver Dance"#, @{ "The user mystically\n
+dances, raising its\n
+Sp. Atk, Sp. Def,\n
+and Speed." @}
++#"Leaf Tornado"#, @{ "Sharp leaves circle\n
+the foe. It may also\n
+lower the foe's\n
+accuracy." @}
++#"Low Sweep"#, @{ "The user attacks\n
+the foe's legs,\n
+lowering its\n
+Speed stat." @}
++#Snarl#, @{ "The user barks\n
+menacingly. It\n
+also lowers the\n
+foe's Sp. Atk." @}
++#"Struggle Bug"#, @{ "While resisting, the\n
+user attacks the\n
+foe, lowering its\n
+Sp. Atk stat." @}
++#Steamroller#, @{ "The user crushes\n
+the foe with its\n
+body. It may also\n
+make the foe flinch." @}
++#"Storm Throw"#, @{ "The user strikes\n
+the foe fiercely.\n
+It always results in\n
+a critical hit." @}
++#Venoshock#, @{ "The foe is soaked\n
+by a special acid.\n
+Its power doubles if\n
+the foe is poisoned." @}
++#"Wild Charge"#, @{ "The user throws an\n
+electrified tackle.\n
+It hurts the user\n
+a little." @}
++#"Poison Jab"#, @{ "The foe is stabbed\n
+by an arm steeped\n
+in poison. It may\n
+also poison the foe." @}
++#"Acid Spray"#, @{ "The user spits fluid\n
+that melts the foe.\n
+It harshly lowers\n
+the foe's Sp. Def." @}
++#"Fiery Dance"#, @{ "Cloaked in flames,\n
+the user dances.\n
+It may also raise\n
+the user's Sp. Atk." @}
++#"Clear Smog"#, @{ "The user throws a\n
+clump of special\n
+mud that reverts\n
+all stat changes." @}
++#"Leaf Storm"#, @{ "An intense attack\n
+that also sharply\n
+reduces the user's\n
+Sp. Atk stat." @}
++#"Stone Edge"#, @{ "The foe is stabbed\n
+by sharpened stones.\n
+It has a high\n
+critical-hit ratio." @}
++#Payback#, @{ "If the user moves\n
+after the target,\n
+this attack's power\n
+will be doubled." @}
++#"Fire Fang"#, @{ "The user bites the\n
+foe. It may make\n
+the foe flinch or\n
+leave it burned." @}
++#"Ice Fang"#, @{ "The user bites the\n
+foe. It may make\n
+the foe flinch or\n
+leave it frostbitten." @}
++#"Thunder Fang"#, @{ "The user bites the\n
+foe. It may make\n
+the foe flinch or\n
+leave it paralyzed.   " @}
++#"Flare Blitz"#, @{ "A fiery tackle that\n
+may leave the foe\n
+burned. It also hurts\n
+the user a little." @}
++#Inferno#, @{ "The foe is engulfed\n
+by an intense fire\n
+that is sure to\n
+leave a burn." @}
++#Hex#, @{ "This attack does\n
+double damage to a\n
+target affected by\n
+a status problem." @}
++#"Dual Chop"#, @{ "The user hits\n
+the foe with two\n
+brutal strikes\n
+in one turn." @}
++#"Double Hit"#, @{ "The user slams the\n
+foe twice in a row\n
+with a long tail,\n
+vines, etc." @}
++#"Cotton Guard"#, @{ "The user protects\n
+itself with cotton,\n
+drastically raising\n
+its Defense." @}
++#Acrobatics#, @{ "A nimble attack\n
+that does double\n
+damage if the user\n
+has no held item." @}
++#"Flame Burst"#, @{ "The user attacks\n
+the foe with a\n
+bursting flame." @}
++#U-turn#, @{ "After attacking,\n
+the user switches\n
+places with a\n
+party Pokémon." @}
++#"Volt Switch"#, @{ "After attacking,\n
+the user switches\n
+places with a\n
+party Pokémon." @}
++#"Dragon Tail"#, @{ "The foe is made to\n
+switch out with an\n
+ally. In the wild,\n
+the battle ends." @}
++#"Circle Throw"#, @{ "The foe is made to\n
+switch out with an\n
+ally. In the wild,\n
+the battle ends." @}
++#"Mirror Shot"#, @{ "The user looses\n
+a flash of energy\n
+to damage and\n
+lower accuracy." @}
++#"Wood Hammer"#, @{ "The user slams the\n
+foe with its hard\n
+body, also hurting\n
+itself a little." @}
++#"Heal Pulse"#, @{ "The user emits a\n
+healing pulse that\n
+restores a target's\n
+HP by up to half." @}
++#"Flash Cannon"#, @{ "Light energy is\n
+shot at the foe.\n
+It may also lower\n
+the foe's Sp. Def." @}
++#"Bug Bite"#, @{ "The user bites\n
+the foe, eating\n
+its berry if it is\n
+holding one." @}
++#Pluck#, @{ "The user pecks\n
+the foe, plucking\n
+its berry if it is\n
+holding one." @}
++#"Shell Smash"#, @{ "Sharply raises\n
+Attack, Sp. Atk, and\n
+Speed, but lowers\n
+Defense and Sp. Def." @}
++#"Rage Powder"#, @{ "The user scatters\n
+a cloud of powder,\n
+making foes attack\n
+only the user." @}
++#"Wake-Up Slap"#, @{ "Does double damage\n
+to a sleeping foe.\n
+It also wakes the\n
+foe up, however." @}
++#"Razor Shell"#, @{ "The foe is cut\n
+by sharp shells.\n
+It may also lower\n
+the foe's Defense." @}
++#Copycat#, @{ "The user mimics the\n
+last move used.\n
+Fails if no move\n
+has been used yet." @}
++#"Miracle Eye"#, @{ "Completely negates\n
+the foe's efforts to\n
+heighten its ability\n
+to evade." @}
++#"Sucker Punch"#, @{ "This move allows\n
+the user to strike\n
+first, if the foe is\n
+readying an attack." @}
++#Scald#, @{ "Boiling water is\n
+shot at the foe.\n
+It may also cause\n
+a burn." @}
++#Brine#, @{ "If the foe's HP is\n
+down to half, this\n
+attack does double\n
+damage." @}
++#"Fairy Wind"#, @{ "The user stirs up\n
+a fairy wind and\n
+strikes the foe\n
+with it." @}
++#"Doll Eyes"#, @{ "A cute stare that\n
+lowers the foe's\n
+Attack stat. It is\n
+sure to go first." @}
++#"Play Rough"#, @{ "The foe is roughed\n
+up by the user.\n
+This may lower the\n
+foe's Attack." @}
++#Moonblast#, @{ "The foe is attacked\n
+with the power of\n
+the moon. This may\n
+lower its Sp. Atk." @}
++#"Drain Kiss"#, @{ "A sweet kiss that\n
+absorbs over half\n
+the damage inflicted\n
+to restore HP." @}
++#"Dazzle Gleam"#, @{ "The user damages\n
+opposing Pokémon\n
+by emitting a\n
+powerful flash." @}
++#"Disarm Cry"#, @{ "The user lets out\n
+a charming cry\n
+that cannot be\n
+evaded." @}
++#"Stealth Rock"#, @{ "Levitating rocks\n
+are laid around the\n
+foe's party to hurt\n
+foes switching in." @}
++#"Toxic Spikes"#, @{ "Poisoned spikes\n
+are laid around the\n
+foe's party to hurt\n
+foes switching in." @}
++#"Healing Wish"#, @{ "The user faints,\n
+but will fully\n
+heal the Pokémon\n
+taking its place." @}
++#"Lunar Dance"#, @{ "The user faints,\n
+but will fully\n
+heal the Pokémon\n
+taking its place." @}
++#Tailwind#, @{ "Whips up a tailwind\n
+that ups the Speed\n
+of all party Pokémon\n
+for four turns." @}
++#Boomburst#, @{ "The user emits a\n
+terrible soundwave\n
+that hits everything\n
+around it." @}
++#Incinerate#, @{ "The user burns\n
+the foe completely,\n
+rendering a held Gem\n
+or Berry useless." @}
++#"Worry Seed"#, @{ "A worrying seed is\n
+planted on the foe,\n
+making its ability\n
+Insomnia." @}
++#"Gastro Acid"#, @{ "Stomach acid is\n
+hurled onto the\n
+foe, suppressing\n
+its ability." @}
++#Geomancy#, @{ "The user's Sp. Atk,\n
+Sp. Def, and Speed\n
+rise sharply on the\n
+second turn." @}
++#"Flower Guard"#, @{ "The Defense stat\n
+of all Grass-type\n
+Pokémon is raised\n
+by a strange power." @}
++#Rototiller#, @{ "The Attack and\n
+Sp. Atk stats of\n
+all Grass-type\n
+Pokémon are raised." @}
++#"Shift Gear"#, @{ "Rotating its gears,\n
+the user raises its\n
+Attack and sharply\n
+raises its Speed." @}
++#"Sticky Web"#, @{ "A sticky net is\n
+woven around the\n
+foe's party to slow\n
+foes switching in." @}
++#"Stored Power"#, @{ "The user attacks\n
+with a stored power\n
+that grows with\n
+each raised stat." @}
++#Acupressure#, @{ "The user sharply\n
+raises one of its\n
+stats by pressing\n
+its stress points." @}
++#Punishment#, @{ "The more the foe\n
+has raised its\n
+stats, the greater\n
+the move's power." @}
++#Assurance#, @{ "Does double damage\n
+if the foe has\n
+already taken\n
+damage this turn." @}
++#"Dragon Rush"#, @{ "A tackle exhibiting\n
+devastating menace.\n
+This may also make\n
+the target flinch." @}
++#"Dark Void"#, @{ "All foes are taken\n
+into a world of\n
+total darkness that\n
+makes them sleep." @}
++#Feint#, @{ "An attack that hits\n
+a protected target.\n
+This also lifts the\n
+protection." @}
++#PhantomForce#, @{ "The user vanishes,\n
+then strikes on the\n
+next turn, hitting\n
+even protected foes." @}
++#"Petal Storm"#, @{ "Stirs up a violent\n
+petal blizzard,\n
+hitting everything\n
+around it." @}
++#"Play Nice"#, @{ "The target loses\n
+its will to fight.\n
+This lowers its\n
+Attack." @}
++#"Roar of Time"#, @{ "An attack which\n
+distorts time. The\n
+user must rest on\n
+the next turn." @}
++#"Spacial Rend"#, @{ "An attack that\n
+tears the space\n
+around it. Critical\n
+hits land more\n
+easily." @}
++#"Magma Storm"#, @{ "A maelstrom of fire\n
+rages that traps\n
+the target for four\n
+to five turns." @}
++#"Final Gambit"#, @{ "The user risks all,\n
+dealing damage\n
+equal to its HP\n
+and then fainting\n
+from exhaustion." @}
++#"Shadow Force"#, @{ "The user vanishes,\n
+then strikes on the\n
+next turn, hitting\n
+even protected foes." @}
++#Nuzzle#, @{ "The target is\n
+attacked with\n
+electrified cheeks\n
+that leave it\n
+paralyzed." @}
++#Retaliate#, @{ "If an ally fainted\n
+in the previous\n
+turn, this attack's\n
+damage increases." @}
++#"Metal Bash"#, @{ "A physical attack\n
+in which the user\n
+charges, full body,\n
+into the foe." @}
++#Judgment#, @{ "An attack which\n
+changes type,\n
+depending on which\n
+kind of Plate the\n
+user is holding." @}
++#Freeze-Dry#, @{ "An attack which may\n
+leave the foe with\n
+frostbite. It is also\n
+super effective on\n
+Water-types." @}
++#Psyshock#, @{ "An odd psychic wave\n
+attacks the target.\n
+This attack does\n
+physical damage." @}
++#Round#, @{ "The user attacks\n
+with a song. Others\n
+can join in, doing\n
+more damage." @}
++#"Tail Slap"#, @{ "The user attacks by\n
+hitting the target\n
+with its hard tail.\n
+It hits two to five\n
+times in a row." @}
++#"Gear Grind"#, @{ "The user attacks by\n
+throwing two steel\n
+gears at it target.\n
+This attack hits\n
+twice in a row." @}
++#"Natural Gift"#, @{ "The type and base\n
+power of this move\n
+is determined by\n
+the user's Berry." @}
++#"Chip Away"#, @{ "An attack which is\n
+not affected by the\n
+target's stat\n
+changes." @}
++#"Smack Down"#, @{ "A projectile is\n
+thrown at the\n
+opponent. A flying\n
+Pokémon will fall\n
+to the ground." @}
++#"Space Hole"#, @{ "The user attacks\n
+from a hyperspace\n
+hole, hitting even\n
+protected targets." @}
++#"Gyro Ball"#, @{ "A high-speed spin.\n
+The slower the user\n
+is than the foe, the\n
+greater the damage." @}
++#"Space Fury"#, @{ "The target is hit\n
+with many arms.\n
+This hits protected\n
+foes, and lowers\n
+the user's Defense." @}
++#"Attack Order"#, @{ "The user calls out\n
+its underlings to\n
+pummel the foe.\n
+It has a high\n
+critical-hit ratio." @}
++#"Defend Order"#, @{ "The user calls out\n
+its underlings to\n
+shield its body,\n
+raising its Defense\n
+and Sp. Def stats." @}
++#"Heal Order"#, @{ "The user calls out\n
+its underlings to\n
+heal it. The user\n
+regains up to half\n
+of its max HP." @}
++#Captivate#, @{ "If the foe is the\n
+opposite gender of\n
+the user, the foe's\n
+Special Attack is\n
+harshly lowered." @}
++#Defog#, @{ "A strong wind blows\n
+away the target's\n
+obstacles. It also\n
+lowers the target's\n
+evasiveness." @}
++#"Origin Pulse"#, @{ "The user attacks\n
+opposing Pokémon\n
+with countless\n
+beams of light that\n
+glow a deep blue." @}
++#"Cliff Blades"#, @{ "The user attacks\n
+opposing Pokémon by\n
+manifesting the\n
+power of the land\n
+in blades of stone." @}
++#"Guard Swap"#, @{ "The user uses its\n
+psychic power to\n
+switch changes to\n
+its Defense and Sp.\n
+Def with the foe." @}
++#"Steam Pump"#, @{ "The user immerses\n
+the target in\n
+superheated steam.\n
+This may also burn\n
+the target." @}
++#"Metal Burst"#, @{ "The user retaliates\n
+with much greater\n
+force against the\n
+opponent that last\n
+did damage to it." @}
++#"Me First"#, @{ "The user tries to\n
+cut ahead of the\n
+target to steal and\n
+use its intended\n
+move with more power." @}
++#"Power Swap"#, @{ "The user uses its\n
+psychic power to\n
+switch changes to\n
+its Attack and Sp.\n
+Attack with the foe." @}
++#"Power Trick"#, @{ "The user employs\n
+its psychic power\n
+to switch its\n
+Attack stat with\n
+its Defense stat." @}
++#"Psycho Shift"#, @{ "Using its psychic\n
+power of suggestion,\n
+the user transfers\n
+its status problems\n
+to the target." @}
++#"Wring Out"#, @{ "The user powerfully\n
+wrings the target.\n
+The more HP the\n
+target has, the\n
+greater the power." @}
++#"Kings Shield"#, @{ "The user protects\n
+itself from damage,\n
+and harshly lowers\n
+the foe's Attack if\n
+it makes contact." @}
++#Psystrike#, @{ "An odd psychic wave\n
+attacks the target.\n
+This attack does\n
+physical damage." @}
++#Autotomize#, @{ "The user sheds part\n
+of its body to make\n
+itself lighter and\n
+sharply raise its\n
+Speed stat." @}
++#DiamondStorm#, @{ "The user whips up a\n
+storm of diamonds\n
+to damage the foes.\n
+This may also raise\n
+the user's Defense. " @}
++#"Sludge Wave"#, @{ "The area around the\n
+user is swamped by\n
+a giant sludge wave.\n
+It may also poison\n
+those hit." @}
++#"Heavy Slam"#, @{ "The user slams into\n
+the target. The\n
+greater the weight\n
+difference, the\n
+greater the damage." @}
++#Synchronoise#, @{ "Using an odd shock\n
+wave, the user\n
+damages same-type\n
+Pokémon in the\n
+surrounding area." @}
++#"Electro Ball"#, @{ "The user hurls an\n
+electric orb. The\n
+faster the user is\n
+than the foe, the\n
+greater the damage." @}
++#"Foul Play"#, @{ "The user turns the\n
+foe's power against\n
+it. This uses the\n
+foe's Attack stat." @}
++#Entrainment#, @{ "The user dances\n
+with an odd rhythm,\n
+making the target's\n
+Ability the same as\n
+the user's Ability." @}
++#"Night Daze"#, @{ "The user releases a\n
+pitch-black blast\n
+at its target. May\n
+also lower target's\n
+accuracy." @}
++#"Echoed Voice"#, @{ "The user attacks\n
+the target with a\n
+harsh echo.\n
+If used every turn,\n
+power increases." @}
++#"Land's Wrath"#, @{ "The user gathers\n
+energy from the\n
+land and damages\n
+the opposing Pokémon\n
+with its power." @}
++#OblivionWing#, @{ "The user absorbs its\n
+target's HP. The\n
+user's HP is restored\n
+by over half the\n
+damage." @}
++#"Heart Swap"#, @{ "The user employs its\n
+psychic power to\n
+switch stat changes\n
+with the target." @}
++#"Crush Grip"#, @{ "The foe's crushed\n
+with great force. The\n
+more HP the foe has,\n
+the stronger the\n
+power." @}
++#"Sacred Sword"#, @{ "The user attacks by\n
+slicing with a long\n
+horn. The target's\n
+stat changes are\n
+ignored." @}
++#"Heat Crash"#, @{ "The user slams down\n
+with fire. The more\n
+the user outweighs\n
+the foe, the greater\n
+the damage." @}
++#"Head Charge"#, @{ "The user charges its\n
+head into its foe,\n
+using its guard hair.\n
+It slightly damages\n
+the user." @}
++#"Techno Blast"#, @{ "The user fires a beam\n
+of light at its foe.\n
+The type changes\n
+depending on the\n
+Drive held." @}
++#"Relic Song"#, @{ "The user sings an\n
+ancient song and\n
+attacks the hearts of\n
+the listeners. It\n
+may induce sleep." @}
++#"Secret Sword"#, @{ "The user cuts with\n
+its long horn. The\n
+odd power in the\n
+horn does physical\n
+damage to the foe." @}
++#Glaciate#, @{ "The user attacks by\n
+blowing freezing cold\n
+air at opposing\n
+Pokémon. This lowers\n
+their Speed." @}
++#"Bolt Strike"#, @{ "The user surrounds\n
+itself with abundant\n
+electricity that can\n
+paralyze and charges\n
+its target." @}
++#"Blue Flare"#, @{ "The user attacks by\n
+engulfing the foe in\n
+a severe, beautiful,\n
+blue flame. It may\n
+burn the foe." @}
++#"Freeze Shock"#, @{ "A two-turn attack\n
+that hits the foe\n
+with electrically\n
+charged ice. It may\n
+paralyze the foe." @}
++#"Ice Burn"#, @{ "A two-turn attack\n
+that surrounds the\n
+foe with ultracold,\n
+freezing wind. It\n
+may burn the foe." @}
++#V-create#, @{ "The user hurls the\n
+hot flame on its\n
+forehead. It lowers\n
+the user's Def, Sp.\n
+Def, and Speed." @}
++#"Fusion Flare"#, @{ "The user brings down\n
+a huge flame. It does\n
+more damage when\n
+influenced by an\n
+enormous bolt." @}
++#"Fusion Bolt"#, @{ "The user throws down\n
+a giant bolt. It does\n
+more damage when\n
+influenced by an\n
+enormous flame." @}
++#"Fell Stinger"#, @{ "When the user knocks\n
+out a target with\n
+this move, the user's\n
+Attack stat rises\n
+drastically." @}
++#"Noble Roar"#, @{ "Letting out a noble\n
+roar, the user\n
+intimidates the\n
+target and lowers its\n
+Attack and Sp. Atk." @}
++#DragonAscent#, @{ "The user attacks by\n
+dropping off from\n
+the sky at high speed.\n
+This cuts the user's\n
+Defense and Sp. Def." @}
++#"Parting Shot"#, @{ "With a parting threat,\n
+the user lowers the\n
+foe's Attack and Sp.\n
+Atk stats then\n
+switches out." @}
++#Topsy-Turvy#, @{ "All stat changes\n
+affecting the target\n
+turn topsy-turvy and\n
+become the opposite\n
+of them." @}
++#"Core Enforce"#, @{ "If the target has\n
+already used its\n
+move this turn, it\n
+nullifies the effect\n
+of its Ability." @}
++#Chatter#, @{ "The user attacks the\n
+target with sound\n
+waves of deafening\n
+chatter. This\n
+confuses the target." @}
++#Confide#, @{ "The user tells the\n
+foe a secret and it\n
+loses concentration.\n
+This lowers Sp. Atk." @}
++#"Water Star"#, @{ "The user throws stars\n
+at the foe 2 to 5\n
+times in a row. This\n
+always strikes first." @}
++#"Mystic Fire"#, @{ "The user attacks by\n
+breathing a special,\n
+hot fire. This also\n
+lowers the target's\n
+Sp. Atk stat." @}
++#"Spiky Shield"#, @{ "Aside from protecting\n
+the user from attacks,\n
+this also damages\n
+attackers who make\n
+contact." @}
++#EerieImpulse#, @{ "The user's body\n
+generates an impulse.\n
+Exposing the foe to\n
+it harshly lowers\n
+its Sp. Atk stat." @}
++#"Hold Back"#, @{ "The user holds back\n
+when it attacks, and\n
+the target is left\n
+with at least 1 HP." @}
++#Infestation#, @{ "The foe is infested\n
+and attacked for four\n
+to five turns. The\n
+target can't flee\n
+during this." @}
++#"Power-Up Hit"#, @{ "Striking over and\n
+over hardens the\n
+user's fists.\n
+Hitting a target\n
+raises Attack." @}
++#"1000 Arrows"#, @{ "This move also hits\n
+opposing Pokémon in\n
+the air. They are\n
+knocked down to the\n
+ground." @}
++#"1000 Waves"#, @{ "The user attacks with\n
+a wave that crawls\n
+along the ground.\n
+Those hit can't flee\n
+from battle." @}
++#"Para Charge"#, @{ "The user attacks\n
+everything around it.\n
+The user's HP is\n
+restored by half the\n
+damage." @}
++#"Searing Shot"#, @{ "The user torches\n
+everything around it\n
+in an inferno of\n
+scarlet flames.\n
+It may cause burns." @}
++#"Seed Flare"#, @{ "The user emits a\n
+shock wave from its\n
+body. This may also\n
+harshly lower the\n
+target's Sp. Def." @}
++#Accelerock#, @{ "The user smashes into\n
+the target at high\n
+speed. This move\n
+always goes first." @}
++#"Anchor Shot"#, @{ "The user entangles\n
+the target with its\n
+anchor chain while\n
+attacking. The target\n
+cannot flee." @}
++#"Aurora Veil"#, @{ "This move reduces\n
+damage from physical\n
+and special moves for\n
+five turns during a\n
+hailstorm." @}
++#"Baneful Bunk"#, @{ "Aside from protecting\n
+the user from attacks,\n
+this also poisons\n
+attackers who make\n
+contact." @}
++#"Beak Blast"#, @{ "The user heats up its\n
+beak and attacks.\n
+Contact during heating\n
+causes a burn." @}
++#"Brutal Swing"#, @{ "The user swings its\n
+body around violently\n
+to inflict damage on\n
+everything in its\n
+vicinity." @}
++#"Burn Up"#, @{ "The user burns\n
+itself out. After\n
+using this move,\n
+the user will no\n
+longer be Fire type." @}
++#"Clang Scales"#, @{ "The user rubs its\n
+scales and makes a\n
+huge noise to\n
+attack. The user's\n
+Def stat goes down." @}
++#"Dark Lariat"#, @{ "The user swings both\n
+arms and hits the\n
+target. The target's\n
+stat changes are\n
+ignored." @}
++#"Draco Hammer"#, @{ "The user uses its\n
+body like a hammer\n
+to attack the target\n
+and inflict damage." @}
++#"Fire Lash"#, @{ "The user strikes the\n
+target with a burning\n
+lash. This also\n
+lowers the target's\n
+Defense stat." @}
++#"First Press"#, @{ "Although this move\n
+has great power, it\n
+only works the first\n
+turn the user is in\n
+battle." @}
++#"Fleur Cannon"#, @{ "The user unleashes a\n
+strong beam. The\n
+attack's recoil\n
+harshly lowers the\n
+user's Sp. Atk stat." @}
++#"Floral Heal"#, @{ "The user restores up\n
+to half the max HP\n
+of the target. It\n
+restores more HP\n
+on Grassy Terrain." @}
++#"Gear Up"#, @{ "The user engages its\n
+gears to raise the\n
+Attack and Sp. Atk\n
+of allies with the\n
+Plus or Minus Ability." @}
++#HiHorsepower#, @{ "The user fiercely\n
+attacks the target\n
+using its entire\n
+body." @}
++#"Ice Hammer"#, @{ "The user swings\n
+its heavy fist.\n
+It also lowers the\n
+user's Speed." @}
++#"Laser Focus"#, @{ "The user concentrates\n
+intensely. The\n
+attack on the next\n
+turn always results\n
+in a critical hit." @}
++#Leafage#, @{ "The user attacks by\n
+pelting the target\n
+with leaves." @}
++#Liquidation#, @{ "The user slams into\n
+the foe using a\n
+full-force water\n
+blast. This may lower\n
+the foe's Defense." @}
++#Lunge#, @{ "The user makes a\n
+lunge at the foe,\n
+attacking with full\n
+force. This lowers\n
+the foe's Attack." @}
++#"Geist Beam"#, @{ "The user emits a\n
+sinister ray. This\n
+can be used on the\n
+target regardless\n
+of its Ability." @}
++#Multi-Attack#, @{ "Cloaking itself in\n
+high energy, the user\n
+slams into the foe.\n
+Its type depends on\n
+the memory." @}
++#"Nature's Mad"#, @{ "The user hits the\n
+target with the\n
+force of nature. It\n
+halves the target's\n
+HP." @}
++#"Pollen Puff"#, @{ "The user attacks the\n
+foe with exploding\n
+pollen puff. If\n
+target is an ally, it\n
+heals instead." @}
++#"Power Trip"#, @{ "The user boasts its\n
+strength. The more\n
+the user's stats are\n
+raised, the greater\n
+the power." @}
++#"Prism Laser"#, @{ "The user shoots\n
+powerful lasers using\n
+prism power. The\n
+user can't move on\n
+the next turn." @}
++#"Psychic Fang"#, @{ "The user bites the\n
+target with psychic\n
+capabilities. This\n
+destroys Light\n
+Screen and Reflect." @}
++#Purify#, @{ "The user heals the\n
+target's status\n
+condition. If this\n
+succeeds, it also\n
+heals the user's HP." @}
++#"Revel Dance"#, @{ "The user attacks the\n
+target by dancing\n
+very hard. The user's\n
+type determines this\n
+move's type." @}
++#"Shadow Bone"#, @{ "The user attacks the\n
+foe with a bone of\n
+spirit. It may lower\n
+the foe's Defense." @}
++#"Shell Trap"#, @{ "The user sets a\n
+shell trap. If the\n
+user is hit by a\n
+physical move, the\n
+trap will explode." @}
++#"Shore Up"#, @{ "The user regains up\n
+to half of its max\n
+HP. It restores\n
+more HP in a\n
+sandstorm." @}
++#"Smart Strike"#, @{ "The user stabs the\n
+target with a sharp\n
+horn. This attack\n
+never misses." @}
++#"Solar Blade"#, @{ "In this two-turn move,\n
+the user gathers\n
+light and fills a\n
+blade with light's\n
+energy to attack." @}
++#"Sparkle Aria"#, @{ "The user bursts into\n
+song, emitting\n
+bubbles. Any burnt\n
+Pokémon will be\n
+healed." @}
++#"Spect Thief"#, @{ "The user hides in\n
+the target's shadow,\n
+steals the target's\n
+stat boosts, and\n
+then attacks." @}
++#"Speed Swap"#, @{ "The user exchanges\n
+Speed stats with\n
+the target." @}
++#"Spirit Lock"#, @{ "The user attacks\n
+while stitching the\n
+target's shadow to\n
+the ground to\n
+prevent escape." @}
++#Spotlight#, @{ "The user shines a\n
+spotlight on the\n
+target so that only\n
+the target will be\n
+attacked." @}
++#"Bad Tantrum"#, @{ "If the previous move\n
+failed, frustration\n
+doubles the power of\n
+this move." @}
++#"Strength Sap"#, @{ "The user drains HP\n
+equal to the foe's\n
+Attack stat. It\n
+also lowers the\n
+foe's Attack stat." @}
++#"Sunsteel Ram"#, @{ "The user slams the\n
+target with a meteor\n
+force. This move\n
+disregards the\n
+target's Ability." @}
++#"Teary Look"#, @{ "The user gets teary\n
+eyed to look pitiful.\n
+This lowers the\n
+target's Attack and\n
+Sp. Atk stats." @}
++#"Throat Chop"#, @{ "The user attacks the\n
+foe's throat to\n
+prevent it from\n
+using moves that emit\n
+sound for two turns." @}
++#"Toxic Thread"#, @{ "The user shoots\n
+poisonous threads to\n
+poison the target\n
+and lower the\n
+target's Speed stat." @}
++#"Trop Kick"#, @{ "The user lands a\n
+tropical kick on the\n
+foe. It also lowers\n
+the foe's Attack." @}
++#"Zing Zap"#, @{ "A strong electric\n
+blast crashes down\n
+on the target. This\n
+may make the target\n
+flinch." @}
++#"Elec Terrain"#, @{ "The user electrifies\n
+the ground for five\n
+turns, powering up\n
+Electric moves and\n
+eluding sleep." @}
++#GrassTerrain#, @{ "The user turns the\n
+ground to grass for\n
+five turns, powering\n
+up Grass moves and\n
+restoring HP." @}
++#"Mist Terrain"#, @{ "The user covers the\n
+ground in mist for\n
+five turns, halving\n
+Dragon moves and\n
+preventing status." @}
++#"Psyc Terrain"#, @{ "The user makes the\n
+ground weird for\n
+five turns, boosting\n
+Psychic moves and\n
+blocking priority." @}
++#"Grass Pledge"#, @{ "When combined with\n
+Water Pledge, its\n
+power increases and\n
+a vast swamp appears." @}
++#"Fire Pledge"#, @{ "When combined with\n
+Grass Pledge, its\n
+power increases and a\n
+sea of fire appears." @}
++#"Water Pledge"#, @{ "When combined with\n
+Fire Pledge, its\n
+power increases and\n
+a rainbow appears." @}
++#"Trick Room"#, @{ "The user creates a\n
+bizarre area in\n
+which slower Pokémon\n
+get to move first\n
+for five turns." @}
++#"Magic Room"#, @{ "The user creates a\n
+bizarre area in\n
+which Pokémon's held\n
+items lose effect\n
+for five turns." @}
++#"Wonder Room"#, @{ "The user creates a\n
+bizarre area where\n
+Pokémon's Defense\n
+and Sp. Def swap\n
+for five turns." @}
++#"Crafty Guard"#, @{ "The user protects\n
+itself and its\n
+allies from status\n
+moves with a\n
+mysterious power." @}
++#"Mat Block"#, @{ "Using a pulled-up\n
+mat as a shield,\n
+the user protects\n
+itself and its allies\n
+from damaging moves." @}
++#"Quick Guard"#, @{ "The user protects\n
+itself and its\n
+allies from priority\n
+moves." @}
++#"Wide Guard"#, @{ "The user protects\n
+itself and its\n
+allies from wide-\n
+ranged attacks." @}
++#"Aqua Ring"#, @{ "The user envelops\n
+itself in a veil\n
+made of water. It\n
+regains some HP\n
+every turn." @}
++#"Aroma Mist"#, @{ "The user raises the\n
+Sp. Def stat of an\n
+ally Pokémon by\n
+using a mysterious\n
+aroma." @}
++#Belch#, @{ "The user lets out a\n
+damaging belch at\n
+the target. The user\n
+must eat a held\n
+Berry to use this." @}
++#Bestow#, @{ "The user passes its\n
+held item to the\n
+target when the\n
+target isn't\n
+holding an item." @}
++#Fling#, @{ "The user flings its\n
+held item at the\n
+target to attack.\n
+Its power and effect\n
+depend on the item." @}
++#"Flying Press"#, @{ "The user dives down\n
+onto the target from\n
+the sky. This move\n
+is both Fighting\n
+and Flying type." @}
++#Gravity#, @{ "Gravity intensifies\n
+for five turns,\n
+preventing moves\n
+that use flight and\n
+negating Levitate." @}
++#"Guard Split"#, @{ "The user employs its\n
+psychic power to\n
+average its Defense\n
+and Sp. Def stats\n
+with the target." @}
++#"Heal Block"#, @{ "The user prevents\n
+the opposing team\n
+from using any HP\n
+recovery for five\n
+turns." @}
++#"Ion Deluge"#, @{ "The user disperses\n
+electrically charged\n
+particles, changing\n
+Normal- to Electric-\n
+type moves." @}
++#"Lucky Chant"#, @{ "The user chants an\n
+incantation that\n
+prevents foes from\n
+landing critical\n
+hits for five turns." @}
++#"Magnet Rise"#, @{ "The user levitates\n
+using electrically\n
+generated magnetism\n
+for five turns." @}
++#"Magnet Flux"#, @{ "The user manipulates\n
+magnets to up Def\n
+and Sp. Def stats of\n
+allies with Plus or\n
+Minus Ability." @}
++#Powder#, @{ "The user covers the\n
+target in a powder\n
+that explodes if it\n
+uses a Fire-type\n
+move." @}
++#"Power Split"#, @{ "The user employs its\n
+psychic power to\n
+average its Attack\n
+and Sp. Atk stats\n
+with the target." @}
++#"Reflect Type"#, @{ "The user reflects\n
+the target's type,\n
+making it the same\n
+type as the target." @}
++#"Simple Beam"#, @{ "The user's\n
+mysterious psychic\n
+wave changes the\n
+target's Ability to\n
+Simple." @}
++#Soak#, @{ "The user shoots a\n
+torrent of water at\n
+the target and\n
+changes the target's\n
+type to Water." @}
++#Telekinesis#, @{ "The user makes the\n
+target float with\n
+psychic power. The\n
+target is easier to\n
+hit for three turns." @}
++#TrickoTreat#, @{ "The foe is brought\n
+trick-or-treating.\n
+This adds Ghost type\n
+to the target's type." @}
++#"Venom Drench"#, @{ "The user sprays a\n
+poisonous liquid\n
+that lowers Attack,\n
+Sp. Atk, and Speed\n
+of poisoned foes." @}
++#"Woods Curse"#, @{ "The user puts a\n
+forest curse on the\n
+target. The target\n
+is now Grass type\n
+as well." @}
++#"Mind Blown"#, @{ "The user attacks\n
+everything around it\n
+by making its head\n
+explode. This also\n
+damages the user." @}
++#PhotonGeyser#, @{ "A pillar of light\n
+that deals physical\n
+or special damage\n
+based on the user's\n
+better stat." @}
++#"Plasma Fists"#, @{ "The user attacks\n
+with electrically\n
+charged fists. This\n
+makes Normal-type\n
+moves Electric-type." @}
++#Electrify#, @{ "If the target is\n
+electrified before\n
+its move in the turn,\n
+the target's move\n
+becomes Electric." @}
++#Embargo#, @{ "It prevents the\n
+target from using\n
+items. Its Trainer\n
+also can't use\n
+items on it." @}
++#"Fairy Lock"#, @{ "By locking down the\n
+battlefield, the\n
+user keeps all\n
+Pokémon from fleeing\n
+during the next turn." @}
++#"Light o Ruin"#, @{ "The user fires a\n
+powerful beam of\n
+light from the\n
+Eternal Flower. This\n
+damages the user." @}
++#"Trump Card"#, @{ "The fewer PP this\n
+move has, the\n
+greater its power." @}
++#"After You"#, @{ "The user helps the\n
+target and makes it\n
+use its move right\n
+after the user." @}
++#Instruct#, @{ "The user instructs\n
+the target to use\n
+the target's last\n
+move again." @}
++#Quash#, @{ "The user suppresses\n
+the target and makes\n
+its move go last." @}
++#"Happy Hour"#, @{ "Using Happy Hour\n
+doubles the amount\n
+of prize money\n
+received after\n
+battle." @}
++#"Double Iron"#, @{ "The user centers\n
+its hex nut and\n
+strikes twice with\n
+its arms. It may\n
+cause flinching." @}
++#"Last Resort"#, @{ "It can only be\n
+used after the\n
+user has exhausted\n
+all other moves it\n
+knows in battle." @}
++#"Sky Drop"#, @{ "It takes the enemy\n
+into the sky,\n
+where it can't\n
+attack. It is\n
+dropped next turn." @}
++#Celebrate#, @{ "The Pokémon\n
+congratulates you\n
+on your special\n
+day!" @}
++#"Hold Hands"#, @{ "The user and an\n
+ally hold hands.\n
+This makes them\n
+very happy." @}
++#"DMax Cannon"#, @{ "The user unleashes\n
+a strong beam that\n
+deals double damage\n
+to Dynamaxed targets." @}
++#"Snipe Shot"#, @{ "The user ignores\n
+the effects of moves\n
+and Abilities that\n
+draw in moves." @}
++#"Jaw Lock"#, @{ "The user bites down,\n
+preventing itself\n
+and the target from\n
+switching out." @}
++#"Stuff Cheeks"#, @{ "The user consumes\n
+its held Berry,\n
+then raises its\n
+Defense sharply." @}
++#"No Retreat"#, @{ "All of the user's\n
+stats are raised,\n
+but it can no longer\n
+switch out or flee." @}
++#"Tar Shot"#, @{ "Sticky tar lowers\n
+the target's Speed,\n
+and makes it weaker\n
+to Fire-type moves." @}
++#"Magic Powder"#, @{ "The user scatters\n
+magic powder that\n
+changes the target\n
+into a Psychic-type." @}
++#"Dragon Darts"#, @{ "The user attacks\n
+twice. If there\n
+are two targets,\n
+each is hit once." @}
++#Teatime#, @{ "All Pokémon on the\n
+field have teatime.\n
+Each Pokémon eats\n
+its held Berry." @}
++#Octolock#, @{ "The user traps the\n
+foe and makes its\n
+Defense and Sp. Def\n
+fall each turn." @}
++#"Bolt Beak"#, @{ "If the user moves\n
+before the target,\n
+the power of this\n
+move is doubled." @}
++#FishiousRend#, @{ "If the user moves\n
+before the target,\n
+the power of this\n
+move is doubled." @}
++#"Court Change"#, @{ "The user swaps\n
+the effects on\n
+either side of\n
+the field." @}
++#"Clang Soul"#, @{ "The user raises\n
+all of its stats\n
+by using some of\n
+its HP." @}
++#"Body Press"#, @{ "The higher the\n
+user's Defense,\n
+the more damage\n
+it will inflict." @}
++#Decorate#, @{ "The user sharply\n
+raises the target's\n
+Attack and Sp. Atk\n
+by decorating it." @}
++#"Drum Beating"#, @{ "The user plays its\n
+drum to attack.\n
+The target's Speed\n
+stat is lowered." @}
++#"Snap Trap"#, @{ "The user snares\n
+the target in a\n
+snap trap for four\n
+to five turns." @}
++#"Pyro Ball"#, @{ "The user launches\n
+a fiery ball at\n
+the target. It may\n
+also cause a burn." @}
++#"Giant Blade"#, @{ "The user becomes a\n
+sword and strikes.\n
+Double damage on\n
+Dynamaxed targets." @}
++#"Giant Bash"#, @{ "The user becomes a\n
+shield and strikes.\n
+Double damage on\n
+Dynamaxed targets." @}
++#"Aura Wheel"#, @{ "Morpeko raises its\n
+Speed and attacks.\n
+The move's type is\n
+based on its form." @}
++#"Break Swipe"#, @{ "The user attacks the\n
+foes by swinging its\n
+tail wildly, lowering\n
+their Attack." @}
++#"Branch Poke"#, @{ "The user attacks\n
+the target by\n
+poking it with a\n
+pointed branch." @}
++#Overdrive#, @{ "The user twangs\n
+its guitar, which\n
+causes an echo and\n
+strong vibrations." @}
++#"Apple Acid"#, @{ "The user attacks\n
+with acid made from\n
+tart apples. Lowers\n
+the foe's Sp. Def." @}
++#"Grav Apple"#, @{ "The user attacks by\n
+dropping an apple\n
+from above. Lowers\n
+the foe's Defense." @}
++#"Spirit Break"#, @{ "The user attacks\n
+with spirit-breaking\n
+force, lowering the\n
+target's Sp. Atk." @}
++#"Weird Steam"#, @{ "The user attacks\n
+by emitting steam.\n
+The steam may also\n
+confuse the target." @}
++#"Life Dew"#, @{ "The user scatters\n
+water that restores\n
+the HP of itself\n
+and its allies." @}
++#Obstruct#, @{ "The user protects\n
+itself, and harshly\n
+lowers the foe's\n
+Defense on contact." @}
++#"False Yield"#, @{ "The user bows,\n
+then uses its hair\n
+to stab the foe.\n
+It never misses." @}
++#"Meteor Rush"#, @{ "The user attacks\n
+with its thick leek.\n
+The user must rest\n
+on the next turn." @}
++#Eternabeam#, @{ "Eternatus's most\n
+powerful attack.\n
+The user must rest\n
+on the next turn." @}
++#"Steel Beam"#, @{ "It fires a beam\n
+of steel from its\n
+body, which also\n
+hurts the user." @}
++#"Expand Force"#, @{ "The move's power\n
+increases and damages\n
+all opposing targets\n
+in Psychic Terrain." @}
++#"Steel Roller"#, @{ "The user attacks and\n
+destroys the terrain.\n
+The move fails if\n
+there is no terrain." @}
++#"Scale Shot"#, @{ "It hits two to five\n
+times in a row.\n
+Raises Speed, but\n
+lowers Defense." @}
++#"Meteor Beam"#, @{ "In this two-turn move,\n
+the user gathers\n
+space power and\n
+increases Sp. Atk." @}
++#ShellSideArm#, @{ "Inflicts the more\n
+effective of physical\n
+or special damage.\n
+May poison the foe." @}
++#MistyExplode#, @{ "The user explodes\n
+and faints itself.\n
+Its power increases\n
+on Misty Terrain." @}
++#"Grassy Glide"#, @{ "The user glides\n
+on the ground to\n
+attack. Hits first\n
+on Grassy Terrain." @}
++#"Rising Volt"#, @{ "The user attacks with\n
+earthly voltage. It\n
+doubles in power on\n
+Electric Terrain." @}
++#TerrainPulse#, @{ "The move's type\n
+and power depends on\n
+the terrain currently\n
+used in battle." @}
++#SkitterSmack#, @{ "The user skitters\n
+behind the target to\n
+attack. It lowers the\n
+foe's Sp.Atk stat." @}
++#"Jealous Burn"#, @{ "Inflicts a burn on\n
+targets that had\n
+their stats boosted\n
+during the turn used." @}
++#"Lash Out"#, @{ "The move's power\n
+doubles if the user's\n
+stats have fallen\n
+during the turn." @}
++#Poltergeist#, @{ "The user controls\n
+the target's item to\n
+attack. Fails if the\n
+target has no item." @}
++#"Corrode Gas"#, @{ "The user cloaks\n
+itself in acidic gas.\n
+It melts away the\n
+target's held item." @}
++#Coaching#, @{ "The user coaches\n
+its ally, raising\n
+the ally's Attack\n
+and Defense stats." @}
++#"Flip Turn"#, @{ "After attacking,\n
+the user switches\n
+places with a\n
+party Pokémon." @}
++#"Triple Axel"#, @{ "A 3-kick attack\n
+that becomes more\n
+powerful with each\n
+successive hit." @}
++#DualWingbeat#, @{ "The user slams\n
+the target with its\n
+wings. The target is\n
+hit twice in a row." @}
++#"Scorch Sands"#, @{ "The user throws\n
+scorching sand at the\n
+target. It may also\n
+inflict a burn." @}
++#"Jungle Heal"#, @{ "The user restores\n
+HP and the status\n
+of itself and its\n
+ally in battle." @}
++#"Wicked Blow"#, @{ "The user strikes\n
+the foe fiercely.\n
+It always results in\n
+a critical hit." @}
++#SurgeStrikes#, @{ "The user strikes\n
+three times in a row.\n
+It always results in\n
+a critical hit." @}
++#"Freeze Glare"#, @{ "The user attacks\n
+with psychic power.\n
+It may leave the\n
+target with frostbite." @}
++#"Thunder Kick"#, @{ "The user delivers\n
+a fierce kick that\n
+lowers the target's\n
+defense stat." @}
++#"Fiery Wrath"#, @{ "The user attacks with\n
+intense, dark flames.\n
+It may also make\n
+the foe flinch." @}
++#"Eerie Spell"#, @{ "The user attacks with\n
+psychic power that\n
+removes 3 PP from\n
+the foe's last move." @}
++#"Thunder Cage"#, @{ "A cage made of\n
+electricity that traps\n
+the target for four\n
+to five turns." @}
++#DragonEnergy#, @{ "The higher the\n
+user's HP, the\n
+more powerful this\n
+attack becomes." @}
++#"Astral Storm"#, @{ "A frightful amount of\n
+small ghosts are sent\n
+to attack opposing\n
+Pokémon." @}
++#GlacialLance#, @{ "The user attacks by\n
+hurling a blizzard-\n
+cloaked icicle lance\n
+at opposing Pokémon." @}
++#"Dire Claw"#, @{ "A slash that may\n
+poison, paralyze, or\n
+sleep the foe. It\n
+has a high crit ratio." @}
++#PsyshieldRam#, @{ "The user slams into\n
+the foe with psychic\n
+energy. It raises the\n
+user's Defense too." @}
++#"Power Shift"#, @{ "The user swaps its\n
+offensive and\n
+defensive stats." @}
++#"Stone Axe"#, @{ "The foe is hit with\n
+an axe that leaves\n
+behind splinters. It\n
+has a high crit ratio." @}
++#"Mystic Power"#, @{ "After dealing damage,\n
+the user raises the\n
+higher stats of its\n
+offenses or defenses." @}
++#"Raging Fury"#, @{ "The user rampages\n
+and spews vicious\n
+flames for two to\n
+three turns." @}
++#"Wave Crash"#, @{ "The user slams into\n
+the target, hurting\n
+itself a little. This\n
+move strikes first." @}
++#Chloroblast#, @{ "The user launches its\n
+amassed chlorophyll\n
+at the foe. This also\n
+hurts the user." @}
++#MountainGale#, @{ "The user hurls giant\n
+chunks of ice at\n
+the foe that may\n
+cause it to flinch." @}
++#VictoryDance#, @{ "The user dances to\n
+usher in victory.\n
+This raises Attack,\n
+Defense, and Speed." @}
++#HeadlongRush#, @{ "The user smashes into\n
+the foe. This cuts\n
+the user's Defense\n
+and Sp. Def stats." @}
++#"Barb Barrage"#, @{ "Barbs that may poison\n
+are shot at the foe.\n
+Its power doubles if\n
+the foe is poisoned." @}
++#"Esper Wing"#, @{ "The foe is slashed\n
+with wings of light.\n
+This goes first and\n
+has a high crit ratio." @}
++#BitterMalice#, @{ "The user attacks and\n
+may inflict the foe\n
+with frostbite. Its\n
+power doubles if the\n
+foe has frostbite." @}
++#Shelter#, @{ "The user makes its\n
+skin iron-hard to\n
+raise its Defense\n
+and its Speed." @}
++#TripleArrows#, @{ "The foe is shot with\n
+arrows that raise the\n
+crit ratio and lower\n
+the foe's Defense." @}
++#InfernalRage#, @{ "Myriad fireballs that\n
+may burn hit the foe.\n
+Its power doubles if\n
+the foe is burned." @}
++#"Endless Edge"#, @{ "The foe is slashed.\n
+This leaves behind\n
+splinters. It has a\n
+high crit ratio." @}
++#BleakiceWind#, @{ "The user attacks\n
+with savagely cold\n
+winds. This may\n
+cause a frostbite." @}
++#WildboltWind#, @{ "The user savagely\n
+attacks with wind\n
+and lightning. This\n
+may cause paralysis." @}
++#SandsearWind#, @{ "The user attacks\n
+with fierce winds\n
+and hot sand. This\n
+may cause a burn." @}
++#"Spring Wind"#, @{ "The user attacks\n
+with love and hate.\n
+The effects depend\n
+on the user's form." @}
++#"Lunar Bless"#, @{ "The user heals its\n
+own statuses and\n
+restores HP. It also\n
+raises evasiveness." @}
++#"Take Heart"#, @{ "The user heals its\n
+own statuses and\n
+raises its Sp. Atk\n
+and Sp. Def." @}
++#"Z-Move 1"#, @{ "-" @}
++#"Z-Move 2"#, @{ "-" @}
++#"Z-Move 3"#, @{ "-" @}
++#"Z-Move 4"#, @{ "-" @}
++#"Z-Move 5"#, @{ "-" @}
++#"Z-Move 6"#, @{ "-" @}
++#"Z-Move 7"#, @{ "-" @}
++#"Z-Move 8"#, @{ "-" @}
++#"Z-Move 9"#, @{ "-" @}
++#"Z-Move 10"#, @{ "-" @}
++#"Z-Move 11"#, @{ "-" @}
++#"Z-Move 12"#, @{ "-" @}
++#"Z-Move 13"#, @{ "-" @}
++#"Z-Move 14"#, @{ "-" @}
++#"Z-Move 15"#, @{ "-" @}
++#"Z-Move 16"#, @{ "-" @}
++#"Z-Move 17"#, @{ "-" @}
++#"Z-Move 18"#, @{ "-" @}
++#"Z-Move 19"#, @{ "-" @}
++#"Z-Move 20"#, @{ "-" @}
++#"Z-Move 21"#, @{ "-" @}
++#"Z-Move 22"#, @{ "-" @}
++#"Z-Move 23"#, @{ "-" @}
++#"Z-Move 24"#, @{ "-" @}
++#"Z-Move 25"#, @{ "-" @}
++#"Z-Move 26"#, @{ "-" @}
++#"Z-Move 27"#, @{ "-" @}
++#"Z-Move 28"#, @{ "-" @}
++#"Z-Move 29"#, @{ "-" @}
++#"Z-Move 30"#, @{ "-" @}
++#"Z-Move 31"#, @{ "-" @}
++#"Z-Move 32"#, @{ "-" @}
++#"Z-Move 33"#, @{ "-" @}
++#"Z-Move 34"#, @{ "-" @}
++#"Z-Move 35"#, @{ "-" @}
++#"Z-Move 36"#, @{ "-" @}
++#"Z-Move 37"#, @{ "-" @}
++#"Z-Move 38"#, @{ "-" @}
++#"Z-Move 39"#, @{ "-" @}
++#"Z-Move 40"#, @{ "-" @}
++#"Z-Move 41"#, @{ "-" @}
++#"Z-Move 42"#, @{ "-" @}
++#"Z-Move 43"#, @{ "-" @}
++#"Z-Move 44"#, @{ "-" @}
++#"Z-Move 45"#, @{ "-" @}
++#"Z-Move 46"#, @{ "-" @}
++#"Z-Move 47"#, @{ "-" @}
++#"Z-Move 48"#, @{ "-" @}
++#"Z-Move 49"#, @{ "-" @}
++#"Z-Move 50"#, @{ "-" @}
++#"Z-Move 51"#, @{ "-" @}
++#"Z-Move 52"#, @{ "-" @}
++#"Z-Move 53"#, @{ "-" @}
++#Guard#, @{ "Enables the user to\n
+evade all attacks.\n
+It may fail if used\n
+in succession." @}
++#Strike#, @{ "Normal-Type Dynamax\n
+move. It lowers\n
+the target's Speed\n
+stat." @}
++#Strike~2#, @{ "Normal-Type Dynamax\n
+move. It lowers\n
+the target's Speed\n
+stat." @}
++#Knuckle#, @{ "Fighting Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Attack stats." @}
++#Knuckle~2#, @{ "Fighting Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Attack stats." @}
++#Airstream#, @{ "Flying-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Speed stats." @}
++#Airstream~2#, @{ "Flying-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Speed stats." @}
++#Ooze#, @{ "Poison-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Sp. Atk stats." @}
++#Ooze~2#, @{ "Poison-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Sp. Atk stats." @}
++#Quake#, @{ "Ground-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Sp. Def stats." @}
++#Quake~2#, @{ "Ground-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Sp. Def stats." @}
++#Rockfall#, @{ "Rock-Type Dynamax\n
+move. It summons\n
+a sandstorm that\n
+lasts five turns." @}
++#Rockfall~2#, @{ "Rock-Type Dynamax\n
+move. It summons\n
+a sandstorm that\n
+lasts five turns." @}
++#Flutterby#, @{ "Bug-Type Dynamax\n
+move. It lowers\n
+the target's\n
+Sp. Atk stat." @}
++#Flutterby~2#, @{ "Bug-Type Dynamax\n
+move. It lowers\n
+the target's\n
+Sp. Atk stat." @}
++#Phantasm#, @{ "Ghost-Type Dynamax\n
+move. It lowers\n
+the target's\n
+Defense stat." @}
++#Phantasm~2#, @{ "Ghost-Type Dynamax\n
+move. It lowers\n
+the target's\n
+Defense stat." @}
++#Steelspike#, @{ "Steel-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Defense stats." @}
++#Steelspike~2#, @{ "Steel-Type Dynamax\n
+move. It raises\n
+ally Pokémon's\n
+Defense stats." @}
++#Flare#, @{ "Fire-Type Dynamax\n
+move. It causes the\n
+sun to intensify\n
+for five turns." @}
++#Flare~2#, @{ "Fire-Type Dynamax\n
+move. It causes the\n
+sun to intensify\n
+for five turns." @}
++#Geyser#, @{ "Water-Type Dynamax\n
+move. It summons\n
+rain that falls\n
+for five turns." @}
++#Geyser~2#, @{ "Water-Type Dynamax\n
+move. It summons\n
+rain that falls\n
+for five turns." @}
++#Overgrowth#, @{ "Grass-Type Dynamax\n
+move. It activates\n
+Grassy Terrain for\n
+five turns." @}
++#Overgrowth~2#, @{ "Grass-Type Dynamax\n
+move. It activates\n
+Grassy Terrain for\n
+five turns." @}
++#Lightning#, @{ "Electric Dynamax\n
+move. It activates\n
+Electric Terrain\n
+for five turns." @}
++#Lightning~2#, @{ "Electric Dynamax\n
+move. It activates\n
+Electric Terrain\n
+for five turns." @}
++#Mindstorm#, @{ "Psychic Dynamax\n
+move. It activates\n
+Psychic Terrain\n
+for five turns." @}
++#Mindstorm~2#, @{ "Psychic Dynamax\n
+move. It activates\n
+Psychic Terrain\n
+for five turns." @}
++#Hailstorm#, @{ "Ice-Type Dynamax\n
+move. It summons\n
+a hailstorm for\n
+five turns." @}
++#Hailstorm~2#, @{ "Ice-Type Dynamax\n
+move. It summons\n
+a hailstorm for\n
+five turns." @}
++#Wyrmwind#, @{ "Dragon-Type Dynamax\n
+move. It lowers\n
+the target's Attack\n
+stat." @}
++#Wyrmwind~2#, @{ "Dragon-Type Dynamax\n
+move. It lowers\n
+the target's Attack\n
+stat." @}
++#Darkness#, @{ "Dark-Type Dynamax\n
+move. It lowers\n
+the target's\n
+Sp. Def stat." @}
++#Darkness~2#, @{ "Dark-Type Dynamax\n
+move. It lowers\n
+the target's\n
+Sp. Def stat." @}
++#Starfall#, @{ "Fairy-Type Dynamax\n
+move. It activates\n
+Misty Terrain for\n
+five turns." @}
++#Starfall~2#, @{ "Fairy-Type Dynamax\n
+move. It activates\n
+Misty Terrain for\n
+five turns." @}
++#"Vine Lash"#, @{ "G-Max Venusaur's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#"Vine Lash~2"#, @{ "G-Max Venusaur's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#Wildfire#, @{ "G-Max Charizard's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#Wildfire~2#, @{ "G-Max Charizard's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#Cannonade#, @{ "G-Max Blastoise's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#Cannonade~2#, @{ "G-Max Blastoise's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#Befuddle#, @{ "G-Max Butterfree's\n
+signature move. It\n
+causes paralysis,\n
+sleep, or poison." @}
++#Befuddle~2#, @{ "G-Max Butterfree's\n
+signature move. It\n
+causes paralysis,\n
+sleep, or poison." @}
++#Voltcrash#, @{ "G-Max Pikachu's\n
+signature move.\n
+It paralyzes the\n
+target." @}
++#Voltcrash~2#, @{ "G-Max Pikachu's\n
+signature move.\n
+It paralyzes the\n
+target." @}
++#Goldrush#, @{ "G-Max Meowth's\n
+signature move. It\n
+confuses the foe\n
+and creates money." @}
++#Goldrush~2#, @{ "G-Max Meowth's\n
+signature move. It\n
+confuses the foe\n
+and creates money." @}
++#Chistrike#, @{ "G-Max Machamp's\n
+signature move. It\n
+raises the chance\n
+of critical hits." @}
++#Chistrike~2#, @{ "G-Max Machamp's\n
+signature move. It\n
+raises the chance\n
+of critical hits." @}
++#Terror#, @{ "G-Max Gengar's\n
+signature move. It\n
+prevents the foe\n
+from escaping." @}
++#Terror~2#, @{ "G-Max Gengar's\n
+signature move. It\n
+prevents the foe\n
+from escaping." @}
++#Foamburst#, @{ "G-Max Kingler's\n
+signature move. It\n
+harshly lowers the\n
+target's Speed." @}
++#Foamburst~2#, @{ "G-Max Kingler's\n
+signature move. It\n
+harshly lowers the\n
+target's Speed." @}
++#Resonance#, @{ "G-Max Lapras's\n
+signature move. It\n
+reduces damage\n
+for five turns." @}
++#Resonance~2#, @{ "G-Max Lapras's\n
+signature move. It\n
+reduces damage\n
+for five turns." @}
++#Cuddle#, @{ "G-Max Eevee's\n
+signature move.\n
+It infatuates\n
+the target." @}
++#Cuddle~2#, @{ "G-Max Eevee's\n
+signature move.\n
+It infatuates\n
+the target." @}
++#Replenish#, @{ "G-Max Snorlax's\n
+signature move. It\n
+restores Berries\n
+that were eaten." @}
++#Replenish~2#, @{ "G-Max Snorlax's\n
+signature move. It\n
+restores Berries\n
+that were eaten." @}
++#Malodor#, @{ "G-Max Garbodor's\n
+signature move.\n
+It poisons the\n
+target." @}
++#Malodor~2#, @{ "G-Max Garbodor's\n
+signature move.\n
+It poisons the\n
+target." @}
++#Meltdown#, @{ "G-Max Melmetal's\n
+signature move. It\n
+prevents the foe\n
+from repeating moves." @}
++#Meltdown~2#, @{ "G-Max Melmetal's\n
+signature move. It\n
+prevents the foe\n
+from repeating moves." @}
++#"Drum Solo"#, @{ "G-Max Rillaboom's\n
+signature move. It\n
+strikes regardless of\n
+the target's ability." @}
++#"Drum Solo~2"#, @{ "G-Max Rillaboom's\n
+signature move. It\n
+strikes regardless of\n
+the target's ability." @}
++#Fireball#, @{ "G-Max Cinderace's\n
+signature move. It\n
+strikes regardless of\n
+the target's ability." @}
++#Fireball~2#, @{ "G-Max Cinderace's\n
+signature move. It\n
+strikes regardless of\n
+the target's ability." @}
++#Hydrosnipe#, @{ "G-Max Inteleon's\n
+signature move. It\n
+strikes regardless of\n
+the target's ability." @}
++#Hydrosnipe~2#, @{ "G-Max Inteleon's\n
+signature move. It\n
+strikes regardless of\n
+the target's ability." @}
++#Windrage#, @{ "G-Max Corviknight's\n
+signature move. It\n
+removes the effect\n
+of screen moves." @}
++#Windrage~2#, @{ "G-Max Corviknight's\n
+signature move. It\n
+removes the effect\n
+of screen moves." @}
++#Gravitas#, @{ "G-Max Orbeetle's\n
+signature move. It\n
+changes gravity\n
+for five turns." @}
++#Gravitas~2#, @{ "G-Max Orbeetle's\n
+signature move. It\n
+changes gravity\n
+for five turns." @}
++#Stonesurge#, @{ "G-Max Drednaw's\n
+signature move.\n
+It scatters rocks\n
+around the field." @}
++#Stonesurge~2#, @{ "G-Max Drednaw's\n
+signature move.\n
+It scatters rocks\n
+around the field." @}
++#Volcalith#, @{ "G-Max Coalossal's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#Volcalith~2#, @{ "G-Max Coalossal's\n
+signature move. It\n
+deals damage for\n
+four turns." @}
++#Tartness#, @{ "G-Max Flapple's\n
+signature move. It\n
+reduces the foe's\n
+evasiveness." @}
++#Tartness~2#, @{ "G-Max Flapple's\n
+signature move. It\n
+reduces the foe's\n
+evasiveness." @}
++#Sweetness#, @{ "G-Max Appletun's\n
+signature move. It\n
+heals the status\n
+of its allies." @}
++#Sweetness~2#, @{ "G-Max Appletun's\n
+signature move. It\n
+heals the status\n
+of its allies." @}
++#Sandblast#, @{ "G-Max Sandaconda's\n
+signature move. It\n
+traps the foe for\n
+four to five turns." @}
++#Sandblast~2#, @{ "G-Max Sandaconda's\n
+signature move. It\n
+traps the foe for\n
+four to five turns." @}
++#Stunshock#, @{ "G-Max Toxtricity's\n
+signature move.\n
+It paralyzes or\n
+poisons opponents." @}
++#Stunshock~2#, @{ "G-Max Toxtricity's\n
+signature move.\n
+It paralyzes or\n
+poisons opponents." @}
++#Centiferno#, @{ "G-Max Centiskorch's\n
+signature move. It\n
+traps the foe for\n
+four to five turns." @}
++#Centiferno~2#, @{ "G-Max Centiskorch's\n
+signature move. It\n
+traps the foe for\n
+four to five turns." @}
++#Smite#, @{ "G-Max Hatterene's\n
+signature move.\n
+It confuses the\n
+target." @}
++#Smite~2#, @{ "G-Max Hatterene's\n
+signature move.\n
+It confuses the\n
+target." @}
++#Snooze#, @{ "G-Max Grimmsnarl's\n
+signature move.\n
+It inflicts Yawn\n
+status on the foe." @}
++#Snooze~2#, @{ "G-Max Grimmsnarl's\n
+signature move.\n
+It inflicts Yawn\n
+status on the foe." @}
++#Finale#, @{ "G-Max Alcremie's\n
+signature move.\n
+It heals the HP\n
+of its allies." @}
++#Finale~2#, @{ "G-Max Alcremie's\n
+signature move.\n
+It heals the HP\n
+of its allies." @}
++#Steelsurge#, @{ "G-Max Copperajah's\n
+signature move. It\n
+scatters spikes\n
+around the field." @}
++#Steelsurge~2#, @{ "G-Max Copperajah's\n
+signature move. It\n
+scatters spikes\n
+around the field." @}
++#Depletion#, @{ "G-Max Duraludon's\n
+signature move. It\n
+reduces the PP of\n
+the last move used." @}
++#Depletion~2#, @{ "G-Max Duraludon's\n
+signature move. It\n
+reduces the PP of\n
+the last move used." @}
++#"One Blow"#, @{ "G-Max Single Strike\n
+Urshifu's signature move.\n
+It bypasses the\n
+use of Max Guard." @}
++#"One Blow~2"#, @{ "G-Max Single Strike\n
+Urshifu's signature move.\n
+It bypasses the\n
+use of Max Guard." @}
++#"Rapid Flow"#, @{ "G-Max Rapid Strike\n
+Urshifu's signature move.\n
+It bypasses the\n
+use of Max Guard." @}
++#"Rapid Flow~2"#, @{ "G-Max Rapid Strike\n
+Urshifu's signature move.\n
+It bypasses the\n
+use of Max Guard." @}

@@ -1,0 +1,923 @@
+@!00(11076) ^data.pokemon.moves.stats.battle[effect.moveeffectoptions power. type.data.pokemon.type.names accuracy. pp. effectAccuracy. target|b[]movetarget priority.|z info|b[]moveinfo unused. unused:]data.pokemon.moves.names #-#, None, 40, ???, 100, 35, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Pound#, None, 40, Normal, 100, 35, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Karate Chop"#, HighCrit, 50, Fight, 100, 25, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Double Slap"#, 2to5hits, 15, Normal, 85, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Comet Punch"#, 2to5hits, 18, Normal, 85, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Mega Punch"#, None, 80, Normal, 85, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Pay Day"#, Money, 40, Normal, 100, 20, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Fire Punch"#, BurnHitChance, 75, Fire, 100, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Ice Punch"#, FreezeHitChance, 75, Ice, 100, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#ThunderPunch#, ParalyzeHitChance, 75, Electr, 100, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Scratch#, None, 40, Normal, 100, 35, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Vise Grip"#, None, 55, Normal, 100, 30, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Guillotine#, OHKO, 1, Normal, 30, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Razor Wind"#, 2turnHighCrit, 80, Normal, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Swords Dance"#, RaiseAttack2Primary, 0, Normal, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Cut#, None, 50, Normal, 95, 30, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Gust#, DoubleDamageToFly, 40, Flying, 100, 35, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Wing Attack"#, None, 60, Flying, 100, 35, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Whirlwind#, OpponentSwitch, 0, Normal, 0, 20, 0, - /, -6, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#Fly#, 2turn, 100, Flying, 95, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#Bind#, 2to5turnTrap, 15, Normal, 85, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Slam#, None, 80, Normal, 75, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Vine Whip"#, None, 45, Grass, 100, 25, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Stomp#, Flinch, 65, Normal, 100, 20, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Double Kick"#, 2hits, 30, Fight, 100, 30, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Mega Kick"#, None, 120, Normal, 75, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Jump Kick"#, MissHurtSelf, 100, Fight, 95, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Rolling Kick"#, Flinch, 60, Fight, 85, 15, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Sand Attack"#, LowerAccuracy1Primary, 0, Ground, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3586
++#Headbutt#, Flinch, 70, Normal, 100, 15, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Horn Attack"#, None, 65, Normal, 100, 25, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Fury Attack"#, 2to5hits, 15, Normal, 85, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Horn Drill"#, OHKO, 1, Normal, 30, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Tackle#, None, 40, Normal, 100, 35, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Body Slam"#, ParalyzeHitChance, 85, Normal, 100, 15, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Wrap#, 2to5turnTrap, 15, Normal, 90, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Take Down"#, 25Recoil, 90, Normal, 85, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#Thrash#, 2to3turnsThenConfused, 120, Normal, 100, 10, 100, - Random /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#Double-Edge#, 25Recoil, 120, Normal, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Tail Whip"#, LowerDefense1Primary, 0, Normal, 100, 30, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2050
++#"Poison Sting"#, PoisonHitChance, 15, Poison, 100, 35, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Twineedle#, PoisonHitChance, 25, Bug, 100, 20, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Pin Missile"#, 2to5hits, 25, Bug, 95, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Leer#, LowerDefense1Primary, 0, Normal, 100, 30, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2050
++#Bite#, Flinch, 60, Dark, 100, 25, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Growl#, LowerAttack1Primary, 0, Normal, 100, 40, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#Roar#, OpponentSwitch, 0, Normal, 0, 20, 0, - /, -6, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#Sing#, SleepPrimary, 0, Normal, 55, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#Supersonic#, ConfusionPrimary, 0, Normal, 55, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Sonic Boom"#, 20Damage, 1, Normal, 90, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Disable#, Disable, 0, Normal, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 258
++#Acid#, LowerSpDefense1HitChance, 40, Poison, 100, 30, 10, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Ember#, BurnHitChance, 40, Fire, 100, 25, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Flamethrower#, BurnHitChance, 95, Fire, 100, 15, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#Mist#, PreventStatReduction, 0, Ice, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 1538
++#"Water Gun"#, None, 40, Water, 100, 25, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Hydro Pump"#, None, 120, Water, 80, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#Surf#, None, 95, Water, 100, 15, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Ice Beam"#, FreezeHitChance, 95, Ice, 100, 10, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#Blizzard#, FreezeHitChance, 120, Ice, 70, 5, 10, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#Psybeam#, ConfusionHitChance, 65, Psychc, 100, 20, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Bubble Beam"#, LowerSpeed1HitChance, 65, Water, 100, 20, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Aurora Beam"#, LowerAttack1HitChance, 65, Ice, 100, 20, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Hyper Beam"#, SkipNextTurn, 150, Normal, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#Peck#, None, 35, Flying, 100, 35, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Drill Peck"#, None, 80, Flying, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Submission#, 25Recoil, 80, Fight, 80, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Low Kick"#, None, 1, Fight, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Counter#, DoubleBackPhysicalDamage, 1, Fight, 100, 20, 0, - RecentAttacker /, -5, - "Makes Contact" "Affected by Protect" /, 100, 0
++#"Seismic Toss"#, DamageBasedOnLevel, 1, Fight, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Strength#, None, 80, Normal, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Absorb#, HealHalfDamage, 25, Grass, 100, 25, 0, - /, 0, -52 /, 100, 1
++#"Mega Drain"#, HealHalfDamage, 40, Grass, 100, 15, 0, - /, 0, -52 /, 120, 1
++#"Leech Seed"#, SeedOpponent, 0, Grass, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 258
++#Growth#, 33Recoil, 0, Normal, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2818
++#"Razor Leaf"#, HighCrit, 55, Grass, 95, 25, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Solar Beam"#, ChargeFirstTurn, 120, Grass, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#PoisonPowder#, PoisonPrimary, 0, Poison, 75, 35, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Stun Spore"#, ParalyzePrimary, 0, Grass, 75, 30, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#"Sleep Powder"#, SleepPrimary, 0, Grass, 75, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Petal Dance"#, 2to3turnsThenConfused, 120, Grass, 100, 10, 100, - Random /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"String Shot"#, LowerSpeed2Primary, 0, Bug, 95, 40, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Dragon Rage"#, 40Damage, 1, Dragon, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Fire Spin"#, 2to5turnTrap, 35, Fire, 85, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#ThunderShock#, ParalyzeHitChance, 40, Electr, 100, 30, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Thunderbolt#, ParalyzeHitChance, 95, Electr, 100, 15, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Thunder Wave"#, ParalyzePrimary, 0, Electr, 90, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#Thunder#, ParalyzeAndIncreaseAccuracyInRain, 120, Electr, 70, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Rock Throw"#, None, 50, Rock, 90, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Earthquake#, None, 100, Ground, 100, 10, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Fissure#, OHKO, 1, Ground, 30, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Dig#, 2turn, 80, Ground, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Toxic#, BadPoisonPrimary, 0, Poison, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#Confusion#, ConfusionHitChance, 50, Psychc, 100, 25, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Psychic#, LowerSpDefense1HitChance, 90, Psychc, 100, 10, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#Hypnosis#, SleepPrimary, 0, Psychc, 60, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#Meditate#, RaiseAttack1Primary, 0, Psychc, 0, 40, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#Agility#, RaiseSpeed2Primary, 0, Psychc, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Quick Attack"#, NormalPlusPriority, 40, Normal, 100, 30, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Rage#, RaiseAttack1IfDamaged, 20, Normal, 100, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Teleport#, Escape, 0, Psychc, 0, 20, 0, - Self /, -6, - /, 0, 1538
++#"Night Shade"#, DamageBasedOnLevel, 1, Ghost, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Mimic#, Mimic, 0, Normal, 0, 10, 0, - /, 0, - "Affected by Protect" /, 0, 3330
++#Screech#, LowerDefense2Primary, 0, Normal, 85, 40, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2050
++#"Double Team"#, RaiseEvasiveness1Primary, 0, Normal, 0, 15, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Recover#, HealHalfSelf, 0, Normal, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#Harden#, RaiseDefense1Primary, 0, Normal, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2306
++#Minimize#, RaiseEvasivenessAndBecomeSmaller, 0, Normal, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Smokescreen#, LowerAccuracy1Primary, 0, Normal, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3586
++#"Confuse Ray"#, ConfusionPrimary, 0, Ghost, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#Withdraw#, RaiseDefense1Primary, 0, Water, 0, 40, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2306
++#"Defense Curl"#, RaiseDefenseAndImproveRollingMoves, 0, Normal, 0, 40, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3330
++#Barrier#, RaiseDefense2Primary, 0, Psychc, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Light Screen"#, RaiseSpDefense2Wall, 0, Psychc, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3074
++#Haze#, RemoveStateChanges, 0, Ice, 0, 30, 0, - Self /, 0, - /, 0, 1538
++#Reflect#, RaiseDefense2Wall, 0, Psychc, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2306
++#"Focus Energy"#, RaiseCriticalRate, 0, Normal, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3330
++#Bide#, Bide, 1, Normal, 0, 10, 0, - Self /, 1, - "Makes Contact" "Affected by Protect" /, 100, 0
++#Metronome#, RandomMove, 0, Normal, 0, 10, 0, - RecentAttacker /, 0, - /, 0, 2
++#"Mirror Move"#, RepeatTargetMove, 0, Flying, 0, 20, 0, - /, 0, - /, 0, 3842
++#Selfdestruct#, SelfKOAndAttack, 200, Normal, 100, 5, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#"Egg Bomb"#, None, 100, Normal, 75, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Lick#, ParalyzeHitChance, 30, Ghost, 100, 30, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Smog#, PoisonHitChance, 30, Poison, 100, 20, 40, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Sludge#, PoisonHitChance, 65, Poison, 100, 20, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Bone Club"#, Flinch, 65, Ground, 85, 20, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Fire Blast"#, BurnHitChance, 120, Fire, 85, 5, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#Waterfall#, Flinch, 80, Water, 100, 15, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Clamp#, 2to5turnTrap, 35, Water, 85, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Swift#, NeverMiss, 60, Normal, 0, 20, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Skull Bash"#, RaiseDefenseThenAttackTurn2, 130, Normal, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 195, 0
++#"Spike Cannon"#, 2to5hits, 20, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Constrict#, LowerSpeed1HitChance, 10, Normal, 100, 35, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Amnesia#, RaiseSpDefense2Primary, 0, Psychc, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Kinesis#, LowerAccuracy1Primary, 0, Psychc, 80, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3586
++#Soft-Boiled#, HealHalfSelf, 0, Normal, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#"Hi Jump Kick"#, MissHurtSelf, 130, Fight, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 195, 0
++#Glare#, ParalyzePrimary, 0, Normal, 100, 30, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#"Dream Eater"#, HealHalfIfOpponentSleeping, 100, Psychc, 100, 15, 0, - /, 0, -52 /, 180, 1
++#"Poison Gas"#, PoisonPrimary, 0, Poison, 90, 40, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#Barrage#, 2to5hits, 15, Normal, 85, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Leech Life"#, HealHalfDamage, 20, Bug, 100, 15, 0, - /, 0, -53 /, 100, 0
++#"Lovely Kiss"#, SleepPrimary, 0, Normal, 75, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Sky Attack"#, 2turnHighCritFlinch, 140, Flying, 90, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#Transform#, Transform, 0, Normal, 0, 10, 0, - /, 0, - /, 0, 1538
++#Bubble#, LowerSpeed1HitChance, 40, Water, 100, 30, 10, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Dizzy Punch"#, ConfusionHitChance, 70, Normal, 100, 10, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Spore#, SleepPrimary, 0, Grass, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 258
++#Flash#, LowerAccuracy1Primary, 0, Normal, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3586
++#Psywave#, DamageRandom, 1, Psychc, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Splash#, Splash, 0, Normal, 0, 40, 0, - Self /, 0, - /, 0, 5634
++#"Acid Armor"#, RaiseDefense2Primary, 0, Poison, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Crabhammer#, HighCrit, 100, Water, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Explosion#, SelfKOAndAttack, 250, Normal, 100, 5, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#"Fury Swipes"#, 2to5hits, 18, Normal, 80, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Bonemerang#, 2hits, 50, Ground, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Rest#, Rest, 0, Psychc, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#"Rock Slide"#, Flinch, 75, Rock, 90, 10, 30, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Hyper Fang"#, Flinch, 80, Normal, 90, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Sharpen#, RaiseAttack1Primary, 0, Normal, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#Conversion#, ChangeTypeToFriendlyMove, 0, Normal, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 514
++#"Tri Attack"#, ParalyzeBurnFreeze, 80, Normal, 100, 10, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Super Fang"#, HalfDamage, 1, Normal, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Slash#, HighCrit, 70, Normal, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Substitute#, Substitute, 0, Normal, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Struggle#, 25Recoil, 50, ???, 0, 1, 0, - Random /, 0, - "Makes Contact" "Affected by Protect" /, 1, 0
++#Sketch#, Sketch, 0, Normal, 0, 1, 0, - /, 0, - /, 0, 514
++#"Triple Kick"#, 3turnTripleHit, 10, Fight, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Thief#, StealItem, 60, Dark, 100, 25, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Spider Web"#, NoSwitch, 0, Bug, 0, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Mind Reader"#, NextAttackHits, 0, Normal, 0, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2818
++#Nightmare#, Nightmare, 0, Ghost, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2818
++#"Flame Wheel"#, BurnHitChance, 60, Fire, 100, 25, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Snore#, WhileSleepingAndFlinch, 80, Normal, 100, 15, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Curse#, Curse, 0, Ghost, 0, 10, 0, - /, 0, - /, 0, 1282
++#Flail#, StrengthDependsOnHealth, 1, Normal, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Conversion 2"#, ChangeTypeToResistPreviousHit, 0, Normal, 0, 30, 0, - /, 0, - /, 0, 1538
++#Aeroblast#, HighCrit, 100, Flying, 95, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Cotton Spore"#, LowerSpeed2Primary, 0, Grass, 100, 40, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 258
++#Reversal#, StrengthDependsOnHealth, 1, Fight, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Spite#, ReducePP, 0, Ghost, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 1538
++#"Powder Snow"#, FreezeHitChance, 40, Ice, 100, 25, 10, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Protect#, EvadeNextAttack, 0, Normal, 0, 10, 0, - Self /, 4, - /, 0, 258
++#"Mach Punch"#, NormalPlusPriority, 40, Fight, 100, 30, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Scary Face"#, LowerSpeed2Primary, 0, Normal, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Feint Attack"#, NeverMiss, 60, Dark, 0, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Sweet Kiss"#, ConfusionPrimary, 0, 23, 75, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#"Belly Drum"#, HalfHealthToRaiseAttackMax, 0, Normal, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 1538
++#"Sludge Bomb"#, PoisonHitChance, 90, Poison, 100, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#Mud-Slap#, LowerAccuracy1HitChance, 20, Ground, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Octazooka#, LowerAccuracy1HitChance, 65, Water, 85, 10, 50, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#Spikes#, Spikes, 0, Ground, 0, 20, 0, - Hazard /, 0, - "Affected by Magic Coat" /, 0, 2306
++#"Zap Cannon"#, ParalyzeHitChance, 120, Electr, 50, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#Foresight#, TargetCannnotRaiseEvasion, 0, Normal, 0, 40, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 770
++#"Destiny Bond"#, DestinyBond, 0, Ghost, 0, 5, 0, - Self /, 0, - /, 0, 1026
++#"Perish Song"#, PerishSong, 0, Normal, 0, 5, 0, - Self /, 0, - /, 0, 258
++#"Icy Wind"#, LowerSpeed1HitChance, 55, Ice, 95, 15, 100, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Detect#, EvadeNextAttack, 0, Fight, 0, 5, 0, - Self /, 4, - /, 0, 3586
++#"Bone Rush"#, 2to5hits, 25, Ground, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Lock-On#, NextAttackHits, 0, Normal, 0, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2562
++#Outrage#, 2to3turnsThenConfused, 120, Dragon, 100, 10, 100, - Random /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#Sandstorm#, Sand5Turns, 0, Rock, 0, 10, 0, - Self /, 0, - /, 0, 2562
++#"Giga Drain"#, HealHalfDamage, 75, Grass, 100, 10, 0, - /, 0, -52 /, 140, 1
++#Endure#, EvadeNextAttack, 0, Normal, 0, 10, 0, - Self /, 4, - /, 0, 258
++#Charm#, LowerAttack2Primary, 0, 23, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#Rollout#, 5turnsUntilMiss, 30, Rock, 90, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"False Swipe"#, NeverKOTarget, 40, Normal, 100, 40, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Swagger#, ConfuseAndRaiseAttack2, 0, Normal, 85, 15, 100, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 258
++#"Milk Drink"#, HealHalfSelf, 0, Normal, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#Spark#, ParalyzeHitChance, 65, Electr, 100, 20, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Fury Cutter"#, GetStrongerEachHit, 40, Bug, 95, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Steel Wing"#, RaiseDefense1HitChance, 70, Steel, 90, 25, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Mean Look"#, NoSwitch, 0, Normal, 0, 5, 0, - /, 0, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#Attract#, Attract, 0, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 258
++#"Sleep Talk"#, SleepTalk, 0, Normal, 0, 10, 0, - RecentAttacker /, 0, - /, 0, 770
++#"Heal Bell"#, HealPartyStatus, 0, Normal, 0, 5, 0, - Self /, 0, - "Affected by Snatch" /, 0, 1538
++#Return#, None, 1, Normal, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Present#, Present, 1, Normal, 90, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Frustration#, None, 1, Normal, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Safeguard#, PreventStatus5Turns, 0, Normal, 0, 25, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2562
++#"Pain Split"#, PainSplit, 1, Normal, 0, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2306
++#"Sacred Fire"#, BurnHitChance, 100, Fire, 95, 5, 50, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Magnitude#, Magnitude, 1, Ground, 100, 30, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#DynamicPunch#, ConfusionHitChance, 100, Fight, 50, 5, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Megahorn#, None, 120, Bug, 85, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#DragonBreath#, ParalyzeHitChance, 60, Dragon, 100, 20, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Baton Pass"#, BatonPass, 0, Normal, 0, 40, 0, - Self /, 0, - /, 0, 258
++#Encore#, OpponentRepeatMoveFor2to6turns, 0, Normal, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#Pursuit#, DoublePowerIfOpponentSwitching, 40, Dark, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Rapid Spin"#, RemoveBindSeedSpikes, 50, Normal, 100, 40, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Sweet Scent"#, Unused40, 0, Normal, 100, 20, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3330
++#"Iron Tail"#, LowerDefense1HitChance, 100, Steel, 75, 15, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Metal Claw"#, RaiseAttack1HitChance, 50, Steel, 95, 35, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Vital Throw"#, NeverMiss, 70, Fight, 0, 10, 0, - /, -1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Morning Sun"#, MorningSun, 0, Normal, 0, 5, 0, - Self /, 0, -48 /, 0, 258
++#Synthesis#, MorningSun, 0, Grass, 0, 5, 0, - Self /, 0, -48 /, 0, 258
++#Moonlight#, MorningSun, 0, 23, 0, 5, 0, - Self /, 0, -48 /, 0, 258
++#"Hidden Power"#, None, 60, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Cross Chop"#, HighCrit, 100, Fight, 80, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Twister#, FlinchAndDoubleDamageToFly, 40, Dragon, 100, 20, 20, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Rain Dance"#, Rain5turns, 0, Water, 0, 5, 0, - Self /, 0, - /, 0, 2562
++#"Sunny Day"#, Sun5turns, 0, Fire, 0, 5, 0, - Self /, 0, - /, 0, 2562
++#Crunch#, LowerDefense1HitChance, 80, Dark, 100, 15, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Mirror Coat"#, DoubleBackSpecialDamage, 1, Psychc, 100, 20, 0, - RecentAttacker /, -5, - "Affected by Protect" /, 100, 1
++#"Psych Up"#, CopyTargetStatChangesPrimary, 0, Normal, 0, 10, 0, - /, 0, - /, 0, 1538
++#ExtremeSpeed#, NormalPlusPriority, 80, Normal, 100, 5, 0, - /, 2, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#AncientPower#, RaiseAllStats1HitChance, 60, Rock, 100, 5, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Shadow Ball"#, LowerSpDefense1HitChance, 80, Ghost, 100, 15, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Future Sight"#, DamageIn2Turns, 120, Psychc, 100, 10, 0, - /, 0, - /, 190, 1
++#"Rock Smash"#, LowerDefense1HitChance, 40, Fight, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Whirlpool#, 2to5turnTrap, 35, Water, 85, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Beat Up"#, DamageBasedOnPartySize, 1, Dark, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Fake Out"#, MoveFirstFlinchOnlyWorksTurn1, 40, Normal, 100, 10, 0, - /, 3, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Uproar#, 2to5turnsAndAllNoSleep, 90, Normal, 100, 10, 100, - Random /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#Stockpile#, Stockpile, 0, Normal, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 1538
++#"Spit Up"#, "Spit Up", 1, Normal, 100, 10, 0, - /, 0, - "Affected by Protect" /, 100, 1
++#Swallow#, Swallow, 0, Normal, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#"Heat Wave"#, BurnHitChance, 100, Fire, 90, 10, 10, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#Hail#, Hail5turns, 0, Ice, 0, 10, 0, - Self /, 0, - /, 0, 2562
++#Torment#, Torment, 0, Dark, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#Flatter#, ConfuseAndRaiseSpAttack2, 0, Dark, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#Will-O-Wisp#, BurnPrimary, 0, Fire, 85, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2050
++#Memento#, SelfKOLowerAttack2SpAttack2, 0, Dark, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 1794
++#Facade#, None, 70, Normal, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Focus Punch"#, SelfFlinchIfHit, 150, Fight, 100, 20, 0, - /, -3, - "Makes Contact" "Affected by Protect" /, 200, 0
++#SmellingSalt#, DoubleDamageToParalyzeAndHealParalyze, 70, Normal, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Follow Me"#, ForceFoesTargetUser, 0, Normal, 0, 20, 0, - Self /, 2, - /, 0, 258
++#"Nature Power"#, NaturePower, 0, Normal, 0, 20, 0, - /, 0, - /, 0, 2
++#Charge#, BoostNextElectricMove, 0, Electr, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3074
++#Taunt#, Taunt, 0, Dark, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2050
++#"Helping Hand"#, BoostAllyPower, 0, Normal, 0, 20, 0, - Self /, 5, - /, 0, 258
++#Trick#, TradeHeldItems, 0, Psychc, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 4354
++#"Role Play"#, CopyAbility, 0, Psychc, 0, 10, 0, - /, 0, - /, 0, 2562
++#Wish#, HealHalfNextTurn, 0, Normal, 0, 10, 0, - Self /, 0, -48 /, 0, 3074
++#Assist#, UseAllyMove, 0, Normal, 0, 20, 0, - RecentAttacker /, 0, - /, 0, 2
++#Ingrain#, Ingrain, 0, Grass, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3074
++#Superpower#, LowerSelfAttack1Defense1, 120, Fight, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Magic Coat"#, ReflectStatusMoves, 0, Psychc, 0, 15, 0, - RecentAttacker /, 4, - /, 0, 4866
++#Recycle#, Recycle, 0, Normal, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 4354
++#Revenge#, None, 60, Fight, 100, 10, 0, - /, -4, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Brick Break"#, BreakWall, 75, Fight, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Yawn#, Yawn, 0, Normal, 0, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Knock Off"#, KnockOff, 65, Dark, 100, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Endeavor#, TargetHPEqualUser, 1, Normal, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Eruption#, None, 150, Fire, 100, 5, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Skill Swap"#, SwapAbilityWithTarget, 0, Psychc, 0, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2562
++#Imprison#, Imprison, 0, Psychc, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 4866
++#Refresh#, HealSelfStatus, 0, Normal, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 1538
++#Grudge#, Grudge, 0, Ghost, 0, 5, 0, - Self /, 0, - /, 0, 1026
++#Snatch#, Snatch, 0, Dark, 0, 10, 0, - RecentAttacker /, 4, - /, 0, 4354
++#"Secret Power"#, SecondEffectBasedOnTerrain, 70, Normal, 100, 20, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Dive#, 2turn, 100, Water, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Arm Thrust"#, 2to5hits, 15, Fight, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Camouflage#, 240, 0, Normal, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3586
++#"Tail Glow"#, RaiseSpAttack2Primary, 0, Bug, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Luster Purge"#, LowerSpDefense1HitChance, 70, Psychc, 100, 5, 50, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Mist Ball"#, LowerSpAttack1HitChance, 70, Psychc, 100, 5, 50, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#FeatherDance#, LowerAttack2Primary, 0, Flying, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Teeter Dance"#, ConfusionPrimary, 0, Normal, 100, 20, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2818
++#"Blaze Kick"#, BurnHitChance, 85, Fire, 90, 10, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Mud Sport"#, MudSport, 0, Ground, 0, 15, 0, - Self /, 0, - /, 0, 3074
++#"Ice Ball"#, 5turnsUntilMiss, 30, Ice, 90, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Needle Arm"#, Flinch, 60, Grass, 100, 15, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Slack Off"#, HealHalfSelf, 0, Normal, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#"Hyper Voice"#, None, 90, Normal, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Poison Fang"#, HighCritPoison, 50, Poison, 100, 15, 50, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Crush Claw"#, LowerDefense1HitChance, 75, Normal, 95, 10, 50, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Blast Burn"#, SkipNextTurn, 150, Fire, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Hydro Cannon"#, SkipNextTurn, 150, Water, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Meteor Mash"#, RaiseAttack1HitChance, 100, Steel, 90, 10, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Astonish#, Flinch, 30, Ghost, 100, 15, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Weather Ball"#, None, 50, Normal, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#Aromatherapy#, HealPartyStatus, 0, Grass, 0, 5, 0, - Self /, 0, - "Affected by Snatch" /, 0, 1538
++#"Fake Tears"#, LowerSpDefense2Primary, 0, Dark, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#"Air Cutter"#, HighCrit, 60, Flying, 95, 25, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#Overheat#, LowerSpAttack2Self, 140, Fire, 90, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Odor Sleuth"#, TargetCannnotRaiseEvasion, 0, Normal, 0, 40, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2050
++#"Rock Tomb"#, LowerSpeed1HitChance, 60, Rock, 95, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Silver Wind"#, RaiseAllStats1HitChance, 60, Bug, 100, 5, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Metal Sound"#, LowerSpDefense2Primary, 0, Steel, 85, 40, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#Grasswhistle#, SleepPrimary, 0, Grass, 55, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#Tickle#, LowerAttack1Defense1Primary, 0, Normal, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Cosmic Power"#, RaiseDefense1SpDefense1, 0, Psychc, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3074
++#"Water Spout"#, None, 150, Water, 100, 5, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Signal Beam"#, ConfusionHitChance, 75, Bug, 100, 15, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Shadow Punch"#, NeverMiss, 60, Ghost, 0, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Extrasensory#, Flinch, 80, Psychc, 100, 20, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Sky Uppercut"#, None, 85, Fight, 90, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Sand Tomb"#, 2to5turnTrap, 35, Ground, 85, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Sheer Cold"#, OHKO, 1, Ice, 30, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Muddy Water"#, LowerAccuracy1HitChance, 95, Water, 85, 10, 30, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Bullet Seed"#, 2to5hits, 25, Grass, 100, 30, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Aerial Ace"#, NeverMiss, 60, Flying, 0, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Icicle Spear"#, 2to5hits, 25, Ice, 100, 30, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Iron Defense"#, RaiseDefense2Primary, 0, Steel, 0, 15, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Block#, NoSwitch, 0, Normal, 0, 5, 0, - /, 0, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#Howl#, RaiseAttack1Primary, 0, Normal, 0, 40, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#"Dragon Claw"#, None, 80, Dragon, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Frenzy Plant"#, SkipNextTurn, 150, Grass, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Bulk Up"#, RaiseAttack1Defense1Primary, 0, Fight, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#Bounce#, 2turn, 85, Flying, 85, 5, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Mud Shot"#, LowerSpeed1HitChance, 55, Ground, 95, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Poison Tail"#, PoisonHitChance, 50, Poison, 100, 25, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Covet#, StealItem, 60, Normal, 100, 25, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Volt Tackle"#, ParalyzeHitChance, 120, Electr, 100, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Magical Leaf"#, NeverMiss, 60, Grass, 0, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Water Sport"#, WaterSport, 0, Water, 0, 15, 0, - Self /, 0, - /, 0, 3074
++#"Calm Mind"#, RaiseSpAttack1SpDefense1Primary, 0, Psychc, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Leaf Blade"#, HighCrit, 90, Grass, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Dragon Dance"#, RaiseAttack1Speed1Primary, 0, Dragon, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Rock Blast"#, 2to5hits, 25, Rock, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Shock Wave"#, NeverMiss, 60, Electr, 0, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Water Pulse"#, ConfusionHitChance, 60, Water, 100, 20, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Doom Desire"#, DamageIn2Turns, 140, Steel, 100, 5, 0, - /, 0, - /, 200, 1
++#"Psycho Boost"#, LowerSpAttack2Self, 140, Psychc, 90, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Leech Fang"#, HealHalfDamage, 80, Bug, 100, 10, 0, - /, 0, -53 /, 160, 0
++#"Air Slash"#, Flinch, 75, Flying, 95, 15, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Aqua Jet"#, NormalPlusPriority, 40, Water, 100, 20, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Aqua Tail"#, None, 90, Water, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Aura Sphere"#, NeverMiss, 90, Fight, 0, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#Avalanche#, None, 60, Ice, 100, 10, 0, - /, -4, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Brave Bird"#, 25Recoil, 120, Flying, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Bug Buzz"#, LowerSpDefense1HitChance, 90, Bug, 100, 10, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Bullet Punch"#, NormalPlusPriority, 40, Steel, 100, 30, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Charge Beam"#, Unused6E, 50, Electr, 90, 10, 70, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Close Combat"#, LowerSelfAttack1Defense1, 120, Fight, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Cross Poison"#, PoisonHitChance, 70, Poison, 100, 20, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Dark Pulse"#, Flinch, 80, Dark, 100, 15, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#Discharge#, ParalyzeHitChance, 80, Electr, 100, 15, 30, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Draco Meteor"#, LowerSpAttack2Self, 140, Dragon, 90, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Dragon Pulse"#, None, 90, Dragon, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Drain Punch"#, HealHalfDamage, 75, Fight, 100, 10, 0, - /, 0, -53 /, 140, 0
++#"Earth Power"#, LowerSpDefense1HitChance, 90, Ground, 100, 10, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Energy Ball"#, LowerSpDefense1HitChance, 90, Grass, 100, 10, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Focus Blast"#, LowerSpDefense1HitChance, 120, Fight, 70, 5, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Force Palm"#, ParalyzeHitChance, 60, Fight, 100, 10, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Giga Impact"#, SkipNextTurn, 150, Normal, 90, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#"Grass Knot"#, None, 1, Grass, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Gunk Shot"#, PoisonHitChance, 120, Poison, 80, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Hammer Arm"#, LowerSelfAttack1Defense1, 100, Fight, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Head Smash"#, 25Recoil, 150, Rock, 80, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#"Ice Shard"#, NormalPlusPriority, 40, Ice, 100, 30, 0, - /, 1, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Iron Head"#, Flinch, 80, Steel, 100, 15, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Lava Plume"#, BurnHitChance, 80, Fire, 100, 15, 30, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Magnet Bomb"#, NeverMiss, 60, Steel, 0, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Mud Bomb"#, LowerAccuracy1HitChance, 65, Ground, 85, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Nasty Plot"#, RaiseSpAttack2Primary, 0, Dark, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Night Slash"#, HighCrit, 70, Dark, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Ominous Wind"#, RaiseAllStats1HitChance, 60, Ghost, 100, 5, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Power Gem"#, None, 80, Rock, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Power Whip"#, None, 120, Grass, 85, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Psycho Cut"#, HighCrit, 70, Psychc, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Rock Climb"#, ConfusionHitChance, 90, Normal, 85, 20, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Rock Polish"#, RaiseSpeed2Primary, 0, Rock, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Rock Wrecker"#, SkipNextTurn, 150, Rock, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#Roost#, HealHalfSelf, 0, Flying, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#"Seed Bomb"#, None, 80, Grass, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Shadow Claw"#, HighCrit, 70, Ghost, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Shadow Sneak"#, NormalPlusPriority, 40, Ghost, 100, 30, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Vacuum Wave"#, NormalPlusPriority, 40, Fight, 100, 30, 0, - /, 1, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#X-Scissor#, None, 80, Bug, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Zen Headbutt"#, Flinch, 80, Psychc, 90, 15, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Switcheroo#, TradeHeldItems, 0, Dark, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 4354
++#"Drill Run"#, HighCrit, 80, Ground, 95, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Bulldoze#, LowerSpeed1HitChance, 60, Ground, 100, 20, 100, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Electroweb#, LowerSpeed1HitChance, 55, Electr, 95, 15, 100, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Flame Charge"#, Unused60, 50, Fire, 100, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Frost Breath"#, None, 60, Ice, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Heart Stamp"#, Flinch, 60, Psychc, 100, 25, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Hone Claws"#, ConfuseAllPokemon, 0, Dark, 0, 15, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#"Horn Leech"#, HealHalfDamage, 75, Grass, 100, 10, 0, - /, 0, -53 /, 140, 0
++#Coil#, RaiseAttack1Defense1Primary, 0, Poison, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Hurricane#, ParalyzeAndIncreaseAccuracyInRain, 120, Flying, 70, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Icicle Crash"#, Flinch, 85, Ice, 90, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Work Up"#, 33Recoil, 0, Normal, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#"Quiver Dance"#, RaiseSpAttack1SpDefense1Primary, 0, Bug, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Leaf Tornado"#, LowerAccuracy1HitChance, 65, Grass, 90, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Low Sweep"#, LowerSpeed1HitChance, 65, Fight, 100, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Snarl#, LowerSpAttack1HitChance, 55, Dark, 95, 15, 100, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Struggle Bug"#, LowerSpAttack1HitChance, 50, Bug, 100, 20, 100, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#Steamroller#, Flinch, 65, Bug, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Storm Throw"#, None, 60, Fight, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Venoshock#, None, 65, Poison, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Wild Charge"#, 25Recoil, 90, Electr, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Poison Jab"#, PoisonHitChance, 80, Poison, 100, 20, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Acid Spray"#, 2hitsPoisonHitChance, 40, Poison, 100, 20, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Fiery Dance"#, Unused6E, 80, Fire, 100, 10, 50, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Clear Smog"#, 222, 50, Poison, 0, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Leaf Storm"#, LowerSpAttack2Self, 140, Grass, 90, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Stone Edge"#, HighCrit, 100, Rock, 80, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Payback#, None, 50, Dark, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Fire Fang"#, Flinch, 65, Fire, 95, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Ice Fang"#, Flinch, 65, Ice, 95, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Thunder Fang"#, Flinch, 65, Electr, 95, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Flare Blitz"#, BurnHitChance, 120, Fire, 100, 15, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#Inferno#, BurnHitChance, 100, Fire, 50, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#Hex#, None, 65, Ghost, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Dual Chop"#, 2hits, 40, Dragon, 90, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Double Hit"#, 2hits, 35, Normal, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Cotton Guard"#, RaiseDefense2Primary, 0, Grass, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#Acrobatics#, None, 55, Flying, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Flame Burst"#, 241, 70, Fire, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#U-turn#, BatonPass, 70, Bug, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Volt Switch"#, BatonPass, 70, Electr, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Dragon Tail"#, OpponentSwitch, 60, Dragon, 90, 10, 0, - /, -6, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Circle Throw"#, OpponentSwitch, 60, Fight, 90, 10, 0, - /, -6, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Mirror Shot"#, LowerAccuracy1HitChance, 65, Steel, 85, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Wood Hammer"#, 25Recoil, 120, Grass, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Heal Pulse"#, 233, 0, Psychc, 0, 10, 0, - /, 0, -46 /, 0, 258
++#"Flash Cannon"#, LowerSpDefense1HitChance, 80, Steel, 100, 10, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Bug Bite"#, 219, 60, Bug, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Pluck#, 219, 60, Flying, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Shell Smash"#, RaiseAttack1Speed1Primary, 0, Normal, 0, 15, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Rage Powder"#, ForceFoesTargetUser, 0, Bug, 0, 20, 0, - Self /, 2, - /, 0, 258
++#"Wake-Up Slap"#, DoubleDamageToParalyzeAndHealParalyze, 70, Fight, 100, 10, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Razor Shell"#, LowerDefense1HitChance, 75, Water, 95, 10, 50, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Copycat#, RepeatTargetMove, 0, Normal, 0, 20, 0, - RecentAttacker /, 0, - /, 0, 3330
++#"Miracle Eye"#, TargetCannnotRaiseEvasion, 0, Psychc, 0, 40, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#"Sucker Punch"#, 237, 70, Dark, 100, 5, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Scald#, BurnHitChance, 80, Water, 100, 15, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#Brine#, None, 65, Water, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Fairy Wind"#, None, 40, 23, 100, 30, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Doll Eyes"#, LowerAttack1Primary, 0, 23, 100, 30, 0, - /, 1, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Play Rough"#, LowerAttack1HitChance, 90, 23, 90, 10, 10, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#Moonblast#, LowerSpAttack1HitChance, 95, 23, 100, 15, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Drain Kiss"#, HealHalfDamage, 50, 23, 100, 10, 0, - /, 0, -53 /, 100, 1
++#"Dazzle Gleam"#, None, 80, 23, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Disarm Cry"#, NeverMiss, 40, 23, 0, 15, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Stealth Rock"#, Spikes, 0, Rock, 0, 20, 0, - Hazard /, 0, - "Affected by Magic Coat" /, 0, 2306
++#"Toxic Spikes"#, Spikes, 0, Poison, 0, 20, 0, - Hazard /, 0, - "Affected by Magic Coat" /, 0, 2306
++#"Healing Wish"#, SelfKOLowerAttack2SpAttack2, 0, Psychc, 0, 10, 0, - Self /, 0, -48 /, 0, 2
++#"Lunar Dance"#, SelfKOLowerAttack2SpAttack2, 0, Psychc, 0, 10, 0, - Self /, 0, -48 /, 0, 2
++#Tailwind#, 239, 0, Flying, 0, 15, 0, - Self /, 0, - "Affected by Snatch" /, 0, 770
++#Boomburst#, None, 140, Normal, 100, 10, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#Incinerate#, 219, 60, Fire, 100, 15, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Worry Seed"#, SwapAbilityWithTarget, 0, Grass, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Gastro Acid"#, SwapAbilityWithTarget, 0, Poison, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#Geomancy#, RaiseSpAttack1SpDefense1Primary, 0, 23, 0, 10, 0, - Self /, 0, - /, 0, 514
++#"Flower Guard"#, RaiseDefense1Primary, 0, 23, 0, 10, 0, - Everyone /, 0, - /, 0, 2306
++#Rototiller#, 33Recoil, 0, Ground, 0, 10, 0, - Everyone /, 0, - /, 0, 2050
++#"Shift Gear"#, RaiseAttack1Speed1Primary, 0, Steel, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Sticky Web"#, Spikes, 0, Bug, 0, 20, 0, - Hazard /, 0, - "Affected by Magic Coat" /, 0, 2562
++#"Stored Power"#, None, 20, Psychc, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#Acupressure#, RaiseEvasiveness1Primary, 0, Normal, 0, 30, 0, - UserOrSelected /, 0, - /, 0, 770
++#Punishment#, None, 60, Dark, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Assurance#, None, 60, Dark, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Dragon Rush"#, Flinch, 100, Dragon, 75, 10, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Dark Void"#, SleepPrimary, 0, Dark, 80, 10, 100, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 258
++#Feint#, 230, 50, Normal, 100, 10, 0, - /, 2, - "Affected by Mirror Move" /, 100, 0
++#PhantomForce#, 2turn, 90, Ghost, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Mirror Move" /, 175, 0
++#"Petal Storm"#, None, 90, Grass, 100, 15, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Play Nice"#, WeatherBall, 0, Normal, 0, 20, 0, - /, 0, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Roar of Time"#, SkipNextTurn, 150, Dragon, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Spacial Rend"#, HighCrit, 100, Dragon, 95, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Magma Storm"#, 2to5turnTrap, 120, Fire, 75, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Final Gambit"#, SelfKOLowerAttack2SpAttack2, 1, Fight, 100, 5, 0, - /, 0, - "Affected by Protect" /, 180, 1
++#"Shadow Force"#, 2turn, 120, Ghost, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Mirror Move" /, 190, 0
++#Nuzzle#, ParalyzeHitChance, 20, Electr, 100, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Retaliate#, None, 70, Normal, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Metal Bash"#, None, 40, Steel, 100, 35, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Judgment#, None, 100, Normal, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#Freeze-Dry#, FreezeHitChance, 70, Ice, 100, 20, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#Psyshock#, None, 80, Psychc, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#Round#, GetStrongerEachHit, 60, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Tail Slap"#, 2to5hits, 25, Normal, 85, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Gear Grind"#, 2hits, 50, Steel, 85, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Natural Gift"#, 220, 1, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Chip Away"#, None, 70, Normal, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Smack Down"#, 221, 50, Rock, 100, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Space Hole"#, 230, 80, Psychc, 0, 5, 0, - /, 0, - "Affected by Mirror Move" /, 160, 1
++#"Gyro Ball"#, None, 1, Steel, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Space Fury"#, LowerSelfAttack1Defense1, 100, Dark, 0, 5, 100, - /, 0, - "Affected by Mirror Move" /, 180, 0
++#"Attack Order"#, HighCrit, 90, Bug, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Defend Order"#, RaiseDefense1SpDefense1, 0, Bug, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2306
++#"Heal Order"#, HealHalfSelf, 0, Bug, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#Captivate#, Unused3D, 0, Normal, 100, 20, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 4866
++#Defog#, RemoveBindSeedSpikes, 0, Flying, 0, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3330
++#"Origin Pulse"#, None, 120, Water, 85, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Cliff Blades"#, None, 120, Ground, 85, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Guard Swap"#, ChangetypeFromTerrain, 0, Psychc, 0, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2562
++#"Steam Pump"#, BurnHitChance, 120, Water, 95, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Metal Burst"#, DoubleBackPhysicalDamage, 1, Steel, 100, 10, 0, - RecentAttacker /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Me First"#, 218, 0, Normal, 0, 20, 0, - /, 0, - "Affected by Protect" /, 0, 4354
++#"Power Swap"#, ChangetypeFromTerrain, 0, Psychc, 0, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2562
++#"Power Trick"#, ChangetypeFromTerrain, 0, Psychc, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#"Psycho Shift"#, HealSelfStatus, 0, Psychc, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 4610
++#"Wring Out"#, None, 1, Normal, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Kings Shield"#, EvadeNextAttack, 0, Steel, 0, 10, 0, - Self /, 4, - /, 0, 258
++#Psystrike#, None, 100, Psychc, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#Autotomize#, RaiseSpeed2Primary, 0, Steel, 0, 15, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#DiamondStorm#, HiddenPower, 100, Rock, 95, 5, 50, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Sludge Wave"#, PoisonHitChance, 95, Poison, 100, 10, 10, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Heavy Slam"#, None, 1, Steel, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Synchronoise#, None, 120, Psychc, 100, 10, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Electro Ball"#, None, 1, Electr, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Foul Play"#, None, 95, Dark, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#Entrainment#, SwapAbilityWithTarget, 0, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#"Night Daze"#, LowerAccuracy1HitChance, 85, Dark, 95, 10, 40, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Echoed Voice"#, GetStrongerEachHit, 40, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Land's Wrath"#, None, 90, Ground, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#OblivionWing#, HealHalfDamage, 80, Flying, 100, 10, 0, - /, 0, -52 /, 160, 1
++#"Heart Swap"#, ChangetypeFromTerrain, 0, Psychc, 0, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 770
++#"Crush Grip"#, None, 1, Normal, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Sacred Sword"#, None, 90, Fight, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Heat Crash"#, None, 1, Fire, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Head Charge"#, 25Recoil, 120, Normal, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Techno Blast"#, None, 120, Normal, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Relic Song"#, 223, 75, Normal, 100, 10, 10, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Secret Sword"#, None, 85, Fight, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#Glaciate#, LowerSpeed1HitChance, 75, Ice, 100, 10, 100, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#"Bolt Strike"#, ParalyzeHitChance, 130, Electr, 85, 5, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 195, 0
++#"Blue Flare"#, BurnHitChance, 130, Fire, 85, 5, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 195, 1
++#"Freeze Shock"#, 2turnHighCritFlinch, 140, Ice, 90, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#"Ice Burn"#, 2turnHighCritFlinch, 140, Ice, 90, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#V-create#, LowerSelfAttack1Defense1, 180, Fire, 95, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 220, 0
++#"Fusion Flare"#, None, 100, Fire, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Fusion Bolt"#, None, 100, Electr, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Fell Stinger"#, RaiseAttack1HitChance, 50, Bug, 100, 25, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Noble Roar"#, WeatherBall, 0, Normal, 100, 30, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#DragonAscent#, LowerSelfAttack1Defense1, 120, Flying, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Parting Shot"#, BatonPass, 0, Dark, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 1794
++#Topsy-Turvy#, 234, 0, Dark, 0, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2050
++#"Core Enforce"#, SwapAbilityWithTarget, 100, Dragon, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#Chatter#, ConfusionHitChance, 65, Flying, 100, 20, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#Confide#, Unused15, 0, Normal, 0, 20, 0, - /, 0, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#"Water Star"#, 2to5hits, 15, Water, 100, 20, 0, - /, 1, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Mystic Fire"#, LowerSpAttack1HitChance, 75, Fire, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Spiky Shield"#, EvadeNextAttack, 0, Grass, 0, 10, 0, - Self /, 4, - /, 0, 2306
++#EerieImpulse#, Unused3D, 0, Electr, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 3074
++#"Hold Back"#, NeverKOTarget, 40, Normal, 100, 40, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Infestation#, 2to5turnTrap, 20, Bug, 100, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Power-Up Hit"#, RaiseAttack1HitChance, 40, Fight, 100, 20, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"1000 Arrows"#, 221, 90, Ground, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"1000 Waves"#, NoSwitch, 90, Ground, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Para Charge"#, HealHalfDamage, 65, Electr, 100, 20, 0, - Everyone /, 0, -52 /, 120, 1
++#"Searing Shot"#, BurnHitChance, 100, Fire, 100, 5, 30, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Seed Flare"#, 2hitsPoisonHitChance, 120, Grass, 85, 5, 40, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#Accelerock#, NormalPlusPriority, 40, Rock, 100, 20, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Anchor Shot"#, NoSwitch, 80, Steel, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Aurora Veil"#, RaiseDefense2Wall, 0, Ice, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2562
++#"Baneful Bunk"#, EvadeNextAttack, 0, Poison, 0, 10, 0, - Self /, 4, - /, 0, 2306
++#"Beak Blast"#, SelfFlinchIfHit, 100, Flying, 100, 15, 0, - /, -3, - "Affected by Protect" /, 180, 0
++#"Brutal Swing"#, None, 60, Dark, 100, 20, 0, - Everyone /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Burn Up"#, BurnDefrost, 140, Fire, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Clang Scales"#, LowerSelfAttack1Defense1, 120, Dragon, 100, 5, 100, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#"Dark Lariat"#, None, 85, Dark, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Draco Hammer"#, None, 90, Dragon, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Fire Lash"#, LowerDefense1HitChance, 80, Fire, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"First Press"#, MoveFirstFlinchOnlyWorksTurn1, 90, Bug, 100, 10, 0, - /, 2, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Fleur Cannon"#, LowerSpAttack2Self, 140, 23, 90, 5, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Floral Heal"#, 233, 0, 23, 0, 10, 100, - /, 0, -46 /, 0, 258
++#"Gear Up"#, 33Recoil, 0, Steel, 0, 20, 0, - Everyone /, 0, - "Affected by Snatch" /, 0, 2818
++#HiHorsepower#, None, 95, Ground, 95, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Ice Hammer"#, LowerSelfAttack1Defense1, 100, Ice, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Laser Focus"#, NextAttackHits, 0, Normal, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#Leafage#, None, 40, Grass, 100, 40, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Liquidation#, LowerDefense1HitChance, 85, Water, 100, 10, 20, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Lunge#, LowerAttack1HitChance, 80, Bug, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Geist Beam"#, None, 100, Ghost, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#Multi-Attack#, None, 120, Normal, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Nature's Mad"#, HalfDamage, 1, 23, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 1
++#"Pollen Puff"#, 233, 90, Bug, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Power Trip"#, None, 20, Dark, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Prism Laser"#, SkipNextTurn, 160, Psychc, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Psychic Fang"#, BreakWall, 85, Psychc, 100, 10, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Purify#, HealHalfSelf, 0, Poison, 0, 20, 0, - /, 0, -46 /, 0, 514
++#"Revel Dance"#, None, 90, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Shadow Bone"#, LowerDefense1HitChance, 85, Ghost, 100, 10, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Shell Trap"#, SelfFlinchIfHit, 150, Fire, 100, 5, 0, - Both /, -3, - "Affected by Protect" /, 200, 1
++#"Shore Up"#, MorningSun, 0, Ground, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#"Smart Strike"#, NeverMiss, 70, Steel, 0, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Solar Blade"#, ChargeFirstTurn, 125, Grass, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Sparkle Aria"#, DoubleDamageToParalyzeAndHealParalyze, 90, Water, 100, 10, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Spect Thief"#, CopyTargetStatChangesPrimary, 90, Ghost, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Speed Swap"#, ChangetypeFromTerrain, 0, Psychc, 0, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2562
++#"Spirit Lock"#, NoSwitch, 80, Ghost, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Spotlight#, ForceFoesTargetUser, 0, Normal, 0, 15, 0, - /, 3, - "Affected by Protect" "Affected by Magic Coat" /, 0, 3074
++#"Bad Tantrum"#, None, 75, Ground, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Strength Sap"#, HealHalfDamage, 0, Grass, 100, 10, 0, - /, 0, -56 /, 0, 2306
++#"Sunsteel Ram"#, None, 100, Steel, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Teary Look"#, WeatherBall, 0, Normal, 0, 20, 0, - /, 0, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Throat Chop"#, 231, 80, Dark, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Toxic Thread"#, PoisonPrimary, 0, Poison, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Trop Kick"#, LowerAttack1HitChance, 70, Grass, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Zing Zap"#, Flinch, 80, Electr, 100, 10, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Elec Terrain"#, 226, 0, Electr, 0, 10, 0, - Self /, 0, - /, 0, 2562
++#GrassTerrain#, 226, 0, Grass, 0, 10, 0, - Self /, 0, - /, 0, 2306
++#"Mist Terrain"#, 226, 0, 23, 0, 10, 0, - Self /, 0, - /, 0, 3074
++#"Psyc Terrain"#, 226, 0, Psychc, 0, 10, 0, - Self /, 0, - /, 0, 2818
++#"Grass Pledge"#, 227, 80, Grass, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Fire Pledge"#, 227, 80, Fire, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Water Pledge"#, 227, 80, Water, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Trick Room"#, 228, 0, Psychc, 0, 5, 0, - Self /, -7, - "Affected by Mirror Move" /, 0, 3330
++#"Magic Room"#, 228, 0, Psychc, 0, 10, 0, - Self /, 0, - "Affected by Mirror Move" /, 0, 3074
++#"Wonder Room"#, 228, 0, Psychc, 0, 10, 0, - Self /, 0, - "Affected by Mirror Move" /, 0, 3074
++#"Crafty Guard"#, EvadeNextAttack, 0, 23, 0, 10, 0, - Self /, 3, - /, 0, 3074
++#"Mat Block"#, EvadeNextAttack, 0, Fight, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2306
++#"Quick Guard"#, EvadeNextAttack, 0, Fight, 0, 15, 0, - Self /, 3, - "Affected by Snatch" /, 0, 2306
++#"Wide Guard"#, EvadeNextAttack, 0, Rock, 0, 10, 0, - Self /, 3, - "Affected by Snatch" /, 0, 2306
++#"Aqua Ring"#, Ingrain, 0, Water, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2306
++#"Aroma Mist"#, Unused0E, 0, 23, 0, 20, 0, - Self /, 0, - /, 0, 4866
++#Belch#, Recycle, 120, Poison, 90, 10, 0, - /, 0, - "Affected by Protect" /, 190, 1
++#Bestow#, TradeHeldItems, 0, Normal, 0, 15, 0, - /, 0, - "Affected by Mirror Move" /, 0, 4354
++#Fling#, 229, 1, Dark, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Flying Press"#, None, 100, Fight, 95, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 170, 0
++#Gravity#, 228, 0, Psychc, 0, 5, 0, - Everyone /, 0, - /, 0, 2818
++#"Guard Split"#, ChangetypeFromTerrain, 0, Psychc, 0, 10, 0, - /, 0, - "Affected by Protect" /, 0, 2562
++#"Heal Block"#, 231, 0, Psychc, 100, 15, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 4610
++#"Ion Deluge"#, 228, 0, Electr, 0, 25, 0, - Self /, 1, - /, 0, 2818
++#"Lucky Chant"#, 239, 0, Normal, 0, 30, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3586
++#"Magnet Rise"#, 239, 0, Electr, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3586
++#"Magnet Flux"#, RaiseDefense1SpDefense1, 0, Electr, 0, 20, 0, - Everyone /, 0, - "Affected by Snatch" /, 0, 3074
++#Powder#, 231, 0, Bug, 100, 20, 0, - /, 1, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 4866
++#"Power Split"#, ChangetypeFromTerrain, 0, Psychc, 0, 10, 0, - /, 0, - "Affected by Protect" /, 0, 2562
++#"Reflect Type"#, ChangeTypeToFriendlyMove, 0, Normal, 0, 15, 0, - /, 0, - "Affected by Protect" /, 0, 2818
++#"Simple Beam"#, SwapAbilityWithTarget, 0, Normal, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#Soak#, 232, 0, Water, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#Telekinesis#, 231, 0, Psychc, 0, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#TrickoTreat#, 232, 0, Ghost, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 514
++#"Venom Drench"#, BadPoisonHitChance, 0, Poison, 100, 20, 0, - Both /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2306
++#"Woods Curse"#, 232, 0, Grass, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2
++#"Mind Blown"#, None, 150, Fire, 100, 5, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#PhotonGeyser#, None, 100, Psychc, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Plasma Fists"#, 228, 100, Electr, 100, 15, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#Electrify#, 234, 0, Electr, 0, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2818
++#Embargo#, 231, 0, Dark, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#"Fairy Lock"#, 235, 0, 23, 0, 10, 0, - Self /, 0, - "Affected by Mirror Move" /, 0, 2306
++#"Light o Ruin"#, 25Recoil, 140, 23, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Trump Card"#, None, 1, Normal, 0, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"After You"#, 236, 0, Normal, 0, 15, 0, - /, 0, - /, 0, 2562
++#Instruct#, 236, 0, Psychc, 0, 15, 0, - /, 0, - "Affected by Protect" /, 0, 2818
++#Quash#, 236, 0, Dark, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2562
++#"Happy Hour"#, 235, 0, Normal, 0, 30, 0, - Self /, 0, - /, 0, 514
++#"Double Iron"#, Flinch, 60, Steel, 100, 5, 30, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Last Resort"#, 242, 140, Normal, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#"Sky Drop"#, 246, 60, Flying, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#Celebrate#, 235, 0, Normal, 0, 40, 0, - Self /, 0, - /, 0, 514
++#"Hold Hands"#, 235, 0, Normal, 0, 40, 0, - Self /, 0, - /, 0, 514
++#"DMax Cannon"#, None, 100, Dragon, 100, 5, 0, - /, 0, - "Affected by Protect" /, 180, 1
++#"Snipe Shot"#, 238, 80, Water, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Jaw Lock"#, NoSwitch, 80, Dark, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Stuff Cheeks"#, RaiseDefense2Primary, 0, Normal, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"No Retreat"#, CanDamageFly, 0, Fight, 0, 5, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Tar Shot"#, LowerSpeed1Primary, 0, Rock, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2562
++#"Magic Powder"#, 232, 0, Psychc, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2818
++#"Dragon Darts"#, None, 50, Dragon, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Teatime#, 244, 0, Normal, 0, 10, 0, - Self /, 0, - /, 0, 514
++#Octolock#, NoSwitch, 0, Fight, 100, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 0, 2050
++#"Bolt Beak"#, None, 85, Electr, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#FishiousRend#, None, 85, Water, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Court Change"#, 228, 0, Normal, 100, 10, 0, - Self /, 0, - "Affected by Mirror Move" /, 0, 2562
++#"Clang Soul"#, CanDamageFly, 0, Dragon, 100, 5, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#"Body Press"#, None, 80, Fight, 100, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#Decorate#, BoostAllyPower, 0, 23, 0, 15, 0, - /, 0, - /, 0, 258
++#"Drum Beating"#, LowerSpeed1HitChance, 80, Grass, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Snap Trap"#, 2to5turnTrap, 35, Grass, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Pyro Ball"#, BurnHitChance, 120, Fire, 90, 5, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Giant Blade"#, None, 100, Steel, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Giant Bash"#, None, 100, Steel, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 180, 0
++#"Aura Wheel"#, Unused60, 110, Electr, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 185, 0
++#"Break Swipe"#, LowerAttack1HitChance, 60, Dragon, 100, 15, 100, - Both /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Branch Poke"#, None, 40, Grass, 100, 40, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#Overdrive#, None, 80, Electr, 100, 10, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Apple Acid"#, LowerSpDefense1HitChance, 80, Grass, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Grav Apple"#, LowerDefense1HitChance, 80, Grass, 100, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Spirit Break"#, LowerSpAttack1HitChance, 75, 23, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Weird Steam"#, ConfusionHitChance, 90, 23, 95, 10, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Life Dew"#, HealHalfSelf, 0, Water, 0, 10, 0, - Self /, 0, -48 /, 0, 258
++#Obstruct#, EvadeNextAttack, 0, Dark, 100, 10, 0, - Self /, 4, - /, 0, 2306
++#"False Yield"#, None, 80, Dark, 0, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Meteor Rush"#, SkipNextTurn, 150, Fight, 100, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 0
++#Eternabeam#, SkipNextTurn, 160, Dragon, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Steel Beam"#, None, 140, Steel, 95, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Expand Force"#, None, 80, Psychc, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Steel Roller"#, 243, 130, Steel, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 195, 0
++#"Scale Shot"#, 2to5hits, 25, Dragon, 90, 25, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Meteor Beam"#, RaiseDefenseThenAttackTurn2, 120, Rock, 90, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#ShellSideArm#, None, 90, Poison, 100, 10, 10, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#MistyExplode#, SelfKOAndAttack, 100, 23, 100, 5, 0, - Everyone /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Grassy Glide"#, None, 70, Grass, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Rising Volt"#, None, 70, Electr, 100, 20, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#TerrainPulse#, None, 50, Normal, 100, 10, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#SkitterSmack#, LowerSpAttack1HitChance, 70, Bug, 90, 10, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Jealous Burn"#, BurnHitChance, 70, Fire, 100, 5, 100, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Lash Out"#, None, 75, Dark, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Poltergeist#, 245, 110, Ghost, 90, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 185, 0
++#"Corrode Gas"#, KnockOff, 0, Poison, 100, 40, 0, - /, 0, - "Affected by Magic Coat" "Affected by Mirror Move" /, 0, 2
++#Coaching#, BoostAllyPower, 0, Fight, 0, 10, 0, - Self /, 0, - /, 0, 258
++#"Flip Turn"#, BatonPass, 60, Water, 100, 20, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#"Triple Axel"#, 3turnTripleHit, 20, Ice, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#DualWingbeat#, 2hits, 40, Flying, 90, 10, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Scorch Sands"#, BurnHitChance, 70, Ground, 100, 10, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Jungle Heal"#, HealHalfSelf, 0, Grass, 0, 10, 0, - Self /, 0, -40 /, 0, 258
++#"Wicked Blow"#, None, 80, Dark, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#SurgeStrikes#, 2to5hits, 25, Water, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
++#"Freeze Glare"#, FreezeHitChance, 90, Psychc, 100, 10, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Thunder Kick"#, LowerDefense1HitChance, 90, Fight, 100, 10, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
++#"Fiery Wrath"#, Flinch, 90, Dark, 100, 10, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Eerie Spell"#, ReducePP, 80, Psychc, 90, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#"Thunder Cage"#, 2to5turnTrap, 80, Electr, 90, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
++#DragonEnergy#, None, 150, Dragon, 100, 5, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#"Astral Storm"#, None, 120, Ghost, 100, 5, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 190, 1
++#GlacialLance#, None, 130, Ice, 100, 5, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 195, 0
++#"Dire Claw"#, ParalyzeBurnFreeze, 60, Poison, 100, 15, 50, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#PsyshieldRam#, RaiseDefense1HitChance, 70, Psychc, 90, 10, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Power Shift"#, ChangetypeFromTerrain, 0, Normal, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 2050
++#"Stone Axe"#, FlinchAndDoubleDamageToMinimize, 80, Rock, 90, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#"Mystic Power"#, Unused8D, 70, Psychc, 90, 10, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Raging Fury"#, 2to3turnsThenConfused, 120, Fire, 85, 10, 100, - Random /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Wave Crash"#, None, 75, Water, 100, 10, 0, - /, 1, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#Chloroblast#, None, 150, Grass, 95, 5, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
++#MountainGale#, Flinch, 110, Ice, 85, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 185, 0
++#VictoryDance#, RaiseAttack1Defense1Primary, 0, Fight, 0, 10, 0, - Self /, 0, - "Affected by Snatch" /, 0, 258
++#HeadlongRush#, LowerSelfAttack1Defense1, 120, Ground, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 190, 0
++#"Barb Barrage"#, PoisonHitChance, 75, Poison, 100, 15, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 0
++#"Esper Wing"#, None, 75, Psychc, 90, 10, 0, - /, 1, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#BitterMalice#, FreezeHitChance, 60, Ghost, 100, 15, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 120, 1
++#Shelter#, HighCritBurn, 0, Steel, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 3074
++#TripleArrows#, LowerDefense1HitChance, 60, Fight, 100, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 120, 0
++#InfernalRage#, BurnHitChance, 75, Ghost, 100, 15, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 140, 1
++#"Endless Edge"#, FlinchAndDoubleDamageToMinimize, 80, Dark, 90, 15, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 160, 0
++#BleakiceWind#, FreezeHitChance, 105, Flying, 80, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#WildboltWind#, ParalyzeHitChance, 105, Electr, 80, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#SandsearWind#, BurnHitChance, 105, Ground, 80, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Spring Wind"#, RestoreHPOrAllyInField, 105, 23, 80, 5, 30, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 180, 1
++#"Lunar Bless"#, HealHalfSelf, 0, Psychc, 0, 10, 0, - Self /, 0, -40 /, 0, 258
++#"Take Heart"#, RaiseSpAttack1SpDefense1Primary, 0, Psychc, 0, 20, 0, - Self /, 0, - "Affected by Snatch" /, 0, 1538
++#"Z-Move 1"#, None, 1, Normal, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 2"#, None, 1, Normal, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 3"#, None, 1, Fight, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 4"#, None, 1, Fight, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 5"#, None, 1, Flying, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 6"#, None, 1, Flying, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 7"#, None, 1, Poison, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 8"#, None, 1, Poison, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 9"#, None, 1, Ground, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 10"#, None, 1, Ground, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 11"#, None, 1, Rock, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 12"#, None, 1, Rock, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 13"#, None, 1, Bug, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 14"#, None, 1, Bug, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 15"#, None, 1, Ghost, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 16"#, None, 1, Ghost, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 17"#, None, 1, Steel, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 18"#, None, 1, Steel, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 19"#, None, 1, Fire, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 20"#, None, 1, Fire, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 21"#, None, 1, Water, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 22"#, None, 1, Water, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 23"#, None, 1, Grass, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 24"#, None, 1, Grass, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 25"#, None, 1, Electr, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 26"#, None, 1, Electr, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 27"#, None, 1, Psychc, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 28"#, None, 1, Psychc, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 29"#, None, 1, Ice, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 30"#, None, 1, Ice, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 31"#, None, 1, Dragon, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 32"#, None, 1, Dragon, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 33"#, None, 1, Dark, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 34"#, None, 1, Dark, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 35"#, None, 1, 23, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 36"#, None, 1, 23, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 37"#, None, 210, Electr, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 38"#, HighCrit, 195, Electr, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 39"#, ParalyzeHitChance, 175, Electr, 0, 1, 100, - /, 0, - /, 0, 1
++#"Z-Move 40"#, CanDamageFly, 0, Normal, 0, 1, 0, - Self /, 0, - /, 0, 2
++#"Z-Move 41"#, None, 210, Normal, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 42"#, 243, 185, Psychc, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 43"#, None, 180, Ghost, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 44"#, None, 180, Dark, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 45"#, None, 195, Water, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 46"#, 243, 190, Rock, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 47"#, None, 190, 23, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 48"#, RaiseAllStats1HitChance, 185, Dragon, 0, 1, 100, - Both /, 0, - /, 0, 1
++#"Z-Move 49"#, HalfDamage, 1, 23, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 50"#, None, 200, Steel, 0, 1, 0, - /, 0, - /, 0, 0
++#"Z-Move 51"#, None, 200, Ghost, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 52"#, None, 200, Psychc, 0, 1, 0, - /, 0, - /, 0, 1
++#"Z-Move 53"#, None, 195, Ghost, 0, 1, 0, - /, 0, - /, 0, 0
++#Guard#, EvadeNextAttack, 0, Normal, 0, 10, 0, - Self /, 4, - /, 0, 2
++#Strike#, 253, 1, Normal, 0, 10, 100, - /, 0, - /, 0, 2048
++#Strike~2#, 253, 1, Normal, 0, 10, 100, - /, 0, - /, 0, 2049
++#Knuckle#, 253, 1, Fight, 0, 10, 100, - /, 0, - /, 0, 256
++#Knuckle~2#, 253, 1, Fight, 0, 10, 100, - /, 0, - /, 0, 257
++#Airstream#, 253, 1, Flying, 0, 10, 100, - /, 0, - /, 0, 768
++#Airstream~2#, 253, 1, Flying, 0, 10, 100, - /, 0, - /, 0, 769
++#Ooze#, 253, 1, Poison, 0, 10, 100, - /, 0, - /, 0, 1024
++#Ooze~2#, 253, 1, Poison, 0, 10, 100, - /, 0, - /, 0, 1025
++#Quake#, 253, 1, Ground, 0, 10, 0, - /, 0, - /, 0, 1280
++#Quake~2#, 253, 1, Ground, 0, 10, 0, - /, 0, - /, 0, 1281
++#Rockfall#, 253, 1, Rock, 0, 10, 0, - /, 0, - /, 0, 3328
++#Rockfall~2#, 253, 1, Rock, 0, 10, 0, - /, 0, - /, 0, 3329
++#Flutterby#, 253, 1, Bug, 0, 10, 100, - /, 0, - /, 0, 2304
++#Flutterby~2#, 253, 1, Bug, 0, 10, 100, - /, 0, - /, 0, 2305
++#Phantasm#, 253, 1, Ghost, 0, 10, 100, - /, 0, - /, 0, 1792
++#Phantasm~2#, 253, 1, Ghost, 0, 10, 100, - /, 0, - /, 0, 1793
++#Steelspike#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 512
++#Steelspike~2#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 513
++#Flare#, 253, 1, Fire, 0, 10, 100, - /, 0, - /, 0, 2816
++#Flare~2#, 253, 1, Fire, 0, 10, 100, - /, 0, - /, 0, 2817
++#Geyser#, 253, 1, Water, 0, 10, 100, - /, 0, - /, 0, 3072
++#Geyser~2#, 253, 1, Water, 0, 10, 100, - /, 0, - /, 0, 3073
++#Overgrowth#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 4096
++#Overgrowth~2#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 4097
++#Lightning#, 253, 1, Electr, 0, 10, 100, - /, 0, - /, 0, 3840
++#Lightning~2#, 253, 1, Electr, 0, 10, 100, - /, 0, - /, 0, 3841
++#Mindstorm#, 253, 1, Psychc, 0, 10, 100, - /, 0, - /, 0, 4608
++#Mindstorm~2#, 253, 1, Psychc, 0, 10, 100, - /, 0, - /, 0, 4609
++#Hailstorm#, 253, 1, Ice, 0, 10, 100, - /, 0, - /, 0, 3584
++#Hailstorm~2#, 253, 1, Ice, 0, 10, 100, - /, 0, - /, 0, 3585
++#Wyrmwind#, 253, 1, Dragon, 0, 10, 100, - /, 0, - /, 0, 1536
++#Wyrmwind~2#, 253, 1, Dragon, 0, 10, 100, - /, 0, - /, 0, 1537
++#Darkness#, 253, 1, Dark, 0, 10, 100, - /, 0, - /, 0, 2560
++#Darkness~2#, 253, 1, Dark, 0, 10, 100, - /, 0, - /, 0, 2561
++#Starfall#, 253, 1, 23, 0, 10, 100, - /, 0, - /, 0, 4352
++#Starfall~2#, 253, 1, 23, 0, 10, 100, - /, 0, - /, 0, 4353
++#"Vine Lash"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 4864
++#"Vine Lash~2"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 4865
++#Wildfire#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 5120
++#Wildfire~2#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 5121
++#Cannonade#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 5376
++#Cannonade~2#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 5377
++#Befuddle#, 253, 10, Bug, 0, 10, 0, - /, 0, - /, 0, 5632
++#Befuddle~2#, 253, 10, Bug, 0, 10, 0, - /, 0, - /, 0, 5633
++#Voltcrash#, 253, 10, Electr, 0, 10, 0, - /, 0, - /, 0, 5888
++#Voltcrash~2#, 253, 10, Electr, 0, 10, 0, - /, 0, - /, 0, 5889
++#Goldrush#, 253, 10, Normal, 0, 10, 0, - /, 0, - /, 0, 6144
++#Goldrush~2#, 253, 10, Normal, 0, 10, 0, - /, 0, - /, 100, 6145
++#Chistrike#, 253, 10, Fight, 0, 10, 0, - /, 0, - /, 0, 6400
++#Chistrike~2#, 253, 10, Fight, 0, 10, 0, - /, 0, - /, 0, 6401
++#Terror#, 253, 10, Ghost, 0, 10, 0, - /, 0, - /, 0, 6656
++#Terror~2#, 253, 10, Ghost, 0, 10, 0, - /, 0, - /, 0, 6657
++#Foamburst#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11520
++#Foamburst~2#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11521
++#Resonance#, 253, 10, Ice, 0, 10, 0, - /, 0, - /, 0, 6912
++#Resonance~2#, 253, 10, Ice, 0, 10, 0, - /, 0, - /, 0, 6913
++#Cuddle#, 253, 10, Normal, 0, 10, 0, - /, 0, - /, 0, 7168
++#Cuddle~2#, 253, 10, Normal, 0, 10, 0, - /, 0, - /, 0, 7169
++#Replenish#, 253, 10, Normal, 0, 10, 0, - /, 0, - /, 0, 7424
++#Replenish~2#, 253, 10, Normal, 0, 10, 0, - /, 0, - /, 0, 7425
++#Malodor#, 253, 10, Poison, 0, 10, 0, - /, 0, - /, 0, 7680
++#Malodor~2#, 253, 10, Poison, 0, 10, 0, - /, 0, - /, 0, 7681
++#Meltdown#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 11264
++#Meltdown~2#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 11265
++#"Drum Solo"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 11264
++#"Drum Solo~2"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 11265
++#Fireball#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 11264
++#Fireball~2#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 11265
++#Hydrosnipe#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11264
++#Hydrosnipe~2#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11265
++#Windrage#, 253, 10, Flying, 0, 10, 0, - /, 0, - /, 0, 8192
++#Windrage~2#, 253, 10, Flying, 0, 10, 0, - /, 0, - /, 0, 8193
++#Gravitas#, 253, 10, Psychc, 0, 10, 0, - /, 0, - /, 0, 9216
++#Gravitas~2#, 253, 10, Psychc, 0, 10, 0, - /, 0, - /, 0, 9217
++#Stonesurge#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 7936
++#Stonesurge~2#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 7937
++#Volcalith#, 253, 10, Rock, 0, 10, 0, - /, 0, - /, 0, 9472
++#Volcalith~2#, 253, 10, Rock, 0, 10, 0, - /, 0, - /, 0, 9473
++#Tartness#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 10240
++#Tartness~2#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 10241
++#Sweetness#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 10496
++#Sweetness~2#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 10497
++#Sandblast#, 253, 10, Ground, 0, 10, 0, - /, 0, - /, 0, 9728
++#Sandblast~2#, 253, 10, Ground, 0, 10, 0, - /, 0, - /, 0, 9729
++#Stunshock#, 253, 10, Electr, 0, 10, 0, - /, 0, - /, 0, 8448
++#Stunshock~2#, 253, 10, Electr, 0, 10, 0, - /, 0, - /, 0, 8449
++#Centiferno#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 11776
++#Centiferno~2#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 11777
++#Smite#, 253, 10, 23, 0, 10, 0, - /, 0, - /, 0, 10752
++#Smite~2#, 253, 10, 23, 0, 10, 0, - /, 0, - /, 0, 10753
++#Snooze#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 9984
++#Snooze~2#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 9985
++#Finale#, 253, 10, 23, 0, 10, 0, - /, 0, - /, 0, 8704
++#Finale~2#, 253, 10, 23, 0, 10, 0, - /, 0, - /, 0, 8705
++#Steelsurge#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 11008
++#Steelsurge~2#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 11009
++#Depletion#, 253, 10, Dragon, 0, 10, 0, - /, 0, - /, 0, 8960
++#Depletion~2#, 253, 10, Dragon, 0, 10, 0, - /, 0, - /, 0, 8961
++#"One Blow"#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 11264
++#"One Blow~2"#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 11265
++#"Rapid Flow"#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11264
++#"Rapid Flow~2"#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11265

@@ -1,7 +1,7 @@
 from ast import Try
 import re
 import json
-level = open("extractor\stats\Base_Stats.c", "r")
+level = open("extractor\stats\input\Base_Stats.c", "r")
 
 count = 0
 overAllStats = []  # overAllStats.append(temp_dict)
@@ -79,7 +79,9 @@ while True:
 
         while True:  # iterate till we finish encountering the entire list
             if re.search(REGEX_STAT_TERMINATOR, line) != None:  # end of block
-                if (len(temp_stats.keys()) == 29): # to ignore the "MANAPHY EGG", that shit has no stats just .noFlip = TRUE    
+                if (len(temp_stats.keys()) >= 28): # to ignore the "MANAPHY EGG", that shit has no stats just .noFlip = TRUE    
+                    if temp_stats.get('evYield_HP', False) == False:
+                        temp_stats['evYield_HP'] = "0"
                     temp_stats['BST'] = int(temp_stats['HP']) + int(temp_stats['Attack']) + int(temp_stats['Defense']) + \
                         int(temp_stats['SpAttack']) + \
                         int(temp_stats['SpDefense']) + int(temp_stats['Speed'])
@@ -112,5 +114,5 @@ while True:
 
 print(len(overAllStats))
 
-with open("extractor\stats\Base_Stats.json", "w", encoding="utf-8") as outfile:
+with open("extractor\stats\output\Base_Stats.json", "w", encoding="utf-8") as outfile:
     json.dump(overAllStats, outfile, indent=2)

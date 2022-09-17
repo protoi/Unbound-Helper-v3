@@ -1,5 +1,5 @@
-from cProfile import label
 from math import ceil
+from re import search
 import discord
 import os
 import numpy as np
@@ -20,12 +20,11 @@ bot = commands.Bot(command_prefix=constants.prefix, intents=(intents), help_comm
 
 splitter = constants.message_checker_regex.format(constants.prefix)
 
-maxEntriesPerPage = 5
-numOfPages = ceil(len(constants.command_text) / maxEntriesPerPage)
 
 def joinstr(a):
     return str(a[0]) + " - " + str(a[1])
-#region JSON DESERIALIZATION
+
+#region json deserialization
 #################################### GENERATING DICTIONARIES ###########################################
 with open("DATA/abilities.json", encoding='utf8') as file:
     abilities_dict = helperfunctions.listToDict('name',  json.load(file))
@@ -70,6 +69,9 @@ with open("DATA/movedescription.json", encoding='utf8') as file:
 with open("DATA/Base_Stats.json", encoding='utf8') as file:
     base_stats_dict = helperfunctions.listToDict('name',  json.load(file))
 
+with open("DATA/gifts.json", encoding='utf8') as file:
+    gifts_dict = json.load(file)
+
 ######################################################################################################
 #endregion
 
@@ -78,6 +80,12 @@ with open("DATA/Base_Stats.json", encoding='utf8') as file:
 async def on_ready():
     print(f'{bot.user}')
 
+@bot.event
+async def on_command_error(ctx, error):
+    await ctx.send(f'''uh oh, something went wrong.
+Error: `{error}`''')                                                  #sending the embed
+
+#region commands
 #________________________________________________________________________________________________________________
 @bot.command(name='help')                                           #HELP
 async def help(interaction: discord.interactions):
@@ -85,11 +93,11 @@ async def help(interaction: discord.interactions):
 
     pages = []
 
-    for i in range(0, numOfPages):                                  #Producing the pages
+    for i in range(0, constants.numOfPagesHelp):                                  #Producing the pages
         pages.append(discord.Embed(title = f"Help Page #{i+1}"))
         
-        for j in range(0, maxEntriesPerPage):                       #adding information to the pages
-            currentIndex =  j + i * maxEntriesPerPage
+        for j in range(0, constants.maxEntriesPerPageHelp):                       #adding information to the pages
+            currentIndex =  j + i * constants.maxEntriesPerPageHelp
             if currentIndex == len(constants.command_text):
                 break
             pages[i].add_field(
@@ -418,17 +426,18 @@ async def moveinfo(ctx, *args):
         description=embedBody) 
     await ctx.send(embed=embedToSend)                               #sending the embed
 #________________________________________________________________________________________________________________
-
 @bot.command(name='stats')                                          #STATS AND SCALEMONS
 async def stats(interaction: discord.interactions, *args ):
     scalemonFlag=False                                              #setting the scalemon flag to be false initially
-
+    
     if len(args) != 0 and helperfunctions.normalizeString(args[0]) == 'scale':
         scalemonFlag = True                                         #setting it to true if user wants scaled stats
-        args = helperfunctions.normalizeString(' '.join(args[1:]))
+    
+    if scalemonFlag:
+        args = helperfunctions.normalizeString(' '.join(args[1:])) 
     else:
-        args = helperfunctions.normalizeString(' '.join(args[0:]))
-        
+        args = helperfunctions.normalizeString(' '.join(args[0:])) 
+
     base_stat_element = base_stats_dict.get(args, False)            #query dictionary 
     if base_stat_element == False:                                  #is key not present, display error message and break out of it
         await interaction.send(content = constants.invalid_text)
@@ -446,8 +455,8 @@ async def stats(interaction: discord.interactions, *args ):
         complex_page.set_footer(text = constants.scalemon_warning)
 
     else:
-        simple_page = discord.Embed(title= base_stat_element['name'].title())
-        complex_page = discord.Embed(title = base_stat_element['name'].title())
+        simple_page = discord.Embed(title= base_stat_element['name'])
+        complex_page = discord.Embed(title = base_stat_element['name'])
 
     simple_page = helperfunctions.addFieldToEmbeds(simple_page, [t, s, a], ["Type", "Stats", "Abilities"])
     complex_page = helperfunctions.addFieldToEmbeds(complex_page, [b, i, e, c, ch], [
@@ -459,10 +468,47 @@ async def stats(interaction: discord.interactions, *args ):
 
     stat_menu.add_page(simple_page)
     stat_menu.add_page(complex_page)
-            
+
     stat_menu.add_button(ViewButton.next())
 
-    await stat_menu.start()                                         #posting the menu
+    await stat_menu.start() #posting the menu
+
+@bot.command(name='gifts')                                          #GIFTS
+async def gifts(interaction: discord.interactions, *args):
+    menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
+    
+    args = helperfunctions.normalizeString(' '.join(args))
+    if args == 'bfd':                                               #If user asked for BFD, we set the search_key to be bfd, unless display maingame gifts
+        search_key ='bfd'
+    else:
+        search_key = 'maingame'
+
+    numOfPagesGifts = ceil(len(gifts_dict[search_key]) / constants.maxEntriesPerPageGifts)
+        
+    pages = []
+
+    for i in range(0, numOfPagesGifts):                             #Producing the pages
+        pages.append(discord.Embed(title = f"Gift Page #{i+1}"))
+        
+        for j in range(0, constants.maxEntriesPerPageGifts):        #adding information to the pages
+            currentIndex =  j + i * constants.maxEntriesPerPageGifts
+            if currentIndex == len(gifts_dict[search_key]):
+                break
+            pages[i].add_field(
+                name= gifts_dict[search_key][currentIndex][1],      #pokemon name
+                value = f'`{gifts_dict[search_key][currentIndex][0]}`', #gift code
+                inline = False
+            )
+            
+    for p in pages:                                                 #adding the pages to the menu
+        menu.add_page(p)
+            
+    menu.add_button(ViewButton.back())
+    menu.add_button(ViewButton.next())                
+
+    await menu.start()                                              #sending the embed
+
+#endregion
 
 
 bot.run(os.getenv('tok'))
