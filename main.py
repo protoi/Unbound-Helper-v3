@@ -80,20 +80,20 @@ async def on_ready():
 @bot.event
 async def on_command_error(ctx, error):
     await ctx.send(f'''uh oh, something went wrong.
-Error: `{error}`''')                                                  #sending the embed
+Error: `{error}`''')                                               #sending the embed
 
 #region commands
 #________________________________________________________________________________________________________________
-@bot.command(name='help')                                           #HELP
+@bot.command(name='help')                                          #HELP
 async def help(interaction: discord.interactions):
     menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
 
     pages = []
 
-    for i in range(0, constants.numOfPagesHelp):                                  #Producing the pages
+    for i in range(0, constants.numOfPagesHelp):                   #Producing the pages
         pages.append(discord.Embed(title = f"Help Page #{i+1}"))
         
-        for j in range(0, constants.maxEntriesPerPageHelp):                       #adding information to the pages
+        for j in range(0, constants.maxEntriesPerPageHelp):        #adding information to the pages
             currentIndex =  j + i * constants.maxEntriesPerPageHelp
             if currentIndex == len(constants.command_text):
                 break
@@ -109,54 +109,54 @@ async def help(interaction: discord.interactions):
     menu.add_button(ViewButton.back())
     menu.add_button(ViewButton.next())                
 
-    await menu.start()                                              #sending the embed
+    await menu.start()                                             #sending the embed
 #________________________________________________________________________________________________________________
-@bot.command(name='moves')                                          #MOVES
+@bot.command(name='moves')                                         #MOVES
 async def moves(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
-    lvl_up_element = lvlupmoves_dict.get(args ,False)               #querying for the dictionary
+    lvl_up_element = lvlupmoves_dict.get(args ,False)              #querying for the dictionary
 
-    if lvl_up_element == False:                                     #if no dicitonary found, jump out of this
-        await ctx.send(constants.invalid_text)                      #error message
+    if lvl_up_element == False:                                    #if no dicitonary found, jump out of this
+        await ctx.send(constants.invalid_text)                     #error message
         return
-    embedTitle = lvl_up_element['name'].title()                     #setting name
+    embedTitle = lvl_up_element['name'].title()                    #setting name
 
     embedBody = '\n'.join( 
         ' - '.join(str(y).title() for y in x) 
-        for x in lvl_up_element['lvlUpMoves'])                      #same as the for loop above OR the one liner above
+        for x in lvl_up_element['lvlUpMoves'])                     #same as the for loop above OR the one liner above
 
     embedToSend = discord.Embed(
         title=embedTitle,
         description=embedBody) 
-    await ctx.send(embed=embedToSend)                               #sending the embed
+    await ctx.send(embed=embedToSend)                              #sending the embed
 #________________________________________________________________________________________________________________
-@bot.command(name='eggmoves')                                       #EGGMOVES
+@bot.command(name='eggmoves')                                      #EGGMOVES
 async def eggmoves(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args)) 
-    egg_moves_element = eggmoves_dict.get(args ,False)              #querying for the dictionary
-    if egg_moves_element == False:                                  #if no dicitonary found, jump out of this
-        await ctx.send(constants.invalid_text)                      #error message
+    egg_moves_element = eggmoves_dict.get(args ,False)             #querying for the dictionary
+    if egg_moves_element == False:                                 #if no dicitonary found, jump out of this
+        await ctx.send(constants.invalid_text)                     #error message
         return
-    embedTitle = egg_moves_element['name'].title()                  #extracting the name of the pokemon
+    embedTitle = egg_moves_element['name'].title()                 #extracting the name of the pokemon
     embedBody = "\n".join(
         x.lower() for x in 
-        egg_moves_element['eggMoves'])                              #concatenating the list items
+        egg_moves_element['eggMoves'])                             #concatenating the list items
     embedToSend = discord.Embed(
         title=embedTitle,
-        description=embedBody)                                      #producing an embed
-    await ctx.send(embed=embedToSend)                               #sending the embed
+        description=embedBody)                                     #producing an embed
+    await ctx.send(embed=embedToSend)                              #sending the embed
 #________________________________________________________________________________________________________________
-@bot.command(name='ability')                                        #ABILITY
+@bot.command(name='ability')                                       #ABILITY
 async def ability(ctx, *args):
     args = helperfunctions.normalizeString(' '.join(args))
     abilities_element = abilities_dict.get(args, False)
             
-    if abilities_element == False:                                  #if no dictionary found return and send error message
-        await ctx.send(constants.invalid_text)                      #error
+    if abilities_element == False:                                 #if no dictionary found return and send error message
+        await ctx.send(constants.invalid_text)                     #error
         return
     
     
-    ability1, ability2, hiddenAbility = [str(x).lower().title()     # extracting abilites and ability descriptions for embedText
+    ability1, ability2, hiddenAbility = [str(x).lower().title()    #extracting abilites and ability descriptions for embedText
     for x in abilities_element['Ability']]
     
     ability1_desc, ability2_desc, hidden_ability_desc =  [ ability_desc_dict[helperfunctions.normalizeString(x)]['effect'] 
