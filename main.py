@@ -452,8 +452,8 @@ async def stats(interaction: discord.interactions, *args ):
         complex_page.set_footer(text = constants.scalemon_warning)
 
     else:
-        simple_page = discord.Embed(title= base_stat_element['name'])
-        complex_page = discord.Embed(title = base_stat_element['name'])
+        simple_page = discord.Embed(title= base_stat_element['name'].title())
+        complex_page = discord.Embed(title = base_stat_element['name'].title())
 
     simple_page = helperfunctions.addFieldToEmbeds(simple_page, [t, s, a], ["Type", "Stats", "Abilities"])
     complex_page = helperfunctions.addFieldToEmbeds(complex_page, [b, i, e, c, ch], [
