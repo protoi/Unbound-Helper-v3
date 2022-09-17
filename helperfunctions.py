@@ -93,7 +93,7 @@ def getComplexStats(element, scaleORnot=False):
             element['type1'].title())
     else:
         type_template = constants.pokemon_type_template.format(
-            element['type1'] + ", " + element['type2'])
+            element['type1'].title() + ", " + element['type2'].title())
 
     capture_template = constants.pokemon_capture_template.format(element['catchRate'],
                                                                  element['expYield'])
@@ -104,16 +104,16 @@ def getComplexStats(element, scaleORnot=False):
                                                                      element["evYield_SpAttack"],
                                                                      element["evYield_SpDefense"],
                                                                      element["evYield_Speed"])
-    item_template = constants.pokemon_item_template.format(element["item1"],
-                                                           element["item2"])
+    item_template = constants.pokemon_item_template.format(element["item1"].title(),
+                                                           element["item2"].title())
 
     if element['eggGroup1'] == element['eggGroup2']:
-        eg = element['eggGroup1']
+        eg = element['eggGroup1'].title()
     else:
-        eg = element['eggGroup1'] + \
-            ", " + element['eggGroup2']
+        eg = element['eggGroup1'].title() + \
+            ", " + element['eggGroup2'].title()
 
-    breeding_template = constants.pokemon_breeding_template.format(element["genderRatio"],
+    breeding_template = constants.pokemon_breeding_template.format(element["genderRatio"].title(),
                                                                    element["eggCycles"],
                                                                    eg)
     ability_template = constants.pokemon_ability_template.format(element['ability1'],
@@ -121,7 +121,7 @@ def getComplexStats(element, scaleORnot=False):
                                                                  element['hiddenAbility'])
 
     characteristics_template = constants.pokemon_characteristics_template.format(element['friendship'],
-                                                                                 element['growthRate'])
+                                                                                 element['growthRate'].title())
 
     return [stat_template,
             type_template,
