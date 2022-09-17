@@ -78,6 +78,11 @@ with open("DATA/Base_Stats.json", encoding='utf8') as file:
 async def on_ready():
     print(f'{bot.user}')
 
+@bot.event
+async def on_command_error(ctx, error):
+    await ctx.send(f"uh oh, something went wrong. Error: {error}")                               #sending the embed
+
+
 #________________________________________________________________________________________________________________
 @bot.command(name='help')                                           #HELP
 async def help(interaction: discord.interactions):
@@ -425,7 +430,12 @@ async def stats(interaction: discord.interactions, *args ):
     
     if len(args) != 0 and helperfunctions.normalizeString(args[0]) == 'scale':
         scalemonFlag = True                                         #setting it to true if user wants scaled stats
-    args = helperfunctions.normalizeString(' '.join(args[1:])) 
+    
+    if scalemonFlag:
+        args = helperfunctions.normalizeString(' '.join(args[1:])) 
+    else:
+        args = helperfunctions.normalizeString(' '.join(args[0:])) 
+
     base_stat_element = base_stats_dict.get(args, False)            #query dictionary 
     if base_stat_element == False:                                  #is key not present, display error message and break out of it
         await interaction.send(content = constants.invalid_text)
@@ -447,10 +457,7 @@ async def stats(interaction: discord.interactions, *args ):
         complex_page = discord.Embed(title = base_stat_element['name'])
 
     simple_page = helperfunctions.addFieldToEmbeds(simple_page, [t, s, a], ["Type", "Stats", "Abilities"])
-    complex_page = helperfunctions.addFieldToEmbeds(complex_page, [t, s, a, b, i, e, c, ch], [
-    "Type",
-    "Stats",
-    "Abilities",
+    complex_page = helperfunctions.addFieldToEmbeds(complex_page, [b, i, e, c, ch], [
     "Breeding Information",
     "Items",
     "EV Yields",
