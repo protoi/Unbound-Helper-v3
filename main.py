@@ -1,4 +1,5 @@
 from math import ceil
+from re import search
 import discord
 import os
 import numpy as np
@@ -68,6 +69,9 @@ with open("DATA/movedescription.json", encoding='utf8') as file:
 with open("DATA/Base_Stats.json", encoding='utf8') as file:
     base_stats_dict = helperfunctions.listToDict('name',  json.load(file))
 
+with open("DATA/gifts.json", encoding='utf8') as file:
+    gifts_dict = json.load(file)
+
 ######################################################################################################
 #endregion
 
@@ -89,11 +93,11 @@ async def help(interaction: discord.interactions):
 
     pages = []
 
-    for i in range(0, constants.numOfPages):                                  #Producing the pages
+    for i in range(0, constants.numOfPagesHelp):                                  #Producing the pages
         pages.append(discord.Embed(title = f"Help Page #{i+1}"))
         
-        for j in range(0, constants.maxEntriesPerPage):                       #adding information to the pages
-            currentIndex =  j + i * constants.maxEntriesPerPage
+        for j in range(0, constants.maxEntriesPerPageHelp):                       #adding information to the pages
+            currentIndex =  j + i * constants.maxEntriesPerPageHelp
             if currentIndex == len(constants.command_text):
                 break
             pages[i].add_field(
@@ -468,6 +472,42 @@ async def stats(interaction: discord.interactions, *args ):
     stat_menu.add_button(ViewButton.next())
 
     await stat_menu.start() #posting the menu
+
+@bot.command(name='gifts')
+async def gifts(interaction: discord.interactions, *args):
+    menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
+    
+    args = helperfunctions.normalizeString(' '.join(args))
+    if args == 'bfd':
+        search_key ='bfd'
+    else:
+        search_key = 'maingame'
+
+    numOfPagesGifts = ceil(len(gifts_dict[search_key]) / constants.maxEntriesPerPageGifts)
+        
+    pages = []
+
+    for i in range(0, numOfPagesGifts):                                  #Producing the pages
+        pages.append(discord.Embed(title = f"Gift Page #{i+1}"))
+        
+        for j in range(0, constants.maxEntriesPerPageGifts):                       #adding information to the pages
+            currentIndex =  j + i * constants.maxEntriesPerPageGifts
+            if currentIndex == len(gifts_dict[search_key]):
+                break
+            pages[i].add_field(
+                name= gifts_dict[search_key][currentIndex][1],
+                value = f'`{gifts_dict[search_key][currentIndex][0]}`',
+                inline = False
+            )
+            
+    for p in pages:
+        menu.add_page(p)
+            
+    menu.add_button(ViewButton.back())
+    menu.add_button(ViewButton.next())                
+
+    await menu.start()                                              #sending the embed
+
 
 #endregion
 

@@ -253,6 +253,8 @@ Friendship: {}
 Growth Rate: {}
 '''
 
-maxEntriesPerPage = 5                       #max entries we want in the ;help menu section
+maxEntriesPerPageHelp = 5                       #max entries we want in the ;help menu section
 
-numOfPages = ceil(len(command_text) / maxEntriesPerPage) #number of pages needed to accomodate this many page elements
+numOfPagesHelp = ceil(len(command_text) / maxEntriesPerPageHelp) #number of pages needed to accomodate this many page elements
+
+maxEntriesPerPageGifts = 6                       #max entries we want in the ;gifts menu section
