@@ -123,65 +123,68 @@ kbt_image_source = ["K.B.T tutor list(thank you `fox appreciation`, `SevenK`, Lu
 
 command_text = [
     ["moves",
-     '''Syntax: `;moves <pokemon_name>`
+     f'''Syntax: `{prefix}moves <pokemon_name>`
      Displays the level up moves of a pokemon'''],
     ["eggmoves",
-     '''Syntax: `;eggmoves <pokemon_name>`
+     f'''Syntax: `{prefix}eggmoves <pokemon_name>`
      Displays the egg moves of a pokemon'''],
     ["ability",
-     '''Syntax: `;ability <pokemon_name>`
+     f'''Syntax: `{prefix}ability <pokemon_name>`
      Displays the abilities of the Pokemon, thank SevenK for this :pleading_face:'''],
     ["tm",
-     '''Syntax: `;tm <tm_number>` OR `;tm <tm_name>`
+     f'''Syntax: `{prefix}tm <tm_number>` OR `{prefix}tm <tm_name>`
      Displays the location of the TM'''],
     ["location",
-     '''Syntax: `;location <pokemon_name>`
+     f'''Syntax: `{prefix}location <pokemon_name>`
      Displays the location(s) of a pokemon(thank you Spectre and SevenK for the pokemon guide)'''],
     ["megastone",
-     '''Syntax: `;megastone <megastone_name>`
+     f'''Syntax: `{prefix}megastone <megastone_name>`
      Dislays the mega stone location.'''],
     ["z",
-     '''Syntax: `;z <z move_name>`
+     f'''Syntax: `{prefix}z <z move_name>`
      Dislays the Z move location.'''],
     ["helditem",
-     '''Syntax: `;helditem <item name>`
+     f'''Syntax: `{prefix}helditem <item name>`
      Dislays the held item location(may not have everything you want) Thankyou Sparrow and SevenK🥺🥺🥺.'''],
     ["difficulty",
-     '''Syntax: `;difficulty`
+     f'''Syntax: `{prefix}difficulty`
      Displays the difficulty summary'''],
     ["shinyodd",
-     '''Syntax: `;shinyodd` OR `;shiny`
+     f'''Syntax: `{prefix}shinyodd` OR `{prefix}shiny`
      Displays the odds of getting a shiny'''],
     ["pickup",
-     '''Syntax: `;pickup` OR `;pick`
+     f'''Syntax: `{prefix}pickup`
      Displays the pickup drop table'''],
     ["kbt",
-     '''Syntax: `;kbt` OR `;KBT`
+     f'''Syntax: `{prefix}kbt`
      Displays the KBT tutor list'''],
     ["breeding",
-     '''Syntax: `;breeding`
+     f'''Syntax: `{prefix}breeding`
      Displays the incenses required to breed certain pokemons'''],
     ["caps",
-     '''Syntax: `;caps` OR `;lvlcaps`
-     Dislays the levels caps of Gym Leaders.'''],
+     f'''Syntax: `{prefix}caps` OR `{prefix}lvlcaps`
+     Dislays the levels caps of Gym Leaders.
+     Use `{prefix}caps vanilla` for Vanilla Difficulty caps'''],
     ["download",
-     '''Syntax: `;download`
+     f'''Syntax: `{prefix}download`
      The URL to download the latest patch to Pokemon Unbound.'''],
     ["tutor",
-     '''Syntax: `;tutor <pokemon_name> `
-     shows tutor compatibility, thanks dave99 for the lists!!'''],
+     f'''Syntax: `{prefix}tutor <pokemon_name> `
+     Shows tutor compatibility, thank you for the lists dave99'''],
     ["learntm",
-     '''Syntax: `;learntm <pokemon_name>`
-     shows tm compatibility, thanks dave99 again!!!!'''],
-    ["scale",
-     '''Syntax: `;scale <pokemon_name>`
-     scalemon stats'''],
+     f'''Syntax: `{prefix}learntm <pokemon_name>`
+     Shows tm compatibility, thanks again dave99!!!!'''],
+    ["gifts",
+     f'''Syntax: `{prefix}gifts`
+     Displays the mystery gift codes for Unbound Monthly Distributions.
+     Use {prefix}gifts bfd for Battle Frontier Demo Mystery Gifts.'''],
     ["stats",
-     '''Syntax: `;stats <pokemon_name>`
-     normal stats'''],
+     f'''Syntax: `{prefix}stats <pokemon_name>`
+     display information about the pokemon.
+     Use `{prefix}stats scale <pokemon_name> for their scalemon stats`'''],
     ["docs",
-     '''Syntax: `;docs`
-     shows links to the docs''']
+     f'''Syntax: `{prefix}docs`
+     Shows links to the docs''']
 ]
 
 move_info_display = '''__Description__: {}

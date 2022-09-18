@@ -475,7 +475,7 @@ async def stats(interaction: discord.interactions, *args ):
     stat_menu.add_button(ViewButton.next())
 
     await stat_menu.start() #posting the menu
-
+#________________________________________________________________________________________________________________
 @bot.command(name='gifts')                                          #GIFTS
 async def gifts(interaction: discord.interactions, *args):
     menu = ViewMenu(interaction, menu_type=ViewMenu.TypeEmbed, remove_buttons_on_timeout=True, all_can_click=False)
@@ -510,6 +510,7 @@ async def gifts(interaction: discord.interactions, *args):
     menu.add_button(ViewButton.next())                
 
     await menu.start()                                              #sending the embed
+#________________________________________________________________________________________________________________
 
 #endregion
 
