@@ -180,8 +180,11 @@ command_text = [
      Use {prefix}gifts bfd for Battle Frontier Demo Mystery Gifts.'''],
     ["stats",
      f'''Syntax: `{prefix}stats <pokemon_name>`
-     display information about the pokemon.
+     Display information about the pokemon.
      Use `{prefix}stats scale <pokemon_name> for their scalemon stats`'''],
+     ["moveinfo",
+     f'''Syntax: `{prefix}moveinfo <move_name>`
+     Display information about a move.'''],
     ["docs",
      f'''Syntax: `{prefix}docs`
      Shows links to the docs''']
