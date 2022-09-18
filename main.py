@@ -140,7 +140,7 @@ async def eggmoves(ctx, *args):
     embedTitle = egg_moves_element['name'].title()                  #extracting the name of the pokemon
     embedBody = "\n".join(
         x.lower() for x in 
-        egg_moves_element['eggMoves'])                              #concatenating the list items
+        egg_moves_element['eggmoves'])                              #concatenating the list items
     embedToSend = discord.Embed(
         title=embedTitle,
         description=embedBody)                                      #producing an embed
