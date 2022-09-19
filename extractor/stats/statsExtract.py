@@ -42,6 +42,7 @@ REGEX_LIST = [
     r"[\t ]*\.(noFlip)[ \t=]*([\w]*)"
 ]
 
+REGEX_COMMENT = r"-ABILITY_([\w]*)[ ]*$"
 
 while True:
     line = level.readline()
@@ -95,7 +96,14 @@ while True:
             for r in REGEX_LIST:
                 stats = re.search(r, line)
                 if stats != None:  # match found
-                    if stats.group(1) == "genderRatio":
+                    if stats.group(1) == 'ability1' or stats.group(1) == 'ability2' or stats.group(1) == 'hiddenAbility':
+                        comments = re.search(REGEX_COMMENT, line)       # assuming comments like sunflora and fearows abilities start with //-ABILITY_(ability name)
+                        if comments != None:
+                            ans =  comments.group(1).replace('_', ' ')
+                        else:
+                            ans = stats.group(2).replace('_', ' ')
+                        temp_stats[stats.group(1)] = ans
+                    elif stats.group(1) == "genderRatio":
                         if stats.group(2) == "GENDERLESS":
                             ans = "GENDERLESS"
                         else:
