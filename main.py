@@ -396,7 +396,7 @@ async def tutor(ctx, *args):
     embedTitle = "Tutor moves learnt by "
     embedBody = ", ".join(
         x.title() for x in 
-        tutor_element.get('tmMoves', "")
+        tutor_element.get('tutorMoves', "")
     )
     embedTitle += tutor_element['name'].title()                     #extracting the name of the pokemon
     
