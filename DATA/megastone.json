@@ -1,190 +1,190 @@
 [
   {
-    "name": "Charizardite X",
-    "location": "Found in Cinder Volcano after solving the Braille tablet"
-  },
-  {
-    "name": "Charizardite Y",
-    "location": "Given by Abimbola at Magnolia Café (Tuesday 5:00 PM - 7:59 PM)"
-  },
-  {
-    "name": "Blastoisinite",
-    "location": "Given by Cathy at Magnolia Café (Monday 2:00 PM - 4:59 PM)"
-  },
-  {
-    "name": "Venusaurite",
-    "location": "Given by Mahina at Magnolia Café (Thursday 2:00 PM - 4:59 PM)"
-  },
-  {
-    "name": "Beedrillite",
-    "location": "Reward for completing the “Weed Whacker” mission"
-  },
-  {
-    "name": "Pidgeotite",
-    "location": "Reward for defeating the Mega Trainer on Route 17"
-  },
-  {
-    "name": "Alakazite",
-    "location": "Reward for defeating the Mega Trainer outside of Cliff Cave"
-  },
-  {
-    "name": "Gengarite",
-    "location": "Hidden item on a mountain at Victory Road Snowy Area after using Rock Climb"
-  },
-  {
-    "name": "Slowbronite",
-    "location": "Hidden item on a beach south of Seaport City"
-  },
-  {
-    "name": "Kangaskhanite",
-    "location": "Reward for defeating the Mega Trainer in Redwood Forest\nPost-game"
-  },
-  {
-    "name": "Pinsirite",
-    "location": "Reward for completing the “Numb Skull” mission\nPost-game"
-  },
-  {
-    "name": "Gyaradosite",
-    "location": "Reward for defeating the Mega Trainer on Route 13"
-  },
-  {
-    "name": "Aerodactylite",
-    "location": "Found in the puzzle room at Crystal Peak\nPost-game"
-  },
-  {
-    "name": "Mewtwonite X",
-    "location": "Currently Unavailable"
-  },
-  {
-    "name": "Mewtwonite Y",
-    "location": "Currently Unavailable"
-  },
-  {
-    "name": "Scizorite",
-    "location": "Reward for defeating the Mega Trainer in Great Desert"
-  },
-  {
-    "name": "Heracronite",
-    "location": "Reward for completing the “Battle of Antisis” mission"
-  },
-  {
-    "name": "Ampharosite",
-    "location": "Reward for defeating the Mega Trainer in Thundercap Mountain"
-  },
-  {
-    "name": "Tyranitarite",
-    "location": "1. Found in the Shadow Base Warehouse where you chose Larvitar as a starter\n2. Received as a reward for completing the “Portal Purge” mission if Larvitar is not your starter\nPost-game"
-  },
-  {
-    "name": "Steelixite",
-    "location": "Found on a mountain east of Fallshore beach after using Surf"
-  },
-  {
-    "name": "Houndoomite",
-    "location": "Hidden item in Shadow Base B3F"
-  },
-  {
-    "name": "Blazikenite",
-    "location": "Converted by the Mega Stone Maker in Cube Corp. by using 5 Fire Gems\nPost-game"
-  },
-  {
-    "name": "Swampertite",
-    "location": "Converted by the Mega Stone Maker in Cube Corp. by using 5 Water Gems\nPost-game"
-  },
-  {
-    "name": "Sceptilite",
-    "location": "Converted by the Mega Stone Maker in Cube Corp. by using 5 Grass Gems\nPost-game"
-  },
-  {
-    "name": "Gardevoirite",
-    "location": "Hidden item in Vivill Warehouse"
-  },
-  {
-    "name": "Sablenite",
-    "location": "Reward for defeating the Mega Trainer on Route 18"
-  },
-  {
-    "name": "Mawilite",
-    "location": "Found in Icicle Cave after solving the Braille tablet"
-  },
-  {
-    "name": "Sharpedonite",
-    "location": "Reward for completing the “Shark Bait” mission\nPost-game"
-  },
-  {
-    "name": "Aggronite",
-    "location": "Found in the Lost Tunnel (the “Island Saviour” mission must be activated)"
-  },
-  {
-    "name": "Cameruptite",
-    "location": "Reward for defeating the Mega Trainer in Cinder Volcano"
-  },
-  {
-    "name": "Medichamite",
-    "location": "Reward for defeating the Mega Trainer on Route 10"
-  },
-  {
-    "name": "Glalitite",
-    "location": "Reward for defeating the Mega Trainer in Icicle Cave"
-  },
-  {
-    "name": "Manectite",
-    "location": "Found in Thundercap Mountain behind the electric fence"
-  },
-  {
-    "name": "Banettite",
-    "location": "Found in Grim Woods after unlocking the Raid Den there"
-  },
-  {
-    "name": "Altarianite",
-    "location": "Reward for defeating Successor Maxima in Tarmigan Mansion"
-  },
-  {
-    "name": "Absolite",
-    "location": "Reward for defeating the Mega Trainer in a small room on Crystal Peak\nPost-game"
-  },
-  {
-    "name": "Salamencite",
-    "location": "Given by Arthur in Dresco Town after defeating Aklove in Ruins of Void\nPost-game"
-  },
-  {
-    "name": "Metagrossite",
-    "location": "1. Found in the Shadow Base Warehouse where you chose Beldum as a starter\n2. Given by your rival at Crystal Peak if you chose Beldum and are playing on Insane\n3. Received as a reward for completing the “Portal Purge” mission if Beldum is not your starter Post-game"
-  },
-  {
-    "name": "Latiasite",
-    "location": "Given by the Ranger in the Mission HQ after completing 45 missions (If you're a girl)\nReward for completing the “No Survivors” mission (If you're a boy)\nPost-game"
-  },
-  {
-    "name": "Latiosite",
-    "location": "Given by the Ranger in the Mission HQ after completing 45 missions (If you're a boy)\nReward for completing the “No Survivors” mission (If you're a girl)\nPost-game"
-  },
-  {
-    "name": "Garchompite",
-    "location": "1. Found in the Shadow Base Warehouse where you chose Gible as a starter\n2. Received as a reward for completing the “Portal Purge” mission if Gible is not your starter\nPost-game"
-  },
-  {
-    "name": "Lucarionite",
-    "location": "Reward for completing the “Warmonger” mission"
-  },
-  {
-    "name": "Abomasite",
-    "location": "Found in Frozen Forest after using Rock Climb"
-  },
-  {
-    "name": "Lopunnite",
-    "location": "Reward for defeating the Mega Trainers on Route 2"
-  },
-  {
-    "name": "Galladite",
-    "location": "Hidden item at Antisis City Port (12 PM - 4:59 PM)"
-  },
-  {
-    "name": "Audinite",
-    "location": "Hidden item in Seaport City Warehouse (the “Home for a Hobo” mission must be activated)"
-  },
-  {
-    "name": "Diancite",
-    "location": "Reward for completing the “Major Miner” mission\nPost-game"
-  }
+		"name": "Charizardite X",
+		"location": "Found in Cinder Volcano after solving the Braille tablet"
+	},
+	{
+		"name": "Charizardite Y",
+		"location": "Given by Abimbola at Magnolia Café (Tuesday 5:00 PM - 7:59 PM)"
+	},
+	{
+		"name": "Blastoisinite",
+		"location": "Given by Cathy at Magnolia Café (Monday 2:00 PM - 4:59 PM)"
+	},
+	{
+		"name": "Venusaurite",
+		"location": "Given by Mahina at Magnolia Café (Thursday 2:00 PM - 4:59 PM)"
+	},
+	{
+		"name": "Beedrillite",
+		"location": "Reward for completing the “Weed Whacker” mission"
+	},
+	{
+		"name": "Pidgeotite",
+		"location": "Reward for defeating the Mega Trainer on Route 17"
+	},
+	{
+		"name": "Alakazite",
+		"location": "Reward for defeating the Mega Trainer outside of Cliff Cave"
+	},
+	{
+		"name": "Gengarite",
+		"location": "Hidden item on a mountain at Victory Road Snowy Area after using Rock Climb"
+	},
+	{
+		"name": "Slowbronite",
+		"location": "Hidden item on a beach south of Seaport City"
+	},
+	{
+		"name": "Kangaskhanite",
+		"location": "Reward for defeating the Mega Trainer in Redwood Forest\nPost-game"
+	},
+	{
+		"name": "Pinsirite",
+		"location": "Reward for completing the “Numb Skull” mission\nPost-game"
+	},
+	{
+		"name": "Gyaradosite",
+		"location": "Reward for defeating the Mega Trainer on Route 13"
+	},
+	{
+		"name": "Aerodactylite",
+		"location": "Found in the puzzle room at Crystal Peak\nPost-game"
+	},
+	{
+		"name": "Mewtwonite X",
+		"location": "Currently Unavailable"
+	},
+	{
+		"name": "Mewtwonite Y",
+		"location": "Currently Unavailable"
+	},
+	{
+		"name": "Scizorite",
+		"location": "Reward for defeating the Mega Trainer in Great Desert"
+	},
+	{
+		"name": "Heracronite",
+		"location": "Reward for completing the “Battle of Antisis” mission"
+	},
+	{
+		"name": "Ampharosite",
+		"location": "Reward for defeating the Mega Trainer in Thundercap Mountain"
+	},
+	{
+		"name": "Tyranitarite",
+		"location": "1. Found in the Shadow Base Warehouse where you chose Larvitar as a starter\n2. Received as a reward for completing the “Portal Purge” mission if Larvitar is not your starter\nPost-game"
+	},
+	{
+		"name": "Steelixite",
+		"location": "Found on a mountain east of Fallshore beach after using Surf"
+	},
+	{
+		"name": "Houndoomite",
+		"location": "Hidden item in Shadow Base B3F"
+	},
+	{
+		"name": "Blazikenite",
+		"location": "Converted by the Mega Stone Maker in Cube Corp. by using 5 Fire Gems\nPost-game"
+	},
+	{
+		"name": "Swampertite",
+		"location": "Converted by the Mega Stone Maker in Cube Corp. by using 5 Water Gems\nPost-game"
+	},
+	{
+		"name": "Sceptilite",
+		"location": "Converted by the Mega Stone Maker in Cube Corp. by using 5 Grass Gems\nPost-game"
+	},
+	{
+		"name": "Gardevoirite",
+		"location": "Hidden item in Vivill Warehouse"
+	},
+	{
+		"name": "Sablenite",
+		"location": "Reward for defeating the Mega Trainer on Route 18"
+	},
+	{
+		"name": "Mawilite",
+		"location": "Found in Icicle Cave after solving the Braille tablet"
+	},
+	{
+		"name": "Sharpedonite",
+		"location": "Reward for completing the “Shark Bait” mission\nPost-game"
+	},
+	{
+		"name": "Aggronite",
+		"location": "Found in the Lost Tunnel (the “Island Saviour” mission must be activated)"
+	},
+	{
+		"name": "Cameruptite",
+		"location": "Reward for defeating the Mega Trainer in Cinder Volcano"
+	},
+	{
+		"name": "Medichamite",
+		"location": "Reward for defeating the Mega Trainer on Route 10"
+	},
+	{
+		"name": "Glalitite",
+		"location": "Reward for defeating the Mega Trainer in Icicle Cave"
+	},
+	{
+		"name": "Manectite",
+		"location": "Found in Thundercap Mountain behind the electric fence"
+	},
+	{
+		"name": "Banettite",
+		"location": "Found in Grim Woods after unlocking the Raid Den there"
+	},
+	{
+		"name": "Altarianite",
+		"location": "Reward for defeating Successor Maxima in Tarmigan Mansion"
+	},
+	{
+		"name": "Absolite",
+		"location": "Reward for defeating the Mega Trainer in a small room on Crystal Peak\nPost-game"
+	},
+	{
+		"name": "Salamencite",
+		"location": "Given by Arthur in Dresco Town after defeating Aklove in Ruins of Void\nPost-game"
+	},
+	{
+		"name": "Metagrossite",
+		"location": "1. Found in the Shadow Base Warehouse where you chose Beldum as a starter\n2. Given by your rival at Crystal Peak if you chose Beldum and are playing on Insane\n3. Received as a reward for completing the “Portal Purge” mission if Beldum is not your starter\nPost-game"
+	},
+	{
+		"name": "Latiasite",
+		"location": "Given by the Ranger in the Mission HQ after completing 45 missions (If you're a girl)\nReward for completing the “No Survivors” mission (If you're a boy)\nPost-game"
+	},
+	{
+		"name": "Latiosite",
+		"location": "Given by the Ranger in the Mission HQ after completing 45 missions (If you're a boy)\nReward for completing the “No Survivors” mission (If you're a girl)\nPost-game"
+	},
+	{
+		"name": "Garchompite",
+		"location": "1. Found in the Shadow Base Warehouse where you chose Gible as a starter\n2. Received as a reward for completing the “Portal Purge” mission if Gible is not your starter\nPost-game"
+	},
+	{
+		"name": "Lucarionite",
+		"location": "Reward for completing the “Warmonger” mission"
+	},
+	{
+		"name": "Abomasite",
+		"location": "Found in Frozen Forest after using Rock Climb"
+	},
+	{
+	    "name": "Lopunnite",
+		"location": "Reward for defeating the Mega Trainers on Route 2"
+	},
+	{
+		"name": "Galladite",
+		"location": "Hidden item at Antisis City Port (12 PM - 4:59 PM)"
+	},
+	{
+		"name": "Audinite",
+		"location": "Hidden item in Seaport City Warehouse (the “Home for a Hobo” mission must be activated)"
+	},
+	{
+		"name": "Diancite",
+		"location": "Reward for completing the “Major Miner” mission\nPost-game"
+	}
 ]

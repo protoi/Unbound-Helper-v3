@@ -735,7 +735,7 @@
 +#SurgeStrikes#, 2to5hits, 25, Water, 100, 5, 0, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 100, 0
 +#"Freeze Glare"#, FreezeHitChance, 90, Psychc, 100, 10, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
 +#"Thunder Kick"#, LowerDefense1HitChance, 90, Fight, 100, 10, 100, - /, 0, - "Makes Contact" "Affected by Protect" "Affected by Mirror Move" /, 175, 0
-+#"Fiery Wrath"#, Flinch, 90, Dark, 100, 10, 20, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
++#"Fiery Wrath"#, Flinch, 90, Dark, 100, 10, 20, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 175, 1
 +#"Eerie Spell"#, ReducePP, 80, Psychc, 90, 15, 0, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
 +#"Thunder Cage"#, 2to5turnTrap, 80, Electr, 90, 15, 100, - /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 160, 1
 +#DragonEnergy#, None, 150, Dragon, 100, 5, 0, - Both /, 0, - "Affected by Protect" "Affected by Mirror Move" /, 200, 1
@@ -883,12 +883,12 @@
 +#Malodor~2#, 253, 10, Poison, 0, 10, 0, - /, 0, - /, 0, 7681
 +#Meltdown#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 11264
 +#Meltdown~2#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 11265
-+#"Drum Solo"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 11264
-+#"Drum Solo~2"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 11265
-+#Fireball#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 11264
-+#Fireball~2#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 11265
-+#Hydrosnipe#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11264
-+#Hydrosnipe~2#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11265
++#"Drum Solo"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 12032
++#"Drum Solo~2"#, 253, 10, Grass, 0, 10, 0, - /, 0, - /, 0, 12033
++#Fireball#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 12032
++#Fireball~2#, 253, 10, Fire, 0, 10, 0, - /, 0, - /, 0, 12033
++#Hydrosnipe#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 12032
++#Hydrosnipe~2#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 12033
 +#Windrage#, 253, 10, Flying, 0, 10, 0, - /, 0, - /, 0, 8192
 +#Windrage~2#, 253, 10, Flying, 0, 10, 0, - /, 0, - /, 0, 8193
 +#Gravitas#, 253, 10, Psychc, 0, 10, 0, - /, 0, - /, 0, 9216
@@ -917,7 +917,7 @@
 +#Steelsurge~2#, 253, 10, Steel, 0, 10, 0, - /, 0, - /, 0, 11009
 +#Depletion#, 253, 10, Dragon, 0, 10, 0, - /, 0, - /, 0, 8960
 +#Depletion~2#, 253, 10, Dragon, 0, 10, 0, - /, 0, - /, 0, 8961
-+#"One Blow"#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 11264
-+#"One Blow~2"#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 11265
-+#"Rapid Flow"#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11264
-+#"Rapid Flow~2"#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 11265
++#"One Blow"#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 12288
++#"One Blow~2"#, 253, 10, Dark, 0, 10, 0, - /, 0, - /, 0, 12289
++#"Rapid Flow"#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 12288
++#"Rapid Flow~2"#, 253, 10, Water, 0, 10, 0, - /, 0, - /, 0, 12289

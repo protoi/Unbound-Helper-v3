@@ -213,7 +213,7 @@
   },
   {
     "name": "Persian",
-    "location": "Route 18\nEvolve Meowth (Lv. 28)"
+    "location": "Route 18 (Day)\nEvolve Meowth (Lv. 28)"
   },
   {
     "name": "Psyduck",
@@ -529,7 +529,7 @@
   },
   {
     "name": "Ditto",
-    "location": "Route 5, 10, Auburn Waterway, Cube Corp."
+    "location": "Route 5, 10, Auburn Waterway"
   },
   {
     "name": "Eevee",
@@ -2361,7 +2361,7 @@
   },
   {
     "name": "Foongus",
-    "location": "Vivill Woods (Trainer ID dependant) / Breed Amoonguss"
+    "location": "Vivill Woods (Trainer ID dependant)\nBreed Amoonguss"
   },
   {
     "name": "Amoonguss",
@@ -2753,11 +2753,11 @@
   },
   {
     "name": "Binacle",
-    "location": "Route 2, 13, 14, 16, 17, 18, outside of the Thundercap Mountain, Great Desert (Rock Smash)"
+    "location": "Route 2, 13, 14, 16, 17, 18, outside of the Thundercap Mountain, Great Desert (Rock Smash) / Route 2 (Static)"
   },
   {
     "name": "Barbaracle",
-    "location": "Evolve Binacle (Lv. 39)"
+    "location": "Evolve Binacle (Lv. 36)"
   },
   {
     "name": "Skrelp",
@@ -3025,7 +3025,7 @@
   },
   {
     "name": "Morelull",
-    "location": "Vivill Woods (Trainer ID dependant) / Breed Shiinotic"
+    "location": "Vivill Woods (Trainer ID dependant)\nBreed Shiinotic"
   },
   {
     "name": "Shiinotic",
@@ -3321,7 +3321,7 @@
   },
   {
     "name": "Grookey",
-    "location": "Breed Thwackey\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Thwackey\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Thwackey",
@@ -3333,7 +3333,7 @@
   },
   {
     "name": "Scorbunny",
-    "location": "Breed Raboot\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Raboot\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Raboot",
@@ -3345,7 +3345,7 @@
   },
   {
     "name": "Sobble",
-    "location": "Breed Drizzile\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Drizzile\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Drizzile",
@@ -3357,7 +3357,7 @@
   },
   {
     "name": "Skwovet",
-    "location": "Route 3 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 3 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Greedent",
@@ -3365,7 +3365,7 @@
   },
   {
     "name": "Rookidee",
-    "location": "Breed Corvisquire\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Corvisquire\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Corvisquire",
@@ -3377,7 +3377,7 @@
   },
   {
     "name": "Blipbug",
-    "location": "Grim Woods (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Grim Woods (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Dottler",
@@ -3389,7 +3389,7 @@
   },
   {
     "name": "Nickit",
-    "location": "Route 5 - Night (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 5 - Night (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Thievul",
@@ -3397,7 +3397,7 @@
   },
   {
     "name": "Wooloo",
-    "location": "Breed Dubwool\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Dubwool\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Dubwool",
@@ -3405,7 +3405,7 @@
   },
   {
     "name": "Gossifleur",
-    "location": "Breed Eldegoss\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Eldegoss\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Eldegoss",
@@ -3413,7 +3413,7 @@
   },
   {
     "name": "Chewtle",
-    "location": "Route 3 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 3 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Drednaw",
@@ -3421,7 +3421,7 @@
   },
   {
     "name": "Yamper",
-    "location": "Route 5 - Day (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 5 - Day (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Boltund",
@@ -3429,7 +3429,7 @@
   },
   {
     "name": "Rolycoly",
-    "location": "Cinder Volcano (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Cinder Volcano (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Carkol",
@@ -3441,7 +3441,7 @@
   },
   {
     "name": "Applin",
-    "location": "Route 12 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 12 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Flapple",
@@ -3453,7 +3453,7 @@
   },
   {
     "name": "Silicobra",
-    "location": "Great Desert (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Great Desert (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Sandaconda",
@@ -3461,7 +3461,7 @@
   },
   {
     "name": "Arrokuda",
-    "location": "Route 9 (Surf - Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 9 (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Barraskewda",
@@ -3469,7 +3469,7 @@
   },
   {
     "name": "Toxel",
-    "location": "Route 9 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 9 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Toxtricity",
@@ -3477,7 +3477,7 @@
   },
   {
     "name": "Sizzlipede",
-    "location": "Route 4 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 4 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Centiskorch",
@@ -3485,7 +3485,7 @@
   },
   {
     "name": "Clobbopus",
-    "location": "Route 2 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 2 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Grapploct",
@@ -3493,7 +3493,7 @@
   },
   {
     "name": "Sinistea",
-    "location": "Rift Cave (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Rift Cave (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Polteageist",
@@ -3501,7 +3501,7 @@
   },
   {
     "name": "Hatenna",
-    "location": "Breed Hattrem\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Hattrem\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Hattrem",
@@ -3513,7 +3513,7 @@
   },
   {
     "name": "Impidimp",
-    "location": "Breed Morgrem\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Morgrem\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Morgrem",
@@ -3525,7 +3525,7 @@
   },
   {
     "name": "Milcery",
-    "location": "Route 11 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 11 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Alcremie",
@@ -3533,7 +3533,7 @@
   },
   {
     "name": "Snom",
-    "location": "Frozen Forest (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Frozen Forest (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Frosmoth",
@@ -3541,7 +3541,7 @@
   },
   {
     "name": "Cufant",
-    "location": "Breed Copperajah\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Copperajah\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Copperajah",
@@ -3549,11 +3549,11 @@
   },
   {
     "name": "Duraludon",
-    "location": "Crystal Peak (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Crystal Peak (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Dreepy",
-    "location": "Breed Drakloak\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Drakloak\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Drakloak",
@@ -3565,7 +3565,7 @@
   },
   {
     "name": "Kubfu",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Urshifu",
@@ -3573,95 +3573,95 @@
   },
   {
     "name": "Cramorant",
-    "location": "Route 10, Auburn Waterway (Surf - Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 10, Auburn Waterway (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Falinks",
-    "location": "Route 16 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 16 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Pincurchin",
-    "location": "Thundercap Mt. (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Thundercap Mt. (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Stonjourner",
-    "location": "Route 18 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 18 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Eiscue",
-    "location": "Icy Hole (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Icy Hole (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Indeedee",
-    "location": "Route 7 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 7 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Morpeko",
-    "location": "Route 6 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 6 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Dracozolt",
-    "location": "Crystal Peak - Cube Corp. exit (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Crystal Peak - Cube Corp. exit (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Arctozolt",
-    "location": "Crystal Peak - Cube Corp. exit (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Crystal Peak - Cube Corp. exit (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Dracovish",
-    "location": "Cube Corp. (Surf - Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Cube Corp. (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Arctovish",
-    "location": "Cube Corp. (Surf - Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Cube Corp. (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Zacian",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud\nCrowned Forme: Hold a Rusted Sword"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud\nCrowned Forme: Hold a Rusted Sword"
   },
   {
     "name": "Zamazenta",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud\nCrowned Forme: Hold a Rusted Shield"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud\nCrowned Forme: Hold a Rusted Shield"
   },
   {
     "name": "Eternatus",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Zarude",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Mystery Gift Code: 3YT4BV7PH4UT\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Regieleki",
-    "location": "Icy Hole - Regigigas must be caught (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Icy Hole - Regigigas must be caught (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Regidrago",
-    "location": "Icy Hole - Regigigas must be caught (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Icy Hole - Regigigas must be caught (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Glastrier",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Spectrier",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Calyrex",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Calyrex-Ice",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Calyrex-Shadow",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Meowth",
-    "location": "Valley Cave (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Valley Cave (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Perrserker",
@@ -3669,7 +3669,7 @@
   },
   {
     "name": "Galarian Ponyta",
-    "location": "Route 12 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 12 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Rapidash",
@@ -3677,7 +3677,7 @@
   },
   {
     "name": "Galarian Slowpoke",
-    "location": "Route 13, 14 (Surf - Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 13, 14 (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Slowbro",
@@ -3689,7 +3689,7 @@
   },
   {
     "name": "Galarian Farfetch'd",
-    "location": "Route 17 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 17 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Sirfetch'd",
@@ -3697,11 +3697,11 @@
   },
   {
     "name": "Galarian Weezing",
-    "location": "Antisis Sewers (Special Dexnav encounter)\nMystery Gift Code: 5QZ5EJ3VQ5DK\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Antisis Sewers (Special Dexnav encounter)\nMystery Gift Code: 5QZ5EJ3VQ5DK\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Mr. Mime",
-    "location": "Route 8 (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Route 8 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Mr. Rime",
@@ -3709,7 +3709,7 @@
   },
   {
     "name": "Galarian Corsola",
-    "location": "Underwater (Special Dexnav encounter)\n Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Underwater (Special Dexnav encounter)\n Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Cursola",
@@ -3717,7 +3717,7 @@
   },
   {
     "name": "Galarian Zigzagoon",
-    "location": "Breed Galarian Linoone\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Galarian Linoone\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Linoone",
@@ -3729,7 +3729,7 @@
   },
   {
     "name": "Galarian Darumaka",
-    "location": "Breed Galarian Darmanitan\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Galarian Darmanitan\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Darmanitan",
@@ -3737,7 +3737,7 @@
   },
   {
     "name": "Galarian Yamask",
-    "location": "Ruins of Void (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Ruins of Void (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Runerigus",
@@ -3745,35 +3745,35 @@
   },
   {
     "name": "Galarian Stunfisk",
-    "location": "Cootes Bog (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Cootes Bog (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Articuno",
-    "location": "Mystery Gift Code: 2XH4TC5JY4MG\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Mystery Gift Code: 2XH4TC5JY4MG\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Moltres",
-    "location": "Mystery Gift Code: 4NV7CX6YX1SD\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Mystery Gift Code: 4NV7CX6YX1SD\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Galarian Zapdos",
-    "location": "Mystery Gift Code: 9TA2WT6TW5AP\nTrade from other CFRU hacks by using Unbound Cloud"
+    "location": "Mystery Gift Code: 9TA2WT6TW5AP\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Hisuian Growlithe",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Hisuian Arcanine",
-    "location": "Evolve Hisuian Growlithe by using a Fire Stone"
+    "location": "Mystery Gift Code: 1WX2KX7RA1HT\nEvolve Hisuian Growlithe by using a Fire Stone"
   },
   {
     "name": "Hisuian Voltorb",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Hisuian Electrode",
-    "location": "Evolve Hisuian Voltorb by using a Leaf Stone"
+    "location": "Mystery Gift Code: 4BN3PR8SR9ED\nEvolve Hisuian Voltorb by using a Leaf Stone"
   },
   {
     "name": "Hisuian Typhlosion",
@@ -3781,11 +3781,11 @@
   },
   {
     "name": "Hisuian Qwilfish",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Hisuian Sneasel",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Hisuian Samurott",
@@ -3797,15 +3797,15 @@
   },
   {
     "name": "Hisuian Basculin",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
   },
   {
     "name": "Hisuian Zorua",
-    "location": "Trade from other CFRU hacks by using Unbound Cloud"
+    "location": "Breed Hisuian Zoroark"
   },
   {
     "name": "Hisuian Zoroark",
-    "location": "Evolve Hisuian Zorua (Lv. 30)"
+    "location": "Mystery Gift Code: 6QW3ZY6EA1SQ\nEvolve Hisuian Zorua (Lv. 30)"
   },
   {
     "name": "Hisuian Braviary",
@@ -3837,7 +3837,7 @@
   },
   {
     "name": "Ursaluna",
-    "location": "Evolve Ursaring (Level-Up while holding the Peat Block during the night)"
+    "location": "Evolve Ursaring by using a Peat Block during the night"
   },
   {
     "name": "Basculegion",
@@ -3853,6 +3853,6 @@
   },
   {
     "name": "Enamorus",
-    "location": "Magnolia Fields - Landorus must be in your party (Special Dexnav encounter)\nTrade from other CFRU hacks by using Unbound Cloud\nTherian Forme: Use the Reveal Glass"
+    "location": "Magnolia Fields - Landorus must be in your party (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud\nTherian Forme: Use the Reveal Glass"
   }
 ]

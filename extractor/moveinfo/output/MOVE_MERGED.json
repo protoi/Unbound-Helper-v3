@@ -2868,7 +2868,7 @@
     "accuracy": "100",
     "pp": "10",
     "effectAccuracy": "20",
-    "target": "",
+    "target": "Both ",
     "priority": "0",
     "info": "Affected by Protect, Affected by Mirror Move"
   },
