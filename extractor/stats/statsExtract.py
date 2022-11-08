@@ -59,8 +59,8 @@ while True:
             temp_name = "GALARIAN " + temp_name[:-2]
         elif temp_name[-2:] == "_H":
             temp_name = "HISUIAN " + temp_name[:-2]
-        elif len(temp_name) > 4 and temp_name[-4:] == "MEGA":
-            temp_name = "MEGA " + temp_name[:-4]
+        elif len(temp_name) > 5 and temp_name[-5:] == "_MEGA":
+            temp_name = "MEGA " + temp_name[:-5]
         elif len(temp_name) > 6 and temp_name[-6:] == "MEGA_X":
             temp_name = "MEGA " + temp_name[:-6] + " X"
         elif len(temp_name) > 6 and temp_name[-6:] == "MEGA_Y":
@@ -102,6 +102,8 @@ while True:
                             ans =  comments.group(1).replace('_', ' ')
                         else:
                             ans = stats.group(2).replace('_', ' ')
+                            if len(ans) > 5  and ans[:5] == "ASONE":    #calyrex rider forms have abilities called ASONE_CHILLING and ASONE_GRIM
+                                ans = "ASONE"
                         temp_stats[stats.group(1)] = ans
                     elif stats.group(1) == "genderRatio":
                         if stats.group(2) == "GENDERLESS":
